@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veteran Rights Field Manual</title>
+<style>
+
+:root { --navy:#0a1628; --blue:#142744; --lightblue:#1d3a66; --gold:#d4a017; --bg:#f4f5f7; --card:#fff; --border:#d8dce2; --text:#1a1a1a; --muted:#5a626b; --red:#7a1f1f; --green:#1e5631; --purple:#5b4a9c; }
+* { box-sizing:border-box; }
+html, body { margin:0; padding:0; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+.topbar { position:sticky; top:0; z-index:100; background:var(--navy); color:#fff; padding:12px 18px; display:flex; align-items:center; justify-content:space-between; border-bottom:3px solid var(--gold); }
+.topbar h1 { margin:0; font-size:1.05rem; }
+.topbar a { color:#ffd6d6; font-weight:700; text-decoration:none; margin-left:12px; font-size:0.85rem; }
+.topbar .menu-btn { display:none; background:var(--gold); color:#1a1a1a; border:none; padding:6px 12px; border-radius:4px; font-weight:700; cursor:pointer; }
+.layout { display:flex; max-width:1300px; margin:0 auto; }
+.sidebar { width:260px; background:var(--card); border-right:1px solid var(--border); padding:16px; position:sticky; top:46px; height:calc(100vh - 46px); overflow-y:auto; }
+.sidebar h2 { font-size:0.85rem; color:var(--blue); text-transform:uppercase; letter-spacing:0.04em; margin-top:0; }
+.sidebar a { display:block; padding:7px 10px; color:var(--text); text-decoration:none; border-radius:6px; font-size:0.84rem; border-left:3px solid transparent; }
+.sidebar a:hover, .sidebar a.active { background:#eef2f7; color:var(--blue); border-left-color:var(--gold); }
+.main { flex:1; min-width:0; padding:22px; }
+.hero { background:linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%); color:#fff; padding:48px 28px; text-align:center; border-radius:12px; margin-bottom:24px; }
+.hero h1 { margin:0 0 10px; font-size:2.2rem; }
+.hero p { margin:0 auto; max-width:700px; font-size:1.05rem; opacity:0.92; }
+.mission-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:14px; margin:22px 0; }
+.mission-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; text-align:center; cursor:pointer; transition:transform .1s, box-shadow .1s; box-shadow:0 1px 3px rgba(0,0,0,0.05); }
+.mission-card:hover { transform:translateY(-2px); box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+.mission-card .icon { font-size:1.6rem; margin-bottom:8px; }
+.mission-card h3 { margin:0 0 6px; font-size:1rem; color:var(--blue); }
+.mission-card p { margin:0; font-size:0.82rem; color:var(--muted); }
+.section-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:22px; margin-bottom:22px; }
+.section-card h2 { color:var(--blue); margin-top:0; border-bottom:2px solid var(--border); padding-bottom:8px; font-size:1.4rem; }
+.subsection { border-left:4px solid var(--gold); background:#f9fafb; padding:16px; margin:16px 0; border-radius:0 8px 8px 0; }
+.subsection h3 { margin-top:0; color:var(--navy); font-size:1.1rem; }
+.subsection h4 { color:var(--lightblue); margin-top:16px; font-size:0.98rem; }
+.quotebox { background:#f4f6f8; border-left:4px solid var(--gold); padding:12px 16px; margin:12px 0; font-family:Georgia, serif; font-style:italic; color:#333; }
+.checklist { list-style:none; padding-left:0; }
+.checklist li { padding-left:24px; position:relative; margin:5px 0; }
+.checklist li::before { content:'☐'; position:absolute; left:0; color:var(--blue); font-weight:700; }
+table { border-collapse:collapse; width:100%; margin:12px 0; font-size:0.88rem; }
+th, td { border:1px solid var(--border); padding:8px 10px; text-align:left; vertical-align:top; }
+th { background:#eef2f7; font-weight:600; }
+a { color:var(--lightblue); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.next-action { background:#fff9e6; border:2px solid #f0d878; border-radius:8px; padding:14px; margin-top:18px; font-weight:700; }
+.next-action a { display:inline-block; margin-top:6px; background:var(--blue); color:#fff; padding:6px 12px; border-radius:5px; text-decoration:none; }
+footer { text-align:center; color:var(--muted); padding:24px; font-size:0.85rem; }
+.no-results { display:none; padding:12px; background:#fff9e6; border:1px solid #f0d878; border-radius:6px; margin-top:8px; }
+@media (max-width:900px) { .hero h1 { font-size:1.5rem; } .topbar .menu-btn { display:inline-block; } .sidebar { position:fixed; left:-260px; top:46px; bottom:0; z-index:99; transition:left .2s; } .sidebar.open { left:0; } .main { padding:14px; } }
+@media print { .topbar, .sidebar, .menu-btn { display:none !important; } .main { padding:0; max-width:100%; } .section-card, .subsection { border:none; box-shadow:none; page-break-inside:avoid; } }
+
+</style>
+</head>
+<body>
+<div class="topbar">
+<h1>Veteran Rights Field Manual</h1>
+<div>
+<a href="tel:988">988 · 1</a>
+<a href="tel:18774243838">1-877-4AID-VET</a>
+<a href="tel:18007997233">1-800-799-SAFE</a>
+</div>
+<button class="menu-btn" onclick="document.getElementById('sidebar').classList.toggle('open')">Menu</button>
+</div>
+<div class="layout">
+<nav class="sidebar" id="sidebar">
+<h2>Navigate</h2>
+<input type="text" id="searchBox" placeholder="Find a section..." oninput="doSearch()" style="width:100%;padding:7px;border:1px solid var(--border);border-radius:5px;margin-bottom:10px;">
+<div id="navResults">
+<a href="#sec-1" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="mission brief — start here">MISSION BRIEF — START HERE</a>
+<a href="#sec-2" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="i need help now">I NEED HELP NOW</a>
+<a href="#sec-3" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="know your status">KNOW YOUR STATUS</a>
+<a href="#sec-4" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="claims battle room">CLAIMS BATTLE ROOM</a>
+<a href="#sec-5" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="words matter — legal language translator">WORDS MATTER — LEGAL LANGUAGE TRANSLATOR</a>
+<a href="#sec-6" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="appeals navigation">APPEALS NAVIGATION</a>
+<a href="#sec-7" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="legal reference library">LEGAL REFERENCE LIBRARY</a>
+<a href="#sec-8" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="things veterans often don't know">THINGS VETERANS OFTEN DON'T KNOW</a>
+<a href="#sec-9" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="advocate toolkit">ADVOCATE TOOLKIT</a>
+<a href="#sec-10" onclick="document.getElementById('sidebar').classList.remove('open');" data-search="final words">FINAL WORDS</a>
+</div>
+<div class="no-results" id="noResults">No sections found.</div>
+</nav>
+<div class="main" id="main">
+<div class="hero">
+<h1>Veteran Rights Field Manual</h1>
+<p>Your service created obligations. This guide helps you claim the benefits, medical care, legal protections, and resources you earned. Built for 2 AM crises, office visits, and every fight in between.</p>
+</div>
+<div class="section-card" id="mission-brief">
+<h2>Mission Brief — Start Here</h2>
+<p>Choose where you are right now. Click a card to jump to that section.</p>
+<div class="mission-grid">
+<div class="mission-card" onclick="location.href='#sec-1'" style="border-top:4px solid #d4a017;">
+<div class="icon">📋</div>
+<h3>MISSION BRIEF — START HERE</h3>
+<p>MISSION BRIEF — START HERE</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-2'" style="border-top:4px solid #7a1f1f;">
+<div class="icon">🚨</div>
+<h3>Help Now</h3>
+<p>I NEED HELP NOW</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-3'" style="border-top:4px solid #1d3a66;">
+<div class="icon">🎖️</div>
+<h3>Your Status</h3>
+<p>KNOW YOUR STATUS</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-4'" style="border-top:4px solid #1e5631;">
+<div class="icon">⚔️</div>
+<h3>Claims</h3>
+<p>CLAIMS BATTLE ROOM</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-5'" style="border-top:4px solid #5b4a9c;">
+<div class="icon">✍️</div>
+<h3>Words Matter — LEGAL LANGUAGE TRANSLATOR</h3>
+<p>WORDS MATTER — LEGAL LANGUAGE TRANSLATOR</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-6'" style="border-top:4px solid #b35900;">
+<div class="icon">🧭</div>
+<h3>Appeals</h3>
+<p>APPEALS NAVIGATION</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-7'" style="border-top:4px solid #333333;">
+<div class="icon">📚</div>
+<h3>Law Library</h3>
+<p>LEGAL REFERENCE LIBRARY</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-8'" style="border-top:4px solid #6b4c1e;">
+<div class="icon">💡</div>
+<h3>Hidden Benefits</h3>
+<p>THINGS VETERANS OFTEN DON'T KNOW</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-9'" style="border-top:4px solid #4a6741;">
+<div class="icon">🧰</div>
+<h3>Toolkit</h3>
+<p>ADVOCATE TOOLKIT</p>
+</div>
+<div class="mission-card" onclick="location.href='#sec-10'" style="border-top:4px solid #5a626b;">
+<div class="icon">▸</div>
+<h3>FINAL WORDS</h3>
+<p>FINAL WORDS</p>
+</div>
+</div>
+</div>
+<div class="section-card" id="sec-1" data-search="mission brief — start here">
+<h2>MISSION BRIEF — START HERE</h2>
+<p>Choose where you are right now.</p><table><thead><tr><th>Button</th><th>Use this if...</th></tr></thead><tbody><tr><td><strong>I Need Help Now</strong></td><td>You are in crisis, homeless, medically urgent, or about to lose housing.</td></tr><tr><td><strong>Know Your Status</strong></td><td>You are not sure which benefits or protections apply to you.</td></tr><tr><td><strong>Claims Battle Room</strong></td><td>You are filing, appealing, or fighting a VA disability claim.</td></tr><tr><td><strong>Words Matter</strong></td><td>You need the right language for forms, doctors, courts, and VA.</td></tr><tr><td><strong>Appeals Navigation</strong></td><td>VA denied you and you need to know what to do next.</td></tr><tr><td><strong>Legal Reference Library</strong></td><td>You want the statutes, regulations, and court rules that protect veterans.</td></tr><tr><td><strong>Things Veterans Often Don&#x27;t Know</strong></td><td>You want to find benefits and protections you may have missed.</td></tr><tr><td><strong>Advocate Toolkit</strong></td><td>You are helping a veteran prepare for a representative, lawyer, or hearing.</td></tr></tbody></table>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-2" data-search="i need help now">
+<h2>I NEED HELP NOW</h2>
+<div class="subsection">
+<h3>If You Are Sleeping in Your Truck Tonight</h3>
+<p>Do not wait. Do not try to solve everything at once. Start with one phone call.</p><p><strong>Call 1-877-4AID-VET (1-877-424-3838)</strong></p><ul><li>Say: &quot;I am a veteran. I am homeless / about to be evicted / sleeping in my vehicle. I need help now.&quot;</li><li>Give your location.</li><li>Ask for: SSVF emergency help, HUD-VASH referral, local outreach worker.</li></ul><p><strong>Gather these documents today:</strong></p><ul><li>DD-214</li><li>Photo ID</li><li>Lease, eviction notice, or utility shutoff notice</li><li>Proof of income or unemployment</li><li>IDs for spouse/children if they are with you</li></ul><p><strong>Also call:</strong></p><ul><li><strong>211</strong> for local shelter, food, utility, and housing resources.</li><li>Your <strong>local VA medical center</strong> emergency department for urgent medical needs.</li></ul>
+</div>
+<div class="subsection">
+<h3>If You Are in Medical Crisis</h3>
+<p><strong>Call 988 and press 1</strong> for the Veterans Crisis Line. Text 988 or chat at 988lifeline.org if you cannot speak safely.</p><p><strong>If you need urgent care but it is not life-threatening:</strong></p><ul><li>Call your VA medical center&#x27;s nurse advice line.</li><li>Go to a VA urgent care clinic if enrolled.</li><li>Go to the nearest emergency room if VA is not an option. You can seek VA reimbursement later.</li></ul><p><strong>Document everything:</strong></p><ul><li>Who you spoke to.</li><li>Date, time, and what they said.</li><li>If care is denied, ask for the denial in writing.</li><li>File a complaint with the VA Patient Advocate if needed.</li></ul>
+</div>
+<div class="subsection">
+<h3>If You Need Food or Money Immediately</h3>
+<ul><li><strong>SNAP (food stamps):</strong> Apply through your state social services agency. Veterans are often eligible.</li><li><strong>Temporary Assistance for Needy Families (TANF):</strong> State-administered cash assistance.</li><li><strong>Unemployment:</strong> File with your state unemployment office.</li><li><strong>VA pension:</strong> If wartime veteran with limited income.</li><li><strong>SSDI/SSI:</strong> If your disabilities prevent work.</li><li><strong>SSVF:</strong> May cover rent, utilities, deposits, moving costs.</li></ul>
+</div>
+<div class="subsection">
+<h3>Emergency Contact Quick Card</h3>
+<table><thead><tr><th>Crisis</th><th>Contact</th></tr></thead><tbody><tr><td>Suicide / mental health emergency</td><td><strong>988, press 1</strong></td></tr><tr><td>Homeless veteran hotline</td><td><strong>1-877-4AID-VET</strong></td></tr><tr><td>Domestic violence</td><td><strong>1-800-799-SAFE</strong></td></tr><tr><td>Domestic violence text</td><td>Text START to <strong>88788</strong></td></tr><tr><td>VA benefits general line</td><td><strong>1-800-827-1000</strong></td></tr><tr><td>VA Inspector General</td><td><strong>1-800-488-8244</strong></td></tr><tr><td>Veterans Crisis Line chat</td><td>988lifeline.org</td></tr></tbody></table>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-3" data-search="know your status">
+<h2>KNOW YOUR STATUS</h2>
+<div class="subsection">
+<h3>Service Type</h3>
+<table><thead><tr><th>Status</th><th>What It Means</th></tr></thead><tbody><tr><td>Active duty</td><td>Full-time service. Most federal veteran benefits require you to have completed the service obligation and received a qualifying discharge.</td></tr><tr><td>National Guard</td><td>State-controlled unless federalized. Federal VA benefits usually require federal active service. State benefits may still apply.</td></tr><tr><td>Reserve</td><td>Part-time unless activated. Benefits depend on active-duty periods, activation orders, and character of discharge.</td></tr><tr><td>Combat veteran</td><td>May qualify for enhanced VA health care, presumptions, and expedited claims.</td></tr><tr><td>Recently separated</td><td>You may still have SCRA protections, transitional health care, and deadlines that are running now.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Discharge Type</h3>
+<table><thead><tr><th>Characterization</th><th>Effect on VA Benefits</th></tr></thead><tbody><tr><td>Honorable</td><td>Full eligibility for VA benefits.</td></tr><tr><td>General (Under Honorable Conditions)</td><td>Usually eligible for most VA benefits.</td></tr><tr><td>Other Than Honorable</td><td>May be barred, but VA can still make a Character of Discharge determination. File anyway.</td></tr><tr><td>Bad Conduct</td><td>Often barred. Apply for upgrade and for VA COD determination.</td></tr><tr><td>Dishonorable</td><td>Generally barred. Seek upgrade and legal help.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Health and Disability</h3>
+<table><thead><tr><th>Situation</th><th>Possible Path</th></tr></thead><tbody><tr><td>Injury or illness during service</td><td>File a VA disability compensation claim.</td></tr><tr><td>Condition existed before service but got worse</td><td>File for aggravation of pre-existing condition.</td></tr><tr><td>Condition caused by a service-connected disability</td><td>File for secondary service connection.</td></tr><tr><td>Cannot work due to service-connected disabilities</td><td>File for Total Disability based on Individual Unemployability (TDIU).</td></tr><tr><td>Needs help with daily living</td><td>Look into VA Aid and Attendance or caregiver support.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Exposure History</h3>
+<table><thead><tr><th>Exposure</th><th>Possible Benefit</th></tr></thead><tbody><tr><td>Agent Orange</td><td>Presumptive conditions for Vietnam, Korea DMZ, and certain other locations.</td></tr><tr><td>Burn pits / airborne hazards</td><td>PACT Act creates presumptions for many respiratory and cancers.</td></tr><tr><td>Gulf War exposures</td><td>Presumptive chronic multisymptom illness.</td></tr><tr><td>Camp Lejeune water</td><td>VA health care and compensation for covered conditions.</td></tr><tr><td>Radiation, asbestos, other toxic exposures</td><td>Specific presumptions and claims possible.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Route Yourself</h3>
+<p>If you are recently separated, homeless, and have an Other Than Honorable discharge:</p><ul><li>Call <strong>1-877-4AID-VET</strong> for housing help.</li><li>File a VA claim anyway to force a Character of Discharge determination.</li><li>Apply for a discharge upgrade.</li></ul><p>If you are combat veteran with undiagnosed health problems:</p><ul><li>Enroll in VA health care as a combat veteran.</li><li>Get screened for PACT Act conditions.</li><li>File for presumptive service connection if a condition matches.</li></ul><p>If you cannot work:</p><ul><li>File for VA disability if not already service-connected.</li><li>File for TDIU if already service-connected.</li><li>Apply for SSDI through Social Security.</li></ul>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-4" data-search="claims battle room">
+<h2>CLAIMS BATTLE ROOM</h2>
+<div class="subsection">
+<h3>The One Rule That Wins Claims</h3>
+<p>The VA does not know your story unless you build the record.</p><p>Your job is to make the connection between:</p><ol><li>Something that happened in service, and</li><li>A current diagnosed condition, and</li><li>A current level of disability.</li></ol><p>If any of those three is weak, your claim is weak.</p>
+</div>
+<div class="subsection">
+<h3>Evidence Checklist</h3>
+<p>Use this before filing any claim.</p><h4>Service Records</h4><ul class="checklist"><li> DD-214</li><li> Service treatment records</li><li> Personnel file</li><li> Deployment orders</li><li> Awards and decorations</li><li> Unit records or after-action reports</li></ul><h4>Medical Records</h4><ul class="checklist"><li> VA treatment records</li><li> Private doctor records</li><li> Emergency room visits</li><li> Specialist opinions</li><li> Imaging, lab results, test reports</li></ul><h4>Personal Statements</h4><ul class="checklist"><li> Your lay statement (VA Form 21-4138)</li><li> Spouse or family member statement</li><li> Buddy statements from fellow service members</li><li> Employer or coworker statement about work limitations</li></ul><h4>Exposure and Event Documentation</h4><ul class="checklist"><li> Deployment locations and dates</li><li> Unit newsletters or records showing exposures</li><li> Photos, maps, incident reports</li><li> Newspaper articles or government reports about the event</li></ul>
+</div>
+<div class="subsection">
+<h3>Building the Nexus</h3>
+<p>The nexus is the medical link between service and your current condition. The VA standard is:</p><blockquote class="quotebox">&quot;At least as likely as not&quot; the condition was caused or aggravated by service.</blockquote><p>Get a medical opinion in that exact language.</p><p><strong>Good nexus language:</strong></p><blockquote class="quotebox">&quot;After reviewing the veteran&#x27;s service treatment records and post-service treatment records, it is my opinion that it is at least as likely as not that [current condition] was caused by / aggravated by / secondary to the veteran&#x27;s military service / service-connected [condition].&quot;</blockquote><p><strong>Weak nexus language to avoid:</strong></p><ul><li>&quot;Could be related.&quot;</li><li>&quot;Might be from service.&quot;</li><li>&quot;Possibly connected.&quot;</li></ul>
+</div>
+<div class="subsection">
+<h3>Filing the Claim</h3>
+<ol><li>Go to <strong>VA.gov</strong> or use a VSO.</li><li>File VA Form 21-526EZ for initial claims.</li><li>Keep a copy of everything submitted.</li><li>Get confirmation of filing.</li><li>Track your claim online or by calling 1-800-827-1000.</li></ol>
+</div>
+<div class="subsection">
+<h3>Protecting Your Effective Date</h3>
+<p>If a deadline is approaching and your evidence is not ready:</p><ul><li>File a protective claim before the deadline.</li><li>Submit the full evidence as soon as possible.</li><li>The effective date may be worth thousands of dollars in back pay.</li></ul>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-5" data-search="words matter — legal language translator">
+<h2>WORDS MATTER — LEGAL LANGUAGE TRANSLATOR</h2>
+<div class="subsection">
+<h3>Weak vs. Strong Statements</h3>
+<table><thead><tr><th>Weak</th><th>Strong</th></tr></thead><tbody><tr><td>My back hurts.</td><td>I experience chronic lumbar pain with functional impairment affecting standing, walking, lifting, sleep, and employment activities.</td></tr><tr><td>I think this happened because of service.</td><td>The condition began during active service / was aggravated by service / is secondary to my service-connected [condition].</td></tr><tr><td>I can&#x27;t work.</td><td>My service-connected disabilities prevent me from securing or following a substantially gainful occupation.</td></tr><tr><td>I have trouble sleeping.</td><td>I experience chronic sleep disturbance with daytime fatigue, concentration deficits, and functional impairment.</td></tr><tr><td>The doctor didn&#x27;t listen.</td><td>The C&amp;P examination failed to review relevant records, address the claimed symptoms, or provide an adequate medical opinion for rating purposes.</td></tr><tr><td>I was treated unfairly.</td><td>The denial appears inconsistent with the evidence of record and the applicable rating criteria.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Sample Statements by Situation</h3>
+<h4>Lay Statement (VA Form 21-4138)</h4><blockquote class="quotebox">In [month/year], while stationed at [location] and serving with [unit], I [describe in-service event or exposure]. Since that time, I have experienced [specific symptoms]. These symptoms occur approximately [frequency] and limit my ability to [specific activities]. On my worst days, [describe worst day]. This statement is made from my personal knowledge and is true.</blockquote><h4>Requesting Accommodation</h4><blockquote class="quotebox">I am a tenant/resident/employee and a veteran with a service-connected disability. I request a reasonable accommodation under the Fair Housing Act / Americans with Disabilities Act: [specific accommodation]. This accommodation is necessary because of my disability. Attached is supporting documentation.</blockquote><h4>SCRA Interest Rate Reduction</h4><blockquote class="quotebox">Pursuant to the Servicemembers Civil Relief Act, 50 U.S.C. § 3937, I entered active duty on [date], and this obligation predates that date. I request that you reduce the interest rate to 6% per annum from [date] and refund or credit all interest charged above 6%. A copy of my orders is attached.</blockquote><h4>Debt Validation</h4><blockquote class="quotebox">Pursuant to the Fair Debt Collection Practices Act, 15 U.S.C. § 1692g, I dispute this debt and request complete validation, including the name of the original creditor, original account number, complete payment history, and proof you are authorized to collect this debt. Until validation is provided, cease all collection activity.</blockquote>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-6" data-search="appeals navigation">
+<h2>APPEALS NAVIGATION</h2>
+<div class="subsection">
+<h3>Denied? Do Not Stop.</h3>
+<p>A VA denial is not the end. It is the beginning of the next phase. You have options.</p>
+</div>
+<div class="subsection">
+<h3>Three Lanes After a Decision</h3>
+<table><thead><tr><th>Lane</th><th>When to Use</th><th>What It Does</th><th>Deadline</th></tr></thead><tbody><tr><td><strong>Supplemental Claim</strong></td><td>You have new and relevant evidence.</td><td>Reopens the issue with new evidence.</td><td>1 year from decision for effective date protection.</td></tr><tr><td><strong>Higher-Level Review</strong></td><td>You believe VA made a mistake and you do not have new evidence.</td><td>A senior reviewer re-examines the same record.</td><td>1 year.</td></tr><tr><td><strong>Board Appeal</strong></td><td>You want a Veterans Law Judge to review your case.</td><td>Full appellate review. Evidence can be added at certain stages.</td><td>1 year.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Appeals Strategy</h3>
+<ol><li>Read the rating decision&#x27;s <strong>Reasons and Bases</strong> section.</li><li>Identify exactly why VA denied or rated lower than expected.</li><li>Choose the lane that matches your situation.</li><li>File before the deadline.</li><li>Request a copy of your <strong>C-file</strong> (complete claims file) with VA Form 20-10206.</li></ol>
+</div>
+<div class="subsection">
+<h3>Common Appeal Arguments</h3>
+<h4>Inadequate C&amp;P Exam</h4><p>The exam was too short, ignored records, used an unqualified examiner, or contradicted medical evidence. Request a new exam or submit an independent medical opinion.</p><h4>Benefit of the Doubt</h4><p>Under 38 C.F.R. § 3.102, when the evidence is roughly equal, the veteran wins. Argue this when the record supports your claim but VA chose against it.</p><h4>Staged Ratings</h4><p>If your condition got worse over time, you may be entitled to separate ratings for separate time periods. This can increase back pay.</p><h4>Secondary Conditions</h4><p>A service-connected condition caused or worsened another condition. File separately for each secondary condition with a nexus opinion.</p><h4>Duty to Assist</h4><p>VA must help get relevant records. If VA failed to obtain records, request a remand or supplemental development.</p>
+</div>
+<div class="subsection">
+<h3>Appeals Deadlines</h3>
+<ul><li><strong>1 year</strong> from the date of the rating decision to appeal or file a supplemental claim for effective date protection.</li><li>Missing the deadline does not always end your case, but it may cost you months or years of back pay.</li></ul>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-7" data-search="legal reference library">
+<h2>LEGAL REFERENCE LIBRARY</h2>
+<div class="subsection">
+<h3>Veterans Benefits</h3>
+<table><thead><tr><th>Citation</th><th>What It Means</th><th>Why It Matters</th></tr></thead><tbody><tr><td><strong>38 U.S.C. § 1110</strong></td><td>Entitlement to compensation for disability from service.</td><td>The foundation of VA disability claims.</td></tr><tr><td><strong>38 U.S.C. § 5103A</strong></td><td>VA duty to assist.</td><td>VA must help get relevant records and exams.</td></tr><tr><td><strong>38 U.S.C. § 5110</strong></td><td>Effective dates.</td><td>Determines how far back VA must pay if you win.</td></tr><tr><td><strong>38 U.S.C. § 5301</strong></td><td>VA disability benefits protected from creditors.</td><td>Your VA compensation generally cannot be garnished by private creditors.</td></tr><tr><td><strong>38 U.S.C. § 5303</strong></td><td>Character of discharge.</td><td>VA can find service honorable for VA purposes even with a bad discharge.</td></tr><tr><td><strong>38 C.F.R. § 3.102</strong></td><td>Benefit of the doubt.</td><td>In a tie, the veteran wins.</td></tr><tr><td><strong>38 C.F.R. § 3.159</strong></td><td>Evidence rules and duty to assist.</td><td>Governs what evidence VA must consider.</td></tr><tr><td><strong>38 C.F.R. § 3.303</strong></td><td>Direct service connection.</td><td>How to connect a current condition to service.</td></tr><tr><td><strong>38 C.F.R. § 3.306</strong></td><td>Aggravation of pre-existing conditions.</td><td>If service made a prior condition worse, you can still get benefits.</td></tr><tr><td><strong>38 C.F.R. § 3.310</strong></td><td>Secondary service connection.</td><td>Conditions caused by a service-connected disability.</td></tr><tr><td><strong>38 C.F.R. § 4.16</strong></td><td>TDIU.</td><td>Pay at 100% rate when you cannot work due to service-connected disabilities.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Housing and Debt</h3>
+<table><thead><tr><th>Citation</th><th>What It Means</th><th>Why It Matters</th></tr></thead><tbody><tr><td><strong>50 U.S.C. §§ 3901-4043</strong></td><td>Servicemembers Civil Relief Act.</td><td>Caps interest, allows lease termination, stays evictions, protects default judgments.</td></tr><tr><td><strong>42 U.S.C. § 3604(f)</strong></td><td>Fair Housing Act disability protections.</td><td>Requires reasonable accommodations for disabilities.</td></tr><tr><td><strong>15 U.S.C. § 1692</strong></td><td>Fair Debt Collection Practices Act.</td><td>Lets you dispute and validate debt and stops harassment.</td></tr></tbody></table>
+</div>
+<div class="subsection">
+<h3>Discharge Upgrades</h3>
+<table><thead><tr><th>Citation / Policy</th><th>What It Means</th><th>Why It Matters</th></tr></thead><tbody><tr><td><strong>10 U.S.C. §§ 1552-1553</strong></td><td>Boards for Correction of Military/Naval Records.</td><td>Correct errors and upgrade discharges.</td></tr><tr><td><strong>DoD Instruction 1332.14</strong></td><td>Discharge review board procedures.</td><td>Includes liberal consideration for PTSD/TBI-related upgrades.</td></tr><tr><td><strong>Hagel / Carter Guidance</strong></td><td>Mental health conditions and misconduct at separation.</td><td>Service-connected mental health can excuse separation misconduct.</td></tr></tbody></table>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-8" data-search="things veterans often don't know">
+<h2>THINGS VETERANS OFTEN DON'T KNOW</h2>
+<div class="subsection">
+<h3>Benefits and Protections That Get Overlooked</h3>
+<h4>Secondary Conditions</h4><p>A service-connected condition can cause other problems. Examples:</p><ul><li>Service-connected knee injury causing back problems.</li><li>PTSD causing sleep apnea or GERD.</li><li>Medication side effects causing new conditions.</li></ul><h4>Increased Ratings</h4><p>If a service-connected condition worsens, file for an increased rating. Do not wait for VA to notice.</p><h4>Presumptive Conditions</h4><p>If you served in certain places or times, VA presumes certain conditions are service-connected. The PACT Act added many new presumptions for burn pits and toxic exposures.</p><h4>Unemployability Benefits (TDIU)</h4><p>Even if your combined rating is not 100%, you may be paid at the 100% rate if your service-connected disabilities prevent substantially gainful employment.</p><h4>Caregiver Support</h4><p>If a veteran needs help with daily activities because of service-connected disabilities, the Primary Family Caregiver program may provide financial support, training, and respite care.</p><h4>State Veteran Benefits</h4><p>Many states offer property tax exemptions, education benefits, employment preferences, hunting/fishing licenses, and more. Check your state veterans affairs department.</p><h4>Education Benefits</h4><ul><li>Post-9/11 GI Bill</li><li>Montgomery GI Bill</li><li>Vocational Rehabilitation and Employment (Chapter 31)</li><li>State tuition assistance</li></ul><h4>Burial and Memorial Benefits</h4><p>Eligible veterans may receive burial in a national cemetery, a gravesite flag, a Presidential Memorial Certificate, and a headstone or marker.</p><h4>VA Home Loan</h4><p>VA-backed loans often require no down payment and no private mortgage insurance. Available to many veterans with qualifying service.</p><h4>SGLI / VGLI Conversion</h4><p>Service members&#x27; Group Life Insurance can convert to Veterans&#x27; Group Life Insurance after separation. Know your conversion deadlines.</p>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-9" data-search="advocate toolkit">
+<h2>ADVOCATE TOOLKIT</h2>
+<div class="subsection">
+<h3>Case Summary Template</h3>
+<p>Before contacting a lawyer, VSO, or representative, fill this out. It saves time and shows you are serious.</p><h4>Military History</h4><ul><li>Full name:</li><li>Service branch:</li><li>Service dates:</li><li>Character of discharge:</li><li>DD-214 date and location:</li><li>Deployment locations and dates:</li><li>MOS / job specialty:</li></ul><h4>Medical Timeline</h4><ul><li>Conditions diagnosed:</li><li>In-service treatment dates:</li><li>Post-service treatment dates:</li><li>Current providers:</li></ul><h4>Current Problems</h4><ul><li>What is preventing work, housing, or stability?</li><li>Symptoms and limitations:</li><li>How often symptoms occur:</li></ul><h4>Evidence Available</h4><ul><li>Service treatment records: Y / N / Partial</li><li>Private medical records: Y / N / Partial</li><li>Lay statements: Y / N</li><li>Buddy statements: Y / N</li><li>C&amp;P exam reports: Y / N</li></ul><h4>Previous Decisions</h4><ul><li>Claim or appeal dates:</li><li>Decisions received:</li><li>Reasons given by VA:</li></ul><h4>Desired Outcome</h4><ul><li>What do you want VA or the court to do?</li><li>Specific dollar amount or rating if known:</li></ul>
+</div>
+<div class="subsection">
+<h3>Call Log Template</h3>
+<p>Every time you contact VA, a landlord, a creditor, or a lawyer, write it down.</p><table><thead><tr><th>Date</th><th>Who</th><th>Phone/Email</th><th>What I Asked</th><th>What They Said</th><th>Next Step</th></tr></thead><tbody></tbody></table>
+</div>
+<div class="subsection">
+<h3>Document Checklist for Appointments</h3>
+<p>Bring these to every VA, legal aid, or representative appointment:</p><ul class="checklist"><li> DD-214</li><li> Photo ID</li><li> Current medication list</li><li> List of all current disabilities</li><li> Copy of last VA rating decision</li><li> Any denial letters</li><li> Medical records</li><li> Personal statement</li><li> Call log</li><li> Case summary</li></ul>
+</div>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<div class="section-card" id="sec-10" data-search="final words">
+<h2>FINAL WORDS</h2>
+<p>The system is slow. The system is complicated. The system sometimes says no when it should say yes.</p><p>But veterans have won claims, kept homes, stopped wrongful evictions, defeated bad debt collection, upgraded discharges, and recovered benefits after years of denial.</p><p>The difference is usually not luck. It is preparation, persistence, paperwork, and the right words at the right time.</p><p>This manual is a starting point. Use it. Share it. Update it. Add your own notes. And when you can, help the next veteran behind you.</p><p><strong>You served. You earned the fight.</strong></p>
+<div class="next-action">
+YOUR NEXT ACTION: Continue to the next section or return to <a href="#mission-brief">Mission Brief →</a>
+</div>
+</div>
+<footer>Veteran Rights Field Manual · Legal Information, Not Legal Advice · Built to help veterans fight for what they earned.</footer>
+</div>
+</div>
+
+<script>
+function doSearch() {
+  var q = document.getElementById('searchBox').value.toLowerCase();
+  var links = document.querySelectorAll('#navResults a');
+  var any = false;
+  links.forEach(function(a) {
+    var match = !q || (a.dataset.search || '').indexOf(q) !== -1;
+    a.style.display = match ? 'block' : 'none';
+    if (match) any = true;
+  });
+  document.getElementById('noResults').style.display = (q && !any) ? 'block' : 'none';
+}
+</script>
+
+</body></html>
