@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "methodology": "Every factual claim on this site is backed by an official government source, statute, regulation, or court rule. Claims in progress are marked pending. This registry is updated as sources change.",
+  "sources": [
+    {
+      "id": "va-crisis-line-988",
+      "claim": "Veterans Crisis Line is reachable by calling 988, then pressing 1.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/contact-us/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    }
+  ]
+}
