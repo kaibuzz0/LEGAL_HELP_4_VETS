@@ -1,0 +1,50 @@
+[
+  {
+    "name": "VA Benefits",
+    "url": "https://www.va.gov/",
+    "status": 200,
+    "expected_text_found": true
+  },
+  {
+    "name": "VA Homeless",
+    "url": "https://www.va.gov/homeless/",
+    "status": 200,
+    "expected_text_found": true
+  },
+  {
+    "name": "988 Lifeline",
+    "url": "https://988lifeline.org/",
+    "status": 403,
+    "expected_text_found": false
+  },
+  {
+    "name": "VA SSVF",
+    "url": "https://www.va.gov/homeless/ssvf.asp",
+    "status": 200,
+    "expected_text_found": true
+  },
+  {
+    "name": "VA HUD-VASH",
+    "url": "https://www.va.gov/homeless/hud-vash/",
+    "status": 200,
+    "expected_text_found": false
+  },
+  {
+    "name": "VA Home Loan Trouble",
+    "url": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
+    "status": 200,
+    "expected_text_found": true
+  },
+  {
+    "name": "LSC",
+    "url": "https://www.lsc.gov/",
+    "status": 200,
+    "expected_text_found": true
+  },
+  {
+    "name": "CFPB",
+    "url": "https://www.consumerfinance.gov/",
+    "status": 403,
+    "expected_text_found": false
+  }
+]
