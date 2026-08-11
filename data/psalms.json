@@ -1,10 +1,36 @@
 {
   "version": "KJV (public domain)",
+  "source_id": "kjv-public-domain",
   "verses": [
     {
       "id": "psalm-23-1-2",
       "reference": "Psalm 23:1\u20132 (KJV)",
       "text": "The LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters."
+    },
+    {
+      "id": "psalm-27-1",
+      "reference": "Psalm 27:1 (KJV)",
+      "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?"
+    },
+    {
+      "id": "psalm-46-1",
+      "reference": "Psalm 46:1 (KJV)",
+      "text": "God is our refuge and strength, a very present help in trouble."
+    },
+    {
+      "id": "psalm-91-1-2",
+      "reference": "Psalm 91:1\u20132 (KJV)",
+      "text": "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty. I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust."
+    },
+    {
+      "id": "psalm-121-1-2",
+      "reference": "Psalm 121:1\u20132 (KJV)",
+      "text": "I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth."
+    },
+    {
+      "id": "psalm-34-17-18",
+      "reference": "Psalm 34:17\u201318 (KJV)",
+      "text": "The righteous cry, and the LORD heareth, and delivereth them out of all their troubles. The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit."
     }
   ]
 }
