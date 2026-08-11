@@ -46,8 +46,8 @@
       "id": "veterans-treatment-courts-general",
       "claim": "Many states and counties operate Veterans Treatment Courts. Specific programs vary by jurisdiction.",
       "source_name": "Local court or Veterans Service Organization",
-      "source_url": "https://www.bja.gov/",
-      "verified_date": "2026-08-10",
+      "source_url": "https://www.bja.gov/programs/veterans-treatment-courts",
+      "verified_date": "2026-08-11",
       "status": "pending"
     },
     {
@@ -503,8 +503,8 @@
       "claim": "Veterans Treatment Courts are specialized dockets that combine treatment and supervision for eligible veterans in the criminal justice system.",
       "source_name": "Justice For Vets / Bureau of Justice Assistance",
       "source_url": "https://justiceforvets.org/",
-      "verified_date": "2026-08-10",
-      "status": "pending"
+      "verified_date": "2026-08-11",
+      "status": "verified"
     },
     {
       "id": "va-caregiver",
