@@ -284,9 +284,9 @@
     },
     {
       "id": "fair-housing-act",
-      "claim": "The Fair Housing Act prohibits discrimination in housing based on disability, among other protected classes.",
+      "claim": "The Fair Housing Act, 42 U.S.C.  3604(f), prohibits discrimination and requires reasonable accommodations for disabilities in housing.",
       "source_name": "U.S. Department of Housing and Urban Development",
-      "source_url": "https://www.hud.gov/program_offices/fair_housing_equal_opp",
+      "source_url": "https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview",
       "verified_date": "2026-08-10",
       "status": "verified"
     },
@@ -335,6 +335,14 @@
       "claim": "38 C.F.R. Part 3 contains VA regulations on adjudication of disability claims, including duty to assist and presumptive conditions.",
       "source_name": "Code of Federal Regulations",
       "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-3",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "fdcpa-15usc",
+      "claim": "The Fair Debt Collection Practices Act, 15 U.S.C.  1692, gives consumers the right to dispute and validate debt and limits collector conduct.",
+      "source_name": "Consumer Financial Protection Bureau",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
       "verified_date": "2026-08-10",
       "status": "verified"
     }
