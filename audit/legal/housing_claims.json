@@ -1,0 +1,105 @@
+[
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "SSVF Step-by-Step: Short-Term Help to Stay Housed or Leave HomelessnessSupportive Services for Veteran Families (SSVF) provides housing counseling, case management, and temporary financial help.[30]Call1-877-4AID-VETor find your local SSVF provider through the VA homeless programs locator.[32]Say: \"I need SSVF intake. I am a veteran [or family member] in [city, county] and I am homeless / at risk of homelessness within [days]. Can you schedule an intake or give me a referral?\"Ask what documents ",
+    "risk_words": [
+      "required",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "HUD-VASH Step-by-Step: Long-Term Voucher Plus VA Case ManagementHUD-VASH combines a HUD housing voucher with VA supportive services, mainly for chronically homeless veterans.[31]Contact your local VA homeless program or call 1-877-4AID-VET.Complete a VA housing screen and assessment. Be honest about homelessness history, health conditions, and need for case management.If accepted, get a referral to the local housing authority for a HUD-VASH voucher.Use the voucher to lease an eligible unit. Your",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "VA Home Loan Delinquency / ForbearanceIf you have a VA-backed loan and are falling behind, call your servicer immediately and ask for loss mitigation options.[51]Call the number on your mortgage statement. Ask for the \"loss mitigation\" or \"home retention\" department.Say: \"I am a veteran with a VA loan. I am having trouble making payments because [reason]. What options do I have: forbearance, repayment plan, loan modification, or VA refinancing?\"Request a VA Loan Technician by calling the VA Regi",
+    "risk_words": [
+      "deadline",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "Reasonable Accommodation Request Under the Fair Housing Act42 U.S.C.  3604(f) prohibits housing discrimination based on disability and requires landlords to grant reasonable accommodations.[36]Sample letter: \"I am a tenant at [address]. I have a disability and need the following reasonable accommodation: [reserved accessible parking space / permission for an emotional support animal / transfer to a ground-floor unit / waiver of no-pet policy]. This request is made under the Fair Housing Act, 42 ",
+    "risk_words": [
+      "requires",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "SSVF Step-by-Step: Short-Term Help to Stay Housed or Leave Homelessness",
+    "text": "Call1-877-4AID-VETor find your local SSVF provider through the VA homeless programs locator.[32]Say: \"I need SSVF intake. I am a veteran [or family member] in [city, county] and I am homeless / at risk of homelessness within [days]. Can you schedule an intake or give me a referral?\"Ask what documents are required. Common list: DD-214, photo ID, proof of income, lease/eviction notice or homelessness statement, utility bills, bank statements, household IDs, and a written budget.Attend intake. Be s",
+    "risk_words": [
+      "required",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HUD-VASH Step-by-Step: Long-Term Voucher Plus VA Case Management",
+    "text": "Contact your local VA homeless program or call 1-877-4AID-VET.Complete a VA housing screen and assessment. Be honest about homelessness history, health conditions, and need for case management.If accepted, get a referral to the local housing authority for a HUD-VASH voucher.Use the voucher to lease an eligible unit. Your VA case manager stays involved for ongoing support.",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "VA Home Loan Delinquency / Forbearance",
+    "text": "If you have a VA-backed loan and are falling behind, call your servicer immediately and ask for loss mitigation options.[51]",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "VA Home Loan Delinquency / Forbearance",
+    "text": "Call the number on your mortgage statement. Ask for the \"loss mitigation\" or \"home retention\" department.Say: \"I am a veteran with a VA loan. I am having trouble making payments because [reason]. What options do I have: forbearance, repayment plan, loan modification, or VA refinancing?\"Request a VA Loan Technician by calling the VA Regional Loan Center for your area.Submit a complete loss mitigation application before any foreclosure deadline.If denied, ask for the reason in writing and consider",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "Reasonable Accommodation Request Under the Fair Housing Act",
+    "text": "42 U.S.C.  3604(f) prohibits housing discrimination based on disability and requires landlords to grant reasonable accommodations.[36]",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "Reasonable Accommodation Request Under the Fair Housing Act",
+    "text": "Sample letter: \"I am a tenant at [address]. I have a disability and need the following reasonable accommodation: [reserved accessible parking space / permission for an emotional support animal / transfer to a ground-floor unit / waiver of no-pet policy]. This request is made under the Fair Housing Act, 42 U.S.C.  3604(f). I have attached [provider letter / medical documentation]. Please respond within 10 business days.\"",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "When They Say No or Stall",
+    "text": "ProblemNext StepWho to CallSSVF denies you or says no fundsAsk for the denial in writing. Apply to another SSVF grantee in your area. Call the VA homeless hotline for referral.[30]1-877-424-3838(homeless vet hotline)Landlord ignores SCRA letterContact the installation JAG/legal assistance office or a military legal assistance attorney. File a CFPB complaint if the debt is a mortgage or consumer loan.[92][98]Base legal assistance office; CFPB online[98]Eviction court date is setGo to court, even ",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  }
+]
