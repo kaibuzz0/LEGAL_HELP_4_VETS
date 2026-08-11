@@ -121,6 +121,14 @@
       "source_url": "state-resources.html",
       "verified_date": "2026-08-10",
       "status": "verified"
+    },
+    {
+      "id": "kjv-public-domain",
+      "claim": "King James Version (KJV) Bible text is in the public domain in the United States.",
+      "source_name": "Library of Congress / general public-domain status",
+      "source_url": "https://www.loc.gov/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
     }
   ]
 }
