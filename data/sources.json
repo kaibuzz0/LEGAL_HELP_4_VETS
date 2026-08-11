@@ -937,6 +937,102 @@
       "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
       "verified_date": "2026-08-10",
       "status": "verified"
+    },
+    {
+      "id": "va-form-10-1393",
+      "claim": "VA Form 10-1394 (not 10-1393) is the Application for Associated Health Benefits for Transitional Health Care Members; VA uses various forms for records requests, and veterans can also use the online VA Blue Button/health records portal.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/vaforms/",
+      "verified_date": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "nprc-records",
+      "claim": "The National Personnel Records Center (NPRC) stores official military personnel, health, and medical records of discharged and deceased veterans of all services during the 20th century.",
+      "source_name": "National Archives and Records Administration",
+      "source_url": "https://www.archives.gov/veterans/military-service-records",
+      "verified_date": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "dod-149",
+      "claim": "DoD uses DD Form 149 (Application for Correction of Military Record) for Board for Correction of Military Records applications.",
+      "source_name": "U.S. Department of Defense",
+      "source_url": "https://www.esd.whs.mil/Portals/54/Documents/DD/forms/dd/dd0149.pdf",
+      "verified_date": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "vet-centers",
+      "claim": "VA Vet Centers provide community-based counseling, outreach, and referral services to eligible veterans and their families.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/vet-centers/",
+      "verified_date": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "scra-50usc-3931",
+      "claim": "50 U.S.C. \u00a7 3931 protects servicemembers against default judgments in civil actions while in military service.",
+      "source_name": "Cornell Law School Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/50/3931",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "scra-50usc-3932",
+      "claim": "50 U.S.C. \u00a7 3932 allows servicemembers to request a stay of civil proceedings when military duties materially affect their ability to appear.",
+      "source_name": "Cornell Law School Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/50/3932",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "scra-50usc-3937",
+      "claim": "50 U.S.C. \u00a7 3937 limits interest rates on debts incurred before military service to 6% per year during active duty and for one year after for home mortgages (post-2021) or during service plus six months post-service for other obligations.",
+      "source_name": "Cornell Law School Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/50/3937",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "scra-50usc-3951",
+      "claim": "50 U.S.C. \u00a7 3951 restricts eviction of servicemembers and their dependents from leased premises when monthly rent is below a statutory cap and a court order is obtained.",
+      "source_name": "Cornell Law School Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/50/3951",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "scra-50usc-3953",
+      "claim": "50 U.S.C. \u00a7 3953 restricts foreclosure and sale of real property owned by servicemembers before entering military service.",
+      "source_name": "Cornell Law School Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/50/3953",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "va-home-loan-foreclosure",
+      "claim": "VA provides resources to help veterans with VA-backed home loans avoid foreclosure, including contacting the loan servicer and requesting loss mitigation.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "fair-housing-42usc-3604",
+      "claim": "42 U.S.C. \u00a7 3604 prohibits discrimination in the sale or rental of housing, including discrimination based on disability, and requires covered housing providers to grant reasonable accommodations when necessary and reasonable.",
+      "source_name": "Cornell Law School Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
+    },
+    {
+      "id": "hud-fheo-discrimination",
+      "claim": "HUD's Fair Housing and Equal Opportunity office enforces the Fair Housing Act and provides guidance on housing discrimination, including disability discrimination and reasonable accommodations.",
+      "source_name": "U.S. Department of Housing and Urban Development",
+      "source_url": "https://www.hud.gov/program_offices/fair_housing_equal_opp",
+      "verified_date": "2026-08-11",
+      "status": "verified_primary"
     }
   ]
 }
