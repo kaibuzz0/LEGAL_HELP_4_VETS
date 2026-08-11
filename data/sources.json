@@ -537,6 +537,102 @@
       "source_url": "https://www.dol.gov/agencies/eta/unemployment-insurance",
       "verified_date": "2026-08-10",
       "status": "verified"
+    },
+    {
+      "id": "uscis-parole-in-place",
+      "claim": "USCIS may grant parole in place to certain noncitizen spouses, children, and parents of U.S. military members, allowing them to remain in the U.S. while seeking adjustment of status.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/humanitarian",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "uscis-military-naturalization",
+      "claim": "Certain servicemembers and veterans may naturalize under INA 328 or 329, including posthumous naturalization for servicemembers who died during qualifying service.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/military",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "uscis-form-n-400",
+      "claim": "USCIS Form N-400 is the Application for Naturalization.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/n-400",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "uscis-form-n-426",
+      "claim": "USCIS Form N-426 is a Request for Certification of Military or Naval Service used in military naturalization applications.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/n-426",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "uscis-form-i-130",
+      "claim": "USCIS Form I-130 is the Petition for Alien Relative used to establish a qualifying family relationship.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/i-130",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "uscis-form-i-485",
+      "claim": "USCIS Form I-485 is the Application to Register Permanent Residence or Adjust Status.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/i-485",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "uscis-vawa",
+      "claim": "The Violence Against Women Act (VAWA) allows certain abused spouses, children, and parents of U.S. citizens or lawful permanent residents to self-petition for immigration status without the abuser's participation.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/humanitarian/battered-spouse-children-and-parents",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "ice-veterans",
+      "claim": "Immigration enforcement policies may include considerations for military veterans; veterans facing removal may seek legal counsel and administrative relief.",
+      "source_name": "U.S. Immigration and Customs Enforcement",
+      "source_url": "https://www.ice.gov/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-pastoral-care",
+      "claim": "VA chaplain services provide spiritual and pastoral care for veterans, families, and staff, regardless of religious affiliation.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/chaplain/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "benefit-of-the-doubt",
+      "claim": "Under 38 U.S.C.  5107(b), VA must resolve reasonable doubt in the veteran's favor when evidence is in approximate balance.",
+      "source_name": "U.S. Department of Veterans Affairs / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/5107",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "staged-ratings",
+      "claim": "VA assigns disability ratings based on symptoms at different points in time; staged ratings may apply when symptoms worsen or improve over time.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.benefits.va.gov/COMPENSATION/claims-special-claim_types-staged.asp",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "ina-328-329",
+      "claim": "INA 328 covers naturalization for servicemembers with at least one year of honorable service; INA 329 covers naturalization for servicemembers who served during periods of hostilities.",
+      "source_name": "U.S. Citizenship and Immigration Services",
+      "source_url": "https://www.uscis.gov/military",
+      "verified_date": "2026-08-10",
+      "status": "verified"
     }
   ]
 }
