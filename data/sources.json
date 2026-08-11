@@ -777,6 +777,102 @@
       "source_url": "https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/toolkit.html",
       "verified_date": "2026-08-10",
       "status": "verified"
+    },
+    {
+      "id": "cfpb-complaint",
+      "claim": "Consumers can file complaints with the Consumer Financial Protection Bureau about debt collection, mortgage, or credit issues.",
+      "source_name": "Consumer Financial Protection Bureau",
+      "source_url": "https://www.consumerfinance.gov/complaint/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-white-house-hotline",
+      "claim": "The VA White House Hotline receives complaints and inquiries about VA services and benefits.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/contact-us/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-ig-hotline",
+      "claim": "The VA Office of Inspector General hotline accepts reports of fraud, waste, abuse, and mismanagement.",
+      "source_name": "VA Office of Inspector General",
+      "source_url": "https://www.va.gov/oig/hotline/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "legal-services-corporation",
+      "claim": "Legal Services Corporation funds local legal aid offices that provide free civil legal help to low-income Americans including veterans.",
+      "source_name": "Legal Services Corporation",
+      "source_url": "https://www.lsc.gov/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-patient-advocate-locator",
+      "claim": "Every VA medical center has a Patient Advocate to help resolve care concerns.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/health/characterofthedischarge/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "nlaqh-legal-aid",
+      "claim": "The National Legal Aid & Defender Association and LSC-funded programs provide civil legal aid.",
+      "source_name": "National Legal Aid & Defender Association",
+      "source_url": "https://www.nlada.org/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "national-law-center-homelessness",
+      "claim": "The National Law Center on Homelessness & Poverty publishes legal tools and eviction defense resources.",
+      "source_name": "National Law Center on Homelessness & Poverty",
+      "source_url": "https://nlchp.org/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-foreign-medical-program",
+      "claim": "The VA Foreign Medical Program covers service-connected disabilities and conditions for veterans living abroad.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/COMMUNITYCARE/programs/veterans/foreign-medical-program/index.asp",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "nichq-veterans-treatment-courts",
+      "claim": "Justice For Vets supports Veterans Treatment Courts across the country.",
+      "source_name": "Justice For Vets / Bureau of Justice Assistance",
+      "source_url": "https://justiceforvets.org/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "ssa-waiver-overpayment",
+      "claim": "Social Security can waive overpayments if repayment would be against equity and good conscience or the recipient is without fault.",
+      "source_name": "Social Security Administration",
+      "source_url": "https://www.ssa.gov/benefits/ssi/spotlights/spotlight-overpayments.html",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-fiduciary-program",
+      "claim": "VA fiduciaries manage VA benefits for beneficiaries who cannot manage their own financial affairs.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-debt-management-center",
+      "claim": "The VA Debt Management Center handles overpayments and debt collection for VA benefits.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/resources/va-debt-management/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
     }
   ]
 }
