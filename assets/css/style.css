@@ -140,6 +140,27 @@ footer { text-align:center; color:var(--muted); padding:24px; font-size:0.85rem;
   .main { padding: 14px; }
 }
 
+
+/* Phase 4A additions */
+.steps {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+.steps li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+.section-card table {
+  font-size: 0.9rem;
+}
+.section-card th {
+  background: #eef2f7;
+  font-weight: 600;
+}
+.section-card td, .section-card th {
+  padding: 8px 10px;
+}
+
 @media print {
   .topbar, .sidebar, .menu-btn, .legal-disclaimer, .search-wrap, .back-to-top { display:none !important; }
   .main { padding:0; max-width:100%; }
