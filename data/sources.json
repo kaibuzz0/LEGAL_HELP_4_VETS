@@ -105,6 +105,22 @@
       "source_url": "https://www.va.gov/vso/",
       "verified_date": "2026-08-10",
       "status": "verified"
+    },
+    {
+      "id": "usaa-membership-services",
+      "claim": "USAA is a private financial services association open to eligible military members and families; it is not a government agency.",
+      "source_name": "USAA",
+      "source_url": "https://www.usaa.com/membership/eligibility",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "state-directory-methodology",
+      "claim": "State and local veterans resource information varies by jurisdiction and should be confirmed with the relevant state veterans affairs office or state court.",
+      "source_name": "LEGAL HELP 4 VETS State Resources Methodology",
+      "source_url": "state-resources.html",
+      "verified_date": "2026-08-10",
+      "status": "verified"
     }
   ]
 }
