@@ -8,11 +8,43 @@
 <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div data-component="skip-link"></div>
-<div data-component="legal-disclaimer"></div>
-<div data-component="psalm-banner" data-position="top"></div>
-<div data-component="site-header"></div>
-<div data-component="site-nav" data-current="discharge-upgrade"></div>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="legal-disclaimer" role="banner">
+  <strong>Legal Information, Not Legal Advice.</strong> Laws, deadlines, phone numbers, and procedures change. Before making decisions that affect your benefits, housing, immigration status, or liberty, speak with a licensed attorney or VA-accredited representative.
+</div>
+<div class="psalm-banner psalm-top">
+  <span class="psalm-ref">Psalm 23:1–2 (KJV)</span>
+  <span class="psalm-text">"The LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters."</span>
+</div>
+<div class="topbar">
+  <h1><a href="index.html">Veteran Rights Field Manual</a></h1>
+  <button class="menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="sidebar">
+    <span aria-hidden="true">≡</span>
+    <span class="sr-only">Menu</span>
+  </button>
+  <div>
+    <a href="tel:988">988 · 1</a>
+    <a href="tel:18774243838">1-877-4AID-VET</a>
+    <a href="tel:18007997233">1-800-799-SAFE</a>
+  </div>
+</div>
+<div data-component="site-nav" data-current="discharge-upgrade">
+<noscript>
+  <nav class="sidebar" id="sidebar" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="help-now.html">I Need Help Now</a>
+    <a href="claims.html">Claims</a>
+    <a href="appeals.html">Appeals</a>
+    <a href="discharge-upgrade.html">Discharge Upgrade</a>
+    <a href="housing.html">Housing</a>
+    <a href="employment-money.html">Employment &amp; Money</a>
+    <a href="family-immigration.html">Family &amp; Immigration</a>
+    <a href="legal-library.html">Legal Library</a>
+    <a href="toolkit.html">Toolkit</a>
+    <a href="about.html">About / Sources</a>
+  </nav>
+</noscript>
+</div>
 
 <main class="main" id="main-content" tabindex="-1" aria-label="Main content">
 <div class="section-card" data-search="know your status" id="sec-3">
@@ -44,8 +76,14 @@ YOUR NEXT ACTION: Continue to the next section or return to <a href="index.html#
 </div>
 </main>
 
-<div data-component="psalm-banner" data-position="bottom"></div>
-<div data-component="site-footer"></div>
+<div class="psalm-banner psalm-bottom">
+  <span class="psalm-ref">Psalm 23:1–2 (KJV)</span>
+  <span class="psalm-text">"The LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters."</span>
+</div>
+<footer>
+  Veteran Rights Field Manual · Legal Information, Not Legal Advice · Built to help veterans fight for what they earned.
+  <a class="back-to-top" href="#main-content">↑ Back to top</a>
+</footer>
 <script src="assets/js/components.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
