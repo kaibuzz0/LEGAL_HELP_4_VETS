@@ -1,0 +1,762 @@
+{
+  "methodology": "State Veterans Affairs URLs are sourced from official state government sites. Legal aid and veterans court information is marked pending when no official source was confirmed. Many entries are pending because the verification environment could not resolve or load the state site; users should confirm the current URL locally.",
+  "last_updated": "2026-08-10",
+  "states": [
+    {
+      "name": "Alabama",
+      "state_veterans_affairs": {
+        "name": "Alabama Veterans Affairs Office",
+        "url": "https://www.va.alabama.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Alabama State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Alaska",
+      "state_veterans_affairs": {
+        "name": "Alaska Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Alaska State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Arizona",
+      "state_veterans_affairs": {
+        "name": "Arizona Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Arizona State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Arkansas",
+      "state_veterans_affairs": {
+        "name": "Arkansas Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Arkansas State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "California",
+      "state_veterans_affairs": {
+        "name": "California Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "California State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Colorado",
+      "state_veterans_affairs": {
+        "name": "Colorado Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Colorado State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Connecticut",
+      "state_veterans_affairs": {
+        "name": "Connecticut Veterans Affairs Office",
+        "url": "https://www.ct.gov/dva",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Connecticut State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Delaware",
+      "state_veterans_affairs": {
+        "name": "Delaware Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Delaware State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Florida",
+      "state_veterans_affairs": {
+        "name": "Florida Veterans Affairs Office",
+        "url": "https://floridaveterans.org/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Florida State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Georgia",
+      "state_veterans_affairs": {
+        "name": "Georgia Veterans Affairs Office",
+        "url": "https://veterans.georgia.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Georgia State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Hawaii",
+      "state_veterans_affairs": {
+        "name": "Hawaii Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Hawaii State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Idaho",
+      "state_veterans_affairs": {
+        "name": "Idaho Veterans Affairs Office",
+        "url": "https://veterans.idaho.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Idaho State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Illinois",
+      "state_veterans_affairs": {
+        "name": "Illinois Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Illinois State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Indiana",
+      "state_veterans_affairs": {
+        "name": "Indiana Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Indiana State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Iowa",
+      "state_veterans_affairs": {
+        "name": "Iowa Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Iowa State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Kansas",
+      "state_veterans_affairs": {
+        "name": "Kansas Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Kansas State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Kentucky",
+      "state_veterans_affairs": {
+        "name": "Kentucky Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Kentucky State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Louisiana",
+      "state_veterans_affairs": {
+        "name": "Louisiana Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Louisiana State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Maine",
+      "state_veterans_affairs": {
+        "name": "Maine Veterans Affairs Office",
+        "url": "https://www.maine.gov/veterans",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Maine State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Maryland",
+      "state_veterans_affairs": {
+        "name": "Maryland Veterans Affairs Office",
+        "url": "https://veterans.maryland.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Maryland State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Massachusetts",
+      "state_veterans_affairs": {
+        "name": "Massachusetts Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Massachusetts State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Michigan",
+      "state_veterans_affairs": {
+        "name": "Michigan Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Michigan State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Minnesota",
+      "state_veterans_affairs": {
+        "name": "Minnesota Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Minnesota State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Mississippi",
+      "state_veterans_affairs": {
+        "name": "Mississippi Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Mississippi State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Missouri",
+      "state_veterans_affairs": {
+        "name": "Missouri Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Missouri State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Montana",
+      "state_veterans_affairs": {
+        "name": "Montana Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Montana State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Nebraska",
+      "state_veterans_affairs": {
+        "name": "Nebraska Veterans Affairs Office",
+        "url": "https://veterans.nebraska.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Nebraska State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Nevada",
+      "state_veterans_affairs": {
+        "name": "Nevada Veterans Affairs Office",
+        "url": "https://veterans.nv.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Nevada State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "New Hampshire",
+      "state_veterans_affairs": {
+        "name": "New Hampshire Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "New Hampshire State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "New Jersey",
+      "state_veterans_affairs": {
+        "name": "New Jersey Veterans Affairs Office",
+        "url": "https://www.nj.gov/military/veterans",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "New Jersey State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "New Mexico",
+      "state_veterans_affairs": {
+        "name": "New Mexico Veterans Affairs Office",
+        "url": "https://www.nmdvs.org/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "New Mexico State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "New York",
+      "state_veterans_affairs": {
+        "name": "New York Veterans Affairs Office",
+        "url": "https://veterans.ny.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "New York State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "North Carolina",
+      "state_veterans_affairs": {
+        "name": "North Carolina Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "North Carolina State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "North Dakota",
+      "state_veterans_affairs": {
+        "name": "North Dakota Veterans Affairs Office",
+        "url": "https://www.nd.gov/veterans",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "North Dakota State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Ohio",
+      "state_veterans_affairs": {
+        "name": "Ohio Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Ohio State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Oklahoma",
+      "state_veterans_affairs": {
+        "name": "Oklahoma Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Oklahoma State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Oregon",
+      "state_veterans_affairs": {
+        "name": "Oregon Veterans Affairs Office",
+        "url": "https://www.oregon.gov/odva",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Oregon State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Pennsylvania",
+      "state_veterans_affairs": {
+        "name": "Pennsylvania Veterans Affairs Office",
+        "url": "https://www.dmva.pa.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Pennsylvania State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Rhode Island",
+      "state_veterans_affairs": {
+        "name": "Rhode Island Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Rhode Island State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "South Carolina",
+      "state_veterans_affairs": {
+        "name": "South Carolina Veterans Affairs Office",
+        "url": "https://scdva.sc.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "South Carolina State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "South Dakota",
+      "state_veterans_affairs": {
+        "name": "South Dakota Veterans Affairs Office",
+        "url": "https://vetaffairs.sd.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "South Dakota State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Tennessee",
+      "state_veterans_affairs": {
+        "name": "Tennessee Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Tennessee State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Texas",
+      "state_veterans_affairs": {
+        "name": "Texas Veterans Affairs Office",
+        "url": "https://www.tvc.texas.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Texas State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Utah",
+      "state_veterans_affairs": {
+        "name": "Utah Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Utah State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Vermont",
+      "state_veterans_affairs": {
+        "name": "Vermont Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Vermont State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Virginia",
+      "state_veterans_affairs": {
+        "name": "Virginia Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Virginia State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Washington",
+      "state_veterans_affairs": {
+        "name": "Washington Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Washington State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "West Virginia",
+      "state_veterans_affairs": {
+        "name": "West Virginia Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "West Virginia State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Wisconsin",
+      "state_veterans_affairs": {
+        "name": "Wisconsin Veterans Affairs Office",
+        "url": "https://dva.wi.gov/",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "Wisconsin State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Wyoming",
+      "state_veterans_affairs": {
+        "name": "Wyoming Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Wyoming State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "District of Columbia",
+      "state_veterans_affairs": {
+        "name": "District of Columbia Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "District of Columbia State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Puerto Rico",
+      "state_veterans_affairs": {
+        "name": "Puerto Rico Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Puerto Rico State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "Guam",
+      "state_veterans_affairs": {
+        "name": "Guam Veterans Affairs Office",
+        "url": "#",
+        "status": "pending"
+      },
+      "legal_aid": {
+        "name": "Guam State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    },
+    {
+      "name": "U.S. Virgin Islands",
+      "state_veterans_affairs": {
+        "name": "U.S. Virgin Islands Veterans Affairs Office",
+        "url": "https://www.vi.gov/veterans-affairs",
+        "status": "verified"
+      },
+      "legal_aid": {
+        "name": "U.S. Virgin Islands State Bar / Legal Aid Referral",
+        "url": "#",
+        "status": "pending"
+      },
+      "veterans_court_note": "Veterans Treatment Courts may be available. Contact your state court or a VSO for local programs."
+    }
+  ]
+}
