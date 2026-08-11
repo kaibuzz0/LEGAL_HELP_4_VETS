@@ -9,8 +9,16 @@ html, body { margin:0; padding:0; font-family:-apple-system, BlinkMacSystemFont,
 .topbar h1 { margin:0; font-size:1.05rem; }
 
 .topbar a { color:#ffd6d6; font-weight:700; text-decoration:none; margin-left:12px; font-size:0.85rem; }
+@media (max-width: 600px) {
+  .topbar { flex-wrap: wrap; padding: 8px 12px; }
+  .topbar h1 { width: 100%; margin-bottom: 6px; }
+  .topbar div { display: flex; flex-wrap: wrap; gap: 4px; }
+  .topbar a { margin-left: 0; font-size: 0.75rem; }
+  .topbar .menu-btn { margin-left: auto; }
+}
 
 .topbar .menu-btn { display:none; background:var(--gold); color:#1a1a1a; border:none; padding:6px 12px; border-radius:4px; font-weight:700; cursor:pointer; }
+@media (max-width: 900px) { .topbar .menu-btn { display:inline-flex !important; align-items:center; justify-content:center; } }
 
 .layout {
   display: flex;
