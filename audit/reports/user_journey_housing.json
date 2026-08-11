@@ -1,0 +1,15 @@
+{
+  "housing.html": {
+    "what_is_happening": true,
+    "what_law_program_applies": true,
+    "am_i_eligible": true,
+    "what_do_i_do_now": false,
+    "who_do_i_contact": true,
+    "what_do_i_say": true,
+    "what_documents": true,
+    "what_deadline": true,
+    "what_if_no": true,
+    "where_escalate": true,
+    "where_info_came_from": true
+  }
+}
