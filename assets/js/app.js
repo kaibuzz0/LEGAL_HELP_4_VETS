@@ -132,9 +132,20 @@
     initScrollSpy();
   }
 
+  function initApp() {
+    initMenu();
+    initSearch();
+    secureExternalLinks();
+    initScrollSpy();
+  }
+
+  document.addEventListener('componentsLoaded', function() {
+    initApp();
+  });
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', initApp);
   } else {
-    init();
+    initApp();
   }
 })();
