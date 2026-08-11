@@ -1,0 +1,2354 @@
+[
+  {
+    "page": "help-now.html",
+    "section": "I NEED HELP NOW",
+    "text": "This section is for veterans and families in immediate crisis or facing collapse within days. It tells you who to call, what to say, and what to do next.",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "help-now.html",
+    "section": "I NEED HELP NOW",
+    "text": "What to Say When You Call 1-877-4AID-VET (Homeless Veteran Hotline)\"My name is [name]. I am a veteran [or family member of veteran [name]]. I am homeless / about to lose my housing in [city, state] within [timeframe]. I need emergency housing assistance and a local SSVF referral. Can you connect me to the nearest VA homeless coordinator?\"Information to have ready:your name, city/county, discharge ",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "help-now.html",
+    "section": "I NEED HELP NOW",
+    "text": "Housing: SSVF and HUD-VASH Step-by-StepSSVF (Supportive Services for Veteran Families)provides short-term help to avoid homelessness or leave homelessness.[30]Call1-877-4AID-VETor find your local SSVF provider at the VA homeless program locator.Tell them you need SSVF intake. Ask for an appointment and the required documents list.Gather before the appointment: DD-214, photo ID, proof of income (la",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "help-now.html",
+    "section": "I NEED HELP NOW",
+    "text": "Medical Crisis: VA Urgent Care vs. ERLife-threatening:Call 911 or go to the nearest ER. VA may reimburse emergency care in non-VA facilities if criteria are met.Urgent but not life-threatening:Use a VA urgent care clinic or in-network community urgent care (requires VA enrollment/eligibility).[4]VA care complaint:Contact the Patient Advocate at your VA medical center.[40]",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "help-now.html",
+    "section": "I NEED HELP NOW",
+    "text": "Food and Money While You StabilizeSNAP (food stamps):Apply through your state human services office. Veterans with low income and dependents often qualify.[34]SSDI/SSI:If you cannot work due to a medical condition expected to last 12+ months or result in death, file with Social Security.[33]VA pension:Wartime veterans with limited income and permanent disability may qualify for VA Pension.TANF / c",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "help-now.html",
+    "section": "What to Say When You Call 1-877-4AID-VET (Homeless Veteran Hotline)",
+    "text": "\"My name is [name]. I am a veteran [or family member of veteran [name]]. I am homeless / about to lose my housing in [city, state] within [timeframe]. I need emergency housing assistance and a local SSVF referral. Can you connect me to the nearest VA homeless coordinator?\"",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "help-now.html",
+    "section": "Housing: SSVF and HUD-VASH Step-by-Step",
+    "text": "Call1-877-4AID-VETor find your local SSVF provider at the VA homeless program locator.Tell them you need SSVF intake. Ask for an appointment and the required documents list.Gather before the appointment: DD-214, photo ID, proof of income (last 30 days), lease/eviction notice or statement of homelessness, bank statements, utility bills, household member IDs, and a written budget.Attend intake. Be h",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "help-now.html",
+    "section": "Medical Crisis: VA Urgent Care vs. ER",
+    "text": "Life-threatening:Call 911 or go to the nearest ER. VA may reimburse emergency care in non-VA facilities if criteria are met.Urgent but not life-threatening:Use a VA urgent care clinic or in-network community urgent care (requires VA enrollment/eligibility).[4]VA care complaint:Contact the Patient Advocate at your VA medical center.[40]",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "help-now.html",
+    "section": "Food and Money While You Stabilize",
+    "text": "SNAP (food stamps):Apply through your state human services office. Veterans with low income and dependents often qualify.[34]SSDI/SSI:If you cannot work due to a medical condition expected to last 12+ months or result in death, file with Social Security.[33]VA pension:Wartime veterans with limited income and permanent disability may qualify for VA Pension.TANF / cash assistance:State-run. Apply at",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "CLAIMS BATTLE ROOM",
+    "text": "Step-by-Step: File a Claim from ZeroPreserve your effective date.Submit VA Form 21-0966 (Intent to File) online, by phone, or in writing. This locks an earlier effective date while you gather evidence.[22]Get your service records.Request your DD-214 and Service Treatment Records (STRs) from the National Personnel Records Center (NPRC) or via milConnect if still active access.Identify every conditi",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "CLAIMS BATTLE ROOM",
+    "text": "\"They Said I Don't Have Enough Medical Proof\"This is the most common reason for denial. Here is how to fight it:Request Service Treatment Records (STRs):Use VA Form 20-10206 to request your complete C-file and STRs.[23]Get a private nexus opinion:A private doctor can review your records and write the medical connection VA says is missing.Write a lay statement that fills gaps:Use VA Form 21-4138 to",
+    "risk_words": [
+      "must",
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "CLAIMS BATTLE ROOM",
+    "text": "Protective Claims (Preserve Back Pay)A protective claim is an informal communication to VA that shows intent to file a claim for a specific benefit. It can preserve an earlier effective date.Sample protective claim letter: \"I intend to file a claim for service connection for [condition]. I will submit the formal application and supporting evidence as soon as possible. [Name, SSN, signature, date].",
+    "risk_words": [
+      "will",
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "claims.html",
+    "section": "CLAIMS BATTLE ROOM",
+    "text": "Denied? Appeals Lane Decision TreeHave new and relevant evidence?\u2192 Supplemental Claim (VA Form 20-0995).[19]Think VA made a clear error?\u2192 Higher-Level Review (VA Form 20-0996). No new evidence.[20]Want a judge and can wait?\u2192 Board Appeal (VA Form 10182). Choose direct review, evidence submission, or hearing.[21]Deadline:Generally one year from the decision date to preserve the earliest effective d",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "Step-by-Step: File a Claim from Zero",
+    "text": "Preserve your effective date.Submit VA Form 21-0966 (Intent to File) online, by phone, or in writing. This locks an earlier effective date while you gather evidence.[22]Get your service records.Request your DD-214 and Service Treatment Records (STRs) from the National Personnel Records Center (NPRC) or via milConnect if still active access.Identify every condition.List physical, mental, and second",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "\"They Said I Don't Have Enough Medical Proof\"",
+    "text": "Request Service Treatment Records (STRs):Use VA Form 20-10206 to request your complete C-file and STRs.[23]Get a private nexus opinion:A private doctor can review your records and write the medical connection VA says is missing.Write a lay statement that fills gaps:Use VA Form 21-4138 to describe, in your own words: what happened in service, symptoms since then, and how the condition affects you n",
+    "risk_words": [
+      "must",
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "Protective Claims (Preserve Back Pay)",
+    "text": "Sample protective claim letter: \"I intend to file a claim for service connection for [condition]. I will submit the formal application and supporting evidence as soon as possible. [Name, SSN, signature, date].\"",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "claims.html",
+    "section": "Protective Claims (Preserve Back Pay)",
+    "text": "Send it to the VA Evidence Intake Center by certified mail or upload it to VA.gov. Then follow up with VA Form 21-526EZ within one year.",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "claims.html",
+    "section": "Denied? Appeals Lane Decision Tree",
+    "text": "Have new and relevant evidence?\u2192 Supplemental Claim (VA Form 20-0995).[19]Think VA made a clear error?\u2192 Higher-Level Review (VA Form 20-0996). No new evidence.[20]Want a judge and can wait?\u2192 Board Appeal (VA Form 10182). Choose direct review, evidence submission, or hearing.[21]Deadline:Generally one year from the decision date to preserve the earliest effective date. Do not miss it.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "Top 5 Claim Denial Traps \u2014 And How to Avoid Them",
+    "text": "TrapWhy It Kills ClaimsPrevention Move1. No Intent to FileVA pays from the date it receives the claim, not the date you first thought about filing. A late filing can cost years of back pay.[22]Submit VA Form 21-0966 online today. You then have one year to file the full claim while keeping the earliest possible date.[22]2. Doctor uses the wrong wordsA doctor saying \u201cnot related to service\u201d ends the",
+    "risk_words": [
+      "must",
+      "cannot",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "claims.html",
+    "section": "When They Say No or Stall",
+    "text": "What VA SaidWhat It MeansYour Next Move\u201cNot service-connected\u201dVA did not find a nexus between your condition and service.File a Supplemental Claim with a private nexus letter or buddy statement. Use VA Form 20-0995.[19]\u201cInsufficient medical evidence\u201dVA wants a clearer medical opinion.Get an independent medical exam or nexus opinion. Make sure the doctor uses the \u201cat least as likely as not\u201d standar",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "Action Ladder: Before Deadline \u00b7 File \u00b7 Follow UpWindowGoalDo This FirstImmediatelyProtect the deadlineFind the decision date on your letter. File a protective claim letter or submit the correct appeal form within one year.[78]1\u20132 weeksPick the lane and gather evidenceGet your C-file with VA Form 20-10206. Choose Supplemental Claim if you have new evidence, Higher-Level Review if you think VA erre",
+    "risk_words": [
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "What This Is and Who QualifiesA VA appeal is a formal decision review you can use when you disagree with a rating decision, denial, or effective date. You have the right to choose among three review lanes.[78]Who qualifies:You must generally act within one year of the date on your decision letter. Contested claims have a 60-day deadline for Board Appeals. You cannot request a Higher-Level Review a",
+    "risk_words": [
+      "must",
+      "qualifies",
+      "cannot",
+      "deadline",
+      "within",
+      "right to"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "Three Lanes: Pick the Right OneLaneUse WhenNew Evidence?Form / HowSupplemental Claim[19]You have new and relevant evidence, or a change in law such as the PACT Act applies.Yes \u2014 submit or identify new evidence.VA Form 20-0995. Mail to the Claims Intake Center or submit online if eligible.[79]Higher-Level Review[20]You believe VA made an error or you want a fresh look; no new evidence.No new eviden",
+    "risk_words": [
+      "eligible",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "Exact Steps to File Each LaneSupplemental Claim (VA Form 20-0995)Gather new and relevant evidence: medical reports, buddy statements, treatment records, or a change-in-law basis (such as PACT Act presumption).[78]Download and complete VA Form 20-0995.[19]Attach the evidence and list any VA or private facilities you want VA to request records from, with treatment dates.[78]Submit online through VA.",
+    "risk_words": [
+      "eligible",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "Deadline Warnings: Protect Your Effective DateOne-year rule:For most decisions, you have one year from the date on the decision letter to file a Supplemental Claim, Higher-Level Review, or Board Appeal.[78]Protective claim:Even a short signed letter saying \u201cI intend to appeal the [date] decision on [condition]\u201d can protect your effective date while you finish the official form.[22][78]Contested cl",
+    "risk_words": [
+      "must",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "What If They Say NoSupplemental Claim denied:You can file another Supplemental Claim with new evidence, request a Higher-Level Review, or request a Board Appeal if still within one year.[78]Higher-Level Review denied:You can file a Supplemental Claim with new evidence or request a Board Appeal.[78]Board Appeal denied:You may appeal to the U.S. Court of Appeals for Veterans Claims (CAVC). You gener",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "When They Say No or StallProblemNext StepWho to Call / FileSupplemental Claim denied againYou can file another Supplemental Claim with new evidence, request Higher-Level Review, or request Board Appeal if still within one year.[19][20][21]VSO or accredited attorney; file the next-lane formHigher-Level Review deniedFile a Supplemental Claim with new evidence, or request a Board Appeal. You cannot g",
+    "risk_words": [
+      "requires",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "Deadline Protection: Do Not Miss One YearFor most VA decisions, you have one year from the decision date to file a Supplemental Claim, Higher-Level Review, or Notice of Disagreement. Miss the deadline and the decision becomes final.Step 1: Find the date on the first page of your VA decision letter. Step 2: Add one year. Step 3: File before that date. If the deadline falls on a weekend or federal h",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "Sample Appeal ArgumentsInadequate C&P exam:\"The [date] C&P exam is inadequate because the examiner failed to review [specific records], did not perform [specific test], and did not explain how [medical finding] affects [condition]. A new examination is required.\"Benefit of the doubt:[75]\"The evidence is in approximate balance. Under 38 U.S.C.  5107(b), VA must resolve reasonable doubt in the veter",
+    "risk_words": [
+      "must",
+      "required"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "New Evidence Rules Per LaneSupplemental Claim (20-0995):Attach new and relevant evidence. Evidence must be new (not previously submitted) and relevant (relates to the issue).[19]Higher-Level Review (20-0996):No new evidence allowed. Request an informal conference to explain the error.[20]Board \u2014 Direct Review (10182):No new evidence; judge reviews the existing record.[21]Board \u2014 Evidence Submissio",
+    "risk_words": [
+      "must",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "APPEALS NAVIGATION",
+    "text": "YOUR NEXT ACTION: Read your decision letter. Identify the deadline. If you have new evidence, file Supplemental Claim (20-0995). If VA made a clear error, file Higher-Level Review (20-0996). Do not miss the one-year deadline.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "Action Ladder: Before Deadline \u00b7 File \u00b7 Follow Up",
+    "text": "WindowGoalDo This FirstImmediatelyProtect the deadlineFind the decision date on your letter. File a protective claim letter or submit the correct appeal form within one year.[78]1\u20132 weeksPick the lane and gather evidenceGet your C-file with VA Form 20-10206. Choose Supplemental Claim if you have new evidence, Higher-Level Review if you think VA erred, Board Appeal if you want a judge.[23][78]After",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "A VA appeal is a formal decision review you can use when you disagree with a rating decision, denial, or effective date. You have the right to choose among three review lanes.[78]",
+    "risk_words": [
+      "right to"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:You must generally act within one year of the date on your decision letter. Contested claims have a 60-day deadline for Board Appeals. You cannot request a Higher-Level Review after another Higher-Level Review or Board Appeal on the same issue.[78][80]",
+    "risk_words": [
+      "must",
+      "qualifies",
+      "cannot",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Three Lanes: Pick the Right One",
+    "text": "LaneUse WhenNew Evidence?Form / HowSupplemental Claim[19]You have new and relevant evidence, or a change in law such as the PACT Act applies.Yes \u2014 submit or identify new evidence.VA Form 20-0995. Mail to the Claims Intake Center or submit online if eligible.[79]Higher-Level Review[20]You believe VA made an error or you want a fresh look; no new evidence.No new evidence.VA Form 20-0996. Disability ",
+    "risk_words": [
+      "eligible",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Three Lanes: Pick the Right One",
+    "text": "Switching lanes:If VA has not yet decided your Supplemental Claim or Higher-Level Review, you can switch to another option within one year of the original decision letter. For Board Appeals, you can switch only if you have not yet submitted new evidence or had a hearing and the Board has not decided.[81]",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Supplemental Claim (VA Form 20-0995)",
+    "text": "Gather new and relevant evidence: medical reports, buddy statements, treatment records, or a change-in-law basis (such as PACT Act presumption).[78]Download and complete VA Form 20-0995.[19]Attach the evidence and list any VA or private facilities you want VA to request records from, with treatment dates.[78]Submit online through VA.gov if eligible, or mail to:Department of Veterans AffairsClaims ",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Higher-Level Review (VA Form 20-0996)",
+    "text": "Make sure you are within one year of the decision letter and have no new evidence to submit.[78]Download and complete VA Form 20-0996.[20]For disability compensation, submit online at VA.gov. For other benefits, mail to the address on the form matching your benefit type.[79]You can request an informal conference with the reviewer; note the best phone number and time of day on the form.",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Board Appeal (VA Form 10182)",
+    "text": "Choose your Board Appeal type:Direct Review:No new evidence, no hearing. Goal: decision within 365 days.[80]Evidence Submission:Submit new evidence with the appeal or within 90 days of VA receiving your request. Goal: decision within 550 days.[80]Hearing:Meet with a Veterans Law Judge; submit evidence at the hearing or within 90 days after.[80]Download and complete VA Form 10182.[21]Mail the compl",
+    "risk_words": [
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Deadline Warnings: Protect Your Effective Date",
+    "text": "One-year rule:For most decisions, you have one year from the date on the decision letter to file a Supplemental Claim, Higher-Level Review, or Board Appeal.[78]Protective claim:Even a short signed letter saying \u201cI intend to appeal the [date] decision on [condition]\u201d can protect your effective date while you finish the official form.[22][78]Contested claims:Board Appeals must be filed within 60 day",
+    "risk_words": [
+      "must",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "What If They Say No",
+    "text": "Supplemental Claim denied:You can file another Supplemental Claim with new evidence, request a Higher-Level Review, or request a Board Appeal if still within one year.[78]Higher-Level Review denied:You can file a Supplemental Claim with new evidence or request a Board Appeal.[78]Board Appeal denied:You may appeal to the U.S. Court of Appeals for Veterans Claims (CAVC). You generally have 120 days ",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "When They Say No or Stall",
+    "text": "ProblemNext StepWho to Call / FileSupplemental Claim denied againYou can file another Supplemental Claim with new evidence, request Higher-Level Review, or request Board Appeal if still within one year.[19][20][21]VSO or accredited attorney; file the next-lane formHigher-Level Review deniedFile a Supplemental Claim with new evidence, or request a Board Appeal. You cannot get another HLR on the sam",
+    "risk_words": [
+      "requires",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "appeals.html",
+    "section": "Deadline Protection: Do Not Miss One Year",
+    "text": "For most VA decisions, you have one year from the decision date to file a Supplemental Claim, Higher-Level Review, or Notice of Disagreement. Miss the deadline and the decision becomes final.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "Deadline Protection: Do Not Miss One Year",
+    "text": "Step 1: Find the date on the first page of your VA decision letter. Step 2: Add one year. Step 3: File before that date. If the deadline falls on a weekend or federal holiday, file the previous business day. Use certified mail or VA.gov so you have proof.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "Deadline Protection: Do Not Miss One Year",
+    "text": "Protective claims:Even a short letter saying \"I intend to appeal the [date] decision on [condition]\" can preserve your deadline if received before the one-year mark.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "Sample Appeal Arguments",
+    "text": "\"The [date] C&P exam is inadequate because the examiner failed to review [specific records], did not perform [specific test], and did not explain how [medical finding] affects [condition]. A new examination is required.\"",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "Sample Appeal Arguments",
+    "text": "\"The evidence is in approximate balance. Under 38 U.S.C.  5107(b), VA must resolve reasonable doubt in the veteran's favor. The in-service event, current diagnosis, and attached lay statements support service connection.\"",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "appeals.html",
+    "section": "New Evidence Rules Per Lane",
+    "text": "Supplemental Claim (20-0995):Attach new and relevant evidence. Evidence must be new (not previously submitted) and relevant (relates to the issue).[19]Higher-Level Review (20-0996):No new evidence allowed. Request an informal conference to explain the error.[20]Board \u2014 Direct Review (10182):No new evidence; judge reviews the existing record.[21]Board \u2014 Evidence Submission:Submit new evidence withi",
+    "risk_words": [
+      "must",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "What This Is and Who QualifiesA discharge upgrade or records correction changes the character of your discharge or fixes errors in your military records. The right board depends on your branch of service, the type of discharge you received, and whether you seek a discharge upgrade or a records correction.[82]Who qualifies:Veterans with discharges that are Other Than Honorable (OTH), Bad Conduct, E",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "DRB vs BCMR vs VA Character of Discharge ReviewBoardWhat It DoesBranchForm / ContactDischarge Review Board (DRB)[82]Upgrades the character of discharge only; cannot change re-enlistment codes or correct records.Army, Navy/Marine Corps, Air Force, Coast Guard each has its own DRB.DD Form 293. File within 15 years of discharge.[39]Board for Correction of Military/Naval Records (BCMR/BCNR)[39]Correct",
+    "risk_words": [
+      "automatically",
+      "cannot",
+      "will",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "Step-by-Step: How to Apply for a Discharge UpgradeUse the VA wizard first.Go to the VA discharge upgrade instructions page and answer the questions. It will tell you whether to use DD Form 293 (DRB) or DD Form 149 (BCMR/BCNR) and which branch address to use.[82]Get your service records.Request your DD-214, service treatment records, and personnel file from the National Archives at vetrecs.archives",
+    "risk_words": [
+      "must",
+      "will",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "What If They Say NoDRB denied:You can appeal to the BCMR/BCNR of your branch with new evidence or legal argument.[39]BCMR/BCNR denied:You can reapply with new evidence. You can also petition your U.S. Representative or Senators for assistance, though Congress cannot overturn a board decision.[41]VA claim denied due to discharge:Request a Character of Discharge review and submit evidence that your ",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "Three Paths: DRB, BCNR, and VA CODPathWhat It FixesWho DecidesWhen to UseDischarge Review Board (DRB)Upgrades the characterization of discharge (e.g., OTH to General, General to Honorable).Your military department (Army, Navy, Air Force, Marine Corps, Coast Guard)Within 15 years of discharge.Board for Correction of Military/Naval Records (BCNR)Corrects errors or injustices in records, including di",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "PTSD/TBI/Mental-Health Upgrade PathIf your discharge was related to undiagnosed PTSD, TBI, or another mental health condition, DoD guidance (Hagel, Carter, and Kurta memoranda) may support a more favorable characterization.Get a current mental health diagnosis from a VA or private provider.Obtain a nexus opinion linking the in-service trauma to the current diagnosis and to the behavior that led to",
+    "risk_words": [
+      "guaranteed",
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DISCHARGE UPGRADES AND RECORD CORRECTIONS",
+    "text": "What to Do While Waiting: File a VA Claim AnywayEven with a bad discharge, VA must conduct a Character of Discharge review if you file a claim for benefits.[38]This is separate from a discharge upgrade and may allow you to receive VA health care and disability compensation while the upgrade application is pending.File VA Form 21-526EZ for the conditions you believe are service-connected.VA will is",
+    "risk_words": [
+      "must",
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Veterans with discharges that are Other Than Honorable (OTH), Bad Conduct, Entry-Level Separation, or uncharacterized may apply. You can also apply if your DD-214 contains errors or if you believe your discharge was unjust or based on conditions such as PTSD, TBI, MST, or sexual orientation.[29][39]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "DRB vs BCMR vs VA Character of Discharge Review",
+    "text": "BoardWhat It DoesBranchForm / ContactDischarge Review Board (DRB)[82]Upgrades the character of discharge only; cannot change re-enlistment codes or correct records.Army, Navy/Marine Corps, Air Force, Coast Guard each has its own DRB.DD Form 293. File within 15 years of discharge.[39]Board for Correction of Military/Naval Records (BCMR/BCNR)[39]Corrects military records, including discharge upgrade",
+    "risk_words": [
+      "automatically",
+      "cannot",
+      "will",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "Step-by-Step: How to Apply for a Discharge Upgrade",
+    "text": "Use the VA wizard first.Go to the VA discharge upgrade instructions page and answer the questions. It will tell you whether to use DD Form 293 (DRB) or DD Form 149 (BCMR/BCNR) and which branch address to use.[82]Get your service records.Request your DD-214, service treatment records, and personnel file from the National Archives at vetrecs.archives.gov or by SF-180.[39]Gather supporting evidence.M",
+    "risk_words": [
+      "must",
+      "will",
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "What If They Say No",
+    "text": "DRB denied:You can appeal to the BCMR/BCNR of your branch with new evidence or legal argument.[39]BCMR/BCNR denied:You can reapply with new evidence. You can also petition your U.S. Representative or Senators for assistance, though Congress cannot overturn a board decision.[41]VA claim denied due to discharge:Request a Character of Discharge review and submit evidence that your service was \u201chonora",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "Three Paths: DRB, BCNR, and VA COD",
+    "text": "PathWhat It FixesWho DecidesWhen to UseDischarge Review Board (DRB)Upgrades the characterization of discharge (e.g., OTH to General, General to Honorable).Your military department (Army, Navy, Air Force, Marine Corps, Coast Guard)Within 15 years of discharge.Board for Correction of Military/Naval Records (BCNR)Corrects errors or injustices in records, including discharge character, after the DRB w",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "PTSD/TBI/Mental-Health Upgrade Path",
+    "text": "Get a current mental health diagnosis from a VA or private provider.Obtain a nexus opinion linking the in-service trauma to the current diagnosis and to the behavior that led to the discharge.File with the appropriate board (DRB if within 15 years of discharge; BCNR if more than 15 years or correcting records).State clearly: \"The discharge was the result of symptoms of undiagnosed PTSD/TBI. Curren",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "PTSD/TBI/Mental-Health Upgrade Path",
+    "text": "Important:These are not guaranteed upgrades. Each board decides based on the individual record. Do not promise outcomes.",
+    "risk_words": [
+      "guaranteed"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "What to Do While Waiting: File a VA Claim Anyway",
+    "text": "Even with a bad discharge, VA must conduct a Character of Discharge review if you file a claim for benefits.[38]This is separate from a discharge upgrade and may allow you to receive VA health care and disability compensation while the upgrade application is pending.",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "discharge-upgrade.html",
+    "section": "What to Do While Waiting: File a VA Claim Anyway",
+    "text": "File VA Form 21-526EZ for the conditions you believe are service-connected.VA will issue a decision on whether your discharge is a statutory or regulatory bar.If the bar is found insufficient for the benefit sought, VA will adjudicate the claim on the merits.Work with a VSO or attorney experienced in COD cases.",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "SSVF Step-by-Step: Short-Term Help to Stay Housed or Leave HomelessnessSupportive Services for Veteran Families (SSVF) provides housing counseling, case management, and temporary financial help.[30]Call1-877-4AID-VETor find your local SSVF provider through the VA homeless programs locator.[32]Say: \"I need SSVF intake. I am a veteran [or family member] in [city, county] and I am homeless / at risk ",
+    "risk_words": [
+      "required",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "HUD-VASH Step-by-Step: Long-Term Voucher Plus VA Case ManagementHUD-VASH combines a HUD housing voucher with VA supportive services, mainly for chronically homeless veterans.[31]Contact your local VA homeless program or call 1-877-4AID-VET.Complete a VA housing screen and assessment. Be honest about homelessness history, health conditions, and need for case management.If accepted, get a referral t",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "VA Home Loan Delinquency / ForbearanceIf you have a VA-backed loan and are falling behind, call your servicer immediately and ask for loss mitigation options.[51]Call the number on your mortgage statement. Ask for the \"loss mitigation\" or \"home retention\" department.Say: \"I am a veteran with a VA loan. I am having trouble making payments because [reason]. What options do I have: forbearance, repay",
+    "risk_words": [
+      "deadline",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HOUSING: STOP EVICTION, GET RENT HELP, FIND SHELTER",
+    "text": "Reasonable Accommodation Request Under the Fair Housing Act42 U.S.C.  3604(f) prohibits housing discrimination based on disability and requires landlords to grant reasonable accommodations.[36]Sample letter: \"I am a tenant at [address]. I have a disability and need the following reasonable accommodation: [reserved accessible parking space / permission for an emotional support animal / transfer to ",
+    "risk_words": [
+      "requires",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "SSVF Step-by-Step: Short-Term Help to Stay Housed or Leave Homelessness",
+    "text": "Call1-877-4AID-VETor find your local SSVF provider through the VA homeless programs locator.[32]Say: \"I need SSVF intake. I am a veteran [or family member] in [city, county] and I am homeless / at risk of homelessness within [days]. Can you schedule an intake or give me a referral?\"Ask what documents are required. Common list: DD-214, photo ID, proof of income, lease/eviction notice or homelessnes",
+    "risk_words": [
+      "required",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "HUD-VASH Step-by-Step: Long-Term Voucher Plus VA Case Management",
+    "text": "Contact your local VA homeless program or call 1-877-4AID-VET.Complete a VA housing screen and assessment. Be honest about homelessness history, health conditions, and need for case management.If accepted, get a referral to the local housing authority for a HUD-VASH voucher.Use the voucher to lease an eligible unit. Your VA case manager stays involved for ongoing support.",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "VA Home Loan Delinquency / Forbearance",
+    "text": "If you have a VA-backed loan and are falling behind, call your servicer immediately and ask for loss mitigation options.[51]",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "VA Home Loan Delinquency / Forbearance",
+    "text": "Call the number on your mortgage statement. Ask for the \"loss mitigation\" or \"home retention\" department.Say: \"I am a veteran with a VA loan. I am having trouble making payments because [reason]. What options do I have: forbearance, repayment plan, loan modification, or VA refinancing?\"Request a VA Loan Technician by calling the VA Regional Loan Center for your area.Submit a complete loss mitigati",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "Reasonable Accommodation Request Under the Fair Housing Act",
+    "text": "42 U.S.C.  3604(f) prohibits housing discrimination based on disability and requires landlords to grant reasonable accommodations.[36]",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "housing.html",
+    "section": "Reasonable Accommodation Request Under the Fair Housing Act",
+    "text": "Sample letter: \"I am a tenant at [address]. I have a disability and need the following reasonable accommodation: [reserved accessible parking space / permission for an emotional support animal / transfer to a ground-floor unit / waiver of no-pet policy]. This request is made under the Fair Housing Act, 42 U.S.C.  3604(f). I have attached [provider letter / medical documentation]. Please respond wi",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "housing.html",
+    "section": "When They Say No or Stall",
+    "text": "ProblemNext StepWho to CallSSVF denies you or says no fundsAsk for the denial in writing. Apply to another SSVF grantee in your area. Call the VA homeless hotline for referral.[30]1-877-424-3838(homeless vet hotline)Landlord ignores SCRA letterContact the installation JAG/legal assistance office or a military legal assistance attorney. File a CFPB complaint if the debt is a mortgage or consumer lo",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Veterans and servicemembers lose money to bad interest rates, illegal collections, and slow VA payments. This page shows you the letters to send, the agencies to call, and what to do when creditors or VA refuse to fix it.",
+    "risk_words": [
+      "illegal"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Action Ladder: Send Letter \u00b7 Escalate \u00b7 ComplainWindowGoalDo This FirstToday (30 minutes)Stop a debt or rate from growingSend SCRA rate-reduction letter to creditors. If a collector contacts you, send a 30-day debt-validation letter.[92][93]This weekGet official help and documentsFile for unemployment (UCX) if jobless. Apply for VA pension or TDIU if eligible. Gather employer letters.[94][89][91]I",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "What This Is and Who QualifiesThis section covers money and income protections for veterans and families: SCRA interest-rate reductions, debt validation, unemployment benefits, VA pension, TDIU, GI Bill payments, and state veteran benefits.[92][93][89][91]Who qualifies:Active-duty servicemembers and, in many cases, recently separated veterans can use SCRA protections. VA pension requires wartime s",
+    "risk_words": [
+      "requires",
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "SCRA 6% Interest-Rate Reduction: Exact Request LetterUnder the Servicemembers Civil Relief Act, creditors must cap interest at 6% per year on debts you incurred before active duty while you are on active duty and for one year after leaving active duty (for certain loans).[92][35]Send this letter to each creditor, lender, or credit-card company:Write a letter that includes:Your name, account number",
+    "risk_words": [
+      "must",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Debt Validation Letter (Fair Debt Collection Practices Act)Within 30 days of first contact from a debt collector, you can demand proof that the debt is yours, the amount is correct, and the collector has authority to collect.[93][43]\u201cI dispute this debt and request validation under the Fair Debt Collection Practices Act, 15 U.S.C. \u00a7 1692g. Please provide: (1) the original creditor name and account",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Unemployment Benefits for Veterans (UCX)Former servicemembers may qualify for Unemployment Compensation for Ex-Servicemembers (UCX). Claims are filed through the state unemployment office in the state where you now live.[94]Find your state unemployment office at CareerOneStop or your state workforce agency.[94]Have ready: Social Security number, DD-214, home address and mailing address, dates of s",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "TDIU: 100% Pay Without a 100% RatingTotal Disability based on Individual Unemployability (TDIU) allows VA to pay at the 100% disability compensation rate if your service-connected disabilities prevent you from maintaining substantially gainful employment, even if your combined rating is below 100%.[91][26]You must have at least one service-connected disability rated 60% or higher, OR two or more w",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "GI Bill / Education Money ProblemsGI Bill overpayments and certification issues can be disputed. Contact your school certifying official first, then VA Education Services if the issue is not resolved.[55]Get a copy of your certificate of eligibility and enrollment certification from your school.If VA says you were overpaid, request a waiver or dispute the debt in writing within 30 days if you beli",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Specific Money Emergencies Veterans FaceEmergencyWhat the Law Says / Your LeverageFirst MoveVA overpayment demand letterVA can collect overpayments, but you can request a waiver if collection is against equity and good conscience and you were not at fault. You can also request a payment plan or compromise.[113][109]Do not ignore it. Call the VA Debt Management Center at 1-800-827-0648. Request a w",
+    "risk_words": [
+      "must",
+      "requires",
+      "within",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "SCRA Interest Rate Reduction: Exact LetterThe Servicemembers Civil Relief Act caps interest at 6% per year on debts incurred before active duty.[35]\"To [Creditor / Loan Servicer]: I am writing to request the 6% interest rate cap under the Servicemembers Civil Relief Act, 50 U.S.C.  3937, on my account [number]. I entered active duty on [date]. I have attached a copy of my active-duty orders. Pleas",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Debt Validation Under the FDCPAWithin 30 days of first contact by a debt collector, you can demand proof of the debt.[43]Sample letter: \"I dispute the debt referenced in your [letter/phone call] dated [date] and request validation under the Fair Debt Collection Practices Act, 15 U.S.C.  1692g. Please provide: the name and address of the original creditor, the original account number, an itemized s",
+    "risk_words": [
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Unemployment for Veterans (UCX)Unemployment Compensation for Ex-Servicemembers (UCX) provides unemployment benefits after separation.[65]File as soon as possible after separation \u2014 waiting can reduce benefits.File in the state where you now live, not necessarily where you separated.Have ready: DD-214, Social Security number, State driver's license, and wage records.If your state asks for \"separati",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "VA Pension: Income for Low-Income Wartime VeteransVA Pension pays tax-free monthly benefits to wartime veterans with limited income/net worth who are age 65 or older, or permanently and totally disabled.[52]Confirm you served at least 90 days of active duty with at least one day during a wartime period, and your discharge was not dishonorable.Check income and net worth limits at VA.gov. Limits cha",
+    "risk_words": [
+      "eligible",
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "TDIU: Money at the 100% Rate Even with a Lower Combined RatingTotal Disability based on Individual Unemployability pays the 100% compensation rate when service-connected disabilities prevent substantially gainful employment.[26]Forms:VA Form 21-8940 (TDIU application) and VA Form 21-4192 (employment information request) for each recent employer.[24][25]Sample employer letter: \"[Veteran Name] was e",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "Private Financial Resources NoteUSAA is a private financial-services association serving military members, veterans, and eligible family members. It isnota government agency or a replacement for VA benefits. Compare any private product to federal and nonprofit options.[14]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "EMPLOYMENT AND MONEY",
+    "text": "YOUR NEXT ACTION: If you have pre-service debt and are on active duty, send a SCRA rate-reduction letter today. If you received a collection notice within the last 30 days, send a debt validation letter before the deadline.",
+    "risk_words": [
+      "deadline",
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Action Ladder: Send Letter \u00b7 Escalate \u00b7 Complain",
+    "text": "WindowGoalDo This FirstToday (30 minutes)Stop a debt or rate from growingSend SCRA rate-reduction letter to creditors. If a collector contacts you, send a 30-day debt-validation letter.[92][93]This weekGet official help and documentsFile for unemployment (UCX) if jobless. Apply for VA pension or TDIU if eligible. Gather employer letters.[94][89][91]If they refuseForce complianceEscalate to JAG/leg",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Active-duty servicemembers and, in many cases, recently separated veterans can use SCRA protections. VA pension requires wartime service, limited income/net worth, and age 65+ or permanent disability. TDIU requires service-connected disabilities that prevent substantially gainful employment.[89][90][91]",
+    "risk_words": [
+      "requires",
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "SCRA 6% Interest-Rate Reduction: Exact Request Letter",
+    "text": "Under the Servicemembers Civil Relief Act, creditors must cap interest at 6% per year on debts you incurred before active duty while you are on active duty and for one year after leaving active duty (for certain loans).[92][35]",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "SCRA 6% Interest-Rate Reduction: Exact Request Letter",
+    "text": "\u201cI am writing to request the 6% interest-rate cap under the Servicemembers Civil Relief Act, 50 U.S.C. \u00a7 3937, on my account [account number]. I entered active duty on [date] and am attaching a copy of my orders. Please reduce the interest rate on this account to 6% per annum effective from the date my active duty began and adjust my account to reflect the reduced rate. Please confirm in writing w",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Debt Validation Letter (Fair Debt Collection Practices Act)",
+    "text": "Within 30 days of first contact from a debt collector, you can demand proof that the debt is yours, the amount is correct, and the collector has authority to collect.[93][43]",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Debt Validation Letter (Fair Debt Collection Practices Act)",
+    "text": "Send:Certified mail, return receipt requested, within 30 days. Keep copies.[93]",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Unemployment Benefits for Veterans (UCX)",
+    "text": "Find your state unemployment office at CareerOneStop or your state workforce agency.[94]Have ready: Social Security number, DD-214, home address and mailing address, dates of service, and last duty station.File online or by phone as soon as you are separated; some states have a one-week waiting period.Register for work if your state requires it.If denied, request a hearing promptly and contact you",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "TDIU: 100% Pay Without a 100% Rating",
+    "text": "You must have at least one service-connected disability rated 60% or higher, OR two or more with a combined rating of 70% and one rated at least 40%.[91]File VA Form 21-8940 (Veteran\u2019s Application for Increased Compensation Based on Unemployability).[24]Ask your last employer to complete VA Form 21-4192.[25]Submit medical or vocational evidence showing your disabilities prevent substantially gainf",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "GI Bill / Education Money Problems",
+    "text": "Get a copy of your certificate of eligibility and enrollment certification from your school.If VA says you were overpaid, request a waiver or dispute the debt in writing within 30 days if you believe the debt is wrong.Call the GI Bill hotline at 1-888-442-4551 (888-GI-BILL-1) for status and disputes.[55]Keep all enrollment verifications, BAH payment records, and school correspondence.",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Specific Money Emergencies Veterans Face",
+    "text": "EmergencyWhat the Law Says / Your LeverageFirst MoveVA overpayment demand letterVA can collect overpayments, but you can request a waiver if collection is against equity and good conscience and you were not at fault. You can also request a payment plan or compromise.[113][109]Do not ignore it. Call the VA Debt Management Center at 1-800-827-0648. Request a waiver in writing within 30 days if repay",
+    "risk_words": [
+      "must",
+      "requires",
+      "within",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "SCRA Interest Rate Reduction: Exact Letter",
+    "text": "\"To [Creditor / Loan Servicer]: I am writing to request the 6% interest rate cap under the Servicemembers Civil Relief Act, 50 U.S.C.  3937, on my account [number]. I entered active duty on [date]. I have attached a copy of my active-duty orders. Please reduce the interest rate to 6% retroactive to my active-duty start date and credit any excess interest to the account. Please confirm in writing w",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Debt Validation Under the FDCPA",
+    "text": "Within 30 days of first contact by a debt collector, you can demand proof of the debt.[43]",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Debt Validation Under the FDCPA",
+    "text": "Deadline warning:Send the dispute letter within 30 days of the first collection notice. Send certified mail.",
+    "risk_words": [
+      "deadline",
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Unemployment for Veterans (UCX)",
+    "text": "File as soon as possible after separation \u2014 waiting can reduce benefits.File in the state where you now live, not necessarily where you separated.Have ready: DD-214, Social Security number, State driver's license, and wage records.If your state asks for \"separation reason,\" answer honestly: \"Completed active-duty service\" or \"Honorable discharge.\"Certify weekly or biweekly as required.",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "VA Pension: Income for Low-Income Wartime Veterans",
+    "text": "Deadline warning:Pension claims can be backdated to the month after VA receives the application, so file as soon as you are eligible.",
+    "risk_words": [
+      "eligible",
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "TDIU: Money at the 100% Rate Even with a Lower Combined Rating",
+    "text": "Sample employer letter: \"[Veteran Name] was employed by [Employer] from [date] to [date]. Due to [service-connected conditions], the veteran could not maintain the required attendance / physical demands / concentration. Employment ended on [date]. [Signature, title].\"",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "employment-money.html",
+    "section": "Private Financial Resources Note",
+    "text": "USAA is a private financial-services association serving military members, veterans, and eligible family members. It isnota government agency or a replacement for VA benefits. Compare any private product to federal and nonprofit options.[14]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Action Ladder: Secure Status \u00b7 Protect Family \u00b7 Fight RemovalWindowGoalDo This FirstToday (if serving or recently separated)Check military naturalization eligibilityIf you served honorably during hostilities or peacetime, you may be eligible for expedited naturalization even after separation. File N-400 and N-426.[67][68][69]This weekProtect family membersFile family petitions (I-130) and adjustme",
+    "risk_words": [
+      "eligible",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "What This Is and Who QualifiesMilitary service can create faster or safer pathways to U.S. citizenship and can protect non-citizen family members from immigration problems. This page covers military naturalization, citizenship for surviving family members, family immigration, parole in place, deportation defense, and the special rules that apply to veterans with bad paper.[67][66][73]Who qualifies",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Military Naturalization (Expedited Citizenship)Under sections 328 and 329 of the Immigration and Nationality Act (INA), eligible servicemembers and veterans can naturalize without the usual five-year residence requirement or even while serving abroad.[77][67]Check eligibility:Generally, you must have served honorably during wartime or peacetime, be a lawful permanent resident (with some exceptions",
+    "risk_words": [
+      "must",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Family Immigration for Servicemembers and VeteransU.S. citizen and lawful permanent resident servicemembers can petition for spouses, children, parents, and siblings. Veterans can also petition family members if they are citizens or permanent residents.[70][71]File Form I-130(Petition for Alien Relative) for each qualifying family member.[70]If the family member is already in the U.S.and eligible,",
+    "risk_words": [
+      "required",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Parole in Place: Protect Spouses, Parents, and ChildrenParole in place allows certain undocumented family members of U.S. citizen or lawful permanent resident servicemembers and veterans to remain in the U.S. and apply for adjustment of status without having to leave the country first.[66]Who qualifies:Spouses, parents, and unmarried minor children (including stepchildren) of active-duty, Selected",
+    "risk_words": [
+      "qualifies",
+      "eligible",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "If a Veteran Faces Deportation or RemovalNon-citizen veterans with a less-than-honorable discharge or a criminal conviction can face deportation. There are specialized programs and defenses.[73][29]Contact ICE veterans resources:ICE maintains a Military Veterans and Servicemembers email box to help locate veterans in removal proceedings and coordinate with VA.[73]Request a discharge upgrade:If the",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "When They Say No or StallProblemNext StepWho to ContactUSCIS denies naturalization applicationRead the denial notice carefully. You can reapply or appeal. If the denial is based on military service issues, request a discharge upgrade and Character of Discharge review in parallel.[67][38]Immigration attorney; VSO for discharge upgradeParole in Place denied or delayedRequest the reason in writing. R",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Who Qualifies for Military Immigration ReliefActive-duty servicemembers and certain veteransSpouses, children, and parents of servicemembers (for parole in place)Family members eligible for adjustment of status through a U.S. citizen or lawful permanent resident relativeSurviving spouses and children of servicemembers who died in service (for certain survivor benefits)",
+    "risk_words": [
+      "qualifies",
+      "eligible"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Parole in Place (PIP) for Military FamiliesParole in place allows certain undocumented spouses, children, and parents of U.S. military members to remain in the U.S. while seeking adjustment of status.[66]Confirm the servicemember is on active duty or is a veteran.Gather proof of family relationship and the servicemember's military status: birth/marriage certificate, DD-214 or current orders, milit",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Military Naturalization (INA 328 and 329)Certain servicemembers and veterans may naturalize under special provisions.[67][77]INA 328:At least one year of honorable peacetime service; no continuous residence requirement while serving.INA 329:Any period of service during designated hostilities; may naturalize without prior residence.Posthumous naturalization:Available for servicemembers who died dur",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Spouse / Children Adjustment of StatusU.S. citizen servicemembers and veterans can petition spouses, children, and parents for lawful permanent residence.File Form I-130 (Petition for Alien Relative) with USCIS.[70]When the priority date is current (or immediately if the petitioner is a U.S. citizen and the beneficiary is an immediate relative), file Form I-485 (Application to Register Permanent R",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "FOREIGN CITIZENSHIP & MILITARY IMMIGRATION",
+    "text": "Deportation Defense for VeteransVeterans facing removal may have unique defenses and forms of relief.[73]Contact an immigration attorney or accredited representative immediately.Gather proof of military service, VA benefits, treatment records, and family ties in the U.S.Request a Character of Discharge review from VA if discharge is a barrier to benefits.Explore cancellation of removal, adjustment",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Action Ladder: Secure Status \u00b7 Protect Family \u00b7 Fight Removal",
+    "text": "WindowGoalDo This FirstToday (if serving or recently separated)Check military naturalization eligibilityIf you served honorably during hostilities or peacetime, you may be eligible for expedited naturalization even after separation. File N-400 and N-426.[67][68][69]This weekProtect family membersFile family petitions (I-130) and adjustment (I-485) for eligible relatives. Explore Parole in Place fo",
+    "risk_words": [
+      "eligible",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Non-citizen servicemembers and veterans with honorable service, current and former family members of U.S. citizen or lawful permanent resident servicemembers, and veterans facing removal because of a criminal or discharge issue. Eligibility depends on service status, discharge characterization, and immigration history.[67][77]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Military Naturalization (Expedited Citizenship)",
+    "text": "Under sections 328 and 329 of the Immigration and Nationality Act (INA), eligible servicemembers and veterans can naturalize without the usual five-year residence requirement or even while serving abroad.[77][67]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Military Naturalization (Expedited Citizenship)",
+    "text": "Check eligibility:Generally, you must have served honorably during wartime or peacetime, be a lawful permanent resident (with some exceptions), and meet character requirements.[77]Complete N-400(Application for Naturalization).[68]Request military certification:Submit USCIS Form N-426 (Request for Certification of Military or Naval Service) with your service record.[69]File online or by mail with ",
+    "risk_words": [
+      "must",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Family Immigration for Servicemembers and Veterans",
+    "text": "File Form I-130(Petition for Alien Relative) for each qualifying family member.[70]If the family member is already in the U.S.and eligible, file Form I-485 (Application to Register Permanent Residence or Adjust Status) to adjust status.[71]If the family member is outside the U.S.,the case goes to the National Visa Center and then a U.S. consulate for immigrant visa processing.[70]Evidence to attac",
+    "risk_words": [
+      "required",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Parole in Place: Protect Spouses, Parents, and Children",
+    "text": "Who qualifies:Spouses, parents, and unmarried minor children (including stepchildren) of active-duty, Selected Reserve, or former servicemembers.[66]How to request:Submit Form I-131 (Application for Travel Document) with a cover letter explaining the military connection and requesting parole in place.[66]Attach:proof of family relationship, proof of the servicemember\u2019s status (DD-214, military ID,",
+    "risk_words": [
+      "qualifies",
+      "eligible",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "If a Veteran Faces Deportation or Removal",
+    "text": "Contact ICE veterans resources:ICE maintains a Military Veterans and Servicemembers email box to help locate veterans in removal proceedings and coordinate with VA.[73]Request a discharge upgrade:If the bad discharge is connected to PTSD, TBI, MST, or other service conditions, file DD Form 149 or 293. A better discharge characterization can help immigration and VA cases.[29][39]Apply for VA benefi",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "When They Say No or Stall",
+    "text": "ProblemNext StepWho to ContactUSCIS denies naturalization applicationRead the denial notice carefully. You can reapply or appeal. If the denial is based on military service issues, request a discharge upgrade and Character of Discharge review in parallel.[67][38]Immigration attorney; VSO for discharge upgradeParole in Place denied or delayedRequest the reason in writing. Reapply with stronger evid",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Who Qualifies for Military Immigration Relief",
+    "text": "Active-duty servicemembers and certain veteransSpouses, children, and parents of servicemembers (for parole in place)Family members eligible for adjustment of status through a U.S. citizen or lawful permanent resident relativeSurviving spouses and children of servicemembers who died in service (for certain survivor benefits)",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Parole in Place (PIP) for Military Families",
+    "text": "Sample cover letter: \"I am the [spouse/child/parent] of [servicemember name], who is currently serving / has served in the [branch]. I am requesting parole in place under existing military family relief policies. Enclosed are proof of relationship and proof of military service. Granting parole will protect military readiness and family unity.\"",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Military Naturalization (INA 328 and 329)",
+    "text": "Confirm eligibility and that you are a lawful permanent resident (with limited exceptions).Complete USCIS Form N-400 (Application for Naturalization).[68]Request Form N-426 (Request for Certification of Military or Naval Service) through your service branch.[69]Submit fingerprints, photos, and required fees or fee waiver.Attend interview and oath ceremony.",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Spouse / Children Adjustment of Status",
+    "text": "File Form I-130 (Petition for Alien Relative) with USCIS.[70]When the priority date is current (or immediately if the petitioner is a U.S. citizen and the beneficiary is an immediate relative), file Form I-485 (Application to Register Permanent Residence or Adjust Status).[71]Submit supporting documents: birth/marriage certificates, proof of petitioner's citizenship, financial sponsorship (I-864),",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "family-immigration.html",
+    "section": "Deportation Defense for Veterans",
+    "text": "Contact an immigration attorney or accredited representative immediately.Gather proof of military service, VA benefits, treatment records, and family ties in the U.S.Request a Character of Discharge review from VA if discharge is a barrier to benefits.Explore cancellation of removal, adjustment of status, asylum, or other relief based on individual facts.Ask your attorney whether military service ",
+    "risk_words": [
+      "immediately"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL LANGUAGE TRANSLATOR AND REFERENCE LIBRARY",
+    "text": "What This Is and Who QualifiesThe legal library translates the words veterans hear from VA, creditors, landlords, employers, and courts into plain language. It also collects the statutes, regulations, and sample letters you can use when writing demands or appeals.[?]Who qualifies:Any veteran, family member, advocate, or VSO who needs to understand a legal term, cite a law, or draft a letter. The i",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL LANGUAGE TRANSLATOR AND REFERENCE LIBRARY",
+    "text": "Sample Demand Letters You Can Adapt1. SCRA Interest-Rate Reduction Request[Date][Creditor name and address]Re: Account [number] \u2014 Servicemembers Civil Relief Act rate reduction requestI am writing to request that you reduce the interest rate on the above account to 6% per annum under 50 U.S.C. \u00a7 3937, the Servicemembers Civil Relief Act. I entered active duty on [date] and am attaching a copy of m",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL LANGUAGE TRANSLATOR AND REFERENCE LIBRARY",
+    "text": "Statute Quick ReferenceCitationWhat It DoesWhen to Cite It38 U.S.C. \u00a7 1110Basis for disability compensation for diseases or injuries incurred in service.When arguing a condition should be service-connected.[17]38 U.S.C. \u00a7 1151VA benefits for veterans injured or killed by VA hospital care, medical or surgical treatment, or examination.When a VA procedure or treatment caused a new injury or worsened",
+    "risk_words": [
+      "will",
+      "right to"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL LANGUAGE TRANSLATOR AND REFERENCE LIBRARY",
+    "text": "Key Terms and How to Use ThemService-connected:A disability VA has linked to military service. Use in claims and appeals to argue for compensation.Nexus:The medical or legal link between service and a current condition. Use to win claims where the connection is not obvious.Effective date:The date VA uses to start paying benefits. Protect it with intent-to-file and timely appeals.C&P exam:Compensat",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Any veteran, family member, advocate, or VSO who needs to understand a legal term, cite a law, or draft a letter. The information here is legal information, not legal advice.[13]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "1. SCRA Interest-Rate Reduction Request",
+    "text": "[Date][Creditor name and address]Re: Account [number] \u2014 Servicemembers Civil Relief Act rate reduction requestI am writing to request that you reduce the interest rate on the above account to 6% per annum under 50 U.S.C. \u00a7 3937, the Servicemembers Civil Relief Act. I entered active duty on [date] and am attaching a copy of my orders. This debt was incurred before my active-duty service. Please app",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "2. Debt Validation Demand",
+    "text": "Send within 30 days of first collection notice,certified mail, return receipt requested.[93][43]",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "3. Reasonable Accommodation in Housing",
+    "text": "[Date][Landlord / property manager name and address]Re: [Property address]I am a tenant at the above property. I have a disability-related need for the following reasonable accommodation: [service animal / reserved accessible parking / first-floor unit / grab bars / modified lease term / etc.]. This request is made under the Fair Housing Act, 42 U.S.C. \u00a7 3604(f). I am attaching [medical letter / V",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "4. Records Request (VA or Private)",
+    "text": "[Date][Records custodian name and address]Re: Request for records of [veteran\u2019s full name, DOB, last 4 SSN]Under the Privacy Act and applicable VA / medical records access rules, I request a complete copy of the following records: [service treatment records / C-file / VA medical records / private treatment records from ___ to ___]. I authorize release to [myself / my accredited representative]. Pl",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "Statute Quick Reference",
+    "text": "CitationWhat It DoesWhen to Cite It38 U.S.C. \u00a7 1110Basis for disability compensation for diseases or injuries incurred in service.When arguing a condition should be service-connected.[17]38 U.S.C. \u00a7 1151VA benefits for veterans injured or killed by VA hospital care, medical or surgical treatment, or examination.When a VA procedure or treatment caused a new injury or worsened a condition.[42]38 U.S",
+    "risk_words": [
+      "will",
+      "right to"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "Key Terms and How to Use Them",
+    "text": "Service-connected:A disability VA has linked to military service. Use in claims and appeals to argue for compensation.Nexus:The medical or legal link between service and a current condition. Use to win claims where the connection is not obvious.Effective date:The date VA uses to start paying benefits. Protect it with intent-to-file and timely appeals.C&P exam:Compensation and Pension exam. Use it ",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL REFERENCE LIBRARY",
+    "text": "Federal Statutes and Regulations \u2014 How to Use Them38 U.S.C. (Veterans' Benefits):The main federal law for VA benefits. Use it to argue entitlement to compensation, pension, education, and housing benefits.38 C.F.R. Part 3:VA regulations on claims adjudication. Key sections include 3.159 (duty to assist), 3.303 (service connection), 3.307/3.309 (presumptions).[37][42]38 U.S.C.  5107(b):Benefit of t",
+    "risk_words": [
+      "within",
+      "right to"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL REFERENCE LIBRARY",
+    "text": "Housing and Debt ProtectionsCitationWhat It MeansHow to Use It50 U.S.C.  3901\u20134043SCRACaps interest at 6%, allows lease termination, stays evictions, and protects against default judgments. Send a written rate-reduction request with orders attached.[35]42 U.S.C.  3604(f)Fair Housing Act disability protectionsRequest reasonable accommodations in writing. Explain the disability-related need and atta",
+    "risk_words": [
+      "must",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL REFERENCE LIBRARY",
+    "text": "Sample Legal Demand LettersSCRA interest rate reduction:[35]\"I request the 6% interest rate cap on account [number] under the Servicemembers Civil Relief Act, 50 U.S.C.  3937. I entered active duty on [date]. Enclosed are my orders. Reduce the rate to 6% retroactively and credit excess interest. Respond within 30 days.\"FDCPA debt validation:[43]\"I dispute the debt referenced in your [letter/call] ",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "LEGAL REFERENCE LIBRARY",
+    "text": "How to Use a Citation in an Appeal\"Under 38 C.F.R.  3.159, VA has a duty to assist the claimant in obtaining relevant records. VA did not obtain the service treatment records from [facility] that I identified. Without those records, VA cannot properly evaluate my claim for [condition].\"\"The PACT Act added [condition] as a presumptive condition for veterans who served in [covered location]. My DD-2",
+    "risk_words": [
+      "must",
+      "required",
+      "cannot"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "Federal Statutes and Regulations \u2014 How to Use Them",
+    "text": "38 U.S.C. (Veterans' Benefits):The main federal law for VA benefits. Use it to argue entitlement to compensation, pension, education, and housing benefits.38 C.F.R. Part 3:VA regulations on claims adjudication. Key sections include 3.159 (duty to assist), 3.303 (service connection), 3.307/3.309 (presumptions).[37][42]38 U.S.C.  5107(b):Benefit of the doubt rule. Use when evidence is in approximate",
+    "risk_words": [
+      "within",
+      "right to"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "Housing and Debt Protections",
+    "text": "CitationWhat It MeansHow to Use It50 U.S.C.  3901\u20134043SCRACaps interest at 6%, allows lease termination, stays evictions, and protects against default judgments. Send a written rate-reduction request with orders attached.[35]42 U.S.C.  3604(f)Fair Housing Act disability protectionsRequest reasonable accommodations in writing. Explain the disability-related need and attach supporting documentation ",
+    "risk_words": [
+      "must",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "legal-library.html",
+    "section": "Sample Legal Demand Letters",
+    "text": "\"I request the 6% interest rate cap on account [number] under the Servicemembers Civil Relief Act, 50 U.S.C.  3937. I entered active duty on [date]. Enclosed are my orders. Reduce the rate to 6% retroactively and credit excess interest. Respond within 30 days.\"",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "Sample Legal Demand Letters",
+    "text": "\"I am a tenant at [address] with a disability-related need for [specific accommodation]. Under the Fair Housing Act, 42 U.S.C.  3604(f), I request this reasonable accommodation. I have attached [medical/provider verification]. Please respond within 10 business days.\"",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "How to Use a Citation in an Appeal",
+    "text": "\"Under 38 C.F.R.  3.159, VA has a duty to assist the claimant in obtaining relevant records. VA did not obtain the service treatment records from [facility] that I identified. Without those records, VA cannot properly evaluate my claim for [condition].\"",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "How to Use a Citation in an Appeal",
+    "text": "\"The PACT Act added [condition] as a presumptive condition for veterans who served in [covered location]. My DD-214 shows service in [location] during [dates]. Service connection is presumed and no separate medical nexus is required.\"",
+    "risk_words": [
+      "required"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "legal-library.html",
+    "section": "How to Use a Citation in an Appeal",
+    "text": "\"The evidence is in approximate balance. Under 38 U.S.C.  5107(b), VA must resolve reasonable doubt in the veteran's favor. The in-service event, current diagnosis, and lay statements support service connection.\"",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "This toolkit gives you forms, templates, and trackers to organize a veteran's case, communicate with agencies, and never lose a deadline.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "What This Is and Who QualifiesThe Advocate Toolkit is a set of forms, templates, and trackers you can use to organize a veteran\u2019s case and communicate clearly with VA, employers, landlords, creditors, and elected representatives.[?]Who qualifies:Veterans representing themselves, family members helping a veteran, accredited VSO representatives, attorneys, and caseworkers.[57]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "Case Summary TemplateUse this one-page summary before every call, hearing, or congressional meeting. It keeps the conversation focused and prevents you from being bounced between offices.FieldWhat to WriteVeteran name / last 4 SSNFull name and last four of Social Security numberBranch / dates of serviceArmy/Navy/Air Force/Marines/Coast Guard, active duty datesDischarge characterHonorable, General,",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "Letter Templates1. VSO Representative Prep LetterDear [VSO Representative],I am requesting your help with the following VA matter:Veteran: [Name, last 4 SSN]Branch of service: [Branch, dates]Issue: [Denied claim / appeal / discharge upgrade / etc.]Date of VA decision: [Date]Deadline: [Date]I have attached: [DD-214 / decision letter / medical records / nexus letter / buddy statements].Please contac",
+    "risk_words": [
+      "cannot",
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "Timeline Tracker TemplateDateEventAgency / PersonDeadline / Next StepStatus_____Filed claim / appeal / records request__________Pending / Done_____Received decision / denial__________Pending / Done_____Filed appeal / supplemental claim__________Pending / DoneRule:Calendar every deadline at least one week early. VA deadlines are hard and missing them can cost years of back pay.[78]",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "Case Summary TemplateUse this one-page summary for every appointment with a VSO, attorney, or congressional office:Veteran:Name, last 4 SSN, branch, dates of service, discharge status, VA file numberIssue:One-sentence problem statementHistory:Dates of claims, appeals, exams, and decisionsEvidence:Submitted and missing evidenceGoal:What you want the agency to doNext Deadline:Date and action require",
+    "risk_words": [
+      "required",
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "Letter TemplatesRecords request:\"Dear Records Officer: I authorize the release of my complete medical records, including [specific records], to [recipient name/address]. My identifying information: [full name, DOB, dates of service, patient ID]. Please send the records within 20 business days. [Signature, date].\"VSO appointment prep email:\"I need help with [specific issue]. I have attached my DD-2",
+    "risk_words": [
+      "deadline",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "Timeline Tracker TemplateDateActionAgency/PersonReference #DeadlineStatus[Date]Filed 21-526EZVA.gov[Confirmation #][Appeal deadline]Pending[Date]Requested C-fileEvidence Intake Center[Mail receipt]Follow up in 60 daysPending",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "What to Do If an Agency Says NoAsk for the denial or refusal in writing with the specific reason.Identify the appeal lane or supervisor escalation path.Check the deadline \u2014 one year for most VA appeals, but other agencies may be shorter.Get help from a VSO, attorney, or congressional office if the issue is complex.Update your timeline tracker with every new deadline.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "ADVOCATE TOOLKIT",
+    "text": "YOUR NEXT ACTION: Create a case summary for the veteran you are helping. List the current issue, missing evidence, and next deadline. Then pick the right claim or appeal lane.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Veterans representing themselves, family members helping a veteran, accredited VSO representatives, attorneys, and caseworkers.[57]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Case Summary Template",
+    "text": "FieldWhat to WriteVeteran name / last 4 SSNFull name and last four of Social Security numberBranch / dates of serviceArmy/Navy/Air Force/Marines/Coast Guard, active duty datesDischarge characterHonorable, General, OTH, BCD, Dishonorable, Entry-LevelCurrent issueOne sentence: \u201cVA denied PTSD claim on [date]\u201d or \u201cLandlord refused SCRA rate reduction\u201dClaimed condition / benefitPTSD, TDIU, DIC, discha",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "1. VSO Representative Prep Letter",
+    "text": "Dear [VSO Representative],I am requesting your help with the following VA matter:Veteran: [Name, last 4 SSN]Branch of service: [Branch, dates]Issue: [Denied claim / appeal / discharge upgrade / etc.]Date of VA decision: [Date]Deadline: [Date]I have attached: [DD-214 / decision letter / medical records / nexus letter / buddy statements].Please contact me at [phone/email] to schedule an appointment.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "2. Congressional Inquiry Request",
+    "text": "Important:Include a signed privacy release form from the representative\u2019s office. Congress cannot overturn agency decisions but can get status and answers.[41]",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Timeline Tracker Template",
+    "text": "Rule:Calendar every deadline at least one week early. VA deadlines are hard and missing them can cost years of back pay.[78]",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Case Summary Template",
+    "text": "Veteran:Name, last 4 SSN, branch, dates of service, discharge status, VA file numberIssue:One-sentence problem statementHistory:Dates of claims, appeals, exams, and decisionsEvidence:Submitted and missing evidenceGoal:What you want the agency to doNext Deadline:Date and action required",
+    "risk_words": [
+      "required",
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Letter Templates",
+    "text": "\"Dear Records Officer: I authorize the release of my complete medical records, including [specific records], to [recipient name/address]. My identifying information: [full name, DOB, dates of service, patient ID]. Please send the records within 20 business days. [Signature, date].\"",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Letter Templates",
+    "text": "\"I need help with [specific issue]. I have attached my DD-214, decision letters, and a case summary. My questions: 1) What form do I file? 2) What evidence am I missing? 3) What is my deadline? 4) Can you represent me?\"",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Timeline Tracker Template",
+    "text": "DateActionAgency/PersonReference #DeadlineStatus[Date]Filed 21-526EZVA.gov[Confirmation #][Appeal deadline]Pending[Date]Requested C-fileEvidence Intake Center[Mail receipt]Follow up in 60 daysPending",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "What to Do If an Agency Says No",
+    "text": "Ask for the denial or refusal in writing with the specific reason.Identify the appeal lane or supervisor escalation path.Check the deadline \u2014 one year for most VA appeals, but other agencies may be shorter.Get help from a VSO, attorney, or congressional office if the issue is complex.Update your timeline tracker with every new deadline.",
+    "risk_words": [
+      "deadline"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Step-by-Step: How to Organize a Veteran Case from Day One",
+    "text": "Gather identity and service documents.Start with the DD-214, Social Security card, and VA decision letters. Without these, every agency will ask you to come back.[13]Request the C-file.Use VA Form 20-10206 to get VA\u2019s complete claims file. It shows what VA has and what is missing.[23]Build a case summary.Use the template below so every call starts with the same one-page facts.Choose the right lane",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "toolkit.html",
+    "section": "Common Myths That Stop Veterans from Acting",
+    "text": "You may have heardThe real ruleWhat to do\u201cVA said I make too much money.\u201dVA disability compensation has no income limit. Pension does, but medical expenses can reduce countable income.[90]Apply for disability compensation. For pension, list all medical expenses.\u201cBad discharge means I can never get benefits.\u201dVA must do a Character of Discharge review. Some discharges are upgradeable through DRB/BCM",
+    "risk_words": [
+      "must",
+      "required",
+      "deadline",
+      "immediately"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "about.html",
+    "section": "Step-by-Step: How to Use LEGAL HELP 4 VETS",
+    "text": "Start with the crisis check.If you or a veteran is unsafe right now, call 988 and press 1, or text 988.[1]Pick the page that matches the problem:claims, appeals, discharge upgrade, housing, employment/money, substance use, widows/survivors, family immigration, state resources, or legal library.Read the \u201cWhat This Is and Who Qualifies\u201d section first.It tells you whether the page applies to your sit",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "about.html",
+    "section": "Fact-Check Methodology",
+    "text": "This is information, not legal advice.Always consult a licensed attorney or VA-accredited representative before making decisions that affect your benefits, housing, immigration status, or liberty.",
+    "risk_words": [
+      "always"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "sources.html",
+    "section": "Methodology",
+    "text": "Source-before-claim:Every new factual claim, form number, phone number, or legal citation gets a registry entry before it appears on a content page.Official sources preferred:U.S. Code, Code of Federal Regulations, VA.gov, benefits.va.gov, DFAS.mil, SSA.gov, USCIS.gov, HUD.gov, eCFR, Cornell LII, and official court/legislative sources.Verify locally:State and local program details change frequentl",
+    "risk_words": [
+      "always"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "sources.html",
+    "section": "All Sources",
+    "text": "[1] U.S. Department of Veterans AffairsVeterans Crisis Line is reachable by calling 988, then pressing 1. \u00b7Source\u00b7 Status: verified \u00b7 Verified: 2026-08-10[2] Substance Abuse and Mental Health Services AdministrationSAMHSA National Helpline is 1-800-662-4357. \u00b7Source\u00b7 Status: verified \u00b7 Verified: 2026-08-10[3] U.S. Department of Veterans AffairsVA provides mental health and substance use treatment ",
+    "risk_words": [
+      "must",
+      "guaranteed",
+      "automatically",
+      "requires",
+      "eligible",
+      "cannot",
+      "will",
+      "within",
+      "right to"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "What This Is and Who QualifiesThis page helps veterans and families find substance-use treatment, crisis support, and legal pathways when substance use is connected to service trauma, PTSD, TBI, or a bad discharge. You do not need to be in VA treatment already to get help.[3][61]Who qualifies:Any veteran or active-duty servicemember in crisis can call the Veterans Crisis Line. For VA SUD treatment",
+    "risk_words": [
+      "must",
+      "qualifies",
+      "eligible",
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "Veterans Crisis Line + SAMHSA: When and What to SayIf you or a veteran you know is thinking about suicide, using substances in a way that feels out of control, or in immediate danger, call now.[1][2]ContactWhen to UseWhat to SayVeterans Crisis LineCall/text988, then press 1Suicidal thoughts, overdose risk, violent crisis, can\u2019t stay safe\u201cI am a veteran [or the veteran is with me]. I am not safe. I",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "How to Enroll in VA Substance Use TreatmentVA provides detox, residential, outpatient, and medication-assisted treatment (MAT) for substance use disorders.[61][3]Call your local VA medical center and ask for the \u201cSubstance Use Disorder clinic\u201d or \u201cMental Health intake.\u201d[3]If not enrolled in VA health care, apply with VA Form 10-10EZ or online. Bring your DD-214 and income/asset information.[48]Tel",
+    "risk_words": [
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "MISSION Act Community Care Referral for SUDIf VA cannot provide timely, accessible SUD treatment in your area, you may qualify for community care under the MISSION Act.[4][62]Ask your VA primary care or mental health provider for a referral to community care.VA will check: is there a VA provider within 30 minutes/60 minutes drive? Is the wait time acceptable?[4]If approved, VA will authorize a com",
+    "risk_words": [
+      "cannot",
+      "will",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "38 C.F.R. \u00a7 3.301: Substance Use Is Not Automatically a Bar to CompensationVA regulations say that substance abuse is not a basis for a compensation claim by itself. However, if substance use is secondary to a service-connected mental health or physical condition, or if the underlying condition was caused by service, compensation may still be possible.[5]File a claim for the primary service-connec",
+    "risk_words": [
+      "automatically"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "Veterans Treatment Courts: How to Find and Ask for OneVeterans Treatment Courts (VTCs) are specialized courts that connect justice-involved veterans to treatment and mentorship instead of traditional punishment. Not every jurisdiction has one.[6][63]Search the Justice For Vets directory or ask your local court clerk if your county has a VTC.[63]If you already have an attorney or public defender, a",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "When They Say No or StallProblemNext StepWho to ContactVA says you are not eligible for SUD careAsk for the reason in writing. Substance use alone does not bar VA care; eligibility is based on discharge and service connection rules. Request a Character of Discharge review if needed.[5][38]VA Patient Advocate; VSO[40]Nearest VA SUD program is full or far awayRequest community care under the MISSION",
+    "risk_words": [
+      "must",
+      "eligible",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "Immediate Crisis: Veterans Crisis Line and SAMHSAIf you or a veteran you love is in crisis, call now. These services are confidential and free.Veterans Crisis Line:Call988 then press 1, text 838255, or chat online.[1]SAMHSA National Helpline:1-800-662-4357. Free, confidential, 24/7 treatment referral.[2]Script: \"My name is [name]. I am a veteran [or I am calling for a veteran]. I am struggling wit",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "Enroll in VA Substance Use TreatmentVA provides substance use disorder (SUD) treatment including detox, residential rehabilitation, outpatient care, and medication-assisted treatment.[61]If not already enrolled in VA health care, apply with VA Form 10-10EZ.[48]Call your VA primary care provider or the mental health clinic. Say: \"I need an evaluation for substance use treatment.\"Attend the SUD eval",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "How to Request Community Care Under the MISSION ActIf VA cannot provide SUD treatment within a reasonable time or at a reasonable distance, you may be eligible for community care.[4]Ask your VA provider for a referral to community care. Say: \"I want a community care referral for substance use treatment because [VA wait time / distance / no available program].\"VA will review whether you meet access",
+    "risk_words": [
+      "eligible",
+      "cannot",
+      "will",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "38 C.F.R.  3.301: Substance Use Is Not Automatically a BarVA regulations state that alcohol or drug abuse secondary to a service-connected condition can itself be service connected. Even where substance use is the primary cause, veterans may still be entitled to compensation for conditions caused or worsened by service.[5]Key point: Do not assume a substance use history destroys your VA claim. A V",
+    "risk_words": [
+      "automatically",
+      "entitled"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "SUBSTANCE USE AND RECOVERY",
+    "text": "Veterans Treatment Courts (VTC)Veterans Treatment Courts combine court supervision with treatment and mentoring for eligible veterans facing criminal charges.[6]Find out if your jurisdiction has a VTC. Ask your attorney or public defender, the court clerk, or search \"veterans treatment court [county].\"If eligible, ask your attorney to request VTC consideration at the earliest hearing.Be prepared t",
+    "risk_words": [
+      "requires",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Any veteran or active-duty servicemember in crisis can call the Veterans Crisis Line. For VA SUD treatment, veterans generally must be enrolled in VA health care or eligible for enrollment. If VA cannot provide timely treatment, the MISSION Act may allow community care.[1][4][61]",
+    "risk_words": [
+      "must",
+      "qualifies",
+      "eligible",
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Veterans Crisis Line + SAMHSA: When and What to Say",
+    "text": "ContactWhen to UseWhat to SayVeterans Crisis LineCall/text988, then press 1Suicidal thoughts, overdose risk, violent crisis, can\u2019t stay safe\u201cI am a veteran [or the veteran is with me]. I am not safe. I need help right now.\u201d Say your location and whether you have weapons or substances nearby.SAMHSA National Helpline1-800-662-4357Need treatment referral, want local SUD programs, family member asking",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Veterans Crisis Line + SAMHSA: When and What to Say",
+    "text": "What happens next:The responder will stay with you, may dispatch emergency services if needed, and can connect you to local VA or civilian resources.[1][2]",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "How to Enroll in VA Substance Use Treatment",
+    "text": "Call your local VA medical center and ask for the \u201cSubstance Use Disorder clinic\u201d or \u201cMental Health intake.\u201d[3]If not enrolled in VA health care, apply with VA Form 10-10EZ or online. Bring your DD-214 and income/asset information.[48]Tell the intake clinician: \u201cI want treatment for substance use. I also have [PTSD/TBI/chronic pain/service trauma] and I think they are connected.\u201dAsk what level of ",
+    "risk_words": [
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "MISSION Act Community Care Referral for SUD",
+    "text": "If VA cannot provide timely, accessible SUD treatment in your area, you may qualify for community care under the MISSION Act.[4][62]",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "MISSION Act Community Care Referral for SUD",
+    "text": "Ask your VA primary care or mental health provider for a referral to community care.VA will check: is there a VA provider within 30 minutes/60 minutes drive? Is the wait time acceptable?[4]If approved, VA will authorize a community provider and coordinate payment.If denied, request a formal denial in writing and contact the VA patient advocate.[40]",
+    "risk_words": [
+      "will",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Veterans Treatment Courts: How to Find and Ask for One",
+    "text": "Search the Justice For Vets directory or ask your local court clerk if your county has a VTC.[63]If you already have an attorney or public defender, ask: \u201cCan I be screened for Veterans Treatment Court? I am a veteran and I need treatment, not just punishment.\u201d[6]Eligibility usually requires a military discharge (any character), a connection between the offense and service-related issues, and will",
+    "risk_words": [
+      "requires"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "When They Say No or Stall",
+    "text": "ProblemNext StepWho to ContactVA says you are not eligible for SUD careAsk for the reason in writing. Substance use alone does not bar VA care; eligibility is based on discharge and service connection rules. Request a Character of Discharge review if needed.[5][38]VA Patient Advocate; VSO[40]Nearest VA SUD program is full or far awayRequest community care under the MISSION Act. VA must provide car",
+    "risk_words": [
+      "must",
+      "eligible",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Immediate Crisis: Veterans Crisis Line and SAMHSA",
+    "text": "What happens next:They will assess safety, offer de-escalation, and connect you to local VA or community treatment. If you are in immediate danger, they may involve emergency services.",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Enroll in VA Substance Use Treatment",
+    "text": "If not already enrolled in VA health care, apply with VA Form 10-10EZ.[48]Call your VA primary care provider or the mental health clinic. Say: \"I need an evaluation for substance use treatment.\"Attend the SUD evaluation. Be honest about substances used, frequency, and any withdrawal history.Ask for the treatment plan: detox, residential, intensive outpatient, standard outpatient, or medication-ass",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "How to Request Community Care Under the MISSION Act",
+    "text": "If VA cannot provide SUD treatment within a reasonable time or at a reasonable distance, you may be eligible for community care.[4]",
+    "risk_words": [
+      "eligible",
+      "cannot",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "How to Request Community Care Under the MISSION Act",
+    "text": "Ask your VA provider for a referral to community care. Say: \"I want a community care referral for substance use treatment because [VA wait time / distance / no available program].\"VA will review whether you meet access standards (drive time / wait time).If approved, VA will authorize a community provider and coordinate payment.Keep the authorization paperwork and confirm billing with the community",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "substance-use.html",
+    "section": "38 C.F.R.  3.301: Substance Use Is Not Automatically a Bar",
+    "text": "VA regulations state that alcohol or drug abuse secondary to a service-connected condition can itself be service connected. Even where substance use is the primary cause, veterans may still be entitled to compensation for conditions caused or worsened by service.[5]",
+    "risk_words": [
+      "entitled"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Veterans Treatment Courts (VTC)",
+    "text": "Veterans Treatment Courts combine court supervision with treatment and mentoring for eligible veterans facing criminal charges.[6]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "substance-use.html",
+    "section": "Veterans Treatment Courts (VTC)",
+    "text": "Find out if your jurisdiction has a VTC. Ask your attorney or public defender, the court clerk, or search \"veterans treatment court [county].\"If eligible, ask your attorney to request VTC consideration at the earliest hearing.Be prepared to provide: DD-214, VA treatment records, current diagnoses, and a treatment plan.VTC usually requires regular court appearances, treatment attendance, and mentor",
+    "risk_words": [
+      "requires",
+      "eligible"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "What This Is and Who QualifiesSurviving spouses, dependent children, and sometimes dependent parents of veterans may be entitled to monthly compensation, health care, education benefits, home loan eligibility, and burial honors. This page focuses on the most common federal survivor benefits.[7][8]Who qualifies:Eligibility depends on the veteran\u2019s service, cause of death, your relationship, and whe",
+    "risk_words": [
+      "entitled",
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "DIC (Dependency and Indemnity Compensation)DIC pays a monthly tax-free benefit to eligible surviving spouses and dependent children when a veteran\u2019s death resulted from a service-connected condition, or when the veteran was totally service-connected disabled for 10 years before death.[7]Check eligibility:Death must be service-connected, OR the veteran was rated totally disabled (including TDIU) fo",
+    "risk_words": [
+      "must",
+      "eligible",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "SBP (Survivor Benefit Plan) and DIC OffsetThe Survivor Benefit Plan (SBP) is a military retirement annuity. DFAS pays it to eligible survivors of servicemembers and retirees. If you also receive DIC, SBP may be offset (reduced) by the DIC amount, though recent laws have reduced or eliminated the offset for some survivors.[8]Who gets SBP:Spouse or former spouse named in the SBP election, and in som",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "CHAMPVA: Health Care for Survivors and DependentsCHAMPVA provides health coverage for eligible surviving spouses and dependent children of veterans who died from a service-connected disability, or who were rated totally disabled from service-connected conditions.[9][53]Check eligibility:You must be the spouse or child of a veteran who died from a service-connected condition, or who was totally dis",
+    "risk_words": [
+      "must",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "Education Benefits: Fry Scholarship vs. DEA Chapter 35ProgramWho QualifiesDeadlines / LengthHow to ApplyFry ScholarshipChildren and surviving spouses of servicemembers who died in the line of duty after 9/10/2001.Generally 36 months of full GI Bill benefits. Children lose eligibility at age 33; spouses at age 33 if using after 1/1/2021.VA Form 22-5490 (Fry Scholarship) or apply online at VA.gov.DE",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "When They Say No or StallProblemNext StepWho to ContactDIC deniedFile a Supplemental Claim with a private medical opinion linking death to service. Request a Higher-Level Review if VA made an error.[19][20]VSO; accredited attorney; private doctorSBP reduced or offset by DICDFAS applies complex offset rules. Request a written calculation. If wrong, appeal through DFAS and, if needed, the Board for ",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "DIC (Dependency and Indemnity Compensation)DIC is a tax-free monthly payment for surviving spouses, children, and parents when a servicemember dies in the line of duty or a veteran's death resulted from a service-connected condition.[7]Who qualifies:Surviving spouses who were married to the veteran at the time of death and were not remarried before age 55 (or at all); dependent children under 18, ",
+    "risk_words": [
+      "qualifies",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "SBP (Survivor Benefit Plan)SBP is a DOD annuity that pays a monthly benefit to eligible survivors of retired servicemembers who elected and paid for the plan. <[8]/p>Who gets it:The beneficiary the retiree designated (usually spouse or spouse and children).SBP-DIC offset:SBP payments may be reduced dollar-for-dollar by DIC payments in some cases. DFAS administers the offset. Request an SBP-DIC aud",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "Fry Scholarship vs. DEA (Chapter 35)Both programs provide education benefits to survivors and dependents, but they have different eligibility rules.[10]s[11]p>ProgramWho QualifiesDeadlines / NotesFry ScholarshipChildren and surviving spouses of servicemembers who died in the line of duty after 9/10/2001.Children generally must use benefits between ages 18 and 26, with exceptions. Spouses lose elig",
+    "risk_words": [
+      "must",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "VA Home Loan for Surviving SpousesSome surviving spouses may be eligible for a VA-backed home loan with no down payment and no PMI.[51]p>Confirm eligibility: generally unremarried surviving spouses of servicemembers who died in service or of veterans with service-connected death.Request a Certificate of Eligibility (COE) through VA.gov or a lender.[44]li>Apply with a VA-approved lender. The lender",
+    "risk_words": [
+      "eligible",
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "Burial BenefitsVA provides burial benefits for eligible veterans.[56]p>National cemetery burial:Gravesite, opening/closing, vault/liner, headstone or marker, flag, and Presidential Memorial Certificate.Burial allowance:A partial reimbursement for burial/funeral costs if the death was service-connected or the veteran was receiving certain VA benefits.How to claim:Contact the National Cemetery Sched",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "For Single Mothers and Dependent ChildrenIf the veteran was your spouse and you have dependent children, additional benefits may apply:CHAMPVA:Children may be eligible until age 18 (or longer if a full-time student or disabled before 18).[53]li>Education benefits:Fry Scholarship or DEA (Chapter 35). Apply at VA.gov education section.[47]li>Social Security survivor benefits:Children under 18 and su",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "WIDOWS AND SURVIVING SPOUSES",
+    "text": "YOUR NEXT ACTION: If the veteran died recently, gather the marriage certificate, death certificate, DD-214, and children's birth certificates. Then contact a VSO or file VA Form 21P-534EZ for DIC and CHAMPVA within the first year to protect the earliest effective date.",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "widows.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Surviving spouses, dependent children, and sometimes dependent parents of veterans may be entitled to monthly compensation, health care, education benefits, home loan eligibility, and burial honors. This page focuses on the most common federal survivor benefits.[7][8]",
+    "risk_words": [
+      "entitled"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Eligibility depends on the veteran\u2019s service, cause of death, your relationship, and whether you remarried. Many programs require the surviving spouse to have been married to the veteran for a minimum period or to have a child with the veteran.[7][9][10]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "DIC (Dependency and Indemnity Compensation)",
+    "text": "DIC pays a monthly tax-free benefit to eligible surviving spouses and dependent children when a veteran\u2019s death resulted from a service-connected condition, or when the veteran was totally service-connected disabled for 10 years before death.[7]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "DIC (Dependency and Indemnity Compensation)",
+    "text": "Check eligibility:Death must be service-connected, OR the veteran was rated totally disabled (including TDIU) for 10 years before death. Some exceptions apply for veterans rated totally disabled for less than 10 years.[7]Complete VA Form 21P-534EZ(Application for DIC, Survivors Pension, and/or Accrued Benefits).[46]Attach:marriage certificate, veteran\u2019s death certificate, veteran\u2019s DD-214, birth c",
+    "risk_words": [
+      "must",
+      "within"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "SBP (Survivor Benefit Plan) and DIC Offset",
+    "text": "The Survivor Benefit Plan (SBP) is a military retirement annuity. DFAS pays it to eligible survivors of servicemembers and retirees. If you also receive DIC, SBP may be offset (reduced) by the DIC amount, though recent laws have reduced or eliminated the offset for some survivors.[8]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "CHAMPVA: Health Care for Survivors and Dependents",
+    "text": "CHAMPVA provides health coverage for eligible surviving spouses and dependent children of veterans who died from a service-connected disability, or who were rated totally disabled from service-connected conditions.[9][53]",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "CHAMPVA: Health Care for Survivors and Dependents",
+    "text": "Check eligibility:You must be the spouse or child of a veteran who died from a service-connected condition, or who was totally disabled from service-connected conditions at time of death.[9]Apply:Complete VA Form 10-10d (Application for CHAMPVA Benefits).[48]Attach:marriage certificate, birth certificates for children, death certificate, Social Security numbers, and proof of other health insurance",
+    "risk_words": [
+      "must"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "Education Benefits: Fry Scholarship vs. DEA Chapter 35",
+    "text": "You cannot use Fry and DEA for the same period.Choose the one that pays the most for your situation.[10][11]",
+    "risk_words": [
+      "cannot"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "When They Say No or Stall",
+    "text": "ProblemNext StepWho to ContactDIC deniedFile a Supplemental Claim with a private medical opinion linking death to service. Request a Higher-Level Review if VA made an error.[19][20]VSO; accredited attorney; private doctorSBP reduced or offset by DICDFAS applies complex offset rules. Request a written calculation. If wrong, appeal through DFAS and, if needed, the Board for Correction of Military Re",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "DIC (Dependency and Indemnity Compensation)",
+    "text": "Who qualifies:Surviving spouses who were married to the veteran at the time of death and were not remarried before age 55 (or at all); dependent children under 18, or 18-23 if in school; and dependent parents in some cases.",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "widows.html",
+    "section": "DIC (Dependency and Indemnity Compensation)",
+    "text": "Effective date:Generally the first day of the month after the veteran's death if filed within one year; otherwise the month after VA receives the claim.",
+    "risk_words": [
+      "within"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "widows.html",
+    "section": "SBP (Survivor Benefit Plan)",
+    "text": "SBP is a DOD annuity that pays a monthly benefit to eligible survivors of retired servicemembers who elected and paid for the plan. <[8]/p>Who gets it:The beneficiary the retiree designated (usually spouse or spouse and children).SBP-DIC offset:SBP payments may be reduced dollar-for-dollar by DIC payments in some cases. DFAS administers the offset. Request an SBP-DIC audit if you believe the offse",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "Fry Scholarship vs. DEA (Chapter 35)",
+    "text": "Both programs provide education benefits to survivors and dependents, but they have different eligibility rules.[10]s[11]p>ProgramWho QualifiesDeadlines / NotesFry ScholarshipChildren and surviving spouses of servicemembers who died in the line of duty after 9/10/2001.Children generally must use benefits between ages 18 and 26, with exceptions. Spouses lose eligibility if they remarry.[54]td>DEA (",
+    "risk_words": [
+      "must",
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "VA Home Loan for Surviving Spouses",
+    "text": "Some surviving spouses may be eligible for a VA-backed home loan with no down payment and no PMI.[51]p>Confirm eligibility: generally unremarried surviving spouses of servicemembers who died in service or of veterans with service-connected death.Request a Certificate of Eligibility (COE) through VA.gov or a lender.[44]li>Apply with a VA-approved lender. The lender will order the COE if you do not ",
+    "risk_words": [
+      "eligible",
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "Burial Benefits",
+    "text": "VA provides burial benefits for eligible veterans.[56]p>National cemetery burial:Gravesite, opening/closing, vault/liner, headstone or marker, flag, and Presidential Memorial Certificate.Burial allowance:A partial reimbursement for burial/funeral costs if the death was service-connected or the veteran was receiving certain VA benefits.How to claim:Contact the National Cemetery Scheduling Office or",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "widows.html",
+    "section": "For Single Mothers and Dependent Children",
+    "text": "CHAMPVA:Children may be eligible until age 18 (or longer if a full-time student or disabled before 18).[53]li>Education benefits:Fry Scholarship or DEA (Chapter 35). Apply at VA.gov education section.[47]li>Social Security survivor benefits:Children under 18 and surviving spouses caring for young children may qualify. Contact SSA.[60]li>DIC for children:Unmarried dependent children may receive DIC",
+    "risk_words": [
+      "eligible"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "state-resources.html",
+    "section": "STATE & LOCAL VETERAN RESOURCES",
+    "text": "What This Is and Who QualifiesThis directory lists state and territorial veteran resources: state veterans affairs offices, VA regional benefit offices, veterans homes, medical centers, and notes about local legal aid and veterans treatment courts. State programs change often and rules differ by state, so verify everything locally.[95][15]Who qualifies:Any veteran, servicemember, family member, or",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "state-resources.html",
+    "section": "STATE & LOCAL VETERAN RESOURCES",
+    "text": "Always confirm the current URL and services with the state office before acting.State names, agencies, and phone numbers change.",
+    "risk_words": [
+      "always"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "state-resources.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Any veteran, servicemember, family member, or advocate looking for state-specific benefits, local VSO contacts, or in-state services. Residency rules and eligibility requirements vary.[15]",
+    "risk_words": [
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "faith-encouragement.html",
+    "section": "FAITH & ENCOURAGEMENT",
+    "text": "What This Is and Who QualifiesThis page offers selected Psalms from the King James Version (KJV) Bible for veterans and families who draw strength from faith. It is not legal advice, medical advice, or a substitute for crisis care.[16]Who qualifies:Anyone who finds encouragement in scripture. Faith is an optional layer; no one is required to share any belief to receive help from this site.[16]",
+    "risk_words": [
+      "required",
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "faith-encouragement.html",
+    "section": "FAITH & ENCOURAGEMENT",
+    "text": "All Available VersesEach time you load a page on this site, one of these verses may appear in the top and bottom banners. The top and bottom banners match on a given page load. Refresh to see another.[16]Psalm 23:1\u20132 \u2014\u201cThe LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters.\u201dPsalm 27:1 \u2014\u201cThe LORD is my light and my salvation; who",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "faith-encouragement.html",
+    "section": "FAITH & ENCOURAGEMENT",
+    "text": "All Available VersesPsalm 23:1\u20132 \u2014 \"The LORD is my shepherd; I shall not want...\"Psalm 27:1 \u2014 \"The LORD is my light and my salvation...\"Psalm 46:1 \u2014 \"God is our refuge and strength...\"Psalm 91:1\u20132 \u2014 \"He that dwelleth in the secret place of the most High...\"Psalm 121:1\u20132 \u2014 \"I will lift up mine eyes unto the hills...\"Psalm 34:17\u201318 \u2014 \"The righteous cry, and the LORD heareth...\"",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "faith-encouragement.html",
+    "section": "What This Is and Who Qualifies",
+    "text": "Who qualifies:Anyone who finds encouragement in scripture. Faith is an optional layer; no one is required to share any belief to receive help from this site.[16]",
+    "risk_words": [
+      "required",
+      "qualifies"
+    ],
+    "has_citation": true
+  },
+  {
+    "page": "faith-encouragement.html",
+    "section": "All Available Verses",
+    "text": "Psalm 23:1\u20132 \u2014\u201cThe LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters.\u201dPsalm 27:1 \u2014\u201cThe LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?\u201dPsalm 46:1 \u2014\u201cGod is our refuge and strength, a very present help in trouble.\u201dPsalm 91:1\u20132 \u2014\u201cHe that dwelleth in the secret p",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  },
+  {
+    "page": "faith-encouragement.html",
+    "section": "All Available Verses",
+    "text": "Psalm 23:1\u20132 \u2014 \"The LORD is my shepherd; I shall not want...\"Psalm 27:1 \u2014 \"The LORD is my light and my salvation...\"Psalm 46:1 \u2014 \"God is our refuge and strength...\"Psalm 91:1\u20132 \u2014 \"He that dwelleth in the secret place of the most High...\"Psalm 121:1\u20132 \u2014 \"I will lift up mine eyes unto the hills...\"Psalm 34:17\u201318 \u2014 \"The righteous cry, and the LORD heareth...\"",
+    "risk_words": [
+      "will"
+    ],
+    "has_citation": false
+  }
+]
