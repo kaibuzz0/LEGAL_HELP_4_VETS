@@ -14,6 +14,8 @@
         { id: 'housing', href: 'housing.html', label: 'Housing' },
         { id: 'employment-money', href: 'employment-money.html', label: 'Employment & Money' },
         { id: 'family-immigration', href: 'family-immigration.html', label: 'Family & Immigration' },
+        { id: 'substance-use', href: 'substance-use.html', label: 'Substance Use & Recovery' },
+        { id: 'widows', href: 'widows.html', label: 'Widows & Surviving Spouses' },
         { id: 'legal-library', href: 'legal-library.html', label: 'Legal Library' },
         { id: 'toolkit', href: 'toolkit.html', label: 'Toolkit' },
         { id: 'about', href: 'about.html', label: 'About / Sources' }
