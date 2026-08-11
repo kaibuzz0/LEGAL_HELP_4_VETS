@@ -419,14 +419,6 @@
       "status": "verified"
     },
     {
-      "id": "va-dic",
-      "claim": "Dependency and Indemnity Compensation (DIC) is a tax-free monthly benefit for surviving spouses, children, and parents of servicemembers who died in the line of duty or veterans whose death resulted from a service-related injury or disease.",
-      "source_name": "U.S. Department of Veterans Affairs",
-      "source_url": "https://www.va.gov/disability/dependency-indemnity-compensation/",
-      "verified_date": "2026-08-10",
-      "status": "verified"
-    },
-    {
       "id": "va-champva",
       "claim": "CHAMPVA is a comprehensive health care program for qualifying spouses and children of veterans who are rated permanently and totally disabled or died from a service-connected condition.",
       "source_name": "U.S. Department of Veterans Affairs",
@@ -479,14 +471,6 @@
       "claim": "211 is a free information and referral service that can connect people to local emergency shelter, food, and housing resources.",
       "source_name": "211 / United Way",
       "source_url": "https://www.211.org/",
-      "verified_date": "2026-08-10",
-      "status": "verified"
-    },
-    {
-      "id": "dfas-sbp",
-      "claim": "The Survivor Benefit Plan (SBP) provides monthly annuity payments to eligible survivors of retired servicemembers. SBP and DIC may interact under offset rules.",
-      "source_name": "Defense Finance and Accounting Service",
-      "source_url": "https://www.dfas.mil/retiredmilitary/survivors/Survivor-Benefit-Plan/",
       "verified_date": "2026-08-10",
       "status": "verified"
     },
@@ -631,6 +615,166 @@
       "claim": "INA 328 covers naturalization for servicemembers with at least one year of honorable service; INA 329 covers naturalization for servicemembers who served during periods of hostilities.",
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/military",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-appeals-intro",
+      "claim": "Veterans have the right to a decision review if they disagree with a VA decision on their claim.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/decision-reviews/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-claims-intake-center",
+      "claim": "VA Claims Intake Center in Janesville, WI processes paper decision review requests by mail.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/decision-reviews/higher-level-review/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-board-appeal-types",
+      "claim": "Board Appeals offer Direct Review, Evidence Submission, or Hearing options with different timelines and evidence rules.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/decision-reviews/board-appeal/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-appeals-status",
+      "claim": "After requesting a decision review, VA will mail a decision packet; status can be checked online or by calling 1-800-827-1000.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/decision-reviews/after-you-request-review/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-discharge-upgrade-wizard",
+      "claim": "VA provides an online discharge upgrade wizard to help veterans determine which board to apply to based on branch of service and discharge type.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/discharge-upgrade-instructions/introduction",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "dod-drb-contact",
+      "claim": "The Department of Defense Electronic Reading Room provides contact information for Discharge Review Boards (DRB) and Boards for Correction of Military/Naval Records (BCM/NR).",
+      "source_name": "Department of Defense / Boards of Review",
+      "source_url": "https://boards.law.af.mil/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-cod-factsheet",
+      "claim": "VA can provide benefits to veterans with a discharge that is not honorable if VA determines the discharge was under conditions other than dishonorable (Character of Discharge review).",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/health/characterofthedischarge/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "bcnr-navy",
+      "claim": "The Board for Correction of Naval Records (BCNR) reviews Navy and Marine Corps records correction requests and discharge upgrades.",
+      "source_name": "U.S. Department of the Navy",
+      "source_url": "https://www.secnav.navy.mil/mra/bcnr/Pages/Home.aspx",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "abcmr-army",
+      "claim": "The Army Board for Correction of Military Records (ABCMR) reviews Army records correction requests and discharge upgrades.",
+      "source_name": "U.S. Department of the Army",
+      "source_url": "https://arba.army.mil/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "afbc-mr",
+      "claim": "The Air Force Board for Correction of Military Records reviews Air Force records correction requests and discharge upgrades.",
+      "source_name": "U.S. Department of the Air Force",
+      "source_url": "https://www.afbcmr.af.mil/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "coast-guard-bcmr",
+      "claim": "The Coast Guard Board for Correction of Military Records reviews Coast Guard records correction requests and discharge upgrades.",
+      "source_name": "U.S. Department of Homeland Security",
+      "source_url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Human-Resources-CG-1/ Military-Personnel-Division/Boards/BCMR/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-pension-rates",
+      "claim": "VA pension provides monthly payments to wartime veterans with limited income and net worth who meet age or disability requirements.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/pension/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-pension-income-limits",
+      "claim": "VA pension benefits are reduced or eliminated when countable income exceeds the maximum annual pension rate (MAPR).",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/pension/veterans-pension-rates/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-tdiu-payment",
+      "claim": "Total Disability based on Individual Unemployability (TDIU) pays compensation at the 100% disability rate when a veteran cannot secure substantially gainful employment due to service-connected disabilities.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/disability/compensation-rates/total-disability-individual-unemployability-rates/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "dod-scra",
+      "claim": "The Servicemembers Civil Relief Act (SCRA) caps interest at 6% on pre-service debts and provides lease termination and eviction protections.",
+      "source_name": "U.S. Department of Justice / SCRA",
+      "source_url": "https://www.justice.gov/civil/servicemembers-and-veterans-initiative",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "cfpb-debt-collection",
+      "claim": "The Fair Debt Collection Practices Act gives consumers the right to dispute and validate debt within 30 days of first collection notice.",
+      "source_name": "Consumer Financial Protection Bureau",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "career-one-stop-unemployment",
+      "claim": "Unemployment Compensation for Ex-Servicemembers (UCX) provides unemployment benefits to former military members based on state law.",
+      "source_name": "U.S. Department of Labor / CareerOneStop",
+      "source_url": "https://www.careeronestop.org/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-state-benefits-directory",
+      "claim": "State veteran benefits vary by state; veterans should contact their state veterans affairs office or department of veterans services.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/statedepartment/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "legal-library-intro",
+      "claim": "The LEGAL HELP 4 VETS Legal Library provides plain-language explanations of legal terms, statutes, and sample letters for veterans and advocates.",
+      "source_name": "LEGAL HELP 4 VETS",
+      "source_url": "https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/legal-library.html",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "toolkit-intro",
+      "claim": "The LEGAL HELP 4 VETS Advocate Toolkit provides templates, trackers, and checklists for organizing veteran cases and communicating with agencies.",
+      "source_name": "LEGAL HELP 4 VETS",
+      "source_url": "https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/toolkit.html",
       "verified_date": "2026-08-10",
       "status": "verified"
     }
