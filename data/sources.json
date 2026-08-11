@@ -8,7 +8,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.veteranscrisisline.net/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "samhsa-national-helpline",
@@ -16,7 +19,10 @@
       "source_name": "Substance Abuse and Mental Health Services Administration",
       "source_url": "https://www.samhsa.gov/find-help/national-helpline",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-mental-health-substance-use",
@@ -24,7 +30,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/health-care/health-needs-conditions/mental-health/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-mission-act-community-care",
@@ -32,7 +41,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/communitycare/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "38-cfr-3-301-substance-use",
@@ -40,7 +52,10 @@
       "source_name": "Code of Federal Regulations",
       "source_url": "https://www.law.cornell.edu/cfr/text/38/3.301",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "veterans-treatment-courts-general",
@@ -48,7 +63,10 @@
       "source_name": "Local court or Veterans Service Organization",
       "source_url": "https://www.bja.gov/programs/veterans-treatment-courts",
       "verified_date": "2026-08-11",
-      "status": "pending"
+      "status": "PENDING",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2026-09-11",
+      "notes": "BJA's www.bja.gov domain does not resolve from this environment; bja.ojp.gov/programs/veterans-treatment-courts returns 404; justiceforvets.org blocks automated requests. Veterans Treatment Courts are well-documented DOJ-funded programs, but the canonical URL in this entry is currently unreachable from automated verification. Leave PENDING until a verified DOJ/BJA landing page is found."
     },
     {
       "id": "va-dic",
@@ -56,7 +74,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/disability/dependency-indemnity-compensation/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "dfas-sbp",
@@ -64,7 +85,10 @@
       "source_name": "Defense Finance and Accounting Service / DoD Military Pay",
       "source_url": "https://militarypay.defense.gov/Benefits/Survivor-Benefit-Plan/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "champva",
@@ -72,7 +96,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/COMMUNITYCARE/programs/dependents/champva/index.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-fry-scholarship",
@@ -80,7 +107,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/education/survivor-dependent-benefits/fry-scholarship/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-dea-chapter-35",
@@ -88,7 +118,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.benefits.va.gov/GIBILL/dea.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-home-loan-survivors",
@@ -96,7 +129,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/housing-assistance/home-loans/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-vso-legal-aid",
@@ -104,7 +140,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/vso/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "usaa-membership-services",
@@ -112,7 +151,10 @@
       "source_name": "USAA",
       "source_url": "https://www.usaa.com/membership/eligibility",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "state-directory-methodology",
@@ -120,7 +162,10 @@
       "source_name": "LEGAL HELP 4 VETS State Resources Methodology",
       "source_url": "state-resources.html",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "kjv-public-domain",
@@ -128,7 +173,10 @@
       "source_name": "Library of Congress / general public-domain status",
       "source_url": "https://www.loc.gov/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21-526ez",
@@ -136,7 +184,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21-526ez/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21-4138",
@@ -144,7 +195,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21-4138/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-20-0995",
@@ -152,7 +206,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-20-0995/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-20-0996",
@@ -160,7 +217,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-20-0996/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-10182",
@@ -168,7 +228,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-10182/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21-0966",
@@ -176,7 +239,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21-0966/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-20-10206",
@@ -184,7 +250,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-20-10206/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21-8940",
@@ -192,7 +261,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21-8940/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21-4192",
@@ -200,7 +272,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21-4192/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-tdiu",
@@ -208,7 +283,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.benefits.va.gov/compensation/claims-special-individual_unemployability.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-pact-act",
@@ -216,7 +294,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-cp-exam",
@@ -224,7 +305,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/disability/va-claim-exam/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-discharge-upgrade",
@@ -232,7 +316,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/discharge-upgrade-instructions/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-homeless-ssvf",
@@ -240,7 +327,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/homeless/ssvf.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-hud-vash",
@@ -248,7 +338,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/homeless/hud-vash.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-homeless-call",
@@ -256,7 +349,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/homeless/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "ssa-disability",
@@ -264,7 +360,10 @@
       "source_name": "Social Security Administration",
       "source_url": "https://www.ssa.gov/benefits/disability/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "snap-usda",
@@ -272,7 +371,10 @@
       "source_name": "USDA Food and Nutrition Service",
       "source_url": "https://www.fns.usda.gov/snap",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "scra-50usc",
@@ -280,7 +382,10 @@
       "source_name": "Code of Federal Regulations / Department of Justice",
       "source_url": "https://www.justice.gov/crt/servicemembers-civil-relief-act-50-us-c-3901",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "fair-housing-act",
@@ -288,7 +393,10 @@
       "source_name": "U.S. Department of Housing and Urban Development",
       "source_url": "https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-duty-to-assist",
@@ -296,7 +404,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-3/subpart-A/section-3.159",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-cod-review",
@@ -304,7 +415,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.benefits.va.gov/twentyfirstcenturyvet/docs/Character-of-Discharge-Booklet.pdf",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "dod-drb-bcnr",
@@ -312,7 +426,10 @@
       "source_name": "Department of Defense / Military Department Boards",
       "source_url": "https://www.va.gov/discharge-upgrade-instructions/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-patient-advocate",
@@ -320,7 +437,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/health-care/how-to-get-help/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "congressional-inquiry",
@@ -328,7 +448,10 @@
       "source_name": "U.S. House of Representatives / U.S. Senate",
       "source_url": "https://www.house.gov/representatives/find-your-representative",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "ecfr-38-3",
@@ -336,7 +459,10 @@
       "source_name": "Code of Federal Regulations",
       "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-3",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "fdcpa-15usc",
@@ -344,7 +470,10 @@
       "source_name": "Consumer Financial Protection Bureau",
       "source_url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "VERIFIED",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
     },
     {
       "id": "va-form-26-1880",
@@ -352,7 +481,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-26-1880/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21p-527ez",
@@ -360,7 +492,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21p-527ez/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21p-534ez",
@@ -368,7 +503,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21p-534ez/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-22-5490",
@@ -376,7 +514,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-22-5490/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-10-10ez",
@@ -384,7 +525,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-10-10ez/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-21-2680",
@@ -392,7 +536,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-21-2680/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-26-4555",
@@ -400,7 +547,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/find-forms/about-form-26-4555/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-home-loan",
@@ -408,7 +558,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/housing-assistance/home-loans/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-pension",
@@ -416,7 +569,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/pension/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-champva",
@@ -424,7 +580,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/COMMUNITYCARE/programs/dependents/champva/index.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-fry-deadline",
@@ -432,7 +591,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/education/survivor-dependent-benefits/fry-scholarship/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-gi-bill",
@@ -440,7 +602,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/education/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-burial-benefits",
@@ -448,7 +613,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/burials-memorials/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-vso-accreditation",
@@ -456,7 +624,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/ogc/accreditation.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-sah-grant",
@@ -464,7 +635,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/housing-assistance/disability-housing-grants/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "hud-211",
@@ -472,7 +646,10 @@
       "source_name": "211 / United Way",
       "source_url": "https://www.211.org/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "ssa-survivor",
@@ -480,7 +657,10 @@
       "source_name": "Social Security Administration",
       "source_url": "https://www.ssa.gov/planners/survivors/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-sud-treatment",
@@ -488,7 +668,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/mental-health/substance-use/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-community-care-sud",
@@ -496,7 +679,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/COMMUNITYCARE/index.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "veterans-treatment-courts",
@@ -504,7 +690,10 @@
       "source_name": "Justice For Vets / Bureau of Justice Assistance",
       "source_url": "https://justiceforvets.org/",
       "verified_date": "2026-08-11",
-      "status": "verified"
+      "status": "VERIFIED",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-07",
+      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
     },
     {
       "id": "va-caregiver",
@@ -512,7 +701,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.caregiver.va.gov/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "ucx-unemployment",
@@ -520,7 +712,10 @@
       "source_name": "U.S. Department of Labor",
       "source_url": "https://www.dol.gov/agencies/eta/unemployment-insurance",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-parole-in-place",
@@ -528,7 +723,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/humanitarian",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-military-naturalization",
@@ -536,7 +734,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/military",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-form-n-400",
@@ -544,7 +745,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/n-400",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-form-n-426",
@@ -552,7 +756,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/n-426",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-form-i-130",
@@ -560,7 +767,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/i-130",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-form-i-485",
@@ -568,7 +778,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/i-485",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "uscis-vawa",
@@ -576,7 +789,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/humanitarian/battered-spouse-children-and-parents",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "ice-veterans",
@@ -584,7 +800,10 @@
       "source_name": "U.S. Immigration and Customs Enforcement",
       "source_url": "https://www.ice.gov/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-pastoral-care",
@@ -592,7 +811,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/chaplain/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "benefit-of-the-doubt",
@@ -600,7 +822,10 @@
       "source_name": "U.S. Department of Veterans Affairs / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/5107",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "staged-ratings",
@@ -608,7 +833,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.benefits.va.gov/COMPENSATION/claims-special-claim_types-staged.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "ina-328-329",
@@ -616,7 +844,10 @@
       "source_name": "U.S. Citizenship and Immigration Services",
       "source_url": "https://www.uscis.gov/military",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-appeals-intro",
@@ -624,7 +855,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/decision-reviews/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-claims-intake-center",
@@ -632,7 +866,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/decision-reviews/higher-level-review/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-board-appeal-types",
@@ -640,7 +877,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/decision-reviews/board-appeal/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-appeals-status",
@@ -648,7 +888,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/decision-reviews/after-you-request-review/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-discharge-upgrade-wizard",
@@ -656,7 +899,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/discharge-upgrade-instructions/introduction",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "dod-drb-contact",
@@ -664,7 +910,10 @@
       "source_name": "Department of Defense / Boards of Review",
       "source_url": "https://boards.law.af.mil/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-cod-factsheet",
@@ -672,7 +921,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/health/characterofthedischarge/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "bcnr-navy",
@@ -680,7 +932,10 @@
       "source_name": "U.S. Department of the Navy",
       "source_url": "https://www.secnav.navy.mil/mra/bcnr/Pages/Home.aspx",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "abcmr-army",
@@ -688,7 +943,10 @@
       "source_name": "U.S. Department of the Army",
       "source_url": "https://arba.army.mil/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "afbc-mr",
@@ -696,7 +954,10 @@
       "source_name": "U.S. Department of the Air Force",
       "source_url": "https://www.afbcmr.af.mil/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "coast-guard-bcmr",
@@ -704,7 +965,10 @@
       "source_name": "U.S. Department of Homeland Security",
       "source_url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Human-Resources-CG-1/ Military-Personnel-Division/Boards/BCMR/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-pension-rates",
@@ -712,7 +976,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/pension/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-pension-income-limits",
@@ -720,7 +987,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/pension/veterans-pension-rates/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-tdiu-payment",
@@ -728,7 +998,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/disability/compensation-rates/total-disability-individual-unemployability-rates/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "dod-scra",
@@ -736,7 +1009,10 @@
       "source_name": "U.S. Department of Justice / SCRA",
       "source_url": "https://www.justice.gov/civil/servicemembers-and-veterans-initiative",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "cfpb-debt-collection",
@@ -744,7 +1020,10 @@
       "source_name": "Consumer Financial Protection Bureau",
       "source_url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "VERIFIED",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
     },
     {
       "id": "career-one-stop-unemployment",
@@ -752,7 +1031,10 @@
       "source_name": "U.S. Department of Labor / CareerOneStop",
       "source_url": "https://www.careeronestop.org/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-state-benefits-directory",
@@ -760,7 +1042,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/statedepartment/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "legal-library-intro",
@@ -768,7 +1053,10 @@
       "source_name": "LEGAL HELP 4 VETS",
       "source_url": "https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/legal-library.html",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "toolkit-intro",
@@ -776,7 +1064,10 @@
       "source_name": "LEGAL HELP 4 VETS",
       "source_url": "https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/toolkit.html",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "cfpb-complaint",
@@ -784,7 +1075,10 @@
       "source_name": "Consumer Financial Protection Bureau",
       "source_url": "https://www.consumerfinance.gov/complaint/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "VERIFIED",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
     },
     {
       "id": "va-white-house-hotline",
@@ -792,7 +1086,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/contact-us/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-ig-hotline",
@@ -800,7 +1097,10 @@
       "source_name": "VA Office of Inspector General",
       "source_url": "https://www.va.gov/oig/hotline/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "legal-services-corporation",
@@ -808,7 +1108,10 @@
       "source_name": "Legal Services Corporation",
       "source_url": "https://www.lsc.gov/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-patient-advocate-locator",
@@ -816,7 +1119,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/health/characterofthedischarge/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "nlaqh-legal-aid",
@@ -824,7 +1130,10 @@
       "source_name": "National Legal Aid & Defender Association",
       "source_url": "https://www.nlada.org/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "national-law-center-homelessness",
@@ -832,7 +1141,10 @@
       "source_name": "National Law Center on Homelessness & Poverty",
       "source_url": "https://nlchp.org/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-foreign-medical-program",
@@ -840,7 +1152,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/COMMUNITYCARE/programs/veterans/foreign-medical-program/index.asp",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "nichq-veterans-treatment-courts",
@@ -848,7 +1163,10 @@
       "source_name": "Justice For Vets / Bureau of Justice Assistance",
       "source_url": "https://justiceforvets.org/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "VERIFIED",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
     },
     {
       "id": "ssa-waiver-overpayment",
@@ -856,7 +1174,10 @@
       "source_name": "Social Security Administration",
       "source_url": "https://www.ssa.gov/benefits/ssi/spotlights/spotlight-overpayments.html",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-fiduciary-program",
@@ -864,7 +1185,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-debt-management-center",
@@ -872,7 +1196,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/resources/va-debt-management/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-gi-bill-debt",
@@ -880,7 +1207,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/education/manage-your-school-debt/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-vehicle-repo-scra",
@@ -888,7 +1218,10 @@
       "source_name": "Consumer Financial Protection Bureau",
       "source_url": "https://www.consumerfinance.gov/consumer-tools/servicemembers/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "VERIFIED",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
     },
     {
       "id": "va-fiduciary-abuse",
@@ -896,7 +1229,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-waiver-overpayment",
@@ -904,7 +1240,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/resources/what-to-do-if-you-get-a-va-debt-letter/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-debt-appeal",
@@ -912,7 +1251,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/resources/va-debt-management/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "feeling-america",
@@ -920,7 +1262,10 @@
       "source_name": "Feeding America",
       "source_url": "https://www.feedingamerica.org/find-your-local-foodbank",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "nchv",
@@ -928,7 +1273,10 @@
       "source_name": "National Coalition for Homeless Veterans",
       "source_url": "https://nchv.org/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "SECONDARY_OR_LOCAL",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-victim-witness",
@@ -936,7 +1284,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
       "verified_date": "2026-08-10",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-06",
+      "notes": ""
     },
     {
       "id": "va-form-10-1393",
@@ -944,7 +1295,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/vaforms/",
       "verified_date": "2026-08-11",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-07",
+      "notes": ""
     },
     {
       "id": "nprc-records",
@@ -952,7 +1306,10 @@
       "source_name": "National Archives and Records Administration",
       "source_url": "https://www.archives.gov/veterans/military-service-records",
       "verified_date": "2026-08-11",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-07",
+      "notes": ""
     },
     {
       "id": "dod-149",
@@ -960,7 +1317,10 @@
       "source_name": "U.S. Department of Defense",
       "source_url": "https://www.esd.whs.mil/Portals/54/Documents/DD/forms/dd/dd0149.pdf",
       "verified_date": "2026-08-11",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-07",
+      "notes": ""
     },
     {
       "id": "vet-centers",
@@ -968,7 +1328,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/vet-centers/",
       "verified_date": "2026-08-11",
-      "status": "verified"
+      "status": "verified",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2027-02-07",
+      "notes": ""
     },
     {
       "id": "scra-50usc-3931",
@@ -976,7 +1339,10 @@
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3931",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "scra-50usc-3932",
@@ -984,7 +1350,10 @@
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3932",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "scra-50usc-3937",
@@ -992,7 +1361,10 @@
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3937",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "scra-50usc-3951",
@@ -1000,7 +1372,10 @@
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3951",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "scra-50usc-3953",
@@ -1008,7 +1383,10 @@
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3953",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "va-home-loan-foreclosure",
@@ -1016,7 +1394,10 @@
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "fair-housing-42usc-3604",
@@ -1024,7 +1405,10 @@
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     },
     {
       "id": "hud-fheo-discrimination",
@@ -1032,7 +1416,10 @@
       "source_name": "U.S. Department of Housing and Urban Development",
       "source_url": "https://www.hud.gov/program_offices/fair_housing_equal_opp",
       "verified_date": "2026-08-11",
-      "status": "verified_primary"
+      "status": "verified_primary",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-09",
+      "notes": ""
     }
   ]
 }
