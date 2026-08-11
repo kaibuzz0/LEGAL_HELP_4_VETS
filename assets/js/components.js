@@ -17,6 +17,7 @@
         { id: 'substance-use', href: 'substance-use.html', label: 'Substance Use & Recovery' },
         { id: 'widows', href: 'widows.html', label: 'Widows & Surviving Spouses' },
         { id: 'state-resources', href: 'state-resources.html', label: 'State & Local Resources' },
+        { id: 'faith-encouragement', href: 'faith-encouragement.html', label: 'Faith & Encouragement' },
         { id: 'legal-library', href: 'legal-library.html', label: 'Legal Library' },
         { id: 'toolkit', href: 'toolkit.html', label: 'Toolkit' },
         { id: 'about', href: 'about.html', label: 'About / Sources' }
@@ -50,4 +51,29 @@
   } else {
     injectComponents();
   }
+
+  function rotatePsalmBanner() {
+    var banners = document.querySelectorAll('.psalm-banner');
+    if (!banners.length) return;
+    fetch('data/psalms.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (!data || !data.verses || !data.verses.length) return;
+        var index = Math.floor(Math.random() * data.verses.length);
+        var verse = data.verses[index];
+        banners.forEach(function(banner) {
+          var refEl = banner.querySelector('.psalm-ref');
+          var textEl = banner.querySelector('.psalm-text');
+          if (refEl) refEl.textContent = verse.reference;
+          if (textEl) textEl.textContent = '"' + verse.text + '"';
+        });
+      })
+      .catch(function() {
+        // leave static fallback in place
+      });
+  }
+
+  // Run Psalm rotation after components load
+  document.addEventListener('componentsLoaded', rotatePsalmBanner);
+
 })();
