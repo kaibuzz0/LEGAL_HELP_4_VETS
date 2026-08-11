@@ -301,3 +301,49 @@ button:focus-visible,
   margin-bottom: 0.5rem;
   color: var(--text);
 }
+
+/* State directory */
+.state-directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.state-entry {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+.state-entry h4 {
+  margin-top: 0;
+  color: var(--navy);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.25rem;
+}
+.state-entry ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.state-entry li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+.status {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  margin-left: 0.25rem;
+}
+.status.verified {
+  background: #d4edda;
+  color: #155724;
+}
+.status.pending {
+  background: #fff3cd;
+  color: #856404;
+}
