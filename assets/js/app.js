@@ -125,12 +125,6 @@
     });
   }
 
-  function init() {
-    initMenu();
-    initSearch();
-    secureExternalLinks();
-    initScrollSpy();
-  }
 
   function initApp() {
     initMenu();
@@ -139,9 +133,15 @@
     initScrollSpy();
   }
 
-  document.addEventListener('componentsLoaded', function() {
-    initApp();
-  });
+
+  function initApp() {
+    initMenu();
+    initSearch();
+    secureExternalLinks();
+    initScrollSpy();
+  }
+
+  document.addEventListener('componentsLoaded', initApp);
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
