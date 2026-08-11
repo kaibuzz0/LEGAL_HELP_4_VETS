@@ -112,22 +112,22 @@ footer { text-align:center; color:var(--muted); padding:24px; font-size:0.85rem;
     min-width: 0;
     max-width: none;
     width: auto;
+    position: relative;
   }
   .hero h1 { font-size: 1.5rem; }
   .topbar .menu-btn { display: inline-block; }
   .sidebar {
     width: 260px;
     position: fixed;
-    left: -260px;
+    left: 0;
     top: 46px;
     bottom: 0;
     z-index: 99;
-    transform: translateX(0);
+    transform: translateX(-260px);
     transition: transform .2s ease;
   }
   .sidebar.open {
-    left: 0;
-    transform: translateX(260px);
+    transform: translateX(0);
   }
   .main { padding: 14px; }
 }
