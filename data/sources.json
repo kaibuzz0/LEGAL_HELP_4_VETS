@@ -873,6 +873,70 @@
       "source_url": "https://www.va.gov/resources/va-debt-management/",
       "verified_date": "2026-08-10",
       "status": "verified"
+    },
+    {
+      "id": "va-gi-bill-debt",
+      "claim": "VA education overpayments and debts can often be waived, appealed, or placed on a payment plan through the VA Debt Management Center.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/education/manage-your-school-debt/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-vehicle-repo-scra",
+      "claim": "SCRA protects servicemembers from vehicle repossession without a court order if the loan was originated before active duty and the servicemember made a deposit or payment.",
+      "source_name": "Consumer Financial Protection Bureau",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/servicemembers/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-fiduciary-abuse",
+      "claim": "Beneficiaries or others can report fiduciary misuse to the VA Fiduciary Hub; VA can investigate, suspend, or remove a fiduciary.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-waiver-overpayment",
+      "claim": "VA beneficiaries can request a waiver of overpayment debt if collection is against equity and good conscience and they are not at fault.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/resources/what-to-do-if-you-get-a-va-debt-letter/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-debt-appeal",
+      "claim": "VA debt decisions can be disputed administratively through the Debt Management Center and may be appealed to the Board of Veterans' Appeals if linked to a benefits decision.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/resources/va-debt-management/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "feeling-america",
+      "claim": "Feeding America operates a nationwide network of food banks searchable by zip code.",
+      "source_name": "Feeding America",
+      "source_url": "https://www.feedingamerica.org/find-your-local-foodbank",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "nchv",
+      "claim": "The National Coalition for Homeless Veterans connects veterans to emergency and transitional housing providers.",
+      "source_name": "National Coalition for Homeless Veterans",
+      "source_url": "https://nchv.org/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
+    },
+    {
+      "id": "va-victim-witness",
+      "claim": "VA facilities and some jurisdictions have victim-witness coordinators who can help veterans report fraud or abuse.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/opa/persona/dependent-survivor/fiduciary/",
+      "verified_date": "2026-08-10",
+      "status": "verified"
     }
   ]
 }
