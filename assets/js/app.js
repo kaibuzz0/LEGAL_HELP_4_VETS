@@ -125,15 +125,6 @@
     });
   }
 
-
-  function initApp() {
-    initMenu();
-    initSearch();
-    secureExternalLinks();
-    initScrollSpy();
-  }
-
-
   function initApp() {
     initMenu();
     initSearch();
