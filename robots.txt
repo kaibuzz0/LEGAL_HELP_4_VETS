@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/sitemap.xml
