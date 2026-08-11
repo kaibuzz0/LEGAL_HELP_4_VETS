@@ -1,0 +1,49 @@
+{
+  "total_files": 27,
+  "total_size_bytes": 464896,
+  "categories": {
+    "html": [
+      "appeals.html",
+      "discharge-upgrade.html",
+      "employment-money.html",
+      "substance-use.html",
+      "family-immigration.html",
+      "state-resources.html",
+      "widows.html",
+      "faith-encouragement.html",
+      "legal-library.html",
+      "toolkit.html",
+      "about.html",
+      "index.html",
+      "help-now.html",
+      "claims.html",
+      "housing.html",
+      "sources.html",
+      "404.html"
+    ],
+    "css": [
+      "assets\\css\\style.css"
+    ],
+    "js": [
+      "assets\\js\\app.js",
+      "assets\\js\\components.js"
+    ],
+    "json": [
+      "data\\psalms.json",
+      "data\\sources.json",
+      "data\\state-resources.json"
+    ],
+    "md": [
+      "HANDOFF.md",
+      "README.md"
+    ],
+    "xml": [
+      "sitemap.xml"
+    ],
+    "txt": [
+      "robots.txt"
+    ],
+    "images": [],
+    "other": []
+  }
+}
