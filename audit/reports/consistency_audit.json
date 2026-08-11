@@ -1,0 +1,257 @@
+{
+  "index.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 6,
+      "Veteran_cap": 2,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "help-now.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 8,
+      "Veteran_cap": 9,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "claims.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 7,
+      "Veteran_cap": 3,
+      "servicemember": 4,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "appeals.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 5,
+      "Veteran_cap": 8,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "discharge-upgrade.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 4,
+      "Veteran_cap": 2,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "housing.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 6,
+      "Veteran_cap": 4,
+      "servicemember": 12,
+      "active_duty": 6,
+      "servicemember_cap": 3
+    },
+    "phone_format_examples": []
+  },
+  "employment-money.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 22,
+      "Veteran_cap": 13,
+      "servicemember": 6,
+      "active_duty": 21,
+      "servicemember_cap": 7
+    },
+    "phone_format_examples": []
+  },
+  "family-immigration.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 29,
+      "Veteran_cap": 7,
+      "servicemember": 44,
+      "active_duty": 2,
+      "servicemember_cap": 2
+    },
+    "phone_format_examples": []
+  },
+  "legal-library.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 8,
+      "Veteran_cap": 4,
+      "servicemember": 2,
+      "active_duty": 6,
+      "servicemember_cap": 3
+    },
+    "phone_format_examples": []
+  },
+  "toolkit.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 10,
+      "Veteran_cap": 13,
+      "servicemember": 0,
+      "active_duty": 1,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "about.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 9,
+      "Veteran_cap": 3,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "sources.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 56,
+      "Veteran_cap": 93,
+      "servicemember": 30,
+      "active_duty": 3,
+      "servicemember_cap": 4
+    },
+    "phone_format_examples": []
+  },
+  "substance-use.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 32,
+      "Veteran_cap": 21,
+      "servicemember": 4,
+      "active_duty": 1,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "widows.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 41,
+      "Veteran_cap": 7,
+      "servicemember": 18,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "state-resources.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 45,
+      "Veteran_cap": 228,
+      "servicemember": 2,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "faith-encouragement.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 7,
+      "Veteran_cap": 3,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  },
+  "404.html": {
+    "disclaimer_phrases": {
+      "Legal Information, Not Legal Advice": true,
+      "not legal advice": true,
+      "not a lawyer": true
+    },
+    "terminology": {
+      "veteran_lower": 3,
+      "Veteran_cap": 1,
+      "servicemember": 0,
+      "active_duty": 0,
+      "servicemember_cap": 0
+    },
+    "phone_format_examples": []
+  }
+}
