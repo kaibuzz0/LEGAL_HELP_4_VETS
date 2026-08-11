@@ -235,3 +235,10 @@ footer { text-align:center; color:var(--muted); padding:24px; font-size:0.85rem;
         overflow-x: auto;
     }
 }
+
+.last-updated {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 1rem;
+    text-align: center;
+}
