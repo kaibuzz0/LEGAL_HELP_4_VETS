@@ -1,0 +1,42 @@
+[
+  {
+    "state": "Alabama",
+    "category": "state_veterans_affairs",
+    "name": "Alabama Veterans Affairs Office",
+    "url": "https://www.va.alabama.gov/",
+    "status": 200,
+    "current_status": "verified"
+  },
+  {
+    "state": "Connecticut",
+    "category": "state_veterans_affairs",
+    "name": "Connecticut Veterans Affairs Office",
+    "url": "https://www.ct.gov/dva",
+    "status": 200,
+    "current_status": "verified"
+  },
+  {
+    "state": "Florida",
+    "category": "state_veterans_affairs",
+    "name": "Florida Veterans Affairs Office",
+    "url": "https://floridaveterans.org/",
+    "status": 200,
+    "current_status": "verified"
+  },
+  {
+    "state": "Georgia",
+    "category": "state_veterans_affairs",
+    "name": "Georgia Veterans Affairs Office",
+    "url": "https://veterans.georgia.gov/",
+    "status": 200,
+    "current_status": "verified"
+  },
+  {
+    "state": "Idaho",
+    "category": "state_veterans_affairs",
+    "name": "Idaho Veterans Affairs Office",
+    "url": "https://veterans.idaho.gov/",
+    "status": 200,
+    "current_status": "verified"
+  }
+]
