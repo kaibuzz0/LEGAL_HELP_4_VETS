@@ -6,22 +6,20 @@ Repository: kaibuzz0/LEGAL_HELP_4_VETS
 Live site: https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/
 Working local directory: D:\[]=[]=[ notes ]=[]=[]\veteran-legal-help- ADD FORIEGN CITINSHIP\phase5_fasttrack
 
-PHASE 6 COMPLETE: PRODUCTION BASELINE ESTABLISHED
--------------------------------------------------
-Completed Phase 6 governance and controlled-expansion infrastructure:
-- Production baseline recorded
-- Change-control policy written
-- Source lifecycle system added to all 129 entries
-- Claim-source map created (435 entries)
-- Regression tests created and passing (HTML + sources)
-- Production QA checklist created
-- AI_PROJECT_RULES.md created for future AI agents
-- Pending source documented (veterans-treatment-courts-general)
-- 403-blocked authoritative sources documented as verified with access restrictions
-- Phase 6 roadmap created with 5 proposed priorities
-- All changes committed and live site validated
+PHASE 7 COMPLETE: VA OVERPAYMENT & DEBT COLLECTION GUIDE
+----------------------------------------------------------
+Built and deployed `va-debt.html`, a source-verified guide for veterans who receive VA debt notices.
 
-STATUS: PRODUCTION BASELINE ESTABLISHED
+Key deliverables:
+- New `va-debt.html` with deadline warning, decision table, dispute/waiver/payment paths, action ladder, sample letters, and escalation guidance
+- 11 new authoritative sources added (total 140)
+- Claim-source map regenerated (469 entries)
+- Links added from employment-money.html and toolkit.html
+- Sitemap and regression tests updated
+- All tests pass (HTML + sources)
+- Live site validated: all 18 pages HTTP 200
+
+STATUS: PRODUCTION READY
 
 INSTRUCTIONS FOR NEXT AI
 ------------------------
@@ -29,16 +27,15 @@ INSTRUCTIONS FOR NEXT AI
 2. Read audit/CHANGE_CONTROL.md and audit/PRODUCTION_QA.md.
 3. Run tests: python -m unittest tests.test_html tests.test_sources
 4. Do not invent sources, URLs, or phone numbers.
-5. Do not add new content unless explicitly approved by the maintainer.
-6. If the maintainer approves a roadmap item, follow the source-first workflow.
+5. If expanding further, use Phase 6 roadmap priorities and get maintainer approval.
 
 POSSIBLE NEXT STEPS (require maintainer approval)
 --------------------------------------------------
-- Approve Priority 1: Expand state/local emergency contacts
-- Approve Priority 2: VA overpayment/debt collection deep guide
-- Approve Priority 3: Eviction/foreclosure crisis companion page
-- Approve Priority 4: Disability claims denial-trap expansion
-- Approve Priority 5: Spanish-language core pages
+- Priority 1: Expand state/local emergency contacts
+- Priority 3: Eviction/foreclosure crisis companion page
+- Priority 4: Disability claims denial-trap expansion
+- Priority 5: Spanish-language core pages
+- Other: USERRA employment-discrimination guide, family law navigation
 
 HOW TO RESUME
 -------------
