@@ -96,4 +96,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/va-debt.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
 </urlset>
