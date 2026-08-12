@@ -21,34 +21,14 @@
     { id: 'about', href: 'about.html', label: 'About / Sources' }
   ];
 
-  function renderNav(currentId) {
-    var html = '<ul>';
-    NAV_ITEMS.forEach(function(item) {
-      var isCurrent = item.id === currentId;
-      var cls = isCurrent ? ' aria-current="page"' : '';
-      html += '<li><a href="' + item.href + '"' + cls + '>' + item.label + '</a></li>';
-    });
-    html += '</ul>';
-    return html;
-  }
+  
 
-  function injectComponents() {
-    var placeholders = document.querySelectorAll('[data-component="site-nav"]');
-    placeholders.forEach(function(el) {
-      var current = el.dataset.current || '';
-      var nav = document.createElement('nav');
-      nav.className = 'sidebar';
-      nav.id = 'sidebar';
-      nav.setAttribute('aria-label', 'Section navigation');
-      nav.innerHTML = renderNav(current);
-      el.appendChild(nav);
-    });
-  }
+  
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', injectComponents);
+    document.addEventListener('DOMContentLoaded', rotatePsalmBanner);
   } else {
-    injectComponents();
+    rotatePsalmBanner();
   }
 
   // Psalm banner rotation
