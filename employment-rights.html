@@ -11,12 +11,17 @@
 <link href="assets/css/style.css" rel="stylesheet"/>
 <link href="https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/employment-rights.html" rel="canonical"/>
 </head>
-<body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<header class="site-header">
+<body><a class="skip-link" href="#main-content">Skip to main content</a><header class="site-header">
 <div class="header-inner">
-<p class="brand">LEGAL HELP 4 VETS</p>
-<button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">Menu</button>
+<a aria-label="LEGAL HELP 4 VETS home" class="brand" href="index.html">LEGAL HELP 4 VETS</a>
+<div class="header-actions">
+<button aria-label="Open site search" class="search-btn" title="Search (press /)" type="button">
+<span aria-hidden="true">🔍</span> Search
+      </button>
+<button aria-controls="main-nav" aria-expanded="false" aria-label="Open menu" class="menu-btn" type="button">
+<span aria-hidden="true">☰</span> Menu
+      </button>
+</div>
 <nav aria-label="Main" class="main-nav" id="main-nav">
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -25,13 +30,30 @@
 <li><a href="appeals.html">Appeals</a></li>
 <li><a href="housing.html">Housing</a></li>
 <li><a href="employment-money.html">Money</a></li>
+<li><a href="employment-rights.html">USERRA</a></li>
+<li><a href="va-debt.html">VA Debt</a></li>
 <li><a href="toolkit.html">Toolkit</a></li>
-<li><a href="state-resources.html">States</a></li>
 <li><a href="about.html">About</a></li>
 </ul>
 </nav>
 </div>
+<div aria-hidden="true" class="nav-overlay"></div>
 </header>
+<div aria-label="Legal notice" class="legal-banner" role="note">
+<strong>Legal Information, Not Legal Advice.</strong>
+  Laws and deadlines change. Verify important details with a qualified attorney or accredited representative before acting.
+  <a href="about.html">Read full disclaimer</a>
+</div>
+<div aria-label="Site search" aria-modal="true" class="search-overlay" id="search-overlay" role="dialog">
+<button aria-label="Close search" class="search-close" id="search-close" type="button">Close</button>
+<div class="search-box-wrap">
+<input aria-label="Search site" autocomplete="off" id="search-input" placeholder="Try: housing, USERRA, debt, appeal, discharge..." type="search"/>
+</div>
+<div class="search-results" id="search-results">
+<p class="search-empty">Type a topic like "housing", "USERRA", "debt", or "appeal".</p>
+</div>
+</div>
+
 <main id="main-content">
 <div class="hero">
 <h1>USERRA &amp; Veteran Employment Rights</h1>
@@ -317,7 +339,5 @@
 <p>Last updated: 2026-08-11 · Sources: <a href="sources.html">View all sources</a> · <a href="about.html">About &amp; disclaimer</a></p>
 <p><strong>Legal Information, Not Legal Advice.</strong> This site does not create an attorney-client relationship. If your military service is affecting your job, contact DOL VETS, ESGR, or a qualified attorney as soon as possible.</p>
 </footer>
-<script src="assets/js/app.js"></script>
-<script src="assets/js/components.js"></script>
-</body>
+<script src="assets/js/app.js"></script><script src="assets/js/components.js"></script></body>
 </html>
