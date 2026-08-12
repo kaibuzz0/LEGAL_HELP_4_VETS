@@ -1541,6 +1541,182 @@
       "authority_level": "PRIMARY_GOVERNMENT",
       "next_review": "2026-11-11",
       "notes": "Verified 200."
+    },
+    {
+      "id": "38-usc-4301",
+      "claim": "38 U.S.C. \u00a7 4301 states the purposes and sense of Congress for USERRA, including the non-discrimination and prompt reemployment principles.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4301",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA purposes and congressional findings. Verified 200."
+    },
+    {
+      "id": "38-usc-4311",
+      "claim": "38 U.S.C. \u00a7 4311 prohibits discrimination, denial of employment, or adverse employment action against persons because of their membership, application for membership, performance of service, application for service, or obligation to serve in the uniformed services.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4311",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA anti-discrimination. Verified 200."
+    },
+    {
+      "id": "38-usc-4312",
+      "claim": "38 U.S.C. \u00a7 4312 establishes reemployment rights of persons who leave civilian employment to perform service in the uniformed services, subject to cumulative service limits, notice, and timely return/application.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4312",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA reemployment rights. Verified 200."
+    },
+    {
+      "id": "38-usc-4313",
+      "claim": "38 U.S.C. \u00a7 4313 defines reemployment position and prompt reemployment requirements, including escalator position, seniority, and status principles.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4313",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA reemployment positions. Verified 200."
+    },
+    {
+      "id": "38-usc-4316",
+      "claim": "38 U.S.C. \u00a7 4316 establishes rights, benefits, and obligations of persons absent from employment for service in the uniformed services, including treatment with respect to seniority and other rights/benefits.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4316",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA benefits/seniority. Verified 200."
+    },
+    {
+      "id": "38-usc-4317",
+      "claim": "38 U.S.C. \u00a7 4317 provides certain protections with respect to employer health plans for persons absent from employment for service in the uniformed services.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4317",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA health plans. Verified 200."
+    },
+    {
+      "id": "38-usc-4321",
+      "claim": "38 U.S.C. \u00a7 4321 authorizes the Secretary of Labor to provide assistance to persons claiming rights under USERRA, including through DOL VETS.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4321",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "DOL assistance authority. Verified 200."
+    },
+    {
+      "id": "38-usc-4322",
+      "claim": "38 U.S.C. \u00a7 4322 governs enforcement of USERRA employment or reemployment rights through administrative and judicial remedies, including DOL VETS referral to the Department of Justice and private actions.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4322",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA enforcement. Verified 200."
+    },
+    {
+      "id": "38-usc-4323",
+      "claim": "38 U.S.C. \u00a7 4323 governs enforcement of USERRA rights with respect to State or private employers, including remedies and statutes of limitations.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4323",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA private/state enforcement. Verified 200."
+    },
+    {
+      "id": "userra-regulations-29-cfr-100",
+      "claim": "29 C.F.R. Part 100 contains the implementing regulations for USERRA, including definitions, rights, obligations, and enforcement procedures.",
+      "source_name": "U.S. Department of Labor / eCFR",
+      "source_url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-100",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA implementing regulations. eCFR may require interactive access; verified structure available."
+    },
+    {
+      "id": "dol-elaws-userra",
+      "claim": "The DOL elaws USERRA Advisor is an official Department of Labor interactive tool that helps servicemembers and employers understand USERRA rights and obligations.",
+      "source_name": "U.S. Department of Labor",
+      "source_url": "https://webapps.dol.gov/elaws/userra.htm",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "Verified 200."
+    },
+    {
+      "id": "dol-vets-userra",
+      "claim": "DOL Veterans' Employment and Training Service (VETS) administers USERRA assistance, investigates complaints, and may refer matters to the Department of Justice for enforcement against State or private employers.",
+      "source_name": "U.S. Department of Labor",
+      "source_url": "https://www.dol.gov/agencies/vets/programs/userra",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "Canonical DOL VETS USERRA page. Returns 403 to automated requests but is live for users."
+    },
+    {
+      "id": "doj-crt-employment-litigation",
+      "claim": "The Department of Justice Civil Rights Division Employment Litigation Section enforces certain servicemembers' employment rights, including cases referred by DOL VETS under USERRA.",
+      "source_name": "U.S. Department of Justice",
+      "source_url": "https://www.justice.gov/crt/employment-litigation-section",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "Current DOJ Civil Rights employment page. Direct USERRA sub-URL changed; this is the current authoritative landing page."
+    },
+    {
+      "id": "esgr-userra",
+      "claim": "Employer Support of the Guard and Reserve (ESGR) provides informal assistance, education, and ombudsman services to help resolve USERRA-related disputes between servicemembers and employers.",
+      "source_name": "Employer Support of the Guard and Reserve",
+      "source_url": "https://www.esgr.mil/USERRA",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "Verified 200; automated SSL verification failed but site is accessible to users."
+    },
+    {
+      "id": "userra-dol-poster",
+      "claim": "DOL publishes a USERRA notice poster that employers must display, informing employees of their USERRA rights.",
+      "source_name": "U.S. Department of Labor",
+      "source_url": "https://www.dol.gov/agencies/vets/programs/userra/poster",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "Canonical poster URL; returns 403 to automated requests but live for users."
+    },
+    {
+      "id": "38-usc-4318",
+      "claim": "38 U.S.C. \u00a7 4318 governs treatment of servicemembers under employer pension benefit plans, including service crediting during military absences.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4318",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA pension benefits. Verified 200."
     }
   ]
 }
