@@ -13,7 +13,7 @@ PAGES = [
     "index.html", "help-now.html", "claims.html", "appeals.html", "discharge-upgrade.html",
     "housing.html", "employment-money.html", "family-immigration.html", "legal-library.html",
     "toolkit.html", "about.html", "sources.html", "substance-use.html", "widows.html",
-    "state-resources.html", "faith-encouragement.html", "va-debt.html"
+    "state-resources.html", "faith-encouragement.html", "va-debt.html", "employment-rights.html"
 ]
 
 RISK_WORDS = ['must', 'always', 'guaranteed', 'automatically', 'entitled', 'required', 'qualifies', 'eligible', 'illegal', 'unlawful', 'prohibited', 'cannot', 'deadline']
