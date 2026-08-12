@@ -1,94 +1,132 @@
 (function() {
   'use strict';
 
+  // Unified mobile menu
   function initMenu() {
     var menuBtn = document.querySelector('.menu-btn');
-    var sidebar = document.getElementById('sidebar');
-    if (!menuBtn || !sidebar) return;
+    var nav = document.getElementById('main-nav');
+    var overlay = document.querySelector('.nav-overlay');
+    if (!menuBtn || !nav) return;
+
+    function setOpen(isOpen) {
+      nav.classList.toggle('open', isOpen);
+      if (overlay) overlay.classList.toggle('open', isOpen);
+      menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
 
     menuBtn.addEventListener('click', function() {
-      var isOpen = sidebar.classList.toggle('open');
-      menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      setOpen(!nav.classList.contains('open'));
     });
 
-    sidebar.querySelectorAll('a[href^="#"]').forEach(function(link) {
+    if (overlay) {
+      overlay.addEventListener('click', function() { setOpen(false); });
+    }
+
+    nav.querySelectorAll('a').forEach(function(link) {
       link.addEventListener('click', function() {
-        sidebar.classList.remove('open');
-        menuBtn.setAttribute('aria-expanded', 'false');
+        if (window.innerWidth <= 900) setOpen(false);
       });
     });
 
-    // Close sidebar when clicking outside on mobile
-    document.addEventListener('click', function(e) {
-      if (window.innerWidth > 900) return;
-      if (!sidebar.classList.contains('open')) return;
-      if (sidebar.contains(e.target) || menuBtn.contains(e.target)) return;
-      sidebar.classList.remove('open');
-      menuBtn.setAttribute('aria-expanded', 'false');
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && nav.classList.contains('open')) {
+        setOpen(false);
+        menuBtn.focus();
+      }
     });
   }
 
+  // Site search overlay
+  var searchIndex = [];
   function initSearch() {
-    var searchBox = document.getElementById('searchBox');
-    var clearBtn = document.querySelector('.search-clear');
-    if (!searchBox) return;
+    var searchBtn = document.querySelector('.search-btn');
+    var overlay = document.getElementById('search-overlay');
+    var input = document.getElementById('search-input');
+    var results = document.getElementById('search-results');
+    var closeBtn = document.getElementById('search-close');
+    if (!overlay || !input || !results) return;
 
-    function clearSearch() {
-      searchBox.value = '';
-      doSearch();
-      searchBox.focus();
+    function openSearch() {
+      overlay.classList.add('open');
+      input.value = '';
+      input.focus();
+      results.innerHTML = '<p class="search-empty">Type a topic like "housing", "USERRA", "debt", or "appeal".</p>';
     }
 
-    searchBox.addEventListener('input', doSearch);
-    searchBox.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        clearSearch();
-        searchBox.blur();
+    function closeSearch() {
+      overlay.classList.remove('open');
+      if (searchBtn) searchBtn.focus();
+    }
+
+    if (searchBtn) searchBtn.addEventListener('click', openSearch);
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+
+    document.addEventListener('keydown', function(e) {
+      if ((e.key === '/' && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') ||
+          ((e.ctrlKey || e.metaKey) && e.key === 'k')) {
+        e.preventDefault();
+        openSearch();
+      }
+      if (e.key === 'Escape' && overlay.classList.contains('open')) {
+        closeSearch();
       }
     });
 
-    if (clearBtn) {
-      clearBtn.addEventListener('click', clearSearch);
-    }
-  }
-
-  function doSearch() {
-    var q = document.getElementById('searchBox');
-    if (!q) return;
-    var query = q.value.toLowerCase().trim();
-    var links = document.querySelectorAll('#navResults a');
-    var clearBtn = document.querySelector('.search-clear');
-    var any = false;
-
-    if (clearBtn) {
-      clearBtn.classList.toggle('visible', query.length > 0);
-    }
-
-    if (!query) {
-      links.forEach(function(a) {
-        a.style.display = 'block';
-        a.classList.remove('highlight');
-      });
-      document.getElementById('noResults').style.display = 'none';
-      return;
-    }
-
-    var words = query.split(/\s+/).filter(function(w) { return w.length > 0; });
-
-    links.forEach(function(a) {
-      var text = (a.textContent || '').toLowerCase();
-      var search = (a.dataset.search || '').toLowerCase();
-      var href = (a.getAttribute('href') || '').toLowerCase();
-      var combined = text + ' ' + search + ' ' + href;
-      var match = words.every(function(w) { return combined.indexOf(w) !== -1; });
-      a.style.display = match ? 'block' : 'none';
-      a.classList.toggle('highlight', match);
-      if (match) any = true;
+    input.addEventListener('input', function() {
+      renderResults(input.value.trim().toLowerCase());
     });
 
-    document.getElementById('noResults').style.display = any ? 'none' : 'block';
+    input.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeSearch();
+      if (e.key === 'Enter') {
+        var first = results.querySelector('.search-result');
+        if (first) window.location.href = first.href;
+      }
+    });
+
+    function renderResults(query) {
+      if (!query) {
+        results.innerHTML = '<p class="search-empty">Type a topic like "housing", "USERRA", "debt", or "appeal".</p>';
+        return;
+      }
+      var words = query.split(/\s+/).filter(Boolean);
+      var matches = searchIndex.filter(function(item) {
+        var hay = (item.title + ' ' + item.h1 + ' ' + item.description + ' ' + item.excerpt + ' ' + item.page).toLowerCase();
+        return words.every(function(w) { return hay.indexOf(w) !== -1; });
+      }).slice(0, 12);
+
+      if (!matches.length) {
+        results.innerHTML = '<p class="search-empty">No results. Try "housing", "USERRA", "debt", "appeal", or "discharge".</p>';
+        return;
+      }
+
+      results.innerHTML = matches.map(function(item) {
+        var url = item.url;
+        if (item.anchor) url += '#' + item.anchor;
+        return '<a class="search-result" href="' + url + '"><h4>' + escapeHtml(item.description || item.title) + '</h4><p>' + escapeHtml(item.excerpt) + '</p><small>' + escapeHtml(item.page.replace('.html','')) + '</small></a>';
+      }).join('');
+    }
+
+    loadSearchIndex();
   }
 
+  function loadSearchIndex() {
+    var path = 'assets/js/search-index.json';
+    fetch(path)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (Array.isArray(data)) searchIndex = data;
+      })
+      .catch(function() {
+        // Search will remain empty; fallback is the navigation menu
+      });
+  }
+
+  function escapeHtml(text) {
+    return (text || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  // Secure external links
   function secureExternalLinks() {
     document.querySelectorAll('a[href^="http"], a[href^="//"]').forEach(function(a) {
       if (a.getAttribute('target') === '_blank') {
@@ -100,39 +138,11 @@
     });
   }
 
-  function initScrollSpy() {
-    var sidebarLinks = document.querySelectorAll('#navResults a[href^="#"]');
-    var sections = Array.from(document.querySelectorAll('.section-card[id]'));
-    if (!sections.length || !sidebarLinks.length) return;
-
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          sidebarLinks.forEach(function(link) {
-            link.classList.remove('active');
-          });
-          var active = document.querySelector('#navResults a[href="#' + entry.target.id + '"]');
-          if (active) active.classList.add('active');
-        }
-      });
-    }, {
-      rootMargin: '-20% 0px -60% 0px',
-      threshold: 0
-    });
-
-    sections.forEach(function(section) {
-      observer.observe(section);
-    });
-  }
-
   function initApp() {
     initMenu();
     initSearch();
     secureExternalLinks();
-    initScrollSpy();
   }
-
-  document.addEventListener('componentsLoaded', initApp);
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
