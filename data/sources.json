@@ -1599,7 +1599,7 @@
     },
     {
       "id": "38-usc-4317",
-      "claim": "38 U.S.C. \u00a7 4317 provides certain protections with respect to employer health plans for persons absent from employment for service in the uniformed services.",
+      "claim": "38 U.S.C. \u00a7 4317 provides certain rights with respect to employer health plans during and after military service, including continuation coverage requirements under specified conditions.",
       "source_name": "U.S. Congress / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/4317",
       "verified_date": "2026-08-11",
@@ -1717,6 +1717,17 @@
       "authority_level": "PRIMARY_GOVERNMENT",
       "next_review": "2026-11-11",
       "notes": "USERRA pension benefits. Verified 200."
+    },
+    {
+      "id": "38-usc-4312-five-year",
+      "claim": "38 U.S.C. \u00a7 4312 contains a cumulative five-year limit on the duration of service for which a person has reemployment rights with the same employer, subject to specified exceptions.",
+      "source_name": "U.S. Congress / Cornell Legal Information Institute",
+      "source_url": "https://www.law.cornell.edu/uscode/text/38/4312",
+      "verified_date": "2026-08-11",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-11-11",
+      "notes": "USERRA cumulative service limit and exceptions. Verified 200."
     }
   ]
 }
