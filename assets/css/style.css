@@ -1,3 +1,10 @@
+/* Defensive hide for legacy sidebar / duplicate navigation */
+[data-component="site-nav"],
+.sidebar,
+#sidebar {
+  display: none !important;
+}
+
 
 /* Sidebar list normalization */
 .sidebar ul,
