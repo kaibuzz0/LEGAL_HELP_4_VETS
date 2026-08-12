@@ -49,7 +49,7 @@
         return { item: item, score: score };
       })
       .filter(function (result) { return result.score > 0; })
-      .sort(function (a, b) { return b.score - b.score; })
+      .sort(function (a, b) { return b.score - a.score; })
       .map(function (result) { return result.item; });
   }
 
