@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-17T00:00:37Z",
+  "source_commit": "dfbaa8eec321d52791ba18076a62bc39ef35449d",
+  "repo": {
+    "id": "legal_help_4_vets",
+    "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
+    "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS",
+    "default_branch": "main"
+  },
+  "stats": {
+    "tracked_files": 62,
+    "python_files": 4,
+    "javascript_typescript_files": 2,
+    "workflow_files": 1,
+    "test_files": 3
+  },
+  "tools": [],
+  "toolsets": [],
+  "cases": [],
+  "opportunities": [],
+  "intelligence": [],
+  "sources": [],
+  "prompts": [],
+  "evidence": [],
+  "agent_ops": {},
+  "activity": [
+    {
+      "id": "dfbaa8eec321d52791ba18076a62bc39ef35449d",
+      "type": "commit",
+      "title": "Connect repository to GitHub Command Site",
+      "timestamp": "2026-08-16T19:00:27-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/dfbaa8eec321d52791ba18076a62bc39ef35449d"
+    },
+    {
+      "id": "0828acdcbecd0abffe5a4cd22ce66034078c7e31",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:13-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/0828acdcbecd0abffe5a4cd22ce66034078c7e31"
+    },
+    {
+      "id": "cdd772ad4dcaad7c0e525a10d1ab79dd40d248b5",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:12-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/cdd772ad4dcaad7c0e525a10d1ab79dd40d248b5"
+    },
+    {
+      "id": "6dd4f941bd8a443c9025bafa12ccaa7bca6cac7d",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:11-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6dd4f941bd8a443c9025bafa12ccaa7bca6cac7d"
+    },
+    {
+      "id": "ddc64cfb063e69e28829d41e67e1857199afbbd6",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:10-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ddc64cfb063e69e28829d41e67e1857199afbbd6"
+    },
+    {
+      "id": "35021ae49404ed97e119f514aa4a100a5ea5b8f3",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:09-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/35021ae49404ed97e119f514aa4a100a5ea5b8f3"
+    },
+    {
+      "id": "d107a963d951c86a91e8b5cf0e465b6fc8d07b86",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:08-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d107a963d951c86a91e8b5cf0e465b6fc8d07b86"
+    },
+    {
+      "id": "9b440d7e54c9499ceb173e401035c1e6712f2245",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:06-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9b440d7e54c9499ceb173e401035c1e6712f2245"
+    },
+    {
+      "id": "eea215f4df69c591c7527bf9dd38246eed690241",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:05-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/eea215f4df69c591c7527bf9dd38246eed690241"
+    },
+    {
+      "id": "201eabe592591caaac662ac81d938f9d15b0b843",
+      "type": "commit",
+      "title": "Remove legacy sidebar navigation placeholders and injection",
+      "timestamp": "2026-08-11T21:22:04-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/201eabe592591caaac662ac81d938f9d15b0b843"
+    }
+  ],
+  "links": [
+    {
+      "id": "github",
+      "name": "GitHub repository",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS"
+    },
+    {
+      "id": "actions",
+      "name": "GitHub Actions",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/actions"
+    },
+    {
+      "id": "issues",
+      "name": "Issues",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/issues"
+    }
+  ]
+}
