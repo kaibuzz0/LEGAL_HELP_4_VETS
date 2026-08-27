@@ -2,7 +2,7 @@ name: Legal Content Quality
 
 on:
   push:
-    branches: [main, legal-accuracy-foundation]
+    branches: [main, legal-accuracy-foundation, veteran-emergency-medical-rights]
   pull_request:
     branches: [main]
 
@@ -25,5 +25,7 @@ jobs:
         run: python -m unittest tests.test_sources
       - name: Internal HTML link tests
         run: python -m unittest tests.test_internal_links
+      - name: Phase 2 legal quality tests
+        run: python -m unittest tests.test_phase2_legal_quality
       - name: Legal language review scan
         run: python tests/test_legal_language.py
