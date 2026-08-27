@@ -23,5 +23,7 @@ jobs:
         run: python -m unittest tests.test_html
       - name: Source registry tests
         run: python -m unittest tests.test_sources
+      - name: Internal HTML link tests
+        run: python -m unittest tests.test_internal_links
       - name: Legal language review scan
         run: python tests/test_legal_language.py
