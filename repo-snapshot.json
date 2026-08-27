@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T16:54:08Z",
-  "source_commit": "6bdc6306513b68dfc78c31e457b1159286396658",
+  "generated_at": "2026-08-27T17:02:35Z",
+  "source_commit": "d6b879361146958fa529bda5ae916f9105d45e83",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 66,
+    "tracked_files": 70,
     "python_files": 5,
     "javascript_typescript_files": 2,
     "workflow_files": 2,
     "test_files": 4
   },
   "repository_tree": {
-    "total_files": 66,
+    "total_files": 70,
     "total_directories": 17,
     "files_truncated": false,
     "directories_truncated": false,
@@ -35,14 +35,17 @@
       "data",
       "discharge-upgrade.html",
       "docs",
+      "emergency.html",
       "employment-money.html",
       "employment-rights.html",
       "faith-encouragement.html",
       "family-immigration.html",
+      "find-legal-help.html",
       "help-now.html",
       "housing.html",
       "index.html",
       "legal-library.html",
+      "medical-rights.html",
       "robots.txt",
       "sitemap.xml",
       "sources.html",
@@ -142,7 +145,7 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 3
+        "file_count": 4
       },
       {
         "path": "docs",
@@ -359,6 +362,11 @@
         "extension": ".html"
       },
       {
+        "path": "data/primary-authorities.json",
+        "name": "primary-authorities.json",
+        "extension": ".json"
+      },
+      {
         "path": "data/psalms.json",
         "name": "psalms.json",
         "extension": ".json"
@@ -384,6 +392,11 @@
         "extension": ".md"
       },
       {
+        "path": "emergency.html",
+        "name": "emergency.html",
+        "extension": ".html"
+      },
+      {
         "path": "employment-money.html",
         "name": "employment-money.html",
         "extension": ".html"
@@ -404,6 +417,11 @@
         "extension": ".html"
       },
       {
+        "path": "find-legal-help.html",
+        "name": "find-legal-help.html",
+        "extension": ".html"
+      },
+      {
         "path": "help-now.html",
         "name": "help-now.html",
         "extension": ".html"
@@ -421,6 +439,11 @@
       {
         "path": "legal-library.html",
         "name": "legal-library.html",
+        "extension": ".html"
+      },
+      {
+        "path": "medical-rights.html",
+        "name": "medical-rights.html",
         "extension": ".html"
       },
       {
@@ -501,6 +524,55 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "d6b879361146958fa529bda5ae916f9105d45e83",
+      "type": "commit",
+      "title": "Merge pull request #10 from kaibuzz0/veteran-emergency-medical-rights",
+      "timestamp": "2026-08-27T12:02:25-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d6b879361146958fa529bda5ae916f9105d45e83"
+    },
+    {
+      "id": "74d1a11ea382d3ac9756862f9def8e90c2bd4a2f",
+      "type": "commit",
+      "title": "[B/C] Integrate LSV-H and emergency routes into existing crisis pages",
+      "timestamp": "2026-08-27T12:02:15-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/74d1a11ea382d3ac9756862f9def8e90c2bd4a2f"
+    },
+    {
+      "id": "dc00768ac43e90219a8551bf985b650db6431613",
+      "type": "commit",
+      "title": "[A/B] Add accredited veteran legal help routing",
+      "timestamp": "2026-08-27T12:01:47-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/dc00768ac43e90219a8551bf985b650db6431613"
+    },
+    {
+      "id": "a85ee81a0e07675c15cec2418873d1ebdda4f066",
+      "type": "commit",
+      "title": "[A/B] Add verified VA medical rights and harm pathways",
+      "timestamp": "2026-08-27T12:01:06-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/a85ee81a0e07675c15cec2418873d1ebdda4f066"
+    },
+    {
+      "id": "96660d23ad71a037cfddda188d4c4330bbf1b39d",
+      "type": "commit",
+      "title": "[A/B] Add veteran legal emergency triage front door",
+      "timestamp": "2026-08-27T12:00:07-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/96660d23ad71a037cfddda188d4c4330bbf1b39d"
+    },
+    {
+      "id": "770795d0952c21118105a05fc94840ad4b4b2807",
+      "type": "commit",
+      "title": "[C] Add emergency and mobile legal action UI",
+      "timestamp": "2026-08-27T11:59:09-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/770795d0952c21118105a05fc94840ad4b4b2807"
+    },
+    {
+      "id": "d9e65cd8587a1b2eed9ef2d2c7c44dc0fa84af85",
+      "type": "commit",
+      "title": "[A] Add primary authority registry for legal foundation and Phase 2",
+      "timestamp": "2026-08-27T11:58:50-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d9e65cd8587a1b2eed9ef2d2c7c44dc0fa84af85"
+    },
+    {
       "id": "6bdc6306513b68dfc78c31e457b1159286396658",
       "type": "commit",
       "title": "Merge pull request #9 from kaibuzz0/legal-accuracy-foundation",
@@ -520,55 +592,6 @@
       "title": "[C] Run internal link checks in legal QA",
       "timestamp": "2026-08-27T11:47:04-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b187e69cb1cd7265adedbc27a55855cb7c02ac04"
-    },
-    {
-      "id": "fc581f118b1707965828d574ce6c74cc19634d0a",
-      "type": "commit",
-      "title": "[C] Add internal HTML link regression test",
-      "timestamp": "2026-08-27T11:46:51-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/fc581f118b1707965828d574ce6c74cc19634d0a"
-    },
-    {
-      "id": "d9b690d3e4c1d1276ed034604804fdbcc63a24c7",
-      "type": "commit",
-      "title": "[C] Add legal content regression workflow",
-      "timestamp": "2026-08-27T11:45:09-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d9b690d3e4c1d1276ed034604804fdbcc63a24c7"
-    },
-    {
-      "id": "239dab3eda9139acff7d0cd2cfcf96e1393f7193",
-      "type": "commit",
-      "title": "[A] Add legal accuracy audit for priority pages",
-      "timestamp": "2026-08-27T11:44:21-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/239dab3eda9139acff7d0cd2cfcf96e1393f7193"
-    },
-    {
-      "id": "aa4647218adeeac9aed7473a9101f70870eeb2e3",
-      "type": "commit",
-      "title": "[A] Clarify Intent to File and claim evidence guidance",
-      "timestamp": "2026-08-27T11:43:17-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/aa4647218adeeac9aed7473a9101f70870eeb2e3"
-    },
-    {
-      "id": "2f9490b9349cffc49a4bef162f41a886af506bee",
-      "type": "commit",
-      "title": "[A] Correct BCMR deadline and discharge review guidance",
-      "timestamp": "2026-08-27T11:42:26-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2f9490b9349cffc49a4bef162f41a886af506bee"
-    },
-    {
-      "id": "e0d60c8d5c051497e01b5e1adc94e2c46b56584f",
-      "type": "commit",
-      "title": "[A] Fix AMA review deadlines and protective-letter advice",
-      "timestamp": "2026-08-27T11:41:41-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/e0d60c8d5c051497e01b5e1adc94e2c46b56584f"
-    },
-    {
-      "id": "1e8e4ac4a22e587ffbe2975413bdfdfb205cdaeb",
-      "type": "commit",
-      "title": "[C] Add legal authority and action tags",
-      "timestamp": "2026-08-27T11:40:53-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1e8e4ac4a22e587ffbe2975413bdfdfb205cdaeb"
     }
   ],
   "links": [
