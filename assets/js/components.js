@@ -3,6 +3,9 @@
 
   var NAV_ITEMS = [
     { id: 'index', href: 'index.html', label: 'Home' },
+    { id: 'emergency', href: 'emergency.html', label: 'Legal Emergency' },
+    { id: 'medical-rights', href: 'medical-rights.html', label: 'Medical Rights' },
+    { id: 'find-legal-help', href: 'find-legal-help.html', label: 'Find Legal Help' },
     { id: 'help-now', href: 'help-now.html', label: 'Crisis Help' },
     { id: 'claims', href: 'claims.html', label: 'VA Claims' },
     { id: 'appeals', href: 'appeals.html', label: 'Appeals' },
@@ -21,17 +24,24 @@
     { id: 'about', href: 'about.html', label: 'About / Sources' }
   ];
 
-  
-
-  
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', rotatePsalmBanner);
-  } else {
-    rotatePsalmBanner();
+  function addLegalEmergencyBanner() {
+    var path = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    if (path !== 'housing.html' && path !== 'help-now.html') return;
+    var main = document.getElementById('main-content');
+    if (!main || document.getElementById('lsvh-emergency-banner')) return;
+    var box = document.createElement('section');
+    box.id = 'lsvh-emergency-banner';
+    box.className = 'section-card';
+    box.setAttribute('aria-label', 'Legal help for homelessness and housing risk');
+    box.innerHTML = '<h2>Need legal help because you are homeless or may lose housing?</h2>' +
+      '<p><strong>LSV-H</strong> is a VA grant program that funds free legal services for eligible Veterans who are homeless or at risk for homelessness. Services vary by grantee and may include eviction or foreclosure matters, family law, income support, certain criminal matters related to homelessness, discharge upgrades, consumer issues, health-care access, and employment law.</p>' +
+      '<p><strong>Do not assume every grantee handles every case.</strong> Check the current VA grantee list and ask whether the provider handles your specific legal problem.</p>' +
+      '<p><a href="find-legal-help.html#homelessness">Find LSV-H and housing legal help</a> · <a href="emergency.html#homeless">Homeless tonight</a> · <a href="emergency.html#eviction">Eviction emergency</a></p>';
+    var firstHeading = main.querySelector('h1');
+    if (firstHeading && firstHeading.nextSibling) main.insertBefore(box, firstHeading.nextSibling);
+    else main.insertBefore(box, main.firstChild);
   }
 
-  // Psalm banner rotation
   function rotatePsalmBanner() {
     var banners = document.querySelectorAll('.psalm-banner');
     if (!banners.length) return;
@@ -48,10 +58,14 @@
           if (textEl) textEl.textContent = '"' + verse.text + '"';
         });
       })
-      .catch(function() {
-        // leave static fallback in place
-      });
+      .catch(function() { });
   }
 
-  rotatePsalmBanner();
+  function init() {
+    addLegalEmergencyBanner();
+    rotatePsalmBanner();
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();
