@@ -1,0 +1,18 @@
+file,line,phrase,context,classification,risk,authority_needed,status,notes
+appeals.html,,protective appeal letter,Informal letter previously described as preserving AMA review rights,DEADLINE,P0,38 CFR 3.2500,RESOLVED,Removed in PR 9
+appeals.html,,one year,AMA timing requires exceptions and Supplemental Claim distinction,DEADLINE,P0,38 CFR 3.2500,RESOLVED,Qualified in PR 9
+claims.html,,locks an earlier effective date,Intent to File effect was stated categorically,RIGHT,P0,38 CFR 3.155 and 3.400,RESOLVED,Qualified in PR 9
+claims.html,,worst days not your best,Could encourage distorted symptom reporting,PRACTICAL_ADVICE,P1,VA exam guidance,RESOLVED,Rewritten in PR 9
+claims.html,,doctor saying not related ends the claim,Negative medical opinion was treated as automatic termination,ELIGIBILITY,P1,VA evidentiary rules,RESOLVED,Rewritten in PR 9
+discharge-upgrade.html,,no fixed deadline,BCMR timing misstated,DEADLINE,P0,10 USC 1552(b),RESOLVED,Corrected in PR 9
+discharge-upgrade.html,,force a COD review,Overstates effect of filing a VA claim,RIGHT,P1,VA COD guidance,RESOLVED,Rewritten in PR 9
+medical-rights.html,,72 hours,Must not be described as automatic payment cutoff,DEADLINE,P0,VA emergency care guidance,REVIEWED,Late notice expressly described as not automatic denial
+medical-rights.html,,must be authorized,Ordinary Community Care authorization could be confused with emergency care,ELIGIBILITY,P1,38 CFR 17.4010,REVIEWED,Emergency exception separated
+medical-rights.html,,2 years after claim accrues,FTCA presentment deadline is high consequence,DEADLINE,P0,28 USC 2401(b),REVIEWED,Primary statute and VA OGC checked
+medical-rights.html,,6 months after final denial,FTCA court deadline is high consequence,DEADLINE,P0,28 USC 2401(b),REVIEWED,Primary statute checked
+medical-rights.html,,sum certain,FTCA presentment requirement affects validity,FORM,P0,VA OGC FTCA and DOJ SF95,REVIEWED,Official guidance checked
+medical-rights.html,,VA caused harm,Must not imply every adverse outcome qualifies under 1151,ELIGIBILITY,P1,38 USC 1151 and 38 CFR 3.361,REVIEWED,Causation and proximate-cause qualifications added
+find-legal-help.html,,VA-accredited,Online representatives must be checked against official accreditation,RIGHT,P1,VA OGC accreditation search,REVIEWED,Official current search linked
+find-legal-help.html,,free legal services,LSV-H availability and scope vary by grantee,ELIGIBILITY,P1,VA LSV-H,REVIEWED,No guarantee of service stated
+emergency.html,,do not miss court,State procedure varies and universal answer rules are unsafe,STATE_SPECIFIC,P1,state court law,REVIEWED,State-specific warning included
+emergency.html,,benefits reduction deadline,Reduction due-process deadlines may differ from AMA review timing,DEADLINE,P0,decision-specific authority,OPEN,Page tells user to follow actual proposal/decision; deeper reduction audit remains
