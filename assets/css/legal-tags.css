@@ -1,0 +1,14 @@
+.legal-tag{display:inline-block;font-weight:700;font-size:.88rem;line-height:1.2;padding:.28rem .5rem;margin:.15rem .25rem .15rem 0;border:1px solid currentColor;border-radius:.35rem;background:rgba(255,255,255,.04)}
+.legal-tag-right{border-left-width:.35rem}
+.legal-tag-action{border-left-width:.35rem}
+.legal-tag-deadline{border-left-width:.35rem}
+.legal-tag-form{border-left-width:.35rem}
+.legal-tag-lawyer{border-left-width:.35rem}
+.legal-tag-checklist{border-left-width:.35rem}
+.legal-tag-authority{border-left-width:.35rem}
+.verification-meta{margin:1rem 0;padding:.9rem 1rem;border:1px solid rgba(127,127,127,.45);border-left-width:.35rem;border-radius:.4rem;font-size:.92rem;line-height:1.55}
+.verification-meta a{overflow-wrap:anywhere}
+.legal-action-tree{margin:1rem 0;padding:1rem;border:1px solid rgba(127,127,127,.4);border-radius:.45rem}
+.legal-action-tree ol{margin-bottom:.25rem}
+.proof-list{margin-top:.5rem}
+@media print{.legal-tag,.verification-meta,.legal-action-tree{break-inside:avoid}}
