@@ -1,14 +1,15 @@
 .legal-tag{display:inline-block;font-weight:700;font-size:.88rem;line-height:1.2;padding:.28rem .5rem;margin:.15rem .25rem .15rem 0;border:1px solid currentColor;border-radius:.35rem;background:rgba(255,255,255,.04)}
-.legal-tag-right{border-left-width:.35rem}
-.legal-tag-action{border-left-width:.35rem}
-.legal-tag-deadline{border-left-width:.35rem}
-.legal-tag-form{border-left-width:.35rem}
-.legal-tag-lawyer{border-left-width:.35rem}
-.legal-tag-checklist{border-left-width:.35rem}
-.legal-tag-authority{border-left-width:.35rem}
+.legal-tag-right,.legal-tag-action,.legal-tag-deadline,.legal-tag-form,.legal-tag-lawyer,.legal-tag-checklist,.legal-tag-authority{border-left-width:.35rem}
 .verification-meta{margin:1rem 0;padding:.9rem 1rem;border:1px solid rgba(127,127,127,.45);border-left-width:.35rem;border-radius:.4rem;font-size:.92rem;line-height:1.55}
 .verification-meta a{overflow-wrap:anywhere}
-.legal-action-tree{margin:1rem 0;padding:1rem;border:1px solid rgba(127,127,127,.4);border-radius:.45rem}
-.legal-action-tree ol{margin-bottom:.25rem}
-.proof-list{margin-top:.5rem}
-@media print{.legal-tag,.verification-meta,.legal-action-tree{break-inside:avoid}}
+.legal-action-tree,.emergency-step{margin:1rem 0;padding:1rem;border:1px solid rgba(127,127,127,.4);border-radius:.45rem}
+.legal-action-tree ol{margin-bottom:.25rem}.proof-list{margin-top:.5rem}
+.emergency-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.75rem;margin:1rem 0}
+.emergency-choice{display:block;padding:1rem;border:2px solid currentColor;border-radius:.55rem;font-weight:800;text-decoration:none;line-height:1.35}
+.emergency-choice:focus,.emergency-choice:hover{outline:3px solid currentColor;outline-offset:2px}
+.emergency-step h2,.emergency-step h3{margin-top:.35rem}
+.action-now{font-size:1.05rem;font-weight:700}
+.route-table{display:block;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch}
+.route-table table{min-width:620px}
+@media(max-width:560px){.emergency-grid{grid-template-columns:1fr}.emergency-choice{padding:1.1rem;font-size:1rem}.emergency-step{padding:.85rem}.route-table table{min-width:540px}}
+@media print{.legal-tag,.verification-meta,.legal-action-tree,.emergency-step{break-inside:avoid}}
