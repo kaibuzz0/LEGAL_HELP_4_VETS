@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T17:02:35Z",
-  "source_commit": "d6b879361146958fa529bda5ae916f9105d45e83",
+  "generated_at": "2026-08-27T17:31:38Z",
+  "source_commit": "665b18ca4b9e3979c7111f889ed947718af6916e",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 70,
-    "python_files": 5,
+    "tracked_files": 73,
+    "python_files": 6,
     "javascript_typescript_files": 2,
     "workflow_files": 2,
-    "test_files": 4
+    "test_files": 5
   },
   "repository_tree": {
-    "total_files": 70,
+    "total_files": 73,
     "total_directories": 17,
     "files_truncated": false,
     "directories_truncated": false,
@@ -97,7 +97,7 @@
         "path": "audit",
         "name": "audit",
         "depth": 1,
-        "file_count": 24
+        "file_count": 26
       },
       {
         "path": "audit/backups",
@@ -157,7 +157,7 @@
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 5
+        "file_count": 6
       }
     ],
     "files": [
@@ -255,6 +255,16 @@
         "path": "audit/backups/UX_UI_REMEDIATION_BACKUP.md",
         "name": "UX_UI_REMEDIATION_BACKUP.md",
         "extension": ".md"
+      },
+      {
+        "path": "audit/external-link-audit.csv",
+        "name": "external-link-audit.csv",
+        "extension": ".csv"
+      },
+      {
+        "path": "audit/high-risk-legal-language.csv",
+        "name": "high-risk-legal-language.csv",
+        "extension": ".csv"
       },
       {
         "path": "audit/inventory/file_inventory.json",
@@ -492,6 +502,11 @@
         "extension": ".py"
       },
       {
+        "path": "tests/test_phase2_legal_quality.py",
+        "name": "test_phase2_legal_quality.py",
+        "extension": ".py"
+      },
+      {
         "path": "tests/test_sources.py",
         "name": "test_sources.py",
         "extension": ".py"
@@ -524,6 +539,48 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "665b18ca4b9e3979c7111f889ed947718af6916e",
+      "type": "commit",
+      "title": "Merge pull request #11 from kaibuzz0/phase2-legal-qa-hardening",
+      "timestamp": "2026-08-27T12:31:29-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/665b18ca4b9e3979c7111f889ed947718af6916e"
+    },
+    {
+      "id": "2c11473e92d2bd8d633b53cf21541dc65936299c",
+      "type": "commit",
+      "title": "[C] Add controlled primary-source link audit log",
+      "timestamp": "2026-08-27T12:06:04-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2c11473e92d2bd8d633b53cf21541dc65936299c"
+    },
+    {
+      "id": "11fc68116deee7dc08f8154a74e04fa5eebe4976",
+      "type": "commit",
+      "title": "[B] Start machine-readable high-risk legal language queue",
+      "timestamp": "2026-08-27T12:05:52-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/11fc68116deee7dc08f8154a74e04fa5eebe4976"
+    },
+    {
+      "id": "019282bdd8be30022761bf3a847355c73d5a23dc",
+      "type": "commit",
+      "title": "[C] Extend HTML regression coverage to Phase 2 pages",
+      "timestamp": "2026-08-27T12:05:39-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/019282bdd8be30022761bf3a847355c73d5a23dc"
+    },
+    {
+      "id": "03e31c02d94ebad35ff3b33d534b3e25d4777cdb",
+      "type": "commit",
+      "title": "[C] Add Phase 2 legal metadata and emergency route QA",
+      "timestamp": "2026-08-27T12:05:18-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/03e31c02d94ebad35ff3b33d534b3e25d4777cdb"
+    },
+    {
+      "id": "e34202975de2810b49735ee52f7250711db438d8",
+      "type": "commit",
+      "title": "[C] Expand legal content and emergency route QA",
+      "timestamp": "2026-08-27T12:05:01-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/e34202975de2810b49735ee52f7250711db438d8"
+    },
+    {
       "id": "d6b879361146958fa529bda5ae916f9105d45e83",
       "type": "commit",
       "title": "Merge pull request #10 from kaibuzz0/veteran-emergency-medical-rights",
@@ -550,48 +607,6 @@
       "title": "[A/B] Add verified VA medical rights and harm pathways",
       "timestamp": "2026-08-27T12:01:06-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/a85ee81a0e07675c15cec2418873d1ebdda4f066"
-    },
-    {
-      "id": "96660d23ad71a037cfddda188d4c4330bbf1b39d",
-      "type": "commit",
-      "title": "[A/B] Add veteran legal emergency triage front door",
-      "timestamp": "2026-08-27T12:00:07-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/96660d23ad71a037cfddda188d4c4330bbf1b39d"
-    },
-    {
-      "id": "770795d0952c21118105a05fc94840ad4b4b2807",
-      "type": "commit",
-      "title": "[C] Add emergency and mobile legal action UI",
-      "timestamp": "2026-08-27T11:59:09-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/770795d0952c21118105a05fc94840ad4b4b2807"
-    },
-    {
-      "id": "d9e65cd8587a1b2eed9ef2d2c7c44dc0fa84af85",
-      "type": "commit",
-      "title": "[A] Add primary authority registry for legal foundation and Phase 2",
-      "timestamp": "2026-08-27T11:58:50-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d9e65cd8587a1b2eed9ef2d2c7c44dc0fa84af85"
-    },
-    {
-      "id": "6bdc6306513b68dfc78c31e457b1159286396658",
-      "type": "commit",
-      "title": "Merge pull request #9 from kaibuzz0/legal-accuracy-foundation",
-      "timestamp": "2026-08-27T11:53:59-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bdc6306513b68dfc78c31e457b1159286396658"
-    },
-    {
-      "id": "4c5f6fc519e7c29256b925b5b7e4134f7a7c0efb",
-      "type": "commit",
-      "title": "[C] Fix broken Mission Brief anchor links",
-      "timestamp": "2026-08-27T11:49:08-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/4c5f6fc519e7c29256b925b5b7e4134f7a7c0efb"
-    },
-    {
-      "id": "b187e69cb1cd7265adedbc27a55855cb7c02ac04",
-      "type": "commit",
-      "title": "[C] Run internal link checks in legal QA",
-      "timestamp": "2026-08-27T11:47:04-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b187e69cb1cd7265adedbc27a55855cb7c02ac04"
     }
   ],
   "links": [
