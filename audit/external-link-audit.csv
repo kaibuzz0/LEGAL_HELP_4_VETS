@@ -1,0 +1,13 @@
+url,domain,checked_date,result,redirect_target,manual_verification_required,notes
+https://www.va.gov/forms/20-0998/,va.gov,2026-08-27,LOADED,,no,Official VA form page loaded and identified April 2024 revision
+https://www.va.gov/resources/getting-emergency-care-at-non-va-facilities/,va.gov,2026-08-27,LOADED,,no,Current VA emergency-care page loaded; expressly says late 72-hour notice is not automatic denial
+https://www.va.gov/ogc/ftca.asp,va.gov,2026-08-27,LOADED,,no,Current VA OGC FTCA instructions loaded
+https://www.va.gov/ogc/apps/accreditation/,va.gov,2026-08-27,LOADED,,no,Official accreditation search loaded
+https://department.va.gov/homeless/legal-services-for-veterans/,va.gov,2026-08-27,LOADED,,no,Current LSV-H program and grantee information loaded
+https://department.va.gov/privacy/privacy-act-requests/,va.gov,2026-08-27,LOADED,,no,Current VA Privacy Act access/amendment page loaded
+https://www.va.gov/HEALTH/patientadvocate/,va.gov,2026-08-27,LOADED,,no,VA Patient Advocate page loaded
+https://uscode.house.gov/view.xhtml?req=(title:10%20section:1552%20edition:prelim),uscode.house.gov,2026-08-27,LOADED,,no,Current preliminary-code text confirmed three-year discovery rule and interest-of-justice exception
+https://uscode.house.gov/view.xhtml?req=(title:28%20section:2675%20edition:prelim),uscode.house.gov,2026-08-27,LOADED,,no,Current text in effect August 26 2026 loaded
+https://www.justice.gov/civil/documents-and-forms-0,justice.gov,2026-08-27,LOADED,,no,DOJ SF95 guidance updated July 10 2026 loaded
+https://www.ecfr.gov/current/title-38/chapter-I/part-3/subject-group-ECFR32a04b66cb9fae9/section-3.400,ecfr.gov,2026-08-27,LOADED,,no,Current regulation loaded
+https://www.ecfr.gov/current/title-38/chapter-I/part-17/subject-group-ECFRb9f973c50752370/section-17.4010,ecfr.gov,2026-08-27,LOADED,,no,Current Community Care eligibility regulation checked
