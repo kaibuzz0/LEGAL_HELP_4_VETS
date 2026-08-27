@@ -8,7 +8,7 @@ from pathlib import Path
 
 WORK_DIR = Path(__file__).parent.parent
 PAGES = [
-    "index.html", "help-now.html", "emergency.html", "medical-rights.html", "find-legal-help.html",
+    "index.html", "help-now.html", "emergency.html", "benefit-reductions.html", "medical-rights.html", "find-legal-help.html",
     "claims.html", "appeals.html", "discharge-upgrade.html", "housing.html", "employment-money.html",
     "family-immigration.html", "legal-library.html", "toolkit.html", "about.html", "sources.html",
     "substance-use.html", "widows.html", "state-resources.html", "faith-encouragement.html",
