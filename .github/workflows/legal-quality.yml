@@ -1,0 +1,27 @@
+name: Legal Content Quality
+
+on:
+  push:
+    branches: [main, legal-accuracy-foundation]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  legal-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: HTML regression tests
+        run: python -m unittest tests.test_html
+      - name: Source registry tests
+        run: python -m unittest tests.test_sources
+      - name: Legal language review scan
+        run: python tests/test_legal_language.py
