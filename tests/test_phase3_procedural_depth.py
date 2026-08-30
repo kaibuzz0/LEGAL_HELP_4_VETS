@@ -40,7 +40,8 @@ class TestPhase3ProceduralDepth(unittest.TestCase):
         self.assertIn("VA bears the burden", text)
         self.assertIn("clearly and unmistakably erroneous", text)
         appeals = (ROOT / "appeals.html").read_text(encoding="utf-8").lower()
-        self.assertIn("do not have to prove clear and unmistakable error", appeals)
+        self.assertRegex(appeals, r"does not need to prove clear and unmistakable error|do not have to prove clear and unmistakable error")
+        self.assertIn("higher-level review", appeals)
 
     def test_incarceration_compensation_and_pension_are_separate(self):
         text = (ROOT / "benefit-reductions.html").read_text(encoding="utf-8")
@@ -107,7 +108,7 @@ class TestPhase3ProceduralDepth(unittest.TestCase):
 
     def test_cod_is_not_described_as_discharge_upgrade(self):
         text = (ROOT / "discharge-upgrade.html").read_text(encoding="utf-8").lower()
-        self.assertIn("does not change the military discharge itself", text)
+        self.assertRegex(text, r"does not change (?:the dd-214 or )?military discharge")
         self.assertNotIn("cod determination upgrades", text)
 
 if __name__ == '__main__':
