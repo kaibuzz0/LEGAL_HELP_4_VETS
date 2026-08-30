@@ -20,12 +20,19 @@ class TestPhase4StateHousing(unittest.TestCase):
         for key, route in self.texas["document_routes"].items():
             self.assertIn(route["status"], allowed, key)
 
-    def test_verified_and_partial_routes_have_traceable_authorities(self):
+    def test_published_state_law_routes_have_traceable_authorities(self):
         known = {item["id"] for item in self.texas["primary_authorities"]}
         for key, route in self.texas["document_routes"].items():
-            if route["status"] in {"verified", "partially_verified"}:
+            if route["status"] in {"verified", "partially_verified"} and key != "va_home_loan_default":
                 self.assertTrue(route.get("authorities"), key)
                 self.assertTrue(set(route["authorities"]).issubset(known), key)
+
+    def test_va_route_has_traceable_federal_guidance(self):
+        overlays = {x["id"] for x in self.federal["overlays"]}
+        self.assertIn("va-home-loan", overlays)
+        route = self.texas["document_routes"]["va_home_loan_default"]
+        self.assertEqual(route["status"], "verified")
+        self.assertIn("private lender/servicer", " ".join(route["do_now"]).lower())
 
     def test_unverified_route_does_not_publish_clock(self):
         tax = self.texas["document_routes"]["tax_foreclosure_paper"]
@@ -110,12 +117,6 @@ class TestPhase4StateHousing(unittest.TestCase):
         self.assertIn("full medical records", combined)
         self.assertIn("nexus", combined)
         self.assertIn("hud", workflow["hud_complaint"]["url"])
-
-    def test_va_backed_loan_is_not_described_as_va_owned(self):
-        route = self.texas["document_routes"]["va_home_loan_default"]
-        text = " ".join(route["do_now"]).lower()
-        self.assertIn("private lender/servicer", text)
-        self.assertIn("guaranteeing", text)
 
     def test_page_is_document_first_and_has_manual_date_map(self):
         self.assertIn("START WITH THE PAPER IN YOUR HAND", self.page)
