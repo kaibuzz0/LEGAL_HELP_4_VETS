@@ -42,16 +42,22 @@ class TestPhase3ProceduralDepth(unittest.TestCase):
         appeals = (ROOT / "appeals.html").read_text(encoding="utf-8").lower()
         self.assertIn("do not have to prove clear and unmistakable error", appeals)
 
-    def test_incarceration_is_not_generic_loss_of_benefits(self):
+    def test_incarceration_compensation_and_pension_are_separate(self):
         text = (ROOT / "benefit-reductions.html").read_text(encoding="utf-8")
+        self.assertIn("Compensation or DIC", text)
+        self.assertIn("38 CFR § 3.665", text)
+        self.assertIn("Pension is different", text)
+        self.assertIn("38 CFR § 3.666", text)
+        self.assertIn("felony <em>or misdemeanor</em>", text)
         self.assertIn("beginning on the 61st day", text)
-        self.assertIn("possible apportionment to dependents", text)
-        self.assertIn("restoration after release", text)
+        self.assertIn("apportionment to dependents", text)
+        self.assertIn("resumption after release", text)
         self.assertNotIn("incarcerated veterans lose benefits", text.lower())
 
     def test_incompetency_is_not_guardianship_or_criminal_competency(self):
         text = (ROOT / "benefit-reductions.html").read_text(encoding="utf-8")
         self.assertIn("capacity to manage affairs and benefit funds", text)
+        self.assertIn("medical incapacity, criminal competency, or a state guardianship determination", text)
         self.assertIn("presumes competency", text)
         self.assertIn("court-based exceptions", text)
 
@@ -81,7 +87,7 @@ class TestPhase3ProceduralDepth(unittest.TestCase):
     def test_primary_authority_registry_has_phase3_rules(self):
         data = json.loads((ROOT / "data" / "primary-authorities.json").read_text(encoding="utf-8"))
         ids = {a["id"] for a in data["authorities"]}
-        required = {"38-cfr-3-105", "38-cfr-3-343", "38-cfr-3-344", "38-cfr-3-951", "38-cfr-3-957", "38-cfr-3-665", "38-cfr-3-353"}
+        required = {"38-cfr-3-105", "38-cfr-3-343", "38-cfr-3-344", "38-cfr-3-951", "38-cfr-3-957", "38-cfr-3-665", "38-cfr-3-666", "38-cfr-3-353", "38-cfr-70-20"}
         self.assertTrue(required.issubset(ids), required - ids)
 
     def test_sources_page_exposes_primary_registry_with_graceful_failure(self):
