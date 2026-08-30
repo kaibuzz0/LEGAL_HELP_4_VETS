@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "last_verified": "2026-08-30",
+  "overlays": [
+    {
+      "id": "scra-eviction",
+      "title": "Servicemembers Civil Relief Act — Covered Residential Eviction",
+      "status": "verified",
+      "authority": "50 U.S.C. § 3951",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title50-section3951",
+      "rule": "For a covered premises occupied as a primary residence by a servicemember or the servicemember's dependents, and within the statutory rent-cap framework, eviction during military service generally requires a court order. If military service materially affects ability to pay and an application is made, the court must stay proceedings for 90 days unless justice and equity require a longer or shorter period, or adjust the lease obligation.",
+      "warning": "SCRA coverage depends on current covered military-service status and statutory conditions. Veteran status alone does not create this protection."
+    },
+    {
+      "id": "scra-default",
+      "title": "Servicemembers Civil Relief Act — Default Judgment Protections",
+      "status": "verified",
+      "authority": "50 U.S.C. § 3931",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title50-section3931",
+      "rule": "Before entering certain default judgments, courts require information about whether the defendant is in military service, and the statute provides attorney/stay protections in specified circumstances.",
+      "warning": "This is not a substitute for appearing in court when possible."
+    },
+    {
+      "id": "fha-disability-accommodation",
+      "title": "Fair Housing Act — Disability Reasonable Accommodation",
+      "status": "verified",
+      "authority": "42 U.S.C. § 3604(f)",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section3604",
+      "rule": "Disability discrimination can include refusing a reasonable accommodation in rules, policies, practices, or services when the accommodation may be necessary to afford an equal opportunity to use and enjoy a dwelling.",
+      "warning": "An accommodation request is not an automatic defense to eviction. Coverage, necessity, reasonableness, causation, timing, and statutory exceptions can matter."
+    },
+    {
+      "id": "hud-vash",
+      "title": "HUD-VASH",
+      "status": "verified",
+      "authority": "HUD / VA official program guidance",
+      "url": "https://www.hud.gov/program_offices/public_indian_housing/programs/hcv/vash",
+      "rule": "HUD-VASH combines HUD Housing Choice Voucher rental assistance with VA case management and supportive services for eligible Veterans experiencing homelessness.",
+      "warning": "Voucher availability, local administration, eligibility, and placement are not guaranteed."
+    },
+    {
+      "id": "ssvf",
+      "title": "Supportive Services for Veteran Families (SSVF)",
+      "status": "verified",
+      "authority": "VA official program guidance",
+      "url": "https://department.va.gov/homeless/supportive-services-for-veteran-families/",
+      "rule": "SSVF grantees provide homelessness-prevention and rapid-rehousing assistance to eligible very-low-income Veteran families through local providers.",
+      "warning": "Services, funding, eligibility determinations, and local availability vary."
+    },
+    {
+      "id": "lsv-h",
+      "title": "Legal Services for Veterans — Homeless Veterans and Veterans At-Risk for Homelessness (LSV-H)",
+      "status": "verified",
+      "authority": "VA official program guidance",
+      "url": "https://department.va.gov/homeless/legal-services-for-veterans/",
+      "rule": "VA funds legal services for eligible Veterans who are homeless or at risk for homelessness through grantees whose services can include housing-related matters and other civil legal needs.",
+      "warning": "Not every grantee provides every listed legal service."
+    }
+  ]
+}
