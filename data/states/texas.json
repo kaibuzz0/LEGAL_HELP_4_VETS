@@ -53,12 +53,12 @@
       "do_now":["Identify whether the writ is only requested, issued, or already posted for execution.","If an appeal was perfected, verify required rent-registry and appeal conditions immediately.","Save the writ/posting and contact eviction counsel if physical removal is imminent."],"authorities":["tx-trcp-510","tx-prop-24-0061"]
     },
     "locked_out": {
-      "label":"LOCKED OUT","status":"verified","court":"Justice Court in the precinct where the rental premises are located","required_filing":"Sworn complaint requesting a writ of reentry under §92.009 when the statutory conditions are met.","optional_filing":null,"immediate_clock":null,
+      "label":"LOCKED OUT","status":"verified","court":"Justice Court in the precinct in which the rental premises are located","required_filing":"Sworn complaint requesting a writ of reentry under §92.009 when the statutory conditions are met.","optional_filing":null,"immediate_clock":null,
       "remedy":"Justice Court writ of reentry for a qualifying unlawful residential lockout; the statute provides an expedited remedy rather than a generic damages-only route.",
       "do_now":["Document the lockout, time, notices, changed locks, landlord communications, and urgent access needs.","Do not assume every lock change qualifies; the remedy depends on a violation of the underlying lockout statute."],"authorities":["tx-prop-92-009"]
     },
     "utility_shutoff": {
-      "label":"UTILITY SHUTOFF","status":"verified","court":"Justice Court in the precinct where the rental premises are located","required_filing":"Sworn complaint requesting a writ of restoration under §92.0091 when the statutory conditions are met.","optional_filing":null,"immediate_clock":null,
+      "label":"UTILITY SHUTOFF","status":"verified","court":"Justice Court in the precinct in which the rental premises are located","required_filing":"Sworn complaint requesting a writ of restoration under §92.0091 when the statutory conditions are met.","optional_filing":null,"immediate_clock":null,
       "remedy":"Justice Court writ of restoration for a qualifying unlawful utility interruption by a residential landlord.",
       "do_now":["Document which utility was interrupted, when, by whom, all notices, account information, and landlord communications.","Do not assume every outage qualifies; the restoration remedy depends on an unlawful interruption under the underlying statute."],"authorities":["tx-prop-92-0091"]
     },
