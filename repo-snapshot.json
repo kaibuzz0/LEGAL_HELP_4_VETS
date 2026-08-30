@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T21:39:59Z",
-  "source_commit": "f7a86cda0967369c521abc87ed4035124cf696cb",
+  "generated_at": "2026-08-30T22:08:24Z",
+  "source_commit": "b16bc546f21d7cfcae1702c59f34484c32281fd0",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,15 +9,15 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 75,
-    "python_files": 7,
-    "javascript_typescript_files": 2,
+    "tracked_files": 80,
+    "python_files": 8,
+    "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 6
+    "test_files": 7
   },
   "repository_tree": {
-    "total_files": 75,
-    "total_directories": 17,
+    "total_files": 80,
+    "total_directories": 18,
     "files_truncated": false,
     "directories_truncated": false,
     "top_level": [
@@ -50,6 +50,7 @@
       "robots.txt",
       "sitemap.xml",
       "sources.html",
+      "state-housing.html",
       "state-resources.html",
       "substance-use.html",
       "tests",
@@ -74,7 +75,7 @@
         "path": "assets",
         "name": "assets",
         "depth": 1,
-        "file_count": 6
+        "file_count": 7
       },
       {
         "path": "assets/css",
@@ -92,7 +93,7 @@
         "path": "assets/js",
         "name": "js",
         "depth": 2,
-        "file_count": 3
+        "file_count": 4
       },
       {
         "path": "audit",
@@ -146,7 +147,13 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 4
+        "file_count": 6
+      },
+      {
+        "path": "data/states",
+        "name": "states",
+        "depth": 2,
+        "file_count": 1
       },
       {
         "path": "docs",
@@ -158,7 +165,7 @@
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 7
+        "file_count": 8
       }
     ],
     "files": [
@@ -236,6 +243,11 @@
         "path": "assets/js/search-index.json",
         "name": "search-index.json",
         "extension": ".json"
+      },
+      {
+        "path": "assets/js/state-housing.js",
+        "name": "state-housing.js",
+        "extension": ".js"
       },
       {
         "path": "audit/CHANGE_CONTROL.md",
@@ -378,6 +390,11 @@
         "extension": ".html"
       },
       {
+        "path": "data/housing-federal.json",
+        "name": "housing-federal.json",
+        "extension": ".json"
+      },
+      {
         "path": "data/primary-authorities.json",
         "name": "primary-authorities.json",
         "extension": ".json"
@@ -395,6 +412,11 @@
       {
         "path": "data/state-resources.json",
         "name": "state-resources.json",
+        "extension": ".json"
+      },
+      {
+        "path": "data/states/texas.json",
+        "name": "texas.json",
         "extension": ".json"
       },
       {
@@ -478,6 +500,11 @@
         "extension": ".html"
       },
       {
+        "path": "state-housing.html",
+        "name": "state-housing.html",
+        "extension": ".html"
+      },
+      {
         "path": "state-resources.html",
         "name": "state-resources.html",
         "extension": ".html"
@@ -518,6 +545,11 @@
         "extension": ".py"
       },
       {
+        "path": "tests/test_phase4_state_housing.py",
+        "name": "test_phase4_state_housing.py",
+        "extension": ".py"
+      },
+      {
         "path": "tests/test_sources.py",
         "name": "test_sources.py",
         "extension": ".py"
@@ -550,74 +582,74 @@
   "agent_ops": {},
   "activity": [
     {
-      "id": "f7a86cda0967369c521abc87ed4035124cf696cb",
+      "id": "b16bc546f21d7cfcae1702c59f34484c32281fd0",
       "type": "commit",
-      "title": "Merge post-merge Phase 3 legal precision fixes",
-      "timestamp": "2026-08-30T16:39:43-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f7a86cda0967369c521abc87ed4035124cf696cb"
+      "title": "Merge pull request #14 from kaibuzz0/phase4-state-housing-depth",
+      "timestamp": "2026-08-30T17:08:15-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b16bc546f21d7cfcae1702c59f34484c32281fd0"
     },
     {
-      "id": "b064af94f21cf41d80cf098d016c77b0b608a8ea",
+      "id": "c5b3d83424b31515922d64a18ec2d078a6a474f1",
       "type": "commit",
-      "title": "[C] Make legal regression tests phrasing-robust",
-      "timestamp": "2026-08-30T16:38:46-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b064af94f21cf41d80cf098d016c77b0b608a8ea"
+      "title": "[C] Guard Texas reentry and restoration venue",
+      "timestamp": "2026-08-30T17:04:30-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c5b3d83424b31515922d64a18ec2d078a6a474f1"
     },
     {
-      "id": "6bc290003add1f3c286b6fdc6e1a0a07fc0f4b95",
+      "id": "b42766477b3b12336c3aa8bf69abe47fb79a3021",
       "type": "commit",
-      "title": "[C] Test pension and compensation incarceration separately",
-      "timestamp": "2026-08-30T16:36:37-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bc290003add1f3c286b6fdc6e1a0a07fc0f4b95"
+      "title": "[A] Correct Texas lockout and utility court venue wording",
+      "timestamp": "2026-08-30T17:04:07-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b42766477b3b12336c3aa8bf69abe47fb79a3021"
     },
     {
-      "id": "54bd7345f8e98e88a8f296269293ed6b1c47e912",
+      "id": "8c0320a5a373cfa1eedd12744daeb12b9fa4f11f",
       "type": "commit",
-      "title": "[A] Add beneficiary travel and pension incarceration authorities",
-      "timestamp": "2026-08-30T16:36:16-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/54bd7345f8e98e88a8f296269293ed6b1c47e912"
+      "title": "[C] Make SCRA scope regression semantic",
+      "timestamp": "2026-08-30T17:01:59-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/8c0320a5a373cfa1eedd12744daeb12b9fa4f11f"
     },
     {
-      "id": "4f3fa8f76669e3365344718a41022beca47e1137",
+      "id": "09f11f81181ebe3d0111afd93ae1595b87a87274",
       "type": "commit",
-      "title": "[A] Separate incarceration compensation and pension rules",
-      "timestamp": "2026-08-30T16:35:44-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/4f3fa8f76669e3365344718a41022beca47e1137"
+      "title": "[C] Trace VA loan route to federal primary guidance",
+      "timestamp": "2026-08-30T17:00:57-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/09f11f81181ebe3d0111afd93ae1595b87a87274"
     },
     {
-      "id": "8a872a7cf55968658be620cbb17e2a06a86da0d7",
+      "id": "029f2c4fb8eac8df0320e4dca39479051c5ce4b3",
       "type": "commit",
-      "title": "[C] Strengthen Phase 3 legal distinction tests",
-      "timestamp": "2026-08-30T16:35:01-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/8a872a7cf55968658be620cbb17e2a06a86da0d7"
+      "title": "[C] Strengthen Phase 4 deadline and separation regression tests",
+      "timestamp": "2026-08-30T16:59:59-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/029f2c4fb8eac8df0320e4dca39479051c5ce4b3"
     },
     {
-      "id": "332bc3e225cd6682cb37db2cb916c91bdc41b71d",
+      "id": "8f72ae8bfa2fb107b493e039ad07591aaf37f7bc",
       "type": "commit",
-      "title": "[A] Correct beneficiary travel deadline and caregiver review wording",
-      "timestamp": "2026-08-30T16:34:41-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/332bc3e225cd6682cb37db2cb916c91bdc41b71d"
+      "title": "[C] Add foreclosure document routing and date-mapping UX",
+      "timestamp": "2026-08-30T16:59:33-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/8f72ae8bfa2fb107b493e039ad07591aaf37f7bc"
     },
     {
-      "id": "8bbd7e5de7dd6f6672d360cd3be3581b69fec8af",
+      "id": "7115fdfe603d4025f12f5e3784a5c4bb13ebbea9",
       "type": "commit",
-      "title": "Merge pull request #12 from kaibuzz0/phase3-procedural-depth",
-      "timestamp": "2026-08-30T16:31:24-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/8bbd7e5de7dd6f6672d360cd3be3581b69fec8af"
+      "title": "[C] Render structured Texas deadlines and null-safe routes",
+      "timestamp": "2026-08-30T16:59:06-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/7115fdfe603d4025f12f5e3784a5c4bb13ebbea9"
     },
     {
-      "id": "11df9f59b4a25aebc4d82d99ef24423e299df144",
+      "id": "acacc71f28065fbcfb62511c30ea25009dece37a",
       "type": "commit",
-      "title": "[C] Classify Phase 3 high-risk procedural language",
-      "timestamp": "2026-08-27T12:42:52-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/11df9f59b4a25aebc4d82d99ef24423e299df144"
+      "title": "[A] Expand federal housing overlays for foreclosure and assisted housing",
+      "timestamp": "2026-08-30T16:58:39-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/acacc71f28065fbcfb62511c30ea25009dece37a"
     },
     {
-      "id": "da476c9734d548f1df4fe32f9bbbbc80c9a40dc5",
+      "id": "90a51c0390c370d144de0baae18f1e3ff04d580e",
       "type": "commit",
-      "title": "[B] Restore verified discharge and records-correction machinery",
-      "timestamp": "2026-08-27T12:42:20-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/da476c9734d548f1df4fe32f9bbbbc80c9a40dc5"
+      "title": "[A] Add structured Texas clocks and foreclosure routes",
+      "timestamp": "2026-08-30T16:58:06-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/90a51c0390c370d144de0baae18f1e3ff04d580e"
     }
   ],
   "links": [
