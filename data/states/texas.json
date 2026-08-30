@@ -1,171 +1,98 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "state": "Texas",
   "slug": "texas",
   "last_verified": "2026-08-30",
   "status": "pilot_partially_verified",
-  "state_specific_warning": "Texas eviction procedure is document- and fact-specific. Lease terms, subsidized housing rules, bankruptcy, military-service status, disability law, and local court orders can change the path. This data does not replace the actual citation, judgment, writ, lease, or court instructions.",
+  "state_specific_warning": "Texas housing procedure is document- and fact-specific. Statewide rules provide the baseline, but lease terms, subsidized-housing rules, bankruptcy, military-service status, disability law, loan type, and approved local court rules or standing orders can change the path.",
+  "status_values": ["verified", "partially_verified", "unverified", "deprecated", "needs_refresh"],
   "primary_authorities": [
-    {
-      "id": "tx-prop-24-005",
-      "title": "Texas Property Code § 24.005 — Notice to Vacate Prior to Filing Eviction Suit",
-      "url": "https://statutes.capitol.texas.gov/?artSec=24.005&chapter=PR.24&code=PR&tab=1",
-      "verified_date": "2026-08-30"
-    },
-    {
-      "id": "tx-prop-24-0061",
-      "title": "Texas Property Code § 24.0061 — Writ of Possession",
-      "url": "https://statutes.capitol.texas.gov/?artSec=24.0061&chapter=PR.24&code=PR&tab=1",
-      "verified_date": "2026-08-30"
-    },
-    {
-      "id": "tx-prop-92-009",
-      "title": "Texas Property Code § 92.009 — Residential Tenant's Right of Reentry After Unlawful Lockout",
-      "url": "https://statutes.capitol.texas.gov/?artSec=92.009&chapter=PR.92&code=PR&tab=1",
-      "verified_date": "2026-08-30"
-    },
-    {
-      "id": "tx-prop-92-0091",
-      "title": "Texas Property Code § 92.0091 — Residential Tenant's Right of Restoration After Unlawful Utility Disconnection",
-      "url": "https://statutes.capitol.texas.gov/?artSec=92.0091&chapter=PR.92&code=PR&tab=1",
-      "verified_date": "2026-08-30"
-    },
-    {
-      "id": "tx-trcp-510",
-      "title": "Current Texas Rules of Civil Procedure — Rule 510 Eviction Cases",
-      "url": "https://www.txcourts.gov/rules-forms/rules-standards/",
-      "verified_date": "2026-08-30",
-      "note": "Rule 510 text checked against the current Texas Judicial Branch rules package available August 30, 2026; use the Rules & Standards page for the current consolidated rules."
-    }
+    {"id":"tx-prop-24-005","title":"Texas Property Code § 24.005 — Notice to Vacate","url":"https://statutes.capitol.texas.gov/?artSec=24.005&chapter=PR.24&code=PR&tab=1","authority_type":"statute","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-prop-24-0061","title":"Texas Property Code § 24.0061 — Writ of Possession","url":"https://statutes.capitol.texas.gov/?artSec=24.0061&chapter=PR.24&code=PR&tab=1","authority_type":"statute","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-prop-51-002","title":"Texas Property Code § 51.002 — Sale Under Contract Lien","url":"https://tcss.legis.texas.gov/resources/PR/htm/PR.51.htm","authority_type":"statute","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-prop-92-009","title":"Texas Property Code § 92.009 — Residential Tenant Reentry After Unlawful Lockout","url":"https://statutes.capitol.texas.gov/?artSec=92.009&chapter=PR.92&code=PR&tab=1","authority_type":"statute","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-prop-92-0091","title":"Texas Property Code § 92.0091 — Restoration After Unlawful Utility Interruption","url":"https://statutes.capitol.texas.gov/?artSec=92.0091&chapter=PR.92&code=PR&tab=1","authority_type":"statute","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-prop-209-0092","title":"Texas Property Code § 209.0092 — POA Judicial Foreclosure Requirement","url":"https://statutes.capitol.texas.gov/docs/PR/pdf/PR.209.pdf","authority_type":"statute","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-trcp-3a","title":"Texas Rule of Civil Procedure 3a — Local Rules, Forms, and Standing Orders","url":"https://www.txcourts.gov/rules-forms/local-rules-forms-and-standing-orders/","authority_type":"court_rule","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-trcp-510","title":"Current Texas Rules of Civil Procedure — Rule 510 Eviction Cases","url":"https://www.txcourts.gov/rules-forms/rules-standards/","authority_type":"court_rule","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"},
+    {"id":"tx-trcp-735-736","title":"Texas Rules of Civil Procedure 735–736 — Certain Foreclosure Proceedings","url":"https://www.txcourts.gov/rules-forms/rules-standards/","authority_type":"court_rule","jurisdiction":"Texas","last_verified":"2026-08-30","status":"verified"}
   ],
+  "local_variation": {
+    "status": "verified",
+    "statewide_rule": "Texas statewide statutes and Supreme Court rules supply the baseline. Local rules, forms, and standing orders may govern local practice but may not conflict with controlling law or statewide rules.",
+    "local_rule_possible": true,
+    "local_rule_locator": "https://topics.txcourts.gov/LocalRulesPublic",
+    "county": null,
+    "court": null,
+    "last_checked": "2026-08-30",
+    "authority": "tx-trcp-3a"
+  },
   "document_routes": {
     "notice_to_vacate": {
-      "label": "NOTICE TO VACATE",
-      "status": "verified",
-      "do_now": [
-        "Read the notice and lease together. Identify the stated reason, move-out date, method of delivery, and whether the landlord is demanding rent, possession, or both.",
-        "Do not assume every Texas notice is exactly three days. Texas Property Code § 24.005 generally uses at least three days before filing unless a written lease or agreement provides a shorter or longer notice period, and special nonpayment or holdover rules can matter.",
-        "Save the notice, envelope/photo of posting, lease, rent ledger, payment receipts, text messages, and any accommodation or military-service documents."
-      ],
-      "deadline": "The pre-suit notice period depends on § 24.005, the lease/agreement, and the reason for possession. Do not calculate a universal deadline from this guide.",
-      "next_stage": "If the landlord files suit, the next important document is the Justice Court citation and trial setting.",
-      "authorities": ["tx-prop-24-005"]
+      "label":"NOTICE TO VACATE","status":"verified","court":"Texas Justice Court after suit is filed","required_filing":null,"optional_filing":null,
+      "immediate_clock": {"label":"Pre-suit notice period","deadline_value":null,"deadline_unit":null,"deadline_trigger":"notice_delivery_method_and_case_facts","time_computation_authority":"tx-prop-24-005","exceptions":["written lease or agreement may provide a different period","reason for possession and statutory exceptions can change the rule"],"verified":true,"display":"Do not assume every Texas notice is exactly three days. Read §24.005 together with the lease and the notice."},
+      "do_now":["Read the notice and lease together. Identify the stated reason, move-out date, delivery method, and whether the landlord demands rent, possession, or both.","Save the notice, envelope or posting photo, lease, rent ledger, payment proof, messages, accommodation requests, and military-service documents if relevant."],
+      "next_stage":"If suit is filed, the next controlling document is the Justice Court citation and trial setting.","authorities":["tx-prop-24-005"]
     },
     "court_citation": {
-      "label": "COURT CITATION",
-      "status": "verified",
-      "court_type": "Texas Justice Court",
-      "answer_deadline": "Under current Rule 510.11, a written answer is not required in an eviction case. A defendant may file an answer on or before the day set for trial in the citation, and a general denial is sufficient. A separate response period can apply to a motion for summary disposition; do not confuse that motion deadline with the ordinary eviction answer rule.",
-      "do_now": [
-        "Do not miss the trial date shown in the citation even if you do not file a written answer.",
-        "Confirm the court name, cause number, trial date/time, service date, plaintiff, property address, and claims asserted.",
-        "Bring the lease, notices, payment proof, communications, photos, accommodation requests, military orders/status evidence if relevant, and any witnesses or documents supporting your defenses."
-      ],
-      "hearing_process": "Rule 510 governs the Justice Court eviction process. Written answer is optional under Rule 510.11, but appearance at the trial is critical. If a summary-disposition motion is served, inspect that motion and the current Rule 510 procedure immediately because it can carry a separate short response period.",
-      "authorities": ["tx-trcp-510"]
+      "label":"COURT CITATION","status":"verified","court":"Texas Justice Court","required_filing":null,"optional_filing":"Written answer may be filed on or before the trial date under Rule 510.11; a general denial is sufficient.",
+      "immediate_clock":{"label":"Trial / appearance","deadline_value":null,"deadline_unit":null,"deadline_trigger":"trial_date_in_citation","time_computation_authority":"tx-trcp-510","exceptions":["a separately served summary-disposition motion can create a different response period"],"verified":true,"display":"A written answer is not required in an ordinary Texas eviction case. Do not miss the trial date printed in the citation."},
+      "do_now":["Confirm the court, cause number, trial date and time, service date, plaintiff, property address, and claims.","Bring the lease, notices, payment proof, communications, photos, accommodation requests, military-status evidence if relevant, and witnesses or documents supporting defenses."],
+      "authorities":["tx-trcp-510"]
     },
     "judgment": {
-      "label": "JUDGMENT",
-      "status": "verified",
-      "appeal_deadline": "Under current Rule 510.19, an appeal from a Justice Court eviction judgment is perfected by filing an appeal bond, cash deposit, or Statement of Inability to Afford Payment of Court Costs within five days after the judgment is signed. Rule 510 has its own time-computation rules; do not assume ordinary civil-rule counting or that mailing by the deadline is enough.",
-      "do_now": [
-        "Get a copy of the signed judgment and write down the signing date.",
-        "If considering appeal, act immediately. Five days is a short deadline.",
-        "Read Rule 510.19 and the court's instructions regarding bond, cash deposit, Statement of Inability, rent-registry requirements, and transmission to county court."
-      ],
-      "authorities": ["tx-trcp-510"]
+      "label":"JUDGMENT","status":"verified","court":"Texas Justice Court","required_filing":"To perfect an appeal, use an appeal bond, cash deposit, or Statement of Inability to Afford Payment of Court Costs as Rule 510 permits.","optional_filing":null,
+      "immediate_clock":{"label":"Eviction appeal","deadline_value":5,"deadline_unit":"days_under_rule_510_time_computation","deadline_trigger":"judgment_signed","time_computation_authority":"tx-trcp-510","exceptions":["Rule 510 has special time-computation and filing rules; do not substitute ordinary civil counting or assume mailing is timely"],"verified":true,"display":"Texas eviction appeals generally must be perfected within 5 days after the judgment is signed."},
+      "do_now":["Get the signed judgment and record the signing date—not merely the date you received a copy.","If considering appeal, act immediately and read current Rule 510.19 and the court instructions on bond, cash deposit, Statement of Inability, rent registry, and county-court transfer."],
+      "stay_possession_consequence":"A perfected appeal can affect when possession may be enforced, but rent-registry and other Rule 510 requirements can matter.","authorities":["tx-trcp-510"]
     },
     "writ_of_possession": {
-      "label": "WRIT OF POSSESSION",
-      "status": "verified",
-      "do_now": [
-        "Identify whether a writ has only been requested, has been issued, or a constable/sheriff warning has already been posted.",
-        "If an appeal was timely perfected, verify whether all required rent-registry or other appeal conditions are being met; a missed payment can change possession rights.",
-        "Contact qualified eviction counsel immediately if removal is imminent."
-      ],
-      "rule_510_timing": "Rule 510.18 generally restricts issuance of a writ until the later of the sixth day after judgment or the day after the appeal deadline, subject to the rule's exceptions and the effect of a perfected appeal.",
-      "posting_warning": "Texas Property Code § 24.0061 governs execution of a writ of possession, including the officer's warning before physical removal. Read the current writ/posting itself for the execution date and time.",
-      "authorities": ["tx-trcp-510", "tx-prop-24-0061"]
+      "label":"WRIT OF POSSESSION","status":"verified","court":"Texas Justice Court / executing constable or sheriff","required_filing":null,"optional_filing":null,
+      "immediate_clock":{"label":"Writ issuance baseline","deadline_value":null,"deadline_unit":null,"deadline_trigger":"judgment_and_appeal_status","time_computation_authority":"tx-trcp-510","exceptions":["perfected appeal and Rule 510 exceptions can change possession timing"],"verified":true,"display":"Rule 510.18 generally restricts issuance until the later of the sixth day after judgment or the day after the appeal deadline, subject to the rule and a perfected appeal."},
+      "execution":{"status":"verified","authority":"tx-prop-24-0061","summary":"Section 24.0061 governs execution of a writ, including the officer warning and removal process. Use the actual posted warning for the scheduled execution timing.","local_practice_warning":"Officer logistics can vary; do not infer one county's execution practice statewide."},
+      "do_now":["Identify whether the writ is only requested, issued, or already posted for execution.","If an appeal was perfected, verify required rent-registry and appeal conditions immediately.","Save the writ/posting and contact eviction counsel if physical removal is imminent."],"authorities":["tx-trcp-510","tx-prop-24-0061"]
     },
     "locked_out": {
-      "label": "LOCKED OUT",
-      "status": "verified",
-      "do_now": [
-        "Document the lockout, time, notices, changed locks, landlord communications, and whether you can access essential medication or property.",
-        "Texas Property Code § 92.009 provides a Justice Court reentry remedy when a residential landlord has locked a tenant out in violation of § 92.0081.",
-        "Because the remedy depends on whether the lockout violated the underlying statute, do not assume every lock change automatically qualifies."
-      ],
-      "authorities": ["tx-prop-92-009"]
+      "label":"LOCKED OUT","status":"verified","court":"Justice Court in the precinct where the rental premises are located","required_filing":"Sworn complaint requesting a writ of reentry under §92.009 when the statutory conditions are met.","optional_filing":null,"immediate_clock":null,
+      "remedy":"Justice Court writ of reentry for a qualifying unlawful residential lockout; the statute provides an expedited remedy rather than a generic damages-only route.",
+      "do_now":["Document the lockout, time, notices, changed locks, landlord communications, and urgent access needs.","Do not assume every lock change qualifies; the remedy depends on a violation of the underlying lockout statute."],"authorities":["tx-prop-92-009"]
     },
     "utility_shutoff": {
-      "label": "UTILITY SHUTOFF",
-      "status": "verified",
-      "do_now": [
-        "Document which utility was interrupted, when, by whom, all notices, account information, and landlord communications.",
-        "Texas Property Code § 92.0091 provides a Justice Court restoration procedure when a landlord has interrupted utility service in violation of § 92.008, including a sworn complaint and potential writ of restoration.",
-        "The restoration remedy depends on the underlying interruption being unlawful under § 92.008."
-      ],
-      "authorities": ["tx-prop-92-0091"]
+      "label":"UTILITY SHUTOFF","status":"verified","court":"Justice Court in the precinct where the rental premises are located","required_filing":"Sworn complaint requesting a writ of restoration under §92.0091 when the statutory conditions are met.","optional_filing":null,"immediate_clock":null,
+      "remedy":"Justice Court writ of restoration for a qualifying unlawful utility interruption by a residential landlord.",
+      "do_now":["Document which utility was interrupted, when, by whom, all notices, account information, and landlord communications.","Do not assume every outage qualifies; the restoration remedy depends on an unlawful interruption under the underlying statute."],"authorities":["tx-prop-92-0091"]
     },
-    "foreclosure_notice": {
-      "label": "FORECLOSURE NOTICE",
-      "status": "not_yet_verified",
-      "do_now": [
-        "Save every mortgage, acceleration, sale, HOA, tax, or foreclosure notice and identify the sale date if one is stated.",
-        "Do not rely on this pilot for a Texas foreclosure deadline yet. Contact a Texas foreclosure/consumer attorney or legal-aid provider immediately."
-      ],
-      "deadline": null,
-      "authorities": []
-    }
+    "foreclosure_default_notice": {
+      "label":"NOTICE OF DEFAULT / INTENT TO ACCELERATE","status":"verified","court":null,"required_filing":null,"optional_filing":null,
+      "immediate_clock":{"label":"Residential cure period before notice of sale","deadline_value":20,"deadline_unit":"calendar_days_statutory_computation","deadline_trigger":"default_notice_given_by_certified_mail","time_computation_authority":"tx-prop-51-002","exceptions":["applies to a debtor in default under a deed of trust or other contract lien on real property used as the debtor's residence","loan documents and other law may create additional rights; acceleration doctrine is not reduced to this statutory cure period"],"verified":true,"display":"For covered residential contract-lien foreclosure, §51.002(d) gives at least 20 days to cure the default before notice of sale may be given."},
+      "do_now":["Save the certified-mail notice and envelope; identify the mailing date, cure amount, servicer, loan number, property address, and any stated acceleration language.","Contact the servicer immediately about loss mitigation and, if the loan is VA-backed, contact VA Loan Guaranty assistance too.","If active-duty SCRA may apply, flag that separately; veteran status alone is not enough."],"authorities":["tx-prop-51-002"]
+    },
+    "foreclosure_sale_notice": {
+      "label":"NOTICE OF FORECLOSURE SALE","status":"verified","court":null,"required_filing":null,"optional_filing":null,
+      "immediate_clock":{"label":"Notice before nonjudicial sale","deadline_value":21,"deadline_unit":"days_before_sale","deadline_trigger":"foreclosure_sale_date","time_computation_authority":"tx-prop-51-002","exceptions":["§51.002 contains exceptions and special provisions; loan type and other state/federal law may add requirements"],"verified":true,"display":"For an ordinary sale under §51.002(b), sale notice must generally be given at least 21 days before the sale date."},
+      "sale_baseline":{"status":"verified","summary":"A covered nonjudicial sale is generally a public auction between 10 a.m. and 4 p.m. on the first Tuesday of a month, at the statutorily authorized county location; the notice states the earliest sale time and the sale must begin at that time or within three hours after it."},
+      "do_now":["Record the sale date, earliest sale time, county, servicer/trustee, and date the sale notice was mailed.","Request a current reinstatement/payoff or loss-mitigation status from the servicer if appropriate; do not assume §51.002 itself creates a universal reinstatement right beyond the verified cure notice.","Get foreclosure counsel immediately if the sale date is close, bankruptcy is being considered, or a complete loss-mitigation application is pending."],"authorities":["tx-prop-51-002"]
+    },
+    "foreclosure_sale_completed": {"label":"TRUSTEE SALE ALREADY HAPPENED","status":"partially_verified","court":null,"required_filing":null,"optional_filing":null,"immediate_clock":null,"do_now":["Save the trustee deed or sale information, all notices, loan history, and any post-sale demand for possession.","Do not assume the eviction/possession timeline from the mortgage sale itself; a later notice to vacate and possession suit can create a separate route.","Get Texas foreclosure/consumer counsel promptly to assess any challenge, redemption right that may exist for the specific foreclosure type, bankruptcy issue, or post-sale possession dispute."],"authorities":["tx-prop-51-002"]},
+    "home_equity_foreclosure_paper": {"label":"HOME-EQUITY FORECLOSURE COURT PAPER","status":"partially_verified","court":"Texas district court or other court authorized by Rule 736","required_filing":null,"optional_filing":null,"immediate_clock":null,"do_now":["Do not treat this like an ordinary deed-of-trust sale notice. Texas home-equity and other liens listed in Rule 735 can require a Rule 736 court order or judicial foreclosure procedure.","Read the application, citation/order, cure history, and Texas constitutional/home-equity documents; obtain foreclosure counsel promptly."],"authorities":["tx-trcp-735-736"]},
+    "hoa_poa_foreclosure_notice": {"label":"HOA / POA FORECLOSURE NOTICE","status":"partially_verified","court":"Court involvement required for covered Texas POA assessment-lien foreclosure","required_filing":null,"optional_filing":null,"immediate_clock":null,"do_now":["Do not treat an HOA/POA assessment lien as an ordinary mortgage foreclosure.","Section 209.0092 generally requires a court order through expedited or judicial foreclosure procedures, subject to statutory exceptions and prerequisites.","Save all assessment notices, payment-plan communications, lien notices, court papers, and mortgage-lienholder notices."],"authorities":["tx-prop-209-0092","tx-trcp-735-736"]},
+    "tax_foreclosure_paper": {"label":"TAX FORECLOSURE PAPER","status":"unverified","court":null,"required_filing":null,"optional_filing":null,"immediate_clock":null,"do_now":["Texas tax foreclosure uses a different statutory and judicial framework. No deadline is published in this pilot yet.","Save the petition, citation, judgment, tax statements, and sale notice and get tax-foreclosure/legal-aid help immediately."],"authorities":[]},
+    "va_home_loan_default": {"label":"VA HOME LOAN DEFAULT LETTER","status":"verified","court":null,"required_filing":null,"optional_filing":null,"immediate_clock":null,"do_now":["Contact the mortgage servicer first; a VA-backed loan is usually made and serviced by a private lender/servicer, with VA guaranteeing part of the loan rather than owning it.","Contact a VA loan technician at 877-827-3702. VA states that borrowers with VA-guaranteed loans may contact VA anytime and that VA automatically assigns a loan technician when a VA-guaranteed loan is 61 days past due.","Ask the servicer and VA about current foreclosure-avoidance options, which can include repayment plans, special forbearance, modifications, the current VA Partial Claim Program where eligible, short sale, or deed in lieu."],"authorities":[]}
+  },
+  "foreclosure_categories": {
+    "ordinary_deed_of_trust":"verified_core","home_equity":"partially_verified","tax":"unverified","hoa_poa":"partially_verified","va_guaranteed":"verified_guidance","scra":"federal_overlay"
   },
   "resources": {
-    "state_veterans_agency": {
-      "name": "Texas Veterans Commission",
-      "url": "https://tvc.texas.gov/",
-      "note": "TVC administers veteran-assistance grants that can include civil legal services such as landlord/tenant and eviction matters. Service scope varies by funded provider."
-    },
-    "state_bar_resources": {
-      "name": "Texas Lawyers for Texas Veterans",
-      "url": "https://www.texasbar.com/Content/NavigationMenu/AboutUs/StateBarPresident/TexasLawyersforTexasVeterans/Find_a_TLTV_Legal_Cl.htm",
-      "note": "State Bar veteran legal clinics may handle landlord/tenant or other civil matters. Eligibility, appointment, and subject-matter coverage vary."
-    },
-    "legal_aid": {
-      "name": "Texas legal-aid / eviction counsel",
-      "url": "https://texaslawhelp.org/",
-      "note": "Use for finding local legal-aid information and providers. Verify court-specific instructions against current Texas rules and the actual court notice."
-    },
-    "veterans_legal_clinics": {
-      "name": "Veterans legal clinics and TVC-funded providers",
-      "url": "https://tvc.texas.gov/grants/",
-      "note": "Provider scope and eligibility vary."
-    },
-    "lsv_h": {
-      "name": "VA Legal Services for Veterans (LSV-H)",
-      "url": "https://department.va.gov/homeless/legal-services-for-veterans/",
-      "note": "For eligible Veterans who are homeless or at risk. Not every grantee handles every legal matter."
-    },
-    "ssvf": {
-      "name": "Supportive Services for Veteran Families (SSVF)",
-      "url": "https://department.va.gov/homeless/supportive-services-for-veteran-families/",
-      "note": "Homelessness prevention and rapid rehousing services through local grantees; availability and eligibility vary."
-    },
-    "emergency_housing": {
-      "name": "National Call Center for Homeless Veterans",
-      "phone": "877-424-3838",
-      "url": "https://department.va.gov/homeless/",
-      "note": "VA homeless-veteran assistance and local referral entry point."
-    },
-    "treatment_court_locator": null,
-    "foreclosure_resources": null
+    "state_veterans_agency":{"name":"Texas Veterans Commission","url":"https://tvc.texas.gov/","routing":"statewide","status":"verified","note":"TVC administers veteran-assistance grants that can include civil legal services. Provider scope varies."},
+    "state_bar_resources":{"name":"Texas Lawyers for Texas Veterans","url":"https://www.texasbar.com/Content/NavigationMenu/AboutUs/StateBarPresident/TexasLawyersforTexasVeterans/Find_a_TLTV_Legal_Cl.htm","routing":"statewide locator","status":"verified","note":"Clinic eligibility and subject coverage vary."},
+    "texaslawhelp":{"name":"TexasLawHelp","url":"https://texaslawhelp.org/","routing":"statewide legal-information/provider locator","status":"verified","note":"Use court-specific instructions and current primary authority for deadlines."},
+    "lone_star_legal_aid":{"name":"Lone Star Legal Aid","url":"https://www.lonestarlegal.org/offices/","routing":"county/service-area locator","status":"verified","note":"Civil legal aid; eligibility and case acceptance vary by office and matter."},
+    "trla":{"name":"Texas RioGrande Legal Aid","url":"https://www.trla.org/offices","routing":"68-county service-area locator","status":"verified","note":"Civil legal aid in listed central and southwest Texas counties; eligibility and case acceptance vary."},
+    "lsv_h":{"name":"VA Legal Services for Veterans (LSV-H)","url":"https://department.va.gov/homeless/legal-services-for-veterans/","routing":"national grantee locator","status":"verified","note":"For eligible Veterans who are homeless or at risk; representation and subject coverage vary by grantee."},
+    "ssvf":{"name":"Supportive Services for Veteran Families (SSVF)","url":"https://department.va.gov/homeless/supportive-services-for-veteran-families/","routing":"local grantee locator","status":"verified","note":"Homelessness-prevention/rapid-rehousing services; not a statutory entitlement and availability varies."},
+    "local_rule_locator":{"name":"Texas OCA Local Rules, Forms, and Standing Orders","url":"https://topics.txcourts.gov/LocalRulesPublic","routing":"county/court search","status":"verified","note":"Use the specific Justice Court/county before filing."},
+    "treatment_court_locator":{"name":"Texas OCA Registered Specialty Courts","url":"https://www.txcourts.gov/courts/overview/about-texas-courts/specialty-courts.aspx","routing":"statewide specialty-court registry","status":"verified","note":"Veterans Treatment Court availability and eligibility are county/program specific and do not replace criminal-defense counsel."},
+    "va_foreclosure_help":{"name":"VA Home Loan foreclosure-avoidance help","url":"https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/","phone":"877-827-3702","routing":"VA loan technician / servicing assistance","status":"verified","note":"VA-backed loans are generally serviced by private servicers; VA provides guaranty oversight and borrower assistance."}
   },
-  "special_military_protections": {
-    "scra": {
-      "status": "federal_overlay",
-      "warning": "SCRA eviction protection depends on covered military-service status and other statutory conditions. It does not apply merely because someone is a veteran."
-    },
-    "fair_housing_act": {
-      "status": "federal_overlay",
-      "warning": "A disability-related reasonable-accommodation right can affect housing rules or procedures when statutory requirements are met, but it is not an automatic defense to every eviction."
-    }
-  }
+  "special_military_protections":{"scra":{"status":"federal_overlay","warning":"SCRA eviction and mortgage protections depend on covered military-service status, timing, and statutory conditions. Veteran status alone is insufficient."},"fair_housing_act":{"status":"federal_overlay","warning":"A disability-related reasonable-accommodation right can affect housing rules or procedures when legal requirements are met, but it is not an automatic defense to eviction or foreclosure."}}
 }
