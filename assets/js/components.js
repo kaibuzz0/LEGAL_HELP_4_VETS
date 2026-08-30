@@ -4,6 +4,7 @@
   var NAV_ITEMS = [
     { id: 'index', href: 'index.html', label: 'Home' },
     { id: 'emergency', href: 'emergency.html', label: 'Legal Emergency' },
+    { id: 'benefit-reductions', href: 'benefit-reductions.html', label: 'Benefit Changes' },
     { id: 'medical-rights', href: 'medical-rights.html', label: 'Medical Rights' },
     { id: 'find-legal-help', href: 'find-legal-help.html', label: 'Find Legal Help' },
     { id: 'help-now', href: 'help-now.html', label: 'Crisis Help' },
@@ -42,6 +43,45 @@
     else main.insertBefore(box, main.firstChild);
   }
 
+  function addPrimaryAuthoritiesRegistry() {
+    var path = (window.location.pathname.split('/').pop() || '').toLowerCase();
+    if (path !== 'sources.html') return;
+    var main = document.getElementById('main-content');
+    if (!main || document.getElementById('primary-authorities-registry')) return;
+    fetch('data/primary-authorities.json')
+      .then(function(r) { if (!r.ok) throw new Error('authority registry unavailable'); return r.json(); })
+      .then(function(data) {
+        if (!data || !Array.isArray(data.authorities)) return;
+        var section = document.createElement('section');
+        section.id = 'primary-authorities-registry';
+        section.className = 'section-card';
+        section.innerHTML = '<h2>Primary Legal Authorities — High-Consequence Claims</h2>' +
+          '<p>These statutes, regulations, official forms, and agency instructions are separately tracked for deadlines, benefit reductions, emergency care, medical-harm claims, and other high-consequence procedures. Last registry verification: <strong>' + (data.verified_date || 'not stated') + '</strong>.</p>';
+        var dl = document.createElement('dl');
+        dl.className = 'sources-list';
+        data.authorities.forEach(function(a) {
+          var dt = document.createElement('dt');
+          dt.id = 'primary-' + a.id;
+          dt.textContent = a.title + ' (' + a.authority_level + ')';
+          var dd = document.createElement('dd');
+          var text = document.createTextNode(a.claim + ' · ');
+          var link = document.createElement('a');
+          link.href = a.url;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.textContent = 'Primary source';
+          dd.appendChild(text); dd.appendChild(link);
+          dd.appendChild(document.createTextNode(' · Verified: ' + a.verified_date));
+          dl.appendChild(dt); dl.appendChild(dd);
+        });
+        section.appendChild(dl);
+        var intro = main.querySelector('.section-card');
+        if (intro && intro.nextSibling) main.insertBefore(section, intro.nextSibling);
+        else main.appendChild(section);
+      })
+      .catch(function() { });
+  }
+
   function rotatePsalmBanner() {
     var banners = document.querySelectorAll('.psalm-banner');
     if (!banners.length) return;
@@ -63,6 +103,7 @@
 
   function init() {
     addLegalEmergencyBanner();
+    addPrimaryAuthoritiesRegistry();
     rotatePsalmBanner();
   }
 
