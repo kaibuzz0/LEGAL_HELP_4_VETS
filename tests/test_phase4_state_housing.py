@@ -95,9 +95,12 @@ class TestPhase4StateHousing(unittest.TestCase):
 
     def test_scra_eviction_and_foreclosure_are_status_specific(self):
         overlays = {x["id"]: x for x in self.federal["overlays"]}
-        for key in ["scra-eviction", "scra-mortgage"]:
-            warning = overlays[key]["warning"].lower()
-            self.assertIn("veteran status", warning)
+        eviction_warning = overlays["scra-eviction"]["warning"].lower()
+        mortgage_warning = overlays["scra-mortgage"]["warning"].lower()
+        self.assertIn("military-service status", eviction_warning)
+        self.assertIn("veteran status alone", eviction_warning)
+        self.assertIn("service-status-specific", mortgage_warning)
+        self.assertIn("not a general veteran foreclosure protection", mortgage_warning)
         self.assertIn("originated before", overlays["scra-mortgage"]["rule"].lower())
 
     def test_federal_programs_are_not_substituted_for_legal_rights(self):
