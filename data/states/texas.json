@@ -3,7 +3,7 @@
   "state": "Texas",
   "slug": "texas",
   "last_verified": "2026-08-30",
-  "status": "pilot_verified",
+  "status": "pilot_partially_verified",
   "state_specific_warning": "Texas eviction procedure is document- and fact-specific. Lease terms, subsidized housing rules, bankruptcy, military-service status, disability law, and local court orders can change the path. This data does not replace the actual citation, judgment, writ, lease, or court instructions.",
   "primary_authorities": [
     {
@@ -32,9 +32,10 @@
     },
     {
       "id": "tx-trcp-510",
-      "title": "Texas Rules of Civil Procedure, Rule 510 — Eviction Cases",
-      "url": "https://www.txcourts.gov/media/1462349/texas-rules-of-civil-procedure.pdf",
-      "verified_date": "2026-08-30"
+      "title": "Current Texas Rules of Civil Procedure — Rule 510 Eviction Cases",
+      "url": "https://www.txcourts.gov/rules-forms/rules-standards/",
+      "verified_date": "2026-08-30",
+      "note": "Rule 510 text checked against the current Texas Judicial Branch rules package available August 30, 2026; use the Rules & Standards page for the current consolidated rules."
     }
   ],
   "document_routes": {
