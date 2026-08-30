@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.1",
+  "state": "STATE NAME",
+  "state_code": "XX",
+  "slug": "state-slug",
+  "status": "unverified",
+  "last_verified": "1970-01-01",
+  "primary_authorities": [],
+  "local_variation": {
+    "status": "unverified",
+    "statewide_rule": "",
+    "local_rules_possible": false,
+    "local_rule_locator": null,
+    "county": null,
+    "court": null,
+    "local_authority": null,
+    "last_checked": null
+  },
+  "federal_overlays": [],
+  "document_routes": {
+    "example_route": {
+      "id": "example_route",
+      "label": "DOCUMENT OR PROBLEM LABEL",
+      "status": "unverified",
+      "description": "",
+      "jurisdiction": "STATE NAME",
+      "court_or_forum": null,
+      "authorities": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [],
+      "exceptions": [],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [],
+      "last_verified": "1970-01-01"
+    }
+  },
+  "resources": {}
+}
