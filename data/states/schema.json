@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kaibuzz0.github.io/LEGAL_HELP_4_VETS/data/states/schema.json",
+  "title": "LEGAL HELP 4 VETS State Legal Data",
+  "type": "object",
+  "required": ["schema_version", "state", "status", "last_verified", "primary_authorities", "document_routes", "resources", "local_variation"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "state": {"type": "string", "minLength": 2},
+    "state_code": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"},
+    "slug": {"type": "string"},
+    "status": {"type": "string", "enum": ["verified", "pilot_partially_verified", "partially_verified", "unverified", "needs_refresh", "deprecated"]},
+    "last_verified": {"type": "string", "format": "date"},
+    "primary_authorities": {"type": "array", "items": {"$ref": "#/$defs/authority"}},
+    "document_routes": {"type": "object", "additionalProperties": {"$ref": "#/$defs/route"}},
+    "resources": {"type": "object", "additionalProperties": {"anyOf": [{"$ref": "#/$defs/resource"}, {"type": "null"}]}},
+    "federal_overlays": {"type": "array", "items": {"type": "string"}},
+    "local_variation": {"$ref": "#/$defs/localVariation"}
+  },
+  "$defs": {
+    "status": {"type": "string", "enum": ["verified", "partially_verified", "unverified", "needs_refresh", "deprecated"]},
+    "authority": {
+      "type": "object",
+      "required": ["id", "title", "authority_type", "jurisdiction", "status"],
+      "properties": {
+        "id": {"type": "string", "minLength": 3},
+        "citation": {"type": ["string", "null"]},
+        "title": {"type": "string"},
+        "authority_type": {"type": "string", "enum": ["statute", "regulation", "court_rule", "case_law", "agency_guidance", "government_form", "government_program", "local_rule_locator"]},
+        "jurisdiction": {"type": "string"},
+        "url": {"type": "string", "pattern": "^https://"},
+        "source_url": {"type": "string", "pattern": "^https://"},
+        "supports": {"type": "array", "items": {"type": "string"}},
+        "last_verified": {"type": "string", "format": "date"},
+        "verified_date": {"type": "string", "format": "date"},
+        "status": {"$ref": "#/$defs/status"},
+        "note": {"type": "string"}
+      },
+      "anyOf": [{"required": ["url"]}, {"required": ["source_url"]}],
+      "allOf": [{"anyOf": [{"required": ["last_verified"]}, {"required": ["verified_date"]}]}]
+    },
+    "action": {
+      "type": "object",
+      "required": ["type", "text"],
+      "properties": {
+        "type": {"type": "string", "enum": ["legal_requirement", "practical_action", "optional_action", "legal_help"]},
+        "text": {"type": "string"},
+        "authority": {"type": ["string", "null"]}
+      }
+    },
+    "clock": {
+      "type": ["object", "null"],
+      "properties": {
+        "label": {"type": "string"},
+        "value": {"type": ["number", "null"]},
+        "deadline_value": {"type": ["number", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "deadline_unit": {"type": ["string", "null"]},
+        "trigger": {"type": ["string", "null"]},
+        "deadline_trigger": {"type": ["string", "null"]},
+        "computation_authority": {"type": ["string", "null"]},
+        "time_computation_authority": {"type": ["string", "null"]},
+        "exceptions": {"type": "array", "items": {"type": "string"}},
+        "verified": {"type": "boolean"},
+        "display": {"type": "string"}
+      }
+    },
+    "route": {
+      "type": "object",
+      "required": ["label", "status"],
+      "properties": {
+        "id": {"type": "string"},
+        "label": {"type": "string"},
+        "status": {"$ref": "#/$defs/status"},
+        "description": {"type": "string"},
+        "jurisdiction": {"type": "string"},
+        "court": {"type": ["string", "null"]},
+        "court_or_forum": {"type": ["string", "null"]},
+        "authorities": {"type": "array", "items": {"type": "string"}},
+        "required_actions": {"type": "array", "items": {"$ref": "#/$defs/action"}},
+        "optional_actions": {"type": "array", "items": {"$ref": "#/$defs/action"}},
+        "do_now": {"type": "array", "items": {"type": "string"}},
+        "required_filing": {"type": ["string", "null"]},
+        "optional_filing": {"type": ["string", "null"]},
+        "immediate_clock": {"$ref": "#/$defs/clock"},
+        "other_clocks": {"type": "array", "items": {"$ref": "#/$defs/clock"}},
+        "remedy": {"type": ["string", "null"]},
+        "remedies": {"type": "array", "items": {"type": "string"}},
+        "stay_possession_consequence": {"type": "string"},
+        "possession_consequences": {"type": "array", "items": {"type": "string"}},
+        "exceptions": {"type": "array", "items": {"type": "string"}},
+        "local_variation": {"$ref": "#/$defs/localVariation"},
+        "legal_help": {"type": "array", "items": {"type": "string"}},
+        "last_verified": {"type": "string", "format": "date"}
+      }
+    },
+    "resource": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string"},
+        "type": {"type": "string", "enum": ["state_veterans_agency", "legal_aid", "bar_program", "veterans_clinic", "LSV-H", "SSVF", "court_locator", "treatment_court_locator", "foreclosure_assistance", "other"]},
+        "url": {"type": "string", "pattern": "^https://"},
+        "coverage": {"type": ["string", "null"]},
+        "service_area": {"type": ["string", "null"]},
+        "eligibility_notes": {"type": ["string", "null"]},
+        "verified": {"type": "boolean"},
+        "last_verified": {"type": "string", "format": "date"},
+        "note": {"type": "string"},
+        "phone": {"type": "string"}
+      }
+    },
+    "localVariation": {
+      "type": "object",
+      "properties": {
+        "status": {"$ref": "#/$defs/status"},
+        "statewide_rule": {"type": "string"},
+        "local_rules_possible": {"type": "boolean"},
+        "local_rule_possible": {"type": "boolean"},
+        "local_rule_locator": {"type": ["string", "null"], "pattern": "^https://"},
+        "county": {"type": ["string", "null"]},
+        "court": {"type": ["string", "null"]},
+        "local_authority": {"type": ["string", "null"]},
+        "authority": {"type": ["string", "null"]},
+        "last_checked": {"type": ["string", "null"], "format": "date"}
+      }
+    }
+  }
+}
