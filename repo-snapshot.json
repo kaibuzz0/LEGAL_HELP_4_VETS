@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T21:31:32Z",
-  "source_commit": "8bbd7e5de7dd6f6672d360cd3be3581b69fec8af",
+  "generated_at": "2026-08-30T21:39:59Z",
+  "source_commit": "f7a86cda0967369c521abc87ed4035124cf696cb",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -550,6 +550,55 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "f7a86cda0967369c521abc87ed4035124cf696cb",
+      "type": "commit",
+      "title": "Merge post-merge Phase 3 legal precision fixes",
+      "timestamp": "2026-08-30T16:39:43-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f7a86cda0967369c521abc87ed4035124cf696cb"
+    },
+    {
+      "id": "b064af94f21cf41d80cf098d016c77b0b608a8ea",
+      "type": "commit",
+      "title": "[C] Make legal regression tests phrasing-robust",
+      "timestamp": "2026-08-30T16:38:46-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b064af94f21cf41d80cf098d016c77b0b608a8ea"
+    },
+    {
+      "id": "6bc290003add1f3c286b6fdc6e1a0a07fc0f4b95",
+      "type": "commit",
+      "title": "[C] Test pension and compensation incarceration separately",
+      "timestamp": "2026-08-30T16:36:37-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bc290003add1f3c286b6fdc6e1a0a07fc0f4b95"
+    },
+    {
+      "id": "54bd7345f8e98e88a8f296269293ed6b1c47e912",
+      "type": "commit",
+      "title": "[A] Add beneficiary travel and pension incarceration authorities",
+      "timestamp": "2026-08-30T16:36:16-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/54bd7345f8e98e88a8f296269293ed6b1c47e912"
+    },
+    {
+      "id": "4f3fa8f76669e3365344718a41022beca47e1137",
+      "type": "commit",
+      "title": "[A] Separate incarceration compensation and pension rules",
+      "timestamp": "2026-08-30T16:35:44-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/4f3fa8f76669e3365344718a41022beca47e1137"
+    },
+    {
+      "id": "8a872a7cf55968658be620cbb17e2a06a86da0d7",
+      "type": "commit",
+      "title": "[C] Strengthen Phase 3 legal distinction tests",
+      "timestamp": "2026-08-30T16:35:01-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/8a872a7cf55968658be620cbb17e2a06a86da0d7"
+    },
+    {
+      "id": "332bc3e225cd6682cb37db2cb916c91bdc41b71d",
+      "type": "commit",
+      "title": "[A] Correct beneficiary travel deadline and caregiver review wording",
+      "timestamp": "2026-08-30T16:34:41-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/332bc3e225cd6682cb37db2cb916c91bdc41b71d"
+    },
+    {
       "id": "8bbd7e5de7dd6f6672d360cd3be3581b69fec8af",
       "type": "commit",
       "title": "Merge pull request #12 from kaibuzz0/phase3-procedural-depth",
@@ -569,55 +618,6 @@
       "title": "[B] Restore verified discharge and records-correction machinery",
       "timestamp": "2026-08-27T12:42:20-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/da476c9734d548f1df4fe32f9bbbbc80c9a40dc5"
-    },
-    {
-      "id": "b23e8892f237aa8e728804722464022a27724619",
-      "type": "commit",
-      "title": "[B] Restore verified disability claim filing machinery",
-      "timestamp": "2026-08-27T12:40:28-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b23e8892f237aa8e728804722464022a27724619"
-    },
-    {
-      "id": "cd7d32ebb4f74bd65909f5e450dd0fe333c8db3a",
-      "type": "commit",
-      "title": "[C] Run Phase 3 procedural QA in CI",
-      "timestamp": "2026-08-27T12:39:24-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/cd7d32ebb4f74bd65909f5e450dd0fe333c8db3a"
-    },
-    {
-      "id": "e6e7c8002b4c842bb303069e020610a86878973e",
-      "type": "commit",
-      "title": "[C] Add Phase 3 procedural depth regression tests",
-      "timestamp": "2026-08-27T12:39:11-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/e6e7c8002b4c842bb303069e020610a86878973e"
-    },
-    {
-      "id": "a2e4360c8f44d9235c885eb26538cb0b1876d2e7",
-      "type": "commit",
-      "title": "[C] Add benefit change page to HTML regression suite",
-      "timestamp": "2026-08-27T12:38:55-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/a2e4360c8f44d9235c885eb26538cb0b1876d2e7"
-    },
-    {
-      "id": "b1665b4f1543a9724b3862f569dcbf0fceee59df",
-      "type": "commit",
-      "title": "[B] Deepen VHA clinical and health-benefit review procedures",
-      "timestamp": "2026-08-27T12:38:28-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b1665b4f1543a9724b3862f569dcbf0fceee59df"
-    },
-    {
-      "id": "e98eacbffe23dfe090d04a605e45682bab80fd9f",
-      "type": "commit",
-      "title": "[B] Restore verified appeals filing machinery",
-      "timestamp": "2026-08-27T12:37:14-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/e98eacbffe23dfe090d04a605e45682bab80fd9f"
-    },
-    {
-      "id": "905d52a2a8eaac24487c5d4e66000dd88a7dd960",
-      "type": "commit",
-      "title": "[B] Expose benefit changes and primary authorities",
-      "timestamp": "2026-08-27T12:36:18-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/905d52a2a8eaac24487c5d4e66000dd88a7dd960"
     }
   ],
   "links": [
