@@ -85,6 +85,8 @@ class TestPhase4StateHousing(unittest.TestCase):
         self.assertIn("tx-prop-92-0091", utility["authorities"])
         self.assertIn("writ of reentry", lockout["remedy"].lower())
         self.assertIn("writ of restoration", utility["remedy"].lower())
+        self.assertIn("precinct in which the rental premises are located", lockout["court"].lower())
+        self.assertIn("precinct in which the rental premises are located", utility["court"].lower())
 
     def test_local_rule_model_has_official_locator(self):
         local = self.texas["local_variation"]
