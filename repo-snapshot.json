@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T03:35:27Z",
-  "source_commit": "facd442af81f5275d77ca4ea2dcb60c334a22d0e",
+  "generated_at": "2026-08-31T03:45:16Z",
+  "source_commit": "55632f362a8e3ebde8ff67305713380fff1f33d4",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 85,
-    "python_files": 10,
+    "tracked_files": 87,
+    "python_files": 11,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 8
+    "test_files": 9
   },
   "repository_tree": {
-    "total_files": 85,
+    "total_files": 87,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -148,13 +148,13 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 8
+        "file_count": 9
       },
       {
         "path": "data/states",
         "name": "states",
         "depth": 2,
-        "file_count": 3
+        "file_count": 4
       },
       {
         "path": "docs",
@@ -172,7 +172,7 @@
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 9
+        "file_count": 10
       }
     ],
     "files": [
@@ -427,6 +427,11 @@
         "extension": ".json"
       },
       {
+        "path": "data/states/california.json",
+        "name": "california.json",
+        "extension": ".json"
+      },
+      {
         "path": "data/states/schema.json",
         "name": "schema.json",
         "extension": ".json"
@@ -547,6 +552,11 @@
         "extension": ".py"
       },
       {
+        "path": "tests/test_california_housing.py",
+        "name": "test_california_housing.py",
+        "extension": ".py"
+      },
+      {
         "path": "tests/test_html.py",
         "name": "test_html.py",
         "extension": ".py"
@@ -614,6 +624,34 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "55632f362a8e3ebde8ff67305713380fff1f33d4",
+      "type": "commit",
+      "title": "Merge pull request #17 from kaibuzz0/phase5-california-housing",
+      "timestamp": "2026-08-30T22:45:05-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/55632f362a8e3ebde8ff67305713380fff1f33d4"
+    },
+    {
+      "id": "2b0f11d7fcce38ebca744bbfbb58cdba86481f08",
+      "type": "commit",
+      "title": "Run California housing tests in legal QA",
+      "timestamp": "2026-08-30T22:42:12-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2b0f11d7fcce38ebca744bbfbb58cdba86481f08"
+    },
+    {
+      "id": "3fec50aef03e14535ffe00dddc9d1f48062c2cc7",
+      "type": "commit",
+      "title": "Add California housing legal regression tests",
+      "timestamp": "2026-08-30T22:42:00-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/3fec50aef03e14535ffe00dddc9d1f48062c2cc7"
+    },
+    {
+      "id": "77f8da55212c9eb1f6b33636237a1a8b2288acd6",
+      "type": "commit",
+      "title": "Add California eviction procedure core under schema 1.2",
+      "timestamp": "2026-08-30T22:41:34-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/77f8da55212c9eb1f6b33636237a1a8b2288acd6"
+    },
+    {
       "id": "facd442af81f5275d77ca4ea2dcb60c334a22d0e",
       "type": "commit",
       "title": "Merge pull request #16 from kaibuzz0/phase4-state-schema-hardening",
@@ -654,34 +692,6 @@
       "title": "Harden state legal semantic validator",
       "timestamp": "2026-08-30T22:32:20-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5b75a01259192f3677bd38b23b84ee1bc4e177b2"
-    },
-    {
-      "id": "031ae1c80d6522872c7d6f54ea4b7c65c84cc202",
-      "type": "commit",
-      "title": "Merge pull request #15 from kaibuzz0/phase4-state-schema",
-      "timestamp": "2026-08-30T17:14:17-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/031ae1c80d6522872c7d6f54ea4b7c65c84cc202"
-    },
-    {
-      "id": "08639446f149e1a9563dc5bd99c97a0db07e57fc",
-      "type": "commit",
-      "title": "[C] Gate state schema and validator in CI",
-      "timestamp": "2026-08-30T17:12:21-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/08639446f149e1a9563dc5bd99c97a0db07e57fc"
-    },
-    {
-      "id": "1c43a9c2925a19c95734666dd2eb3270524f3de5",
-      "type": "commit",
-      "title": "[D] Document state legal data model",
-      "timestamp": "2026-08-30T17:12:07-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1c43a9c2925a19c95734666dd2eb3270524f3de5"
-    },
-    {
-      "id": "9e41b061c76f22b592cfbda0e6bac71d24714a87",
-      "type": "commit",
-      "title": "[C] Add state schema and semantic validation tests",
-      "timestamp": "2026-08-30T17:11:42-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9e41b061c76f22b592cfbda0e6bac71d24714a87"
     }
   ],
   "links": [
