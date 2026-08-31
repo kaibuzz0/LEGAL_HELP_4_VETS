@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T22:14:25Z",
-  "source_commit": "031ae1c80d6522872c7d6f54ea4b7c65c84cc202",
+  "generated_at": "2026-08-31T03:35:27Z",
+  "source_commit": "facd442af81f5275d77ca4ea2dcb60c334a22d0e",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -614,6 +614,48 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "facd442af81f5275d77ca4ea2dcb60c334a22d0e",
+      "type": "commit",
+      "title": "Merge pull request #16 from kaibuzz0/phase4-state-schema-hardening",
+      "timestamp": "2026-08-30T22:35:20-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/facd442af81f5275d77ca4ea2dcb60c334a22d0e"
+    },
+    {
+      "id": "060dc06b3f7268c0f252179abda5a6e9622fa5ec",
+      "type": "commit",
+      "title": "Advance blank state template to schema 1.2",
+      "timestamp": "2026-08-30T22:33:31-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/060dc06b3f7268c0f252179abda5a6e9622fa5ec"
+    },
+    {
+      "id": "e26b67d181e5d46eacf5b0baad5da2a75a7ba1e8",
+      "type": "commit",
+      "title": "Document schema versioning and hardened invariants",
+      "timestamp": "2026-08-30T22:33:24-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/e26b67d181e5d46eacf5b0baad5da2a75a7ba1e8"
+    },
+    {
+      "id": "b1c94b41083a3062b03c290b1aba645340221f25",
+      "type": "commit",
+      "title": "Add adversarial legal-data validator tests",
+      "timestamp": "2026-08-30T22:33:01-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b1c94b41083a3062b03c290b1aba645340221f25"
+    },
+    {
+      "id": "ddae66dafbab10cbad07dcc74faaf82b124d6c1d",
+      "type": "commit",
+      "title": "Extend state schema for legal provenance and overlays",
+      "timestamp": "2026-08-30T22:32:40-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ddae66dafbab10cbad07dcc74faaf82b124d6c1d"
+    },
+    {
+      "id": "5b75a01259192f3677bd38b23b84ee1bc4e177b2",
+      "type": "commit",
+      "title": "Harden state legal semantic validator",
+      "timestamp": "2026-08-30T22:32:20-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5b75a01259192f3677bd38b23b84ee1bc4e177b2"
+    },
+    {
       "id": "031ae1c80d6522872c7d6f54ea4b7c65c84cc202",
       "type": "commit",
       "title": "Merge pull request #15 from kaibuzz0/phase4-state-schema",
@@ -640,48 +682,6 @@
       "title": "[C] Add state schema and semantic validation tests",
       "timestamp": "2026-08-30T17:11:42-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9e41b061c76f22b592cfbda0e6bac71d24714a87"
-    },
-    {
-      "id": "c39ca7a855e19977629848376636bc4ff3f82862",
-      "type": "commit",
-      "title": "[C] Add semantic state legal data validator",
-      "timestamp": "2026-08-30T17:11:23-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c39ca7a855e19977629848376636bc4ff3f82862"
-    },
-    {
-      "id": "243de3a777d66bb33ab3e79e237070ba749fc0cd",
-      "type": "commit",
-      "title": "[C] Add blank state legal data template",
-      "timestamp": "2026-08-30T17:10:54-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/243de3a777d66bb33ab3e79e237070ba749fc0cd"
-    },
-    {
-      "id": "fd025a471edd8dbd9c584bb30c208582406d4d2b",
-      "type": "commit",
-      "title": "[C] Add formal state legal data schema",
-      "timestamp": "2026-08-30T17:10:44-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/fd025a471edd8dbd9c584bb30c208582406d4d2b"
-    },
-    {
-      "id": "b16bc546f21d7cfcae1702c59f34484c32281fd0",
-      "type": "commit",
-      "title": "Merge pull request #14 from kaibuzz0/phase4-state-housing-depth",
-      "timestamp": "2026-08-30T17:08:15-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b16bc546f21d7cfcae1702c59f34484c32281fd0"
-    },
-    {
-      "id": "c5b3d83424b31515922d64a18ec2d078a6a474f1",
-      "type": "commit",
-      "title": "[C] Guard Texas reentry and restoration venue",
-      "timestamp": "2026-08-30T17:04:30-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c5b3d83424b31515922d64a18ec2d078a6a474f1"
-    },
-    {
-      "id": "b42766477b3b12336c3aa8bf69abe47fb79a3021",
-      "type": "commit",
-      "title": "[A] Correct Texas lockout and utility court venue wording",
-      "timestamp": "2026-08-30T17:04:07-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b42766477b3b12336c3aa8bf69abe47fb79a3021"
     }
   ],
   "links": [
