@@ -127,6 +127,15 @@
       "url": "https://www.hud.gov/hud-partners/multifamily-handbook-4350-3",
       "rule": "Project-based Section 8 and related HUD multifamily assistance can create program-specific lease-termination, subsidy/assistance, written-notice, and judicial-eviction requirements that are separate from public housing, Housing Choice Voucher administration, HUD-VASH, and California unlawful-detainer procedure.",
       "warning": "Identify the exact multifamily program and governing project documents before applying a termination rule. Loss of subsidy, lease termination, owner termination, and state-court eviction are distinct events. No program-specific deadline is published in this overlay."
+    },
+    {
+      "id": "ptfa",
+      "title": "Protecting Tenants at Foreclosure Act — Federal Bona Fide Tenant Protection",
+      "status": "verified",
+      "authority": "Pub. L. 111-22, div. A, title VII, § 702, restored by Pub. L. 115-174 § 304; statutory note to 12 U.S.C. § 5220",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title12-section5220",
+      "rule": "After covered foreclosure, an immediate successor in interest must provide a qualifying bona fide tenant at least 90 days' notice before the effective date of a notice to vacate and must respect qualifying lease-term protections subject to the owner-occupancy purchaser rule and statutory conditions.",
+      "warning": "Bona fide tenancy has specific conditions. Do not apply PTFA merely because a former mortgagor or other occupant remains in possession, and do not merge this federal protection with state foreclosure or eviction procedure."
     }
   ],
   "reasonable_accommodation_workflow": {
