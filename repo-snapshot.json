@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T16:57:07Z",
-  "source_commit": "f5404b2ab221d2b215f3b6128722033f4c64422b",
+  "generated_at": "2026-09-02T17:26:37Z",
+  "source_commit": "5c785ba8bc81dd7939820f1c62be9f5a6835c51f",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 100,
-    "python_files": 16,
+    "tracked_files": 105,
+    "python_files": 19,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 12
+    "test_files": 14
   },
   "repository_tree": {
-    "total_files": 100,
+    "total_files": 105,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -148,13 +148,13 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 12
+        "file_count": 14
       },
       {
         "path": "data/states",
         "name": "states",
         "depth": 2,
-        "file_count": 4
+        "file_count": 5
       },
       {
         "path": "docs",
@@ -166,13 +166,13 @@
         "path": "scripts",
         "name": "scripts",
         "depth": 1,
-        "file_count": 3
+        "file_count": 4
       },
       {
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 13
+        "file_count": 15
       }
     ],
     "files": [
@@ -412,6 +412,11 @@
         "extension": ".json"
       },
       {
+        "path": "data/florida-foreclosure.json",
+        "name": "florida-foreclosure.json",
+        "extension": ".json"
+      },
+      {
         "path": "data/housing-federal.json",
         "name": "housing-federal.json",
         "extension": ".json"
@@ -444,6 +449,11 @@
       {
         "path": "data/states/california.json",
         "name": "california.json",
+        "extension": ".json"
+      },
+      {
+        "path": "data/states/florida.json",
+        "name": "florida.json",
         "extension": ".json"
       },
       {
@@ -567,6 +577,11 @@
         "extension": ".py"
       },
       {
+        "path": "scripts/validate_florida_foreclosure.py",
+        "name": "validate_florida_foreclosure.py",
+        "extension": ".py"
+      },
+      {
         "path": "scripts/validate_state_data.py",
         "name": "validate_state_data.py",
         "extension": ".py"
@@ -614,6 +629,16 @@
       {
         "path": "tests/test_california_housing.py",
         "name": "test_california_housing.py",
+        "extension": ".py"
+      },
+      {
+        "path": "tests/test_florida_foreclosure.py",
+        "name": "test_florida_foreclosure.py",
+        "extension": ".py"
+      },
+      {
+        "path": "tests/test_florida_housing.py",
+        "name": "test_florida_housing.py",
         "extension": ".py"
       },
       {
@@ -689,6 +714,62 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "5c785ba8bc81dd7939820f1c62be9f5a6835c51f",
+      "type": "commit",
+      "title": "Merge pull request #23 from kaibuzz0/phase7-florida-housing",
+      "timestamp": "2026-09-02T12:26:25-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5c785ba8bc81dd7939820f1c62be9f5a6835c51f"
+    },
+    {
+      "id": "2acbdd2055d21d5d182c39d3359b9dab64d4c680",
+      "type": "commit",
+      "title": "Run Florida legal data checks in CI",
+      "timestamp": "2026-09-02T12:07:48-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2acbdd2055d21d5d182c39d3359b9dab64d4c680"
+    },
+    {
+      "id": "ab58aee5eea4ff67dbcf72a0b51db50dc1437e4a",
+      "type": "commit",
+      "title": "Add Florida foreclosure regression tests",
+      "timestamp": "2026-09-02T12:07:26-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ab58aee5eea4ff67dbcf72a0b51db50dc1437e4a"
+    },
+    {
+      "id": "27bb24e4efe5d7bf7eccf80a7e5e71372f78b469",
+      "type": "commit",
+      "title": "Add Florida housing regression tests",
+      "timestamp": "2026-09-02T12:06:58-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/27bb24e4efe5d7bf7eccf80a7e5e71372f78b469"
+    },
+    {
+      "id": "6bfd2cc7fdf7d8697f4e3aa4e0e4cf369799cb67",
+      "type": "commit",
+      "title": "Add Florida foreclosure semantic validator",
+      "timestamp": "2026-09-02T12:06:32-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bfd2cc7fdf7d8697f4e3aa4e0e4cf369799cb67"
+    },
+    {
+      "id": "68d6ba24b770f3602aa98402eaa7b5f466f5305e",
+      "type": "commit",
+      "title": "Register Florida production legal datasets",
+      "timestamp": "2026-09-02T12:06:16-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/68d6ba24b770f3602aa98402eaa7b5f466f5305e"
+    },
+    {
+      "id": "2789db2d05925a063fab1154aabb35c3320eb2aa",
+      "type": "commit",
+      "title": "Add Florida judicial foreclosure subject layer",
+      "timestamp": "2026-09-02T12:06:09-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2789db2d05925a063fab1154aabb35c3320eb2aa"
+    },
+    {
+      "id": "31bd60b325203f6d90798859d47a0e47e430252a",
+      "type": "commit",
+      "title": "Add Florida housing procedural core",
+      "timestamp": "2026-09-02T12:05:53-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/31bd60b325203f6d90798859d47a0e47e430252a"
+    },
+    {
       "id": "f5404b2ab221d2b215f3b6128722033f4c64422b",
       "type": "commit",
       "title": "Merge pull request #22 from kaibuzz0/phase6-state-replication-contract",
@@ -701,62 +782,6 @@
       "title": "docs: evaluate state 3 architecture candidates",
       "timestamp": "2026-09-02T11:55:15-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b798ee1e67f018d98012056363624349de032b2e"
-    },
-    {
-      "id": "969903e0b6fa3726120cd36342874fa16ff8d706",
-      "type": "commit",
-      "title": "ci: enforce state replication contract",
-      "timestamp": "2026-09-02T11:54:38-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/969903e0b6fa3726120cd36342874fa16ff8d706"
-    },
-    {
-      "id": "c06f63131fadfa5695ce0355c2bfffa3a0b958f0",
-      "type": "commit",
-      "title": "tests: enforce state replication contract invariants",
-      "timestamp": "2026-09-02T11:54:26-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c06f63131fadfa5695ce0355c2bfffa3a0b958f0"
-    },
-    {
-      "id": "d335ca166ac832478d7b5f472ff73523278048a5",
-      "type": "commit",
-      "title": "validation: harden dataset registration contract",
-      "timestamp": "2026-09-02T11:54:11-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d335ca166ac832478d7b5f472ff73523278048a5"
-    },
-    {
-      "id": "97f40c11be1470007c60cedf27caeddf706d48ee",
-      "type": "commit",
-      "title": "data: align dataset registry with production metadata",
-      "timestamp": "2026-09-02T11:53:36-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/97f40c11be1470007c60cedf27caeddf706d48ee"
-    },
-    {
-      "id": "458e3b79bd8ec3d65a6f9ae808b82b9e6b78b5d5",
-      "type": "commit",
-      "title": "validation: enforce legal dataset registry coverage",
-      "timestamp": "2026-09-02T11:52:59-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/458e3b79bd8ec3d65a6f9ae808b82b9e6b78b5d5"
-    },
-    {
-      "id": "2004320b9287621d9ad2301aefc70a00cd260581",
-      "type": "commit",
-      "title": "data: register production legal datasets",
-      "timestamp": "2026-09-02T11:50:07-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2004320b9287621d9ad2301aefc70a00cd260581"
-    },
-    {
-      "id": "83ab3d2db693268468586cc0669c10cc93030d12",
-      "type": "commit",
-      "title": "data: add blank subject-layer template",
-      "timestamp": "2026-09-02T11:50:00-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/83ab3d2db693268468586cc0669c10cc93030d12"
-    },
-    {
-      "id": "b4c1a60829f4e7807378429b238c99b64a9f5707",
-      "type": "commit",
-      "title": "docs: add adversarial state release review",
-      "timestamp": "2026-09-02T11:49:53-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b4c1a60829f4e7807378429b238c99b64a9f5707"
     }
   ],
   "links": [
