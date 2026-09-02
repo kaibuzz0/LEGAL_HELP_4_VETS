@@ -78,7 +78,7 @@ class FloridaHousingTests(unittest.TestCase):
         self.assertIn("defense other than payment", joined)
         self.assertIn("public-housing", joined)
         self.assertIn("rent subsidies", joined)
-        self.assertNotIn("every tenant must always", route["description"].lower())
+        self.assertIn("does not mean every tenant must always", route["description"].lower())
 
     def test_payment_defense_is_preserved(self):
         joined = " ".join(DATA["document_routes"]["rent_registry"]["exceptions"]).lower()
