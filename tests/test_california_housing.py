@@ -37,6 +37,13 @@ class TestCaliforniaHousing(unittest.TestCase):
             self.assertIn("judicial_holidays", clock["unit"])
             self.assertEqual(clock["computation_authority"], "ca-ccp-1161")
 
+    def test_noncurable_notice_does_not_borrow_curable_computation(self):
+        route = CA["document_routes"]["notice_quit_breach_nuisance"]
+        self.assertEqual(route["status"], "partially_verified")
+        self.assertIsNone(route["immediate_clock"])
+        self.assertIn("does not", route["description"].lower())
+        self.assertIn("exclusion", route["description"].lower())
+
     def test_termination_notices_use_calendar_day_model(self):
         self.assertEqual(CA["document_routes"]["termination_30_day"]["immediate_clock"]["unit"], "calendar_days_before_proposed_termination")
         self.assertEqual(CA["document_routes"]["termination_60_day"]["immediate_clock"]["unit"], "calendar_days_before_proposed_termination")
@@ -47,6 +54,7 @@ class TestCaliforniaHousing(unittest.TestCase):
         self.assertIn("covered", text)
         self.assertIn("exemption", text)
         self.assertIn("local", text)
+        self.assertIn("not a universal", text)
         self.assertIsNone(route["immediate_clock"])
 
     def test_no_fault_relocation_clock_is_separate(self):
@@ -84,12 +92,13 @@ class TestCaliforniaHousing(unittest.TestCase):
         self.assertIn("stop", combined)
         self.assertIn("sheriff", combined)
 
-    def test_sheriff_execution_uses_posted_notice(self):
+    def test_sheriff_execution_traces_to_controlling_statute(self):
         route = CA["document_routes"]["sheriff_notice_to_vacate"]
         clock = route["immediate_clock"]
         self.assertEqual(clock["value"], 5)
-        self.assertIn("posted notice", clock["display"].lower())
-        self.assertIn("sheriff", clock["trigger"])
+        self.assertEqual(clock["computation_authority"], "ca-ccp-715-010")
+        self.assertIn("service_of_writ_copy", clock["trigger"])
+        self.assertNotIn("after receiving notice", clock["display"].lower())
 
     def test_lockout_and_utility_are_separate(self):
         routes = CA["document_routes"]
@@ -117,9 +126,11 @@ class TestCaliforniaHousing(unittest.TestCase):
         self.assertEqual(route["status"], "partially_verified")
         self.assertIsNone(route["immediate_clock"])
         self.assertEqual(route["other_clocks"], [])
-        self.assertIn("public-housing", route["federal_overlays"])
-        self.assertIn("hcv", route["federal_overlays"])
-        self.assertIn("hud-vash", route["federal_overlays"])
+        for overlay in ("public-housing", "hcv", "project-based-section8", "hud-vash"):
+            self.assertIn(overlay, route["federal_overlays"])
+        text = (route["description"] + " " + " ".join(route["exceptions"])).lower()
+        self.assertIn("distinct", text)
+        self.assertIn("not the same", text)
 
     def test_foreclosure_not_smuggled_into_eviction_core(self):
         self.assertFalse(any("foreclosure" in key for key in CA["document_routes"]))
