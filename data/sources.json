@@ -1555,14 +1555,14 @@
     },
     {
       "id": "38-usc-4311",
-      "claim": "38 U.S.C. § 4311 prohibits discrimination, denial of employment, or adverse employment action against persons because of their membership, application for membership, performance of service, application for service, or obligation to serve in the uniformed services.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4311",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4311 prohibits specified employment discrimination based on uniformed-service membership, application, performance, application for service, or obligation for service, and separately prohibits retaliation for protected USERRA activity.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA anti-discrimination. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": "Phase 8A official-USCode refresh."
     },
     {
       "id": "38-usc-4312",
@@ -1610,25 +1610,25 @@
     },
     {
       "id": "38-usc-4321",
-      "claim": "38 U.S.C. § 4321 authorizes the Secretary of Labor to provide assistance to persons claiming rights under USERRA, including through DOL VETS.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4321",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4321 authorizes the Secretary of Labor to provide USERRA assistance and information.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "DOL assistance authority. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": "Phase 8A official-USCode refresh."
     },
     {
       "id": "38-usc-4322",
-      "claim": "38 U.S.C. § 4322 governs enforcement of USERRA employment or reemployment rights through administrative and judicial remedies, including DOL VETS referral to the Department of Justice and private actions.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4322",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4322 establishes the DOL complaint/investigation and referral framework for USERRA claims; later enforcement routes depend on employer type and statutory referral/election provisions.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA enforcement. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": "Phase 8A official-USCode refresh."
     },
     {
       "id": "38-usc-4323",
@@ -1720,14 +1720,14 @@
     },
     {
       "id": "38-usc-4312-five-year",
-      "claim": "38 U.S.C. § 4312 contains a cumulative five-year limit on the duration of service for which a person has reemployment rights with the same employer, subject to specified exceptions.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4312",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4312 contains a cumulative five-year service limit with the same employer for reemployment eligibility, subject to multiple statutory exclusions and exceptions.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA cumulative service limit and exceptions. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": "Phase 8A official-USCode refresh."
     },
     {
       "id": "38-cfr-1-963",
