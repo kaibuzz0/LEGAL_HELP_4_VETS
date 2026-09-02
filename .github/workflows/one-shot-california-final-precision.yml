@@ -1,0 +1,83 @@
+name: One-shot California final precision patch
+
+on:
+  push:
+    branches: [phase5-california-final-precision]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: phase5-california-final-precision
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Patch California state data safely
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('data/states/california.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          data['last_verified'] = '2026-09-02'
+
+          for authority in data.get('primary_authorities', []):
+              if authority.get('id') == 'ca-ccp-1161':
+                  authority['last_verified'] = '2026-09-02'
+                  authority['supports'] = [
+                      'CCP §1161(2) and (3) expressly exclude Saturdays, Sundays, and judicial holidays for curable pay-rent and covenant notices; §1161(4) separately authorizes three days notice to quit for specified assignment/subletting, waste, nuisance, and unlawful-use grounds without repeating those curable-notice exclusions.'
+                  ]
+              if authority.get('id') == 'ca-civ-1946-2':
+                  authority['last_verified'] = '2026-09-02'
+                  authority['supports'] = [
+                      'Tenant Protection Act coverage depends on statutory occupancy thresholds and exemptions; the statute separately defines at-fault and no-fault just cause, owner/family move-in conditions, withdrawal/government-order/substantial-remodel grounds, relocation rules, exemption conditions, and interaction with qualifying more-protective local ordinances.'
+                  ]
+
+          routes = data['document_routes']
+          route = routes['notice_quit_breach_nuisance']
+          route['status'] = 'partially_verified'
+          route['description'] = (
+              'CCP §1161(4) authorizes three days notice to quit for specified assignment/subletting, waste, nuisance, and unlawful-use grounds. '
+              'Unlike §1161(2) and (3), paragraph (4) does not itself repeat the Saturday/Sunday/judicial-holiday exclusion used for the curable notice categories. '
+              'Because service and generally applicable computation rules still require separate verification, no actionable clock is published here.'
+          )
+          route['immediate_clock'] = None
+          route['exceptions'] = [
+              'Whether alleged conduct legally qualifies under §1161(4), whether Tenant Protection Act or local just-cause requirements add protections, and the exact computation after service are fact- and authority-specific.'
+          ]
+          route['last_verified'] = '2026-09-02'
+
+          jc = routes['just_cause_termination']
+          jc['description'] = (
+              'Civil Code §1946.2 requires just cause only for covered tenancies after the statute’s occupancy thresholds. '
+              'It separately defines at-fault and no-fault grounds, contains category-specific exemptions and notice conditions, and preserves qualifying more-protective local ordinances. '
+              'A verified statute is not a universal entitlement: applicability must be checked for the actual tenancy.'
+          )
+          jc['exceptions'] = [
+              'Not all California residential tenancies are covered by §1946.2; occupancy thresholds, property/ownership categories, exemption notice conditions, mobilehome rules, and qualifying local ordinances matter.',
+              'Do not summarize the statute as one year equals just cause or all single-family homes are exempt.'
+          ]
+          jc['last_verified'] = '2026-09-02'
+
+          path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          PY
+      - name: Run California/state validation
+        run: |
+          python -m unittest tests.test_california_housing
+          python -m unittest tests.test_state_schema
+          python scripts/validate_state_data.py
+      - name: Commit correction and remove one-shot workflow
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/one-shot-california-final-precision.yml
+          git add data/states/california.json
+          git commit -m 'Quarantine noncurable California notice clock'
+          git push origin HEAD:phase5-california-final-precision
