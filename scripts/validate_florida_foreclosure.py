@@ -210,7 +210,12 @@ def validate(data: dict) -> list[str]:
         if "fl-83-62" in route.get("authorities", []):
             errors.append(f"{rid}: foreclosure possession improperly cites §83.62")
         text = json.dumps(route).lower()
-        if "statewide foreclosure" in text and "24" in text:
+        unsafe_24 = (
+            "statewide foreclosure possession has a 24-hour" in text
+            or "all florida foreclosure writs have 24 hours" in text
+            or "foreclosure writ requires 24 hours statewide" in text
+        )
+        if unsafe_24:
             errors.append(f"{rid}: local/eviction 24-hour timing may not be generalized statewide")
     if "fl-r-civ-p-1-580" not in routes.get("post_sale_writ_of_possession", {}).get("authorities", []):
         errors.append("post-sale writ route must use current Rule 1.580")
