@@ -1893,6 +1893,28 @@
       "authority_level": "PRIMARY_GOVERNMENT",
       "next_review": "2026-12-01",
       "notes": ""
+    },
+    {
+      "id": "military-onesource-legal-assistance",
+      "claim": "Military OneSource provides current Legal Services/JAG locator routing and explains that installation Legal Assistance Offices may provide legal information, paperwork help, and advice to eligible service members and families; eligibility and available services vary by office.",
+      "source_name": "Military OneSource / U.S. Department of Defense",
+      "source_url": "https://www.militaryonesource.mil/benefits/legal-assistance-for-service-members-and-families/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": "Do not promise eligibility or representation to all veterans."
+    },
+    {
+      "id": "va-lsv-h",
+      "claim": "VA's current LSV-H program funds legal services for eligible Veterans experiencing or at risk of homelessness; grantee service areas, subject-matter coverage, capacity, and eligibility vary, so listing does not guarantee representation.",
+      "source_name": "U.S. Department of Veterans Affairs — Homeless Programs",
+      "source_url": "https://department.va.gov/homeless/legal-services-for-veterans/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": "Current FY26 grantee referral information available on source page."
     }
   ]
 }
