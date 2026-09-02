@@ -479,7 +479,8 @@
       "other_clocks": [],
       "exceptions": [
         "Redemption is not the same as objecting to sale, reinstatement, modification, payoff negotiations, appeal, or vacating a judgment.",
-        "Because the controlling cutoff can depend on the judgment/order, no fixed numeric clock is published."
+        "Because the controlling cutoff can depend on the judgment/order, no fixed numeric clock is published.",
+        "Expiration of redemption rights does not itself equal a writ of possession or completed physical sheriff execution; redemption and possession are separate legal events."
       ],
       "legal_help": [
         "florida_bar_lrs",
