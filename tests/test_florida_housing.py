@@ -114,12 +114,15 @@ class FloridaHousingTests(unittest.TestCase):
         self.assertIn("scra-eviction", route["federal_overlays"])
         self.assertIn("veteran status alone", " ".join(route["exceptions"]).lower())
 
-    def test_ptfa_state_route_is_applicability_qualified(self):
+    def test_ptfa_state_route_respects_effective_date_contingency(self):
         route = DATA["document_routes"]["ptfa_tenant_after_foreclosure"]
         self.assertTrue(route["exceptions"])
-        self.assertEqual(route["immediate_clock"]["value"], 90)
+        self.assertIsNone(route["immediate_clock"])
         self.assertIn("ptfa", route["federal_overlays"])
-        self.assertTrue(any("former mortgagor" in x.lower() for x in route["exceptions"]))
+        joined = " ".join(route["exceptions"]).lower()
+        self.assertIn("former mortgagor", joined)
+        self.assertIn("effective upon repeal", joined)
+        self.assertIn("federal ptfa overlay", joined)
 
     def test_provider_routing_is_statewide_and_nonpromissory(self):
         required = {
