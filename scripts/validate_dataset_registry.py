@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,6 +11,7 @@ REGISTRY = ROOT / "data" / "datasets.json"
 STATE_DIR = ROOT / "data" / "states"
 EXCLUDED_STATE_FILES = {"schema.json", "_template.json"}
 KNOWN_SUBJECT_FILES = {ROOT / "data" / "california-foreclosure.json"}
+LEGACY_STATE_DATASET_IDS = {"texas-housing"}
 
 
 def load_registry() -> dict:
@@ -51,9 +53,26 @@ def validate_registry(registry: dict) -> list[str]:
             errors.append(f"{did}: missing semantic validator")
         elif not (ROOT / validator_value).exists():
             errors.append(f"{did}: validator does not exist: {validator_value}")
-        for field in ("state", "subject", "schema_version", "status"):
+        for field in ("state", "subject", "schema_version", "status", "last_verified"):
             if not entry.get(field):
                 errors.append(f"{did}: missing {field}")
+        if entry.get("last_verified"):
+            try:
+                datetime.strptime(entry["last_verified"], "%Y-%m-%d")
+            except ValueError:
+                errors.append(f"{did}: malformed last_verified")
+
+        if path_value.startswith("data/states/") and did not in LEGACY_STATE_DATASET_IDS:
+            if entry.get("schema_version") != "1.2":
+                errors.append(f"{did}: new/current state datasets must use schema 1.2; Texas is the only 1.1 legacy exception")
+            if path.exists():
+                try:
+                    actual = json.loads(path.read_text(encoding="utf-8")).get("schema_version")
+                except json.JSONDecodeError:
+                    actual = None
+                if actual != "1.2":
+                    errors.append(f"{did}: registered current state file does not declare schema 1.2")
+
         for dep in entry.get("cross_dataset_dependencies", []):
             if dep not in by_id:
                 errors.append(f"{did}: unknown dataset dependency {dep!r}")
