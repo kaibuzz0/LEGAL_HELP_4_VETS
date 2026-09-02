@@ -2,7 +2,7 @@ name: Legal Content Quality
 
 on:
   push:
-    branches: [main, legal-accuracy-foundation, veteran-emergency-medical-rights, phase2-legal-qa-hardening, phase3-procedural-depth, phase4-state-housing-depth, phase4-state-schema, phase5-california-housing, phase5-california-foreclosure, phase5-california-foreclosure-hardening, phase5-california-final-precision, phase6-state-replication-contract, phase7-florida-housing, phase7-florida-precision-hardening]
+    branches: [main, legal-accuracy-foundation, veteran-emergency-medical-rights, phase2-legal-qa-hardening, phase3-procedural-depth, phase4-state-housing-depth, phase4-state-schema, phase5-california-housing, phase5-california-foreclosure, phase5-california-foreclosure-hardening, phase5-california-final-precision, phase6-state-replication-contract, phase7-florida-housing, phase7-florida-precision-hardening, phase7-florida-postsale-local-precision]
   pull_request:
     branches: [main]
 
@@ -45,12 +45,16 @@ jobs:
         run: python -m unittest tests.test_florida_housing
       - name: Florida foreclosure tests
         run: python -m unittest tests.test_florida_foreclosure
+      - name: Florida local procedure tests
+        run: python -m unittest tests.test_florida_local_procedure
       - name: State data semantic validator
         run: python scripts/validate_state_data.py
       - name: California foreclosure semantic validator
         run: python scripts/validate_california_foreclosure.py
       - name: Florida foreclosure semantic validator
         run: python scripts/validate_florida_foreclosure.py
+      - name: Florida local procedure semantic validator
+        run: python scripts/validate_florida_local_procedure.py
       - name: Production dataset registry validator
         run: python scripts/validate_dataset_registry.py
       - name: Legal language review scan

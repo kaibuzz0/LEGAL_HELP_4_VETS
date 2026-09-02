@@ -32,7 +32,9 @@
       "validator": "scripts/validate_california_foreclosure.py",
       "status": "partially_verified",
       "last_verified": "2026-09-02",
-      "cross_dataset_dependencies": ["california-housing"]
+      "cross_dataset_dependencies": [
+        "california-housing"
+      ]
     },
     {
       "id": "florida-housing",
@@ -54,7 +56,23 @@
       "validator": "scripts/validate_florida_foreclosure.py",
       "status": "partially_verified",
       "last_verified": "2026-09-02",
-      "cross_dataset_dependencies": ["florida-housing"]
+      "cross_dataset_dependencies": [
+        "florida-housing"
+      ]
+    },
+    {
+      "id": "florida-local-procedure",
+      "state": "FL",
+      "subject": "housing_local_procedure",
+      "schema_version": "1.0",
+      "path": "data/florida-local-procedure.json",
+      "validator": "scripts/validate_florida_local_procedure.py",
+      "status": "partially_verified",
+      "last_verified": "2026-09-02",
+      "cross_dataset_dependencies": [
+        "florida-housing",
+        "florida-foreclosure"
+      ]
     }
   ]
 }

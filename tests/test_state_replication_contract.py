@@ -26,6 +26,12 @@ class StateReplicationContractTests(unittest.TestCase):
         errors = validate_registry(sample)
         self.assertTrue(any("not registered" in e for e in errors))
 
+    def test_unregistered_florida_local_procedure_dataset_fails(self):
+        sample = copy.deepcopy(self.registry)
+        sample["datasets"] = [e for e in sample["datasets"] if e["id"] != "florida-local-procedure"]
+        errors = validate_registry(sample)
+        self.assertTrue(any("florida-local-procedure.json" in e and "not registered" in e for e in errors))
+
     def test_unknown_cross_dataset_dependency_fails(self):
         sample = copy.deepcopy(self.registry)
         sample["datasets"][0]["cross_dataset_dependencies"] = ["does-not-exist"]

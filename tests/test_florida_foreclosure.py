@@ -164,6 +164,102 @@ class FloridaForeclosureTests(unittest.TestCase):
         authority_ids = {a["id"] for a in DATA["authorities"]}
         self.assertTrue(required.isdisjoint(authority_ids))
 
+    def test_post_sale_document_chain_extends_through_execution(self):
+        routes = DATA["routes"]
+        for rid in (
+            "certificate_of_title",
+            "post_sale_writ_of_possession",
+            "post_sale_sheriff_execution",
+        ):
+            self.assertIn(rid, routes)
+        self.assertNotEqual(routes["certificate_of_title"]["id"], routes["post_sale_writ_of_possession"]["id"])
+        self.assertNotEqual(routes["post_sale_writ_of_possession"]["id"], routes["post_sale_sheriff_execution"]["id"])
+
+    def test_foreclosure_writ_uses_rule_1580_not_section_83_62(self):
+        route = DATA["routes"]["post_sale_writ_of_possession"]
+        self.assertIn("fl-r-civ-p-1-580", route["authorities"])
+        self.assertNotIn("fl-83-62", route["authorities"])
+        self.assertIsNone(route["immediate_clock"])
+        joined = " ".join(route["exceptions"]).lower()
+        self.assertIn("affidavit", joined)
+        self.assertIn("sheriff", joined)
+
+    def test_sheriff_execution_has_no_statewide_foreclosure_24_hour_clock(self):
+        route = DATA["routes"]["post_sale_sheriff_execution"]
+        self.assertIsNone(route["immediate_clock"])
+        self.assertIn("does not publish a universal", route["description"].lower())
+        self.assertTrue(any("24-hour" in x for x in route["exceptions"]))
+
+    def test_certificate_of_title_not_physical_execution(self):
+        route = DATA["routes"]["certificate_of_title"]
+        self.assertIsNone(route["immediate_clock"])
+        self.assertIn("not itself physical sheriff execution", route["description"].lower())
+        self.assertTrue(any("writ of possession" in x.lower() for x in route["exceptions"]))
+
+    def test_former_owner_bona_fide_other_and_unknown_are_distinct(self):
+        routes = DATA["routes"]
+        ids = {
+            routes["post_sale_former_owner"]["id"],
+            routes["post_sale_bona_fide_tenant"]["id"],
+            routes["post_sale_other_tenant"]["id"],
+            routes["post_sale_other_occupant"]["id"],
+        }
+        self.assertEqual(len(ids), 4)
+
+    def test_other_tenant_not_ptfa_qualified_does_not_mean_no_protection(self):
+        route = DATA["routes"]["post_sale_other_tenant"]
+        joined = " ".join(route["exceptions"]).lower()
+        self.assertIn("not ptfa-qualified is not equivalent to no protection", joined)
+        self.assertIsNone(route["immediate_clock"])
+
+    def test_unknown_occupant_remains_identification_first(self):
+        route = DATA["routes"]["post_sale_other_occupant"]
+        self.assertIsNone(route["immediate_clock"])
+        joined = " ".join(route["exceptions"]).lower()
+        for fact in ("lease", "former owner", "rent", "certificate-of-title", "writ"):
+            self.assertIn(fact, joined)
+        self.assertIn("unknown status must remain unknown", joined)
+
+    def test_redemption_expiration_is_not_possession_deadline(self):
+        route = DATA["routes"]["redemption"]
+        self.assertIsNone(route["immediate_clock"])
+        joined = " ".join(route["exceptions"]).lower()
+        self.assertIn("physical possession", joined)
+        self.assertIn("separate legal events", joined)
+
+    def test_sale_objection_is_not_possession_deadline(self):
+        objection = DATA["routes"]["sale_objection"]
+        router = DATA["routes"]["post_sale_document_router"]
+        self.assertEqual(objection["immediate_clock"]["value"], 10)
+        self.assertTrue(any("sale-objection expiration" in x.lower() and "not possession" in x.lower() for x in router["exceptions"]))
+
+    def test_appeal_does_not_itself_stay_enforcement(self):
+        route = DATA["routes"]["appeal_stay_postsale"]
+        self.assertIsNone(route["immediate_clock"])
+        self.assertIn("does not itself create a stay", route["description"].lower())
+        self.assertIn("fl-r-app-p-9-310", route["authorities"])
+
+    def test_appellate_stay_rule_uses_current_september_2026_source(self):
+        authority = next(a for a in DATA["authorities"] if a["id"] == "fl-r-app-p-9-310")
+        self.assertIn("09-01-26.pdf", authority["source_url"])
+        self.assertNotIn("07-01-26.pdf", authority["source_url"])
+        self.assertIn("September 1, 2026", authority["supports"][0])
+
+    def test_validator_rejects_section_83_62_as_foreclosure_bridge(self):
+        sample = copy.deepcopy(DATA)
+        sample["routes"]["post_sale_writ_of_possession"]["authorities"].append("fl-83-62")
+        self.assertTrue(any("improperly cites §83.62" in e for e in validate(sample)))
+
+    def test_validator_rejects_certificate_title_as_immediate_lockout(self):
+        sample = copy.deepcopy(DATA)
+        sample["routes"]["certificate_of_title"]["description"] = "Certificate of title means immediate lockout."
+        self.assertTrue(any("certificate of title" in e.lower() and "physical eviction" in e.lower() for e in validate(sample)))
+
+    def test_current_forms_are_classified_as_government_forms(self):
+        authorities = {a["id"]: a for a in DATA["authorities"]}
+        self.assertEqual(authorities["fl-form-1-915"]["authority_type"], "government_form")
+        self.assertEqual(authorities["fl-form-1-996a"]["authority_type"], "government_form")
+
 
 if __name__ == "__main__":
     unittest.main()
