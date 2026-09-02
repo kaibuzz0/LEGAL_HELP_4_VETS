@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Semantic validation for data/florida-foreclosure.json.
 
-Contract-v2 rules:
-- Florida authorities and federal overlays are different provenance layers.
-- Every numeric clock resolves to current verified legal authority.
-- Sale, certificate, objection, title, redemption, and possession remain distinct.
+Contract-v2 / Phase-7C invariants:
+- Florida authorities and federal overlays are distinct provenance layers.
+- Every numeric clock resolves to verified current authority.
+- Sale, certificate of sale, title, writ, sheriff execution, and physical possession are distinct.
+- Former owner, bona fide tenant, other tenant, and unknown occupant are distinct.
+- Chapter 83's residential-eviction writ clock cannot leak into general foreclosure possession.
 - Null means unresolved/not safely generalized, never "no deadline".
 """
 from __future__ import annotations
@@ -68,11 +70,12 @@ def validate(data: dict) -> list[str]:
         except ValueError:
             errors.append(f"{aid}: malformed verification date")
 
-        # Prevent rule/statute category drift and stale/archive publication from becoming "current" by accident.
         if aid.startswith("fl-r-") and atype != "court_rule":
             errors.append(f"{aid}: Florida rule authority must be classified court_rule")
-        if atype == "court_rule" and a.get("status") == "verified" and parsed.netloc not in CURRENT_RULE_HOSTS:
-            errors.append(f"{aid}: verified current court rule must use an official/current Florida court or Florida Bar rule source")
+        if aid.startswith("fl-form-") and atype != "government_form":
+            errors.append(f"{aid}: Florida form authority must be classified government_form")
+        if atype in {"court_rule", "government_form"} and a.get("status") == "verified" and parsed.netloc not in CURRENT_RULE_HOSTS:
+            errors.append(f"{aid}: verified current rule/form must use an official/current Florida court or Florida Bar source")
         if atype == "statute" and a.get("status") == "verified" and parsed.netloc not in {"www.leg.state.fl.us", "leg.state.fl.us"}:
             errors.append(f"{aid}: verified Florida statute must use official Florida Legislature source")
         match = re.search(r"StatuteYear=(\d{4})", source or "")
@@ -129,20 +132,15 @@ def validate(data: dict) -> list[str]:
                 errors.append(f"{rid}: numeric clock authority must resolve to verified Florida authority")
 
         if route.get("immediate_clock") is None:
-            text = " ".join([
-                route.get("description", ""),
-                *route.get("exceptions", []),
-            ]).lower()
+            text = " ".join([route.get("description", ""), *route.get("exceptions", [])]).lower()
             for unsafe in ("there is no deadline", "no deadline applies", "no notice is required"):
                 if unsafe in text:
                     errors.append(f"{rid}: null clock rendered as negative legal conclusion")
 
-    # Dataset-level overlay registry must also resolve.
     for overlay in data.get("federal_overlays", []):
         if overlay not in federal_ids:
             errors.append(f"unknown dataset-level federal overlay: {overlay}")
 
-    # Cross-dataset dependency and route references must resolve.
     for dep in data.get("dataset_dependencies", []):
         if dep not in registered:
             errors.append(f"unresolved dataset dependency: {dep}")
@@ -155,7 +153,6 @@ def validate(data: dict) -> list[str]:
                 if route_id not in florida_routes:
                     errors.append(f"cross-dataset Florida housing route does not resolve: {route_id}")
 
-    # Resources are routing, not legal authority.
     for key, resource in data.get("resources", {}).items():
         if not https(resource.get("url")):
             errors.append(f"resource {key}: source must be HTTPS")
@@ -166,36 +163,91 @@ def validate(data: dict) -> list[str]:
         except ValueError:
             errors.append(f"resource {key}: malformed verification date")
 
-    # Contract-v2 event-separation invariants.
     routes = data.get("routes", {})
-    for required in (
+    required_routes = (
         "judicial_sale",
         "certificate_of_sale",
         "sale_objection",
         "certificate_of_title",
         "redemption",
         "post_sale_former_owner",
+        "post_sale_writ_of_possession",
+        "post_sale_sheriff_execution",
         "post_sale_bona_fide_tenant",
+        "post_sale_other_tenant",
         "post_sale_other_occupant",
-    ):
+        "appeal_stay_postsale",
+        "post_sale_document_router",
+    )
+    for required in required_routes:
         if required not in routes:
             errors.append(f"missing distinct foreclosure event route: {required}")
 
     objection = routes.get("sale_objection", {}).get("immediate_clock") or {}
-    if objection:
-        if objection.get("value") != 10 or "certificate of sale" not in objection.get("trigger", "").lower():
-            errors.append("sale objection clock must remain tied to 10 days after filing certificate of sale")
+    if objection and (objection.get("value") != 10 or "certificate of sale" not in objection.get("trigger", "").lower()):
+        errors.append("sale objection clock must remain tied to 10 days after filing certificate of sale")
 
     if routes.get("redemption", {}).get("immediate_clock") is not None:
         errors.append("redemption must remain event-based/null rather than a generic numeric days-after-sale clock")
-    for rid in ("certificate_of_title", "post_sale_former_owner", "post_sale_bona_fide_tenant", "post_sale_other_occupant"):
-        if routes.get(rid, {}).get("immediate_clock") is not None:
-            errors.append(f"{rid}: possession/title clock must remain null unless independently established")
 
-    if "ptfa" in routes.get("post_sale_former_owner", {}).get("federal_overlays", []):
+    post_sale_routes = (
+        "certificate_of_title",
+        "post_sale_former_owner",
+        "post_sale_writ_of_possession",
+        "post_sale_sheriff_execution",
+        "post_sale_bona_fide_tenant",
+        "post_sale_other_tenant",
+        "post_sale_other_occupant",
+        "appeal_stay_postsale",
+    )
+    for rid in post_sale_routes:
+        if routes.get(rid, {}).get("immediate_clock") is not None:
+            errors.append(f"{rid}: post-sale possession/title clock must remain null unless independently established")
+
+    # Foreclosure possession cannot borrow the separate Chapter 83 eviction writ clock.
+    for rid in post_sale_routes:
+        route = routes.get(rid, {})
+        if "fl-83-62" in route.get("authorities", []):
+            errors.append(f"{rid}: foreclosure possession improperly cites §83.62")
+        text = json.dumps(route).lower()
+        if "statewide foreclosure" in text and "24" in text:
+            errors.append(f"{rid}: local/eviction 24-hour timing may not be generalized statewide")
+    if "fl-r-civ-p-1-580" not in routes.get("post_sale_writ_of_possession", {}).get("authorities", []):
+        errors.append("post-sale writ route must use current Rule 1.580")
+    writ_text = json.dumps(routes.get("post_sale_writ_of_possession", {})).lower()
+    if "affidavit" not in writ_text or "sheriff" not in writ_text:
+        errors.append("post-sale writ route must preserve Rule 1.580(b) third-party affidavit safeguard")
+
+    cert_text = json.dumps(routes.get("certificate_of_title", {})).lower()
+    for unsafe in ("immediate physical removal", "immediate lockout", "automatically removed"):
+        if unsafe in cert_text:
+            errors.append("certificate of title must not be rendered as immediate physical eviction")
+
+    former = routes.get("post_sale_former_owner", {})
+    bona = routes.get("post_sale_bona_fide_tenant", {})
+    other = routes.get("post_sale_other_tenant", {})
+    unknown = routes.get("post_sale_other_occupant", {})
+    if "ptfa" in former.get("federal_overlays", []):
         errors.append("former mortgagor route must not automatically receive PTFA tenant protection")
-    if "ptfa" not in routes.get("post_sale_bona_fide_tenant", {}).get("federal_overlays", []):
+    if "ptfa" not in bona.get("federal_overlays", []):
         errors.append("bona fide tenant post-sale route must preserve PTFA overlay")
+    if bona.get("id") in {former.get("id"), other.get("id"), unknown.get("id")}:
+        errors.append("occupant classifications must remain distinct")
+    if unknown.get("immediate_clock") is not None or "unknown" not in json.dumps(unknown).lower():
+        errors.append("unknown occupant must remain null-safe and identification-first")
+
+    router_text = json.dumps(routes.get("post_sale_document_router", {})).lower()
+    for phrase in ("certificate of sale is not a certificate of title", "certificate of title is not a writ", "writ of possession is not completed physical"):
+        if phrase not in router_text:
+            errors.append(f"post-sale document router missing separation invariant: {phrase}")
+
+    appeal_text = json.dumps(routes.get("appeal_stay_postsale", {})).lower()
+    if "does not itself create a stay" not in appeal_text:
+        errors.append("appeal/stay route must state that appeal does not itself create a stay")
+
+    redemption_text = json.dumps(routes.get("redemption", {})).lower()
+    if "possession" not in redemption_text:
+        errors.append("redemption route must expressly distinguish redemption from possession")
 
     return errors
 
