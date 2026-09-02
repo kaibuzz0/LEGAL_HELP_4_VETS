@@ -180,6 +180,19 @@
       ],
       "last_verified": "2026-08-30",
       "status": "verified"
+    },
+    {
+      "id": "ca-ccp-715-010",
+      "citation": "Cal. Code Civ. Proc. § 715.010",
+      "title": "California Code of Civil Procedure § 715.010 — Writ of Possession",
+      "authority_type": "statute",
+      "jurisdiction": "California",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=715.010.",
+      "supports": [
+        "A writ of possession states the five-day statutory removal period using service/posting mechanics; personal property remaining at the premises is separately governed."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
     }
   ],
   "local_variation": {
@@ -199,7 +212,8 @@
     "hcv",
     "hud-vash",
     "ssvf",
-    "lsv-h"
+    "lsv-h",
+    "project-based-section8"
   ],
   "document_routes": {
     "notice_pay_rent_or_quit": {
@@ -693,10 +707,11 @@
       "id": "sheriff_notice_to_vacate",
       "label": "SHERIFF NOTICE TO VACATE / WRIT OF POSSESSION",
       "status": "verified",
-      "description": "After a possession judgment and issuance of the writ, the landlord delivers the writ to the sheriff. California Courts states that the sheriff gives a Notice to Vacate allowing five days to move; if the deadline passes without a stay or other effective relief, the sheriff may return and lock the occupants out.",
+      "description": "After a possession judgment and issuance of the writ, CCP §715.010 supplies the controlling five-day removal language. The trigger depends on service of the writ copy on the occupant or, for a posted copy, service on the judgment debtor; current California Courts guidance provides practical post-judgment context.",
       "jurisdiction": "California",
       "court_or_forum": "California Superior Court / county sheriff executing writ",
       "authorities": [
+        "ca-ccp-715-010",
         "ca-courts-postjudgment"
       ],
       "federal_overlays": [
@@ -714,21 +729,21 @@
       "optional_filing": null,
       "immediate_clock": {
         "value": 5,
-        "unit": "days_under_current_california_courts_sheriff_notice_guidance_use_posted_notice_for_exact_deadline",
-        "trigger": "sheriff_service_or_posting_of_notice_to_vacate_after_writ",
-        "computation_authority": "ca-courts-postjudgment",
+        "unit": "calendar_days_from_statutory_service_or_posting_trigger",
+        "trigger": "service_of_writ_copy_on_occupant_or_if_posted_service_of_copy_on_judgment_debtor",
+        "computation_authority": "ca-ccp-715-010",
         "exceptions": [
-          "County operational steps can vary; the posted notice controls the actual move-out date/time. A court-ordered stay or other effective relief can change enforcement."
+          "A court-ordered stay or other effective relief can change enforcement. Personal-property handling is separate from occupant removal."
         ],
         "verified": true,
-        "display": "California Courts states that the sheriff's Notice to Vacate gives the tenant five days to move; use the posted notice for the exact lockout deadline."
+        "display": "CCP §715.010(b)(2) states five days from service of a copy of the writ on the occupant, or if the writ copy is posted, five days from service of a copy on the judgment debtor, before the levying officer removes occupants."
       },
       "other_clocks": [],
       "remedies": [
         "A tenant may ask the court for a stay of execution; an appeal alone does not automatically stop the sheriff."
       ],
       "possession_consequences": [
-        "After the notice period, absent effective relief, the sheriff may physically remove occupants and restore possession to the landlord."
+        "After the statutory period, absent effective relief, the levying officer may remove occupants and restore possession. Property left at the premises follows separate statutory handling."
       ],
       "exceptions": [],
       "local_variation": {
@@ -742,7 +757,7 @@
         "last_checked": "2026-08-30"
       },
       "legal_help": [],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-09-02"
     },
     "self_help_lockout": {
       "id": "self_help_lockout",
@@ -927,14 +942,15 @@
       "id": "subsidized_housing_termination",
       "label": "SUBSIDIZED-HOUSING TERMINATION / VOUCHER ACTION",
       "status": "partially_verified",
-      "description": "Public housing, Housing Choice Voucher, project-based assistance, and HUD-VASH can create program-specific notice/review layers separate from the landlord's California unlawful-detainer case. This first California core does not yet publish program-specific deadlines.",
+      "description": "Public housing, Housing Choice Voucher, project-based Section 8/multifamily assistance, and HUD-VASH are distinct federal program layers. A subsidy or assistance action, lease termination, owner termination, and California state-court eviction are not the same decision and do not automatically share one notice or appeal path.",
       "jurisdiction": "California",
       "court_or_forum": null,
       "authorities": [],
       "federal_overlays": [
         "public-housing",
         "hcv",
-        "hud-vash"
+        "hud-vash",
+        "project-based-section8"
       ],
       "required_actions": [],
       "optional_actions": [
@@ -951,7 +967,9 @@
       "remedies": [],
       "possession_consequences": [],
       "exceptions": [
-        "Do not collapse loss of assistance and state-court eviction into one decision or one appeal."
+        "Do not collapse public housing, HCV, project-based Section 8, and HUD-VASH into one program.",
+        "Do not treat loss of subsidy or assistance as an automatic eviction judgment, or an eviction judgment as an automatic program-termination decision.",
+        "Program-specific deadlines remain unpublished until the exact program and primary authority are verified."
       ],
       "local_variation": {
         "status": "verified",
@@ -964,7 +982,7 @@
         "last_checked": "2026-08-30"
       },
       "legal_help": [],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-09-02"
     }
   },
   "resources": {
@@ -987,6 +1005,76 @@
       "eligibility_notes": "Handles discrimination matters; does not represent tenants in ordinary unlawful-detainer cases.",
       "verified": true,
       "last_verified": "2026-08-30"
+    },
+    "california_state_bar_lrs": {
+      "name": "State Bar of California — Certified Lawyer Referral Services",
+      "type": "bar_program",
+      "url": "https://www.calbar.ca.gov/public/find-legal-professionals",
+      "coverage": "Statewide directory of State Bar-certified lawyer referral services",
+      "service_area": "California",
+      "eligibility_notes": "Referral locator, not guaranteed representation; consultation fees and attorney fees can vary.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "california_free_legal_help": {
+      "name": "State Bar of California — Free / Low-Cost Legal Help",
+      "type": "legal_aid",
+      "url": "https://www.calbar.ca.gov/public/legal-resources",
+      "coverage": "Statewide access point to legal-aid resources and LawHelpCA",
+      "service_area": "California",
+      "eligibility_notes": "Eligibility, service area, case acceptance, and available legal topics vary by provider; no representation is guaranteed.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "california_veterans_legal_resources": {
+      "name": "State Bar of California — Veterans and Service Members Legal Resources",
+      "type": "veterans_clinic",
+      "url": "https://www.calbar.ca.gov/public/legal-resources/resources-veterans-and-service-members",
+      "coverage": "Current statewide/regional directory of veteran and servicemember legal-help resources",
+      "service_area": "California",
+      "eligibility_notes": "Directory/referral resource; each listed program has its own eligibility, subject-matter, capacity, and geographic limits.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "hud_housing_counselor": {
+      "name": "HUD — Approved Housing Counselor Locator",
+      "type": "foreclosure_assistance",
+      "url": "https://www.hud.gov/stat/sfh/housing-counseling",
+      "coverage": "National HUD-approved housing-counseling locator, including foreclosure and rental counseling",
+      "service_area": "California / national locator",
+      "eligibility_notes": "Housing counseling is not legal representation and does not itself stop a foreclosure or eviction.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "va_lsvh": {
+      "name": "VA — Legal Services for Veterans (LSV-H) Grantee Referral",
+      "type": "LSV-H",
+      "url": "https://department.va.gov/homeless/legal-services-for-veterans/",
+      "coverage": "Current VA-funded grantee referral information for eligible Veterans who are homeless or at risk",
+      "service_area": "California / national grantee locator",
+      "eligibility_notes": "No guaranteed representation; each grantee has eligibility, subject-matter, capacity, and service-area limitations.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "va_ssvf": {
+      "name": "VA — Supportive Services for Veteran Families (SSVF) Provider Locator",
+      "type": "SSVF",
+      "url": "https://department.va.gov/homeless/supportive-services-for-veteran-families/",
+      "coverage": "Current VA SSVF provider routing for homelessness prevention and rapid rehousing",
+      "service_area": "California / national provider locator",
+      "eligibility_notes": "SSVF is not a statutory entitlement or legal representation; local funding, eligibility, and services vary.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "va_home_loan_help": {
+      "name": "VA — Help To Avoid Foreclosure",
+      "type": "foreclosure_assistance",
+      "url": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
+      "coverage": "VA-guaranteed home-loan foreclosure-avoidance assistance and loan-technician routing",
+      "service_area": "California / nationwide VA home-loan program",
+      "eligibility_notes": "VA guaranty does not mean VA owns or services the loan; option eligibility and servicer implementation vary and assistance does not automatically halt state foreclosure.",
+      "verified": true,
+      "last_verified": "2026-09-02"
     }
   }
 }
