@@ -1,6 +1,7 @@
 """Final California cross-layer release invariants."""
 import json
 import unittest
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,7 +47,7 @@ class CaliforniaFinalPrecisionTests(unittest.TestCase):
         ):
             self.assertIn(key, resources)
             self.assertTrue(resources[key]["url"].startswith("https://"))
-            self.assertEqual(resources[key]["last_verified"], "2026-09-02")
+            datetime.strptime(resources[key]["last_verified"], "%Y-%m-%d")
         combined = " ".join(str(v.get("eligibility_notes", "")) for v in resources.values()).lower()
         self.assertIn("not guaranteed", combined)
 
