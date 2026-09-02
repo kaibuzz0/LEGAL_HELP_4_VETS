@@ -1,3 +1,4 @@
+import copy
 import json
 import pathlib
 import unittest
@@ -13,8 +14,61 @@ class CaliforniaForeclosureTests(unittest.TestCase):
         cls.routes = cls.data["routes"]
         cls.authorities = {a["id"]: a for a in cls.data["authorities"]}
 
+    def mutated(self):
+        return copy.deepcopy(self.data)
+
+    def assert_invalid(self, data, needle):
+        errors = validate(data)
+        self.assertTrue(any(needle in e for e in errors), errors)
+
     def test_foreclosure_layer_passes_semantic_validator(self):
         self.assertEqual(validate(self.data), [])
+
+    def test_validator_rejects_unknown_authority_reference(self):
+        data = self.mutated()
+        data["routes"]["notice_of_default"]["authorities"] = ["does-not-exist"]
+        self.assert_invalid(data, "unknown authority")
+
+    def test_validator_rejects_wrong_jurisdiction_for_verified_california_route(self):
+        data = self.mutated()
+        data["routes"]["notice_of_default"]["authorities"] = ["federal-ptfa"]
+        self.assert_invalid(data, "cannot rely on federal authority")
+
+    def test_validator_rejects_http_source(self):
+        data = self.mutated()
+        data["authorities"][0]["source_url"] = "http://example.com/statute"
+        self.assert_invalid(data, "source must be HTTPS")
+
+    def test_validator_rejects_missing_verification_date(self):
+        data = self.mutated()
+        data["authorities"][0]["last_verified"] = ""
+        self.assert_invalid(data, "missing/malformed verification date")
+
+    def test_validator_rejects_missing_supported_proposition(self):
+        data = self.mutated()
+        data["authorities"][0]["supports"] = []
+        self.assert_invalid(data, "missing supported proposition")
+
+    def test_validator_rejects_numeric_clock_without_trigger(self):
+        data = self.mutated()
+        data["routes"]["notice_of_default"]["clock"]["trigger"] = ""
+        self.assert_invalid(data, "numeric clock missing trigger")
+
+    def test_validator_rejects_numeric_clock_without_authority(self):
+        data = self.mutated()
+        data["routes"]["notice_of_default"]["clock"]["computation_authority"] = ""
+        self.assert_invalid(data, "clock authority does not resolve")
+
+    def test_validator_rejects_numeric_clock_with_unverified_authority(self):
+        data = self.mutated()
+        data["authorities"][0]["status"] = "partially_verified"
+        data["routes"]["default_servicing_problem"]["clock"]["computation_authority"] = data["authorities"][0]["id"]
+        self.assert_invalid(data, "verified clock uses nonverified authority")
+
+    def test_null_clock_is_safe_unknown_not_no_deadline(self):
+        data = self.mutated()
+        data["routes"]["sale_postponed"]["warnings"] = ["There is no deadline."]
+        self.assert_invalid(data, "null clock must not be interpreted as no deadline")
 
     def test_nod_is_not_sale_notice(self):
         self.assertIn("notice_of_default", self.routes)
@@ -42,12 +96,14 @@ class CaliforniaForeclosureTests(unittest.TestCase):
         self.assertIn("mailing", " ".join(route["warnings"]).lower())
         self.assertIn("publication", " ".join(route["warnings"]).lower())
 
-    def test_postponement_old_clock_is_not_published(self):
+    def test_postponement_clock_remains_quarantined(self):
         route = self.routes["sale_postponed"]
         self.assertIsNone(route["clock"])
         text = " ".join(route["warnings"]).lower()
         self.assertIn("withheld", text)
         self.assertIn("public announcement", text)
+        self.assertNotIn("every postponed sale requires", text)
+        self.assertNotIn("automatically invalid", text)
 
     def test_hbor_is_qualified_and_not_regulation_x(self):
         text = " ".join(self.routes["hbor_complete_application"]["warnings"]).lower()
