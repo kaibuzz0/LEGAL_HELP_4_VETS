@@ -168,9 +168,9 @@
       "title": "Computing and Extending Time",
       "authority_type": "court_rule",
       "jurisdiction": "Florida",
-      "source_url": "https://www-media.floridabar.org/uploads/2025/12/2026_07-JAN-Florida-Rules-of-General-Practice-and-Judicial-Administration-1-1-2026-1.pdf",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/08/2027_01-JULY-Florida-Rules-of-General-Practice-and-Judicial-Administration-7-1-2026.pdf",
       "supports": [
-        "Rule 2.514 supplies the default computation framework for Florida procedural and statutory periods that do not specify their own method, including periods shorter than 7 days and periods of 7 days or longer."
+        "Current Rule 2.514, updated July 1, 2026, governs time periods that do not specify their own method: periods under 7 days do not count Saturdays, Sundays, or legal holidays; periods of 7 days or longer use the separate rule in subdivision (a)(1)."
       ],
       "last_verified": "2026-09-02",
       "status": "verified"
@@ -408,11 +408,11 @@
       "immediate_clock": {
         "label": "summary-procedure answer period",
         "value": 5,
-        "unit": "days_computed_under_fla_r_gen_prac_2_514_for_periods_less_than_7_days",
+        "unit": "days_excluding_saturday_sunday_and_legal_holidays_under_current_fla_r_gen_prac_2_514",
         "trigger": "service of process in the Chapter 83 possession action",
         "computation_authority": "fl-r-gen-prac-2-514",
         "verified": true,
-        "display": "Section 51.011 requires the defendant's answer within 5 days after service of process; compute the short period under Florida's governing time-computation rule unless another controlling provision specifies otherwise."
+        "display": "Section 51.011 requires the defendant's answer within 5 days after service of process. Under current Rule 2.514(a)(2), because the period is less than 7 days, Saturdays, Sundays, and legal holidays are not counted."
       },
       "other_clocks": [],
       "remedies": [],
