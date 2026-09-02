@@ -247,9 +247,9 @@
         {
           "label": "minimum hearing spacing after response deadline",
           "value": 10,
-          "unit": "calendar_days_or_governing_rule_computation",
+          "unit": "days_computed_under_current_fla_r_gen_prac_2_514",
           "trigger": "deadline for serving the summary-judgment response",
-          "computation_authority": "fl-r-civ-p-1-510",
+          "computation_authority": "fl-r-gen-prac-2-514",
           "verified": true,
           "display": "The summary-judgment hearing must be set at least 10 days after the response deadline, unless the parties stipulate or the court orders otherwise as permitted by the rule."
         }
