@@ -52,7 +52,7 @@ class FloridaForeclosureTests(unittest.TestCase):
         self.assertEqual(route["immediate_clock"]["value"], 40)
         self.assertIn("service of the motion", route["immediate_clock"]["trigger"].lower())
         self.assertEqual(route["other_clocks"][0]["value"], 10)
-        self.assertIn("response deadline", route["other_clocks"][0]["trigger"].lower())
+        self.assertIn("summary-judgment response", route["other_clocks"][0]["trigger"].lower())
 
     def test_sale_certificate_objection_title_redemption_are_distinct(self):
         routes = DATA["routes"]
