@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T18:10:09Z",
-  "source_commit": "43a756d1da8c7df510d9074ed7f004488092422b",
+  "generated_at": "2026-09-02T19:12:26Z",
+  "source_commit": "802240bd046893afaddeb9b63471ae2b5eb55e94",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 105,
-    "python_files": 19,
+    "tracked_files": 109,
+    "python_files": 21,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 14
+    "test_files": 15
   },
   "repository_tree": {
-    "total_files": 105,
+    "total_files": 109,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -100,7 +100,7 @@
         "path": "audit",
         "name": "audit",
         "depth": 1,
-        "file_count": 26
+        "file_count": 27
       },
       {
         "path": "audit/backups",
@@ -130,7 +130,7 @@
         "path": "audit/reports",
         "name": "reports",
         "depth": 2,
-        "file_count": 13
+        "file_count": 14
       },
       {
         "path": "audit/sources",
@@ -148,7 +148,7 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 14
+        "file_count": 15
       },
       {
         "path": "data/states",
@@ -166,13 +166,13 @@
         "path": "scripts",
         "name": "scripts",
         "depth": 1,
-        "file_count": 4
+        "file_count": 5
       },
       {
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 15
+        "file_count": 16
       }
     ],
     "files": [
@@ -312,6 +312,11 @@
         "extension": ".md"
       },
       {
+        "path": "audit/reports/FLORIDA_PHASE7C_RELEASE_REVIEW.md",
+        "name": "FLORIDA_PHASE7C_RELEASE_REVIEW.md",
+        "extension": ".md"
+      },
+      {
         "path": "audit/reports/PHASE_6_FINAL_REPORT.md",
         "name": "PHASE_6_FINAL_REPORT.md",
         "extension": ".md"
@@ -414,6 +419,11 @@
       {
         "path": "data/florida-foreclosure.json",
         "name": "florida-foreclosure.json",
+        "extension": ".json"
+      },
+      {
+        "path": "data/florida-local-procedure.json",
+        "name": "florida-local-procedure.json",
         "extension": ".json"
       },
       {
@@ -582,6 +592,11 @@
         "extension": ".py"
       },
       {
+        "path": "scripts/validate_florida_local_procedure.py",
+        "name": "validate_florida_local_procedure.py",
+        "extension": ".py"
+      },
+      {
         "path": "scripts/validate_state_data.py",
         "name": "validate_state_data.py",
         "extension": ".py"
@@ -639,6 +654,11 @@
       {
         "path": "tests/test_florida_housing.py",
         "name": "test_florida_housing.py",
+        "extension": ".py"
+      },
+      {
+        "path": "tests/test_florida_local_procedure.py",
+        "name": "test_florida_local_procedure.py",
         "extension": ".py"
       },
       {
@@ -714,74 +734,74 @@
   "agent_ops": {},
   "activity": [
     {
-      "id": "43a756d1da8c7df510d9074ed7f004488092422b",
+      "id": "802240bd046893afaddeb9b63471ae2b5eb55e94",
       "type": "commit",
-      "title": "Merge pull request #24 from kaibuzz0/phase7-florida-precision-hardening",
-      "timestamp": "2026-09-02T13:09:59-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/43a756d1da8c7df510d9074ed7f004488092422b"
+      "title": "Merge pull request #25 from kaibuzz0/phase7-florida-postsale-local-precision",
+      "timestamp": "2026-09-02T14:12:18-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/802240bd046893afaddeb9b63471ae2b5eb55e94"
     },
     {
-      "id": "f56ee65c860f4b2e9f35b346378c5e872f6a8eb5",
+      "id": "75b38478d23f039603f112c3539858eb7501c37d",
       "type": "commit",
-      "title": "tests: cover Florida mail extension and seven-day computation",
-      "timestamp": "2026-09-02T13:01:46-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f56ee65c860f4b2e9f35b346378c5e872f6a8eb5"
+      "title": "audit: record Florida Phase 7C legal and local release review",
+      "timestamp": "2026-09-02T14:02:33-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/75b38478d23f039603f112c3539858eb7501c37d"
     },
     {
-      "id": "3215fd653247fe0694ceaf5c072f802b1baa8c81",
+      "id": "243ce5d48e7ea3b3b1023dda05f8ae70f8325d5a",
       "type": "commit",
-      "title": "legal: normalize Florida summary-judgment time computation",
-      "timestamp": "2026-09-02T13:01:28-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/3215fd653247fe0694ceaf5c072f802b1baa8c81"
+      "title": "legal: refresh Florida appellate stay authority to September 2026",
+      "timestamp": "2026-09-02T19:01:20Z",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/243ce5d48e7ea3b3b1023dda05f8ae70f8325d5a"
     },
     {
-      "id": "3c05943da01e0e7c2c5540d419a3440841fabb69",
+      "id": "c3c9cefac9eee2d672e1e5b866b39c94dc7b3c73",
       "type": "commit",
-      "title": "legal: complete Florida notice and statutory time computation",
-      "timestamp": "2026-09-02T13:01:19-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/3c05943da01e0e7c2c5540d419a3440841fabb69"
+      "title": "ci: stage one-shot current appellate-rule source refresh",
+      "timestamp": "2026-09-02T14:01:11-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c3c9cefac9eee2d672e1e5b866b39c94dc7b3c73"
     },
     {
-      "id": "6fbd5e5c024ed27b5b6b210a375437b313607f41",
+      "id": "519e153d0c7c9cee28a795f55bacfca14ae62620",
       "type": "commit",
-      "title": "tests: keep PTFA ninety-day rule federal",
-      "timestamp": "2026-09-02T12:56:21-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6fbd5e5c024ed27b5b6b210a375437b313607f41"
+      "title": "tests: enforce registration of Florida local procedure data",
+      "timestamp": "2026-09-02T13:37:47-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/519e153d0c7c9cee28a795f55bacfca14ae62620"
     },
     {
-      "id": "d70b0b17a439e7d52c5b5ec600626e6edbb74b43",
+      "id": "bacaf5e8f99d2c8797e9bd07baaa442aca899443",
       "type": "commit",
-      "title": "tests: enforce Florida PTFA effective-date contingency",
-      "timestamp": "2026-09-02T12:56:10-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d70b0b17a439e7d52c5b5ec600626e6edbb74b43"
+      "title": "fix: bind local provider county and preserve section symbols",
+      "timestamp": "2026-09-02T13:36:07-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/bacaf5e8f99d2c8797e9bd07baaa442aca899443"
     },
     {
-      "id": "bb8e7cbef8eb8cad40bf5bba8526bd345139ec23",
+      "id": "d4f7a97be6ef165f2a1302cfaf00d0d9452f7b32",
       "type": "commit",
-      "title": "legal: correct contingent Florida PTFA provision",
-      "timestamp": "2026-09-02T12:55:59-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/bb8e7cbef8eb8cad40bf5bba8526bd345139ec23"
+      "title": "fix: repair local provider test newline",
+      "timestamp": "2026-09-02T13:35:25-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d4f7a97be6ef165f2a1302cfaf00d0d9452f7b32"
     },
     {
-      "id": "16e330011a00c359bce7df95b30f05f3b64e3b98",
+      "id": "1e71f5357e89e3bb81712f24aae8e51320180ec4",
       "type": "commit",
-      "title": "legal: use current 2026 Florida civil-rule sources",
-      "timestamp": "2026-09-02T12:54:45-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/16e330011a00c359bce7df95b30f05f3b64e3b98"
+      "title": "legal: preserve certificate-of-sale title separation",
+      "timestamp": "2026-09-02T13:34:39-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1e71f5357e89e3bb81712f24aae8e51320180ec4"
     },
     {
-      "id": "6bb7290cf7ce871ccdddd2700db6ccde3c1e68e0",
+      "id": "281217d7d79394de674360979b93161b7188bb4a",
       "type": "commit",
-      "title": "legal: refresh Florida time-computation authority to July 2026",
-      "timestamp": "2026-09-02T12:54:37-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bb7290cf7ce871ccdddd2700db6ccde3c1e68e0"
+      "title": "tests: enforce Florida cross-layer post-sale routing",
+      "timestamp": "2026-09-02T13:33:58-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/281217d7d79394de674360979b93161b7188bb4a"
     },
     {
-      "id": "9133462a9ada2b7b90ce7eb19feff95c49685054",
+      "id": "58d84727c749d35161ce175fd0ebbbc441622ae0",
       "type": "commit",
-      "title": "tests: align summary-judgment hearing trigger assertion",
-      "timestamp": "2026-09-02T12:53:40-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9133462a9ada2b7b90ce7eb19feff95c49685054"
+      "title": "validation: resolve Florida post-sale cross-layer routes",
+      "timestamp": "2026-09-02T13:33:44-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/58d84727c749d35161ce175fd0ebbbc441622ae0"
     }
   ],
   "links": [
