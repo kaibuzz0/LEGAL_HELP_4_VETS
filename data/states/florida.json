@@ -6,30 +6,1035 @@
   "status": "partially_verified",
   "last_verified": "2026-09-02",
   "primary_authorities": [
-    {"id":"fl-83-56","citation":"Fla. Stat. § 83.56","title":"Termination of rental agreement","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.56.html","supports":["Residential termination notice rules distinguish landlord noncompliance, nonpayment, curable noncompliance, and specified serious or repeated noncompliance; notice and cure rules depend on the subsection and facts."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-57","citation":"Fla. Stat. § 83.57","title":"Termination of tenancy without specific term","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.57.html","supports":["Periodic residential tenancies without a specific duration have distinct year-to-year, quarter-to-quarter, month-to-month, and week-to-week notice periods."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-60","citation":"Fla. Stat. § 83.60","title":"Defenses to action for rent or possession; procedure","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.60.html","supports":["Florida rent-registry procedure is an outcome-sensitive part of possession litigation and must be applied with its statutory conditions rather than universalized as an unconditional deposit rule."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-62","citation":"Fla. Stat. § 83.62","title":"Restoration of possession to landlord","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.62.html","supports":["After judgment for the landlord, the clerk issues a writ to the sheriff; the sheriff puts the landlord in possession after 24 hours notice conspicuously posted on the premises, and weekends and legal holidays do not stay that 24-hour period."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-64","citation":"Fla. Stat. § 83.64","title":"Retaliatory conduct","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.64.html","supports":["Retaliation protections depend on good-faith tenant conduct and statutory conditions; an eviction following a complaint is not automatically retaliatory."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-67","citation":"Fla. Stat. § 83.67","title":"Prohibited practices","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.67.html","supports":["Covered residential landlords may not interrupt tenant utilities, prevent reasonable access by lockout, or remove specified building components or tenant property except within statutory exceptions and lawful process."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-682","citation":"Fla. Stat. § 83.682","title":"Termination of rental agreement by a servicemember","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.682.html","supports":["Qualifying servicemembers may terminate a rental agreement under specified Florida statutory conditions using written notice and required military documentation; this state right is distinct from federal SCRA protections."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-83-5615","citation":"Fla. Stat. § 83.5615","title":"Protecting Tenants at Foreclosure Act","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.5615.html","supports":["The Florida statutory PTFA provision addresses bona fide tenants, a 90-day notice-to-vacate protection, lease-term protection, and an owner-occupancy purchaser exception, subject to statutory applicability."],"last_verified":"2026-09-02","status":"verified"}
+    {
+      "id": "fl-83-56",
+      "citation": "Fla. Stat. § 83.56",
+      "title": "Termination of rental agreement",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.56.html",
+      "supports": [
+        "Subsection-level residential termination rules distinguish nonpayment, curable noncompliance, noncurable or serious noncompliance, repeat conduct, and notice delivery; §83.56(3) expressly excludes Saturday, Sunday, and court-observed legal holidays from the nonpayment period."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-57",
+      "citation": "Fla. Stat. § 83.57",
+      "title": "Termination of tenancy without specific term",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.57.html",
+      "supports": [
+        "Periodic residential tenancies without a specific duration have distinct year-to-year, quarter-to-quarter, month-to-month, and week-to-week notice periods."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-60",
+      "citation": "Fla. Stat. § 83.60",
+      "title": "Defenses to action for rent or possession; procedure",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.60.html",
+      "supports": [
+        "When §83.60(2) applies because the tenant interposes a defense other than payment, the tenant must deposit accrued rent alleged or court-determined and rent accruing during the case when due; within 5 days excluding Saturdays, Sundays, and legal holidays after service of process the tenant must deposit required rent or file a motion to determine rent; documentation is required for a rent-amount dispute; subsidized tenants deposit only their responsible portion; noncompliance waives defenses other than payment and permits default-removal consequences."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-62",
+      "citation": "Fla. Stat. § 83.62",
+      "title": "Restoration of possession to landlord",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.62.html",
+      "supports": [
+        "After judgment for the landlord, the clerk issues a writ to the sheriff; the sheriff puts the landlord in possession after 24 hours notice conspicuously posted on the premises, and weekends and legal holidays do not stay that 24-hour period."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-64",
+      "citation": "Fla. Stat. § 83.64",
+      "title": "Retaliatory conduct",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.64.html",
+      "supports": [
+        "Retaliation protections depend on good-faith tenant conduct and statutory conditions; an eviction following a complaint is not automatically retaliatory."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-67",
+      "citation": "Fla. Stat. § 83.67",
+      "title": "Prohibited practices",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.67.html",
+      "supports": [
+        "Covered residential landlords may not interrupt tenant utilities, prevent reasonable access by lockout, or remove specified building components or tenant property except within statutory exceptions and lawful process."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-682",
+      "citation": "Fla. Stat. § 83.682",
+      "title": "Termination of rental agreement by a servicemember",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.682.html",
+      "supports": [
+        "Qualifying servicemembers may terminate a rental agreement under specified Florida statutory conditions using written notice and required military documentation; this state right is distinct from federal SCRA protections."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-5615",
+      "citation": "Fla. Stat. § 83.5615",
+      "title": "Protecting Tenants at Foreclosure Act — contingent Florida provision",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.5615.html",
+      "supports": [
+        "Section 83.5615 appears in the Florida Statutes but the Legislature's note states that chapter 2020-99 created it effective upon repeal of the federal Protecting Tenants at Foreclosure Act. Because federal PTFA provisions were restored in 2018 and the prior federal termination provision was repealed, do not publish §83.5615 as an independently operative current Florida protection without a new triggering event or authority."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-505",
+      "citation": "Fla. Stat. § 83.505",
+      "title": "Electronic delivery of notices",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.505.html",
+      "supports": [
+        "Electronic delivery of notices under Part II of Chapter 83 is permitted only when the parties satisfy the statute's voluntary signed-addendum, designated e-mail-address, and revocation/update requirements."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-83-59",
+      "citation": "Fla. Stat. § 83.59",
+      "title": "Right of action for possession",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.59.html",
+      "supports": [
+        "Residential possession actions are filed in county court where the premises are situated and use the summary procedure in §51.011; lawful tenancy termination and the court possession action are separate events."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-51-011",
+      "citation": "Fla. Stat. § 51.011",
+      "title": "Summary procedure",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0051%2FSections%2F0051.011.html",
+      "supports": [
+        "In an action governed by §51.011, the defendant's answer containing all defenses of law or fact must be filed within 5 days after service of process, and the statutory period governs over a conflicting rule period."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-48-183",
+      "citation": "Fla. Stat. § 48.183",
+      "title": "Service of process in action for possession of premises",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0048%2FSections%2F0048.183.html",
+      "supports": [
+        "Residential possession process may be posted only after the statute's unsuccessful service attempts; when posting-and-mailing is used, service is effective on the later of posting or mailing."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-r-gen-prac-2-514",
+      "citation": "Fla. R. Gen. Prac. & Jud. Admin. 2.514",
+      "title": "Computing and Extending Time",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/08/2027_01-JULY-Florida-Rules-of-General-Practice-and-Judicial-Administration-7-1-2026.pdf",
+      "supports": [
+        "Current Rule 2.514, updated July 1, 2026, applies to procedural, local-rule, court-order, or statutory periods that do not specify their own method: periods under 7 days exclude Saturdays, Sundays, and legal holidays; periods of 7 days or longer use subdivision (a)(1); and when a party may or must act within a specified time after service made only by mail, subdivision (b) adds 5 days after the period otherwise expires."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    }
   ],
-  "local_variation": {"status":"partially_verified","statewide_rule":"Chapter 83 supplies statewide residential rules, while local court forms, clerk requirements, and sheriff execution practices may vary and must be verified for the actual county/court.","local_rules_possible":true,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":"2026-09-02"},
-  "federal_overlays": ["scra-eviction","fha-disability-accommodation","public-housing","hcv","hud-vash","ssvf","lsv-h"],
-  "document_routes": {
-    "nonpayment_notice":{"id":"nonpayment_notice","label":"I RECEIVED A RENT-DEMAND / NONPAYMENT NOTICE","status":"partially_verified","description":"Florida nonpayment notice is a distinct §83.56 route. The exact clock must preserve statutory trigger, service, and day-count semantics.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-56"],"federal_overlays":[],"required_actions":[{"type":"practical_action","text":"Preserve the notice, lease, payment records, and proof of how and when the notice was delivered."}],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":["Expiration of a valid notice may permit the landlord to file a possession action; the notice itself is not a sheriff eviction."],"exceptions":[],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "lease_violation_curable":{"id":"lease_violation_curable","label":"I RECEIVED A NOTICE FOR A CURABLE LEASE VIOLATION","status":"partially_verified","description":"Curable noncompliance is kept separate from serious/noncurable and repeated conduct under §83.56.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-56"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":[],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "lease_violation_serious_repeat":{"id":"lease_violation_serious_repeat","label":"I RECEIVED A NOTICE FOR SERIOUS OR REPEATED CONDUCT","status":"partially_verified","description":"Serious/noncurable and repeated noncompliance must not inherit the curable-notice model without subsection-level verification.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-56"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":[],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "periodic_termination":{"id":"periodic_termination","label":"I RECEIVED A TERMINATION / NONRENEWAL NOTICE","status":"verified","description":"For a tenancy without a specific duration, §83.57 uses tenancy-period-specific written notice rules; lawful termination and later court eviction are separate events.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-57"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[{"label":"year-to-year","value":60,"unit":"calendar_days","trigger":"before the end of an annual period","computation_authority":"fl-83-57","verified":true,"display":"At least 60 days before the end of the annual period."},{"label":"quarter-to-quarter","value":30,"unit":"calendar_days","trigger":"before the end of a quarterly period","computation_authority":"fl-83-57","verified":true,"display":"At least 30 days before the end of the quarterly period."},{"label":"month-to-month","value":30,"unit":"calendar_days","trigger":"before the end of a monthly period","computation_authority":"fl-83-57","verified":true,"display":"At least 30 days before the end of the monthly period."},{"label":"week-to-week","value":7,"unit":"calendar_days","trigger":"before the end of a weekly period","computation_authority":"fl-83-57","verified":true,"display":"At least 7 days before the end of the weekly period."}],"remedies":[],"possession_consequences":[],"exceptions":["Applies to tenancy without a specific duration as defined by the statute; fixed-duration agreements require separate analysis."],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "eviction_summons_complaint":{"id":"eviction_summons_complaint","label":"I RECEIVED AN EVICTION SUMMONS + COMPLAINT","status":"partially_verified","description":"Court-stage possession procedure is separate from the pre-suit notice. Response and rent-registry clocks remain null until exact current statute/rule/form computation is fully traced.","jurisdiction":"Florida","court_or_forum":"Florida county court / court identified on summons","authorities":["fl-83-60"],"federal_overlays":[],"required_actions":[{"type":"practical_action","text":"Read the summons immediately, preserve proof of service, and identify every stated response and rent-registry requirement."}],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":["Failure to satisfy applicable court-stage requirements can create default or possession consequences."],"exceptions":["Rent-registry requirements are statutory and fact-dependent; do not assume every tenant always deposits every amount claimed without reviewing §83.60 and the case papers."],"local_variation":{"status":"partially_verified","local_rules_possible":true,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":"2026-09-02"},"legal_help":[],"last_verified":"2026-09-02"},
-    "default_or_judgment":{"id":"default_or_judgment","label":"A DEFAULT WAS REQUESTED / ENTERED OR I LOST THE EVICTION CASE","status":"partially_verified","description":"Default, final judgment for possession, writ issuance, and sheriff execution are distinct procedural events.","jurisdiction":"Florida","court_or_forum":"Court shown on case papers","authorities":["fl-83-60","fl-83-62"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":[],"local_variation":{"status":"partially_verified","local_rules_possible":true,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":"2026-09-02"},"legal_help":[],"last_verified":"2026-09-02"},
-    "writ_of_possession":{"id":"writ_of_possession","label":"A WRIT OF POSSESSION WAS ISSUED","status":"verified","description":"After judgment for the landlord, the clerk issues a writ to the sheriff; statewide statute requires 24 hours notice conspicuously posted before the sheriff restores possession.","jurisdiction":"Florida","court_or_forum":"Issuing court and county sheriff","authorities":["fl-83-62"],"federal_overlays":[],"required_actions":[{"type":"emergency_action","text":"Treat a posted writ as an immediate housing emergency; read the posted notice and contact legal/housing help at once."}],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":{"label":"sheriff writ posting period","value":24,"unit":"hours","trigger":"conspicuous posting of the writ notice on the premises","computation_authority":"fl-83-62","verified":true,"display":"The sheriff is commanded to put the landlord in possession after 24 hours notice is conspicuously posted; Saturdays, Sundays, and legal holidays do not stay this 24-hour period."},"other_clocks":[],"remedies":[],"possession_consequences":["After the statutory posting period, the sheriff may execute the writ and restore possession to the landlord."],"exceptions":[],"local_variation":{"status":"partially_verified","local_rules_possible":true,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":"2026-09-02"},"legal_help":[],"last_verified":"2026-09-02"},
-    "self_help_lockout":{"id":"self_help_lockout","label":"THE LANDLORD LOCKED ME OUT WITHOUT COURT PROCESS","status":"verified","description":"Florida prohibits covered landlords from preventing reasonable tenant access, including changing locks, outside lawful possession procedures.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-67"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":["Lawful sheriff execution and statutory exceptions are different from prohibited landlord self-help."],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "utility_interruption":{"id":"utility_interruption","label":"THE LANDLORD SHUT OFF UTILITIES","status":"verified","description":"Florida prohibits covered landlords from directly or indirectly terminating or interrupting specified utility services furnished to the tenant.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-67"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":["A utility-provider outage or lawful emergency/repair interruption must not automatically be labeled landlord misconduct without facts."],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "retaliation":{"id":"retaliation","label":"I THINK THE LANDLORD IS RETALIATING","status":"verified","description":"Florida retaliation protection depends on good-faith protected tenant conduct and statutory causation/conditions; timing alone does not establish retaliation.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-64"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":null,"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":[],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "servicemember_lease_termination":{"id":"servicemember_lease_termination","label":"I AM A SERVICEMEMBER AND NEED TO TERMINATE MY LEASE","status":"verified","description":"Florida provides a state-specific lease-termination route for qualifying servicemembers. It must remain separate from federal SCRA analysis.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-682"],"federal_overlays":["scra-eviction"],"required_actions":[{"type":"legal_requirement","text":"Use written termination notice and the military-order or commanding-officer documentation required by §83.682 when relying on the Florida statutory route.","authority":"fl-83-682"}],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":{"label":"Florida servicemember termination effective-date minimum","value":30,"unit":"calendar_days","trigger":"landlord receipt of the qualifying written termination notice","computation_authority":"fl-83-682","verified":true,"display":"For the Florida statutory route, the effective termination date stated in the notice must be at least 30 days after the landlord receives the notice, and one of the statute's qualifying conditions must apply."},"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":["Veteran status alone does not establish eligibility; the Florida statute lists qualifying military circumstances."],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"},
-    "ptfa_tenant_after_foreclosure":{"id":"ptfa_tenant_after_foreclosure","label":"I AM A TENANT AND THE PROPERTY WAS FORECLOSED","status":"verified","description":"Florida's PTFA provision protects qualifying bona fide tenants after covered foreclosure, subject to its statutory conditions and relationship to federal law.","jurisdiction":"Florida","court_or_forum":null,"authorities":["fl-83-5615"],"federal_overlays":[],"required_actions":[],"optional_actions":[],"required_filing":null,"optional_filing":null,"immediate_clock":{"label":"bona fide tenant notice to vacate","value":90,"unit":"calendar_days","trigger":"before the effective date of the successor-in-interest notice to vacate","computation_authority":"fl-83-5615","verified":true,"display":"For a qualifying bona fide tenant within the statute, the successor in interest must provide notice to vacate at least 90 days before the effective date of that notice."},"other_clocks":[],"remedies":[],"possession_consequences":[],"exceptions":["Bona fide tenancy and statutory foreclosure coverage must be established; lease-term and owner-occupancy purchaser rules can change the result."],"local_variation":{"status":"unverified","local_rules_possible":false,"local_rule_locator":null,"county":null,"court":null,"local_authority":null,"last_checked":null},"legal_help":[],"last_verified":"2026-09-02"}
+  "local_variation": {
+    "status": "partially_verified",
+    "statewide_rule": "Chapter 83 and statewide court rules supply the baseline. County/circuit court forms, clerk requirements, and sheriff practices remain local overlays and are not guessed.",
+    "local_rules_possible": true,
+    "local_rule_locator": "https://help.flcourts.gov/Self-Help-Centers-Near-You",
+    "county": null,
+    "court": null,
+    "local_authority": null,
+    "last_checked": "2026-09-02"
   },
-  "resources": {}
+  "federal_overlays": [
+    "scra-eviction",
+    "fha-disability-accommodation",
+    "public-housing",
+    "hcv",
+    "hud-vash",
+    "ssvf",
+    "lsv-h",
+    "ptfa"
+  ],
+  "document_routes": {
+    "nonpayment_notice": {
+      "id": "nonpayment_notice",
+      "label": "I RECEIVED A RENT-DEMAND / NONPAYMENT NOTICE",
+      "status": "verified",
+      "description": "Section 83.56(3) is a distinct pre-suit nonpayment notice. The period starts from delivery of the landlord's written demand for payment of rent or possession; the notice itself is not court service and is not a sheriff eviction.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-56",
+        "fl-83-505",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [],
+      "required_actions": [
+        {
+          "type": "practical_action",
+          "text": "Preserve the notice, lease, payment records, and proof of how and when the written demand was delivered."
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": {
+        "label": "§83.56(3) nonpayment notice period",
+        "value": 3,
+        "unit": "days_excluding_saturday_sunday_and_court_observed_legal_holidays",
+        "trigger": "delivery of the landlord's written demand for payment of rent or possession",
+        "computation_authority": "fl-83-56",
+        "verified": true,
+        "display": "The landlord may terminate for nonpayment only after the default continues for 3 days after delivery of the written demand, excluding Saturday, Sunday, and court-observed legal holidays."
+      },
+      "other_clocks": [
+        {
+          "label": "additional time when notice is served only by mail",
+          "value": 5,
+          "unit": "days_added_after_the_base_period_otherwise_expires",
+          "trigger": "service of the statutory notice by only mail where the recipient may or must act within the specified period after service",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "Current Rule 2.514(b) adds 5 days after the otherwise-computed period when the notice is served only by mail. The rule does not give this mail extension merely because an authorized notice is sent by e-mail."
+        }
+      ],
+      "remedies": [],
+      "possession_consequences": [
+        "Expiration of a valid notice may permit the landlord to file a possession action; physical removal still requires lawful possession procedure."
+      ],
+      "exceptions": [
+        "Delivery under §83.56(4) may be by mail, true-copy delivery, leaving a copy at the residence when the tenant is absent, or e-mail only in accordance with §83.505.",
+        "Electronic notice is not universally valid; §83.505 requires the statutory voluntary signed addendum and designated e-mail addresses.",
+        "If the notice is served only by mail and Rule 2.514(b) applies, add the rule's 5 days after the base period otherwise expires; authorized e-mail notice under §83.505 does not receive the mail-only extension merely because it is electronic."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_courts_self_help",
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h",
+        "va_ssvf"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "lease_violation_curable": {
+      "id": "lease_violation_curable",
+      "label": "I RECEIVED A NOTICE FOR A CURABLE LEASE VIOLATION",
+      "status": "verified",
+      "description": "Section 83.56(2)(b) covers material noncompliance that should be given an opportunity to cure. It is separate from nonpayment and noncurable or repeat conduct.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-56",
+        "fl-83-505",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": {
+        "label": "curable noncompliance period",
+        "value": 7,
+        "unit": "days_computed_under_current_fla_r_gen_prac_2_514_for_periods_7_days_or_longer",
+        "trigger": "delivery of the written curable-noncompliance notice",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "Section 83.56(2)(b) gives 7 days from delivery to correct qualifying curable noncompliance. Because that subsection does not specify the nonpayment subsection's special computation method, current Rule 2.514 supplies the computation for the 7-day statutory period."
+      },
+      "other_clocks": [
+        {
+          "label": "additional time when notice is served only by mail",
+          "value": 5,
+          "unit": "days_added_after_the_base_period_otherwise_expires",
+          "trigger": "service of the statutory notice by only mail where the recipient may or must act within the specified period after service",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "Current Rule 2.514(b) adds 5 days after the otherwise-computed period when the notice is served only by mail. The rule does not give this mail extension merely because an authorized notice is sent by e-mail."
+        }
+      ],
+      "remedies": [],
+      "possession_consequences": [
+        "If qualifying noncompliance is not corrected within the statutory period, the landlord may terminate the rental agreement based on that notice."
+      ],
+      "exceptions": [
+        "The conduct must fall within the curable category; not every lease violation is curable.",
+        "If the same or similar conduct recurs within 12 months after notice, §83.56(2)(b) contains a separate repeat-conduct rule.",
+        "Electronic notice requires compliance with §83.505.",
+        "If the notice is served only by mail and Rule 2.514(b) applies, add the rule's 5 days after the base period otherwise expires; authorized e-mail notice under §83.505 does not receive the mail-only extension merely because it is electronic."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_courts_self_help",
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "periodic_termination": {
+      "id": "periodic_termination",
+      "label": "I RECEIVED A TERMINATION / NONRENEWAL NOTICE",
+      "status": "verified",
+      "description": "For a tenancy without a specific duration, §83.57 uses tenancy-period-specific written notice rules; lawful termination and later court eviction are separate events.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-57",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [
+        {
+          "label": "year-to-year",
+          "value": 60,
+          "unit": "days_computed_under_current_fla_r_gen_prac_2_514",
+          "trigger": "before the end of an annual period",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "At least 60 days before the end of the annual period."
+        },
+        {
+          "label": "quarter-to-quarter",
+          "value": 30,
+          "unit": "days_computed_under_current_fla_r_gen_prac_2_514",
+          "trigger": "before the end of a quarterly period",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "At least 30 days before the end of the quarterly period."
+        },
+        {
+          "label": "month-to-month",
+          "value": 30,
+          "unit": "days_computed_under_current_fla_r_gen_prac_2_514",
+          "trigger": "before the end of a monthly period",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "At least 30 days before the end of the monthly period."
+        },
+        {
+          "label": "week-to-week",
+          "value": 7,
+          "unit": "days_computed_under_current_fla_r_gen_prac_2_514",
+          "trigger": "before the end of a weekly period",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "At least 7 days before the end of the weekly period."
+        }
+      ],
+      "remedies": [],
+      "possession_consequences": [],
+      "exceptions": [
+        "Applies to tenancy without a specific duration as defined by the statute; fixed-duration agreements require separate analysis."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [],
+      "last_verified": "2026-09-02"
+    },
+    "eviction_summons_complaint": {
+      "id": "eviction_summons_complaint",
+      "label": "I RECEIVED AN EVICTION SUMMONS + COMPLAINT",
+      "status": "verified",
+      "description": "A Chapter 83 residential possession action uses §51.011 summary procedure. Court service is a different legal event from pre-suit §83.56 notice delivery.",
+      "jurisdiction": "Florida",
+      "court_or_forum": "Florida county court identified on the summons",
+      "authorities": [
+        "fl-83-59",
+        "fl-51-011",
+        "fl-48-183",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [],
+      "required_actions": [
+        {
+          "type": "procedural_requirement",
+          "text": "File the answer containing defenses within the §51.011 response period unless the actual case is governed by a different controlling procedure.",
+          "authority": "fl-51-011"
+        },
+        {
+          "type": "practical_action",
+          "text": "Preserve the summons, complaint, return/proof of service, and any posting/mailing information."
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": "Answer/defenses under the summary procedure, subject to the actual case papers and applicable rules.",
+      "optional_filing": null,
+      "immediate_clock": {
+        "label": "summary-procedure answer period",
+        "value": 5,
+        "unit": "days_excluding_saturday_sunday_and_legal_holidays_under_current_fla_r_gen_prac_2_514",
+        "trigger": "service of process in the Chapter 83 possession action",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "Section 51.011 requires the defendant's answer within 5 days after service of process. Under current Rule 2.514(a)(2), because the period is less than 7 days, Saturdays, Sundays, and legal holidays are not counted."
+      },
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [
+        "Failure to respond can create default risk; default, judgment, writ, and sheriff execution remain separate events."
+      ],
+      "exceptions": [
+        "If §48.183 posting-and-mailing service is used after the required service attempts, service is effective on the later of posting or mailing.",
+        "Notice delivery under §83.56 is not service of court process."
+      ],
+      "local_variation": {
+        "status": "partially_verified",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://help.flcourts.gov/Self-Help-Centers-Near-You",
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": "2026-09-02"
+      },
+      "legal_help": [
+        "florida_courts_self_help",
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "fdva",
+        "fdva_county_vso",
+        "va_lsv_h",
+        "va_ssvf"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "default_or_judgment": {
+      "id": "default_or_judgment",
+      "label": "A DEFAULT WAS REQUESTED / ENTERED OR I LOST THE EVICTION CASE",
+      "status": "verified",
+      "description": "Default, final judgment for possession, writ issuance, and sheriff execution are distinct events. Section 83.60(2) describes severe default consequences for failure to satisfy the registry-or-motion requirement when it applies.",
+      "jurisdiction": "Florida",
+      "court_or_forum": "Court shown on case papers",
+      "authorities": [
+        "fl-83-60",
+        "fl-83-62"
+      ],
+      "federal_overlays": [],
+      "required_actions": [
+        {
+          "type": "emergency_action",
+          "text": "Read the docket and judgment immediately and seek legal help if a default or final judgment has been entered."
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [
+        "A court default or judgment is not an extrajudicial lockout; writ issuance and sheriff execution remain distinct."
+      ],
+      "exceptions": [],
+      "local_variation": {
+        "status": "partially_verified",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://help.flcourts.gov/Self-Help-Centers-Near-You",
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": "2026-09-02"
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "writ_of_possession": {
+      "id": "writ_of_possession",
+      "label": "A WRIT OF POSSESSION WAS ISSUED",
+      "status": "verified",
+      "description": "After judgment for the landlord, the clerk issues a writ to the sheriff; statewide statute requires 24 hours notice conspicuously posted before the sheriff restores possession.",
+      "jurisdiction": "Florida",
+      "court_or_forum": "Issuing court and county sheriff",
+      "authorities": [
+        "fl-83-62"
+      ],
+      "federal_overlays": [],
+      "required_actions": [
+        {
+          "type": "emergency_action",
+          "text": "Treat a posted writ as an immediate housing emergency; read the posted notice and contact legal/housing help at once."
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": {
+        "label": "sheriff writ posting period",
+        "value": 24,
+        "unit": "hours",
+        "trigger": "conspicuous posting of the writ notice on the premises",
+        "computation_authority": "fl-83-62",
+        "verified": true,
+        "display": "The sheriff is commanded to put the landlord in possession after 24 hours notice is conspicuously posted; Saturdays, Sundays, and legal holidays do not stay this 24-hour period."
+      },
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [
+        "After the statutory posting period, the sheriff may execute the writ and restore possession to the landlord."
+      ],
+      "exceptions": [],
+      "local_variation": {
+        "status": "partially_verified",
+        "local_rules_possible": true,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": "2026-09-02"
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "self_help_lockout": {
+      "id": "self_help_lockout",
+      "label": "THE LANDLORD LOCKED ME OUT WITHOUT COURT PROCESS",
+      "status": "verified",
+      "description": "Florida prohibits covered landlords from preventing reasonable tenant access, including changing locks, outside lawful possession procedures.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-67"
+      ],
+      "federal_overlays": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [],
+      "exceptions": [
+        "Lawful sheriff execution and statutory exceptions are different from prohibited landlord self-help."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "utility_interruption": {
+      "id": "utility_interruption",
+      "label": "THE LANDLORD SHUT OFF UTILITIES",
+      "status": "verified",
+      "description": "Florida prohibits covered landlords from directly or indirectly terminating or interrupting specified utility services furnished to the tenant.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-67"
+      ],
+      "federal_overlays": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [],
+      "exceptions": [
+        "A utility-provider outage or lawful emergency/repair interruption must not automatically be labeled landlord misconduct without facts."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "retaliation": {
+      "id": "retaliation",
+      "label": "I THINK THE LANDLORD IS RETALIATING",
+      "status": "verified",
+      "description": "Florida retaliation protection depends on good-faith protected tenant conduct and statutory causation/conditions; timing alone does not establish retaliation.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-64"
+      ],
+      "federal_overlays": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [],
+      "exceptions": [],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "servicemember_lease_termination": {
+      "id": "servicemember_lease_termination",
+      "label": "I AM A SERVICEMEMBER AND NEED TO TERMINATE MY LEASE",
+      "status": "verified",
+      "description": "Florida provides a state-specific lease-termination route for qualifying servicemembers. It must remain separate from federal SCRA analysis.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-682",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [
+        "scra-eviction"
+      ],
+      "required_actions": [
+        {
+          "type": "legal_requirement",
+          "text": "Use written termination notice and the military-order or commanding-officer documentation required by §83.682 when relying on the Florida statutory route.",
+          "authority": "fl-83-682"
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": {
+        "label": "Florida servicemember termination effective-date minimum",
+        "value": 30,
+        "unit": "days_computed_under_current_fla_r_gen_prac_2_514",
+        "trigger": "landlord receipt of the qualifying written termination notice",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "For the Florida statutory route, the effective termination date stated in the notice must be at least 30 days after the landlord receives the notice, and one of the statute's qualifying conditions must apply."
+      },
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [],
+      "exceptions": [
+        "Veteran status alone does not establish eligibility; the Florida statute lists qualifying military circumstances."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "fdva",
+        "fdva_county_vso",
+        "florida_legal_aid",
+        "florida_bar_lrs"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "ptfa_tenant_after_foreclosure": {
+      "id": "ptfa_tenant_after_foreclosure",
+      "label": "I AM A TENANT AND THE PROPERTY WAS FORECLOSED",
+      "status": "verified",
+      "description": "Qualifying post-foreclosure tenants should be routed to the current federal PTFA. Florida §83.5615 contains parallel text, but its statutory note makes that Florida provision effective upon repeal of the federal PTFA, so this route does not treat §83.5615 as an independently operative current Florida clock.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-5615"
+      ],
+      "federal_overlays": [
+        "ptfa"
+      ],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [
+        "Federal PTFA may require a qualifying successor in interest to honor applicable tenant protections before possession, but occupant status and the foreclosure/post-title procedure remain separate questions."
+      ],
+      "exceptions": [
+        "Federal PTFA bona fide tenancy conditions must be established; a former mortgagor, the mortgagor's child, spouse, or parent does not qualify merely by remaining in the property.",
+        "Florida §83.5615's note states that the provision was created effective upon repeal of the federal PTFA; do not cite the Florida section as though that contingency has occurred.",
+        "The current 90-day protection is preserved through the separately sourced federal PTFA overlay, not converted into an active Florida-state clock."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "lease_violation_noncurable": {
+      "id": "lease_violation_noncurable",
+      "label": "I RECEIVED A NOTICE FOR SERIOUS / NONCURABLE CONDUCT",
+      "status": "verified",
+      "description": "Section 83.56(2)(a) treats specified serious noncompliance as not entitled to a cure opportunity. The notice terminates the lease, while the statute separately gives time to vacate.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-56",
+        "fl-83-505",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [],
+      "required_actions": [],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": {
+        "label": "noncurable notice period to vacate",
+        "value": 7,
+        "unit": "days_computed_under_current_fla_r_gen_prac_2_514_for_periods_7_days_or_longer",
+        "trigger": "delivery of the written §83.56(2)(a) termination notice",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "For qualifying noncurable conduct under §83.56(2)(a), the notice terminates the lease and gives 7 days from delivery to vacate. Current Rule 2.514 supplies the computation method for that 7-day statutory period."
+      },
+      "other_clocks": [
+        {
+          "label": "additional time when notice is served only by mail",
+          "value": 5,
+          "unit": "days_added_after_the_base_period_otherwise_expires",
+          "trigger": "service of the statutory notice by only mail where the recipient may or must act within the specified period after service",
+          "computation_authority": "fl-r-gen-prac-2-514",
+          "verified": true,
+          "display": "Current Rule 2.514(b) adds 5 days after the otherwise-computed period when the notice is served only by mail. The rule does not give this mail extension merely because an authorized notice is sent by e-mail."
+        }
+      ],
+      "remedies": [],
+      "possession_consequences": [
+        "The notice does not itself authorize landlord self-help; possession after nonvacating remains a court-process issue."
+      ],
+      "exceptions": [
+        "Noncurable treatment depends on the statutory category and facts; do not treat every violation as noncurable.",
+        "Electronic notice requires compliance with §83.505.",
+        "If the notice is served only by mail and Rule 2.514(b) applies, add the rule's 5 days after the base period otherwise expires; authorized e-mail notice under §83.505 does not receive the mail-only extension merely because it is electronic."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_courts_self_help",
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "lease_violation_repeat": {
+      "id": "lease_violation_repeat",
+      "label": "I RECEIVED AN EVICTION CASE FOR REPEATED CONDUCT",
+      "status": "partially_verified",
+      "description": "Section 83.56 separately addresses repeat or continuing noncompliance within 12 months of a prior written warning or notice. This route does not infer a new cure period or a new universal notice clock.",
+      "jurisdiction": "Florida",
+      "court_or_forum": null,
+      "authorities": [
+        "fl-83-56"
+      ],
+      "federal_overlays": [],
+      "required_actions": [
+        {
+          "type": "practical_action",
+          "text": "Preserve the current papers and the prior written warning or notice; the dates and similarity of the alleged conduct matter."
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": null,
+      "immediate_clock": null,
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [
+        "A qualifying repeat circumstance can affect whether a new cure opportunity or subsequent notice is required, but it does not itself authorize extrajudicial removal."
+      ],
+      "exceptions": [
+        "The prior warning or notice, 12-month relationship, and similarity or continuation of conduct must be established; do not label every later violation a qualifying repeat."
+      ],
+      "local_variation": {
+        "status": "unverified",
+        "local_rules_possible": false,
+        "local_rule_locator": null,
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": null
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "rent_registry": {
+      "id": "rent_registry",
+      "label": "THE SUMMONS SAYS I MUST DEPOSIT RENT / I DISPUTE THE RENT AMOUNT",
+      "status": "verified",
+      "description": "Section 83.60(2) is a high-consequence court-stage rule. When a tenant in a possession action interposes a defense other than payment, the statute requires the applicable registry deposit or a timely motion to determine rent; it does not mean every tenant must always deposit whatever the landlord claims.",
+      "jurisdiction": "Florida",
+      "court_or_forum": "Court handling the possession action",
+      "authorities": [
+        "fl-83-60"
+      ],
+      "federal_overlays": [
+        "public-housing",
+        "hcv",
+        "hud-vash"
+      ],
+      "required_actions": [
+        {
+          "type": "procedural_requirement",
+          "text": "When §83.60(2) applies, deposit the required rent into the registry or file a motion to determine rent within the statutory period.",
+          "authority": "fl-83-60"
+        },
+        {
+          "type": "procedural_requirement",
+          "text": "If filing a motion asserting that the complaint's rent amount is wrong, provide the documentation required by §83.60(2).",
+          "authority": "fl-83-60"
+        }
+      ],
+      "optional_actions": [],
+      "required_filing": null,
+      "optional_filing": "Motion to determine rent where the amount alleged is disputed and the statutory route applies.",
+      "immediate_clock": {
+        "label": "§83.60(2) registry-or-motion period",
+        "value": 5,
+        "unit": "days_excluding_saturday_sunday_and_legal_holidays",
+        "trigger": "date of service of process in the possession action",
+        "computation_authority": "fl-83-60",
+        "verified": true,
+        "display": "When §83.60(2) applies, the tenant must deposit the required rent or file a motion to determine rent within 5 days after service of process, excluding Saturdays, Sundays, and legal holidays."
+      },
+      "other_clocks": [],
+      "remedies": [],
+      "possession_consequences": [
+        "Failure to comply constitutes waiver of defenses other than payment and entitles the landlord to an immediate default judgment for removal with a writ of possession to issue; the writ and sheriff execution are still later legal events."
+      ],
+      "exceptions": [
+        "The registry requirement in §83.60(2) is triggered when the tenant interposes a defense other than payment; the payment defense is expressly distinct.",
+        "The accrued amount is the rent alleged in the complaint or the amount determined by the court, plus rent accruing during the case when due.",
+        "Public-housing tenants and tenants receiving rent subsidies deposit only the portion of full rent for which they are responsible under the applicable program.",
+        "State rent-registry procedure is separate from federal subsidy-termination or grievance procedure."
+      ],
+      "local_variation": {
+        "status": "partially_verified",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://help.flcourts.gov/Self-Help-Centers-Near-You",
+        "county": null,
+        "court": null,
+        "local_authority": null,
+        "last_checked": "2026-09-02"
+      },
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    }
+  },
+  "resources": {
+    "florida_courts_self_help": {
+      "name": "Florida Courts Self-Help / Landlord-Tenant Resources",
+      "type": "court_locator",
+      "url": "https://www.flcourts.gov/Self-Help-Information",
+      "coverage": "Statewide court self-help information and local self-help program routing.",
+      "eligibility_notes": "Court staff and self-help programs provide procedural/informational assistance, not representation or individualized legal advice.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "florida_bar_lrs": {
+      "name": "The Florida Bar Lawyer Referral Service",
+      "type": "bar_program",
+      "url": "https://www.floridabar.org/public/lrs/",
+      "coverage": "Statewide referral framework with local-bar coverage in some counties.",
+      "eligibility_notes": "Referral and consultation service; representation, fees, and case acceptance are not guaranteed.",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "phone": "800-342-8011"
+    },
+    "florida_legal_aid": {
+      "name": "Florida Courts Legal Aid Locator",
+      "type": "legal_aid",
+      "url": "https://www.flcourts.gov/resources-and-services/court-improvement/family-law-self-help-information/legal-aid.stml",
+      "coverage": "Statewide locator for civil legal-aid resources.",
+      "eligibility_notes": "Programs have financial, geographic, subject-matter, and capacity rules; representation is not guaranteed.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "fdva": {
+      "name": "Florida Department of Veterans' Affairs",
+      "type": "state_veterans_agency",
+      "url": "https://www.floridavets.org/locations/",
+      "coverage": "Florida statewide veterans benefits and service routing.",
+      "eligibility_notes": "Veteran-service routing does not override court deadlines or create representation.",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "phone": "727-319-7440"
+    },
+    "fdva_county_vso": {
+      "name": "Florida County Veteran Service Officer Locator",
+      "type": "state_veterans_agency",
+      "url": "https://floridavets.org/locations/county-veterans-service-officers/county-veteran-service-officers/",
+      "coverage": "County Veteran Service Officer locator across Florida.",
+      "eligibility_notes": "Benefits/service assistance; not a substitute for an eviction or foreclosure lawyer.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "hud_housing_counseling": {
+      "name": "HUD-Approved Housing Counselor Locator",
+      "type": "foreclosure_assistance",
+      "url": "https://www.hud.gov/stat/sfh/housing-counseling",
+      "coverage": "National HUD-participating housing counseling network, searchable for Florida.",
+      "eligibility_notes": "Housing counseling is not court representation and does not itself stay eviction or foreclosure.",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "phone": "800-569-4287"
+    },
+    "va_lsv_h": {
+      "name": "VA Legal Services for Veterans (LSV-H) Grantee Referral",
+      "type": "LSV-H",
+      "url": "https://department.va.gov/homeless/legal-services-for-veterans/",
+      "coverage": "Current VA-funded legal-services grantee referral information for eligible veterans experiencing or at risk of homelessness.",
+      "eligibility_notes": "Eligibility, geography, subject matter, and provider capacity apply; listing does not guarantee representation.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "va_ssvf": {
+      "name": "VA Supportive Services for Veteran Families (SSVF) Provider List",
+      "type": "SSVF",
+      "url": "https://department.va.gov/homeless/supportive-services-for-veteran-families/",
+      "coverage": "Current SSVF awarded-provider routing, including Florida providers.",
+      "eligibility_notes": "Program eligibility and provider capacity apply; SSVF assistance is not a legal defense or automatic stay.",
+      "verified": true,
+      "last_verified": "2026-09-02"
+    },
+    "va_home_loan": {
+      "name": "VA Help to Avoid Foreclosure / Loan Technician Assistance",
+      "type": "foreclosure_assistance",
+      "url": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
+      "coverage": "VA mortgage counseling and loan-technician assistance, including VA-guaranteed loan support.",
+      "eligibility_notes": "VA assistance does not mean VA owns or services the loan and does not automatically stay Florida foreclosure.",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "phone": "877-827-3702"
+    }
+  }
 }
