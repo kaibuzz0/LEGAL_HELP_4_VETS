@@ -455,6 +455,7 @@
       "immediate_clock": null,
       "other_clocks": [],
       "exceptions": [
+        "The certificate of sale and certificate of title are separate legal events; the auction/certificate-of-sale stage does not itself equal passage of title.",
         "The actual signed foreclosure judgment controls; Form 1.996(a) is the current statewide standard form, not a substitute for reading the judgment in the case.",
         "A bona fide tenant can have federal PTFA rights that qualify the purchaser's right to possession.",
         "Certificate of title, writ of possession, sheriff execution, and physical removal are separate events."
