@@ -100,12 +100,12 @@
     {
       "id": "fl-83-5615",
       "citation": "Fla. Stat. § 83.5615",
-      "title": "Protecting Tenants at Foreclosure Act",
+      "title": "Protecting Tenants at Foreclosure Act — contingent Florida provision",
       "authority_type": "statute",
       "jurisdiction": "Florida",
       "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0083%2FSections%2F0083.5615.html",
       "supports": [
-        "The Florida statutory PTFA provision addresses bona fide tenants, a 90-day notice-to-vacate protection, lease-term protection, and an owner-occupancy purchaser exception, subject to statutory applicability."
+        "Section 83.5615 appears in the Florida Statutes but the Legislature's note states that chapter 2020-99 created it effective upon repeal of the federal Protecting Tenants at Foreclosure Act. Because federal PTFA provisions were restored in 2018 and the prior federal termination provision was repealed, do not publish §83.5615 as an independently operative current Florida protection without a new triggering event or authority."
       ],
       "last_verified": "2026-09-02",
       "status": "verified"
@@ -709,7 +709,7 @@
       "id": "ptfa_tenant_after_foreclosure",
       "label": "I AM A TENANT AND THE PROPERTY WAS FORECLOSED",
       "status": "verified",
-      "description": "Florida's PTFA provision protects qualifying bona fide tenants after covered foreclosure, subject to its statutory conditions and relationship to federal law.",
+      "description": "Qualifying post-foreclosure tenants should be routed to the current federal PTFA. Florida §83.5615 contains parallel text, but its statutory note makes that Florida provision effective upon repeal of the federal PTFA, so this route does not treat §83.5615 as an independently operative current Florida clock.",
       "jurisdiction": "Florida",
       "court_or_forum": null,
       "authorities": [
@@ -722,22 +722,16 @@
       "optional_actions": [],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {
-        "label": "bona fide tenant notice to vacate",
-        "value": 90,
-        "unit": "calendar_days",
-        "trigger": "before the effective date of the successor-in-interest notice to vacate",
-        "computation_authority": "fl-83-5615",
-        "verified": true,
-        "display": "For a qualifying bona fide tenant within the statute, the successor in interest must provide notice to vacate at least 90 days before the effective date of that notice."
-      },
+      "immediate_clock": null,
       "other_clocks": [],
       "remedies": [],
-      "possession_consequences": [],
+      "possession_consequences": [
+        "Federal PTFA may require a qualifying successor in interest to honor applicable tenant protections before possession, but occupant status and the foreclosure/post-title procedure remain separate questions."
+      ],
       "exceptions": [
-        "Bona fide tenancy and statutory foreclosure coverage must be established; lease-term and owner-occupancy purchaser rules can change the result.",
-        "Do not apply this tenant protection to a former mortgagor merely because the former owner remains in possession.",
-        "The Florida statutory implementation and federal PTFA are separate provenance sources and must not be fused into a single state-law rule."
+        "Federal PTFA bona fide tenancy conditions must be established; a former mortgagor, the mortgagor's child, spouse, or parent does not qualify merely by remaining in the property.",
+        "Florida §83.5615's note states that the provision was created effective upon repeal of the federal PTFA; do not cite the Florida section as though that contingency has occurred.",
+        "The current 90-day protection is preserved through the separately sourced federal PTFA overlay, not converted into an active Florida-state clock."
       ],
       "local_variation": {
         "status": "unverified",
