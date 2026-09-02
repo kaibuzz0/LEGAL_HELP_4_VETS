@@ -52,6 +52,23 @@ class FloridaHousingTests(unittest.TestCase):
         self.assertIsNone(repeat["immediate_clock"])
         self.assertTrue(any("12-month" in x or "12 month" in x for x in repeat["exceptions"]))
 
+    def test_mailed_notice_extension_is_separate_from_email(self):
+        for rid in ("nonpayment_notice", "lease_violation_curable", "lease_violation_noncurable"):
+            route = DATA["document_routes"][rid]
+            mail = route["other_clocks"][0]
+            self.assertEqual(mail["value"], 5)
+            self.assertIn("only mail", mail["trigger"].lower())
+            self.assertEqual(mail["computation_authority"], "fl-r-gen-prac-2-514")
+            self.assertIn("does not", mail["display"].lower())
+            self.assertIn("e-mail", mail["display"].lower())
+
+    def test_seven_day_notice_computation_uses_rule_2514_not_nonpayment_rule(self):
+        for rid in ("lease_violation_curable", "lease_violation_noncurable"):
+            clock = DATA["document_routes"][rid]["immediate_clock"]
+            self.assertEqual(clock["value"], 7)
+            self.assertEqual(clock["computation_authority"], "fl-r-gen-prac-2-514")
+            self.assertIn("7_days_or_longer", clock["unit"])
+
     def test_notice_delivery_is_not_service_of_process(self):
         notice_trigger = DATA["document_routes"]["nonpayment_notice"]["immediate_clock"]["trigger"].lower()
         court_trigger = DATA["document_routes"]["eviction_summons_complaint"]["immediate_clock"]["trigger"].lower()
