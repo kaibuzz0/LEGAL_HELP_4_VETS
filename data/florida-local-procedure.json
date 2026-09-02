@@ -280,6 +280,19 @@
         "florida_legal_aid",
         "va_lsv_h",
         "va_ssvf"
+      ],
+      "local_providers": [
+        {
+          "id": "hillsborough_veteran_services",
+          "name": "Hillsborough County Veteran Community Services / Veterans Resource Center",
+          "category": "veteran_benefits_service_routing",
+          "url": "https://hcfl.gov/residents/human-services/veterans/veteran-community-services-offices",
+          "coverage": "Hillsborough County",
+          "official": true,
+          "verified": true,
+          "last_verified": "2026-09-02",
+          "note": "County veteran service officers provide free benefits/resource assistance. This is service routing, not foreclosure representation and not a court-deadline extension."
+        }
       ]
     },
     "orange": {
@@ -321,6 +334,19 @@
         "florida_legal_aid",
         "va_lsv_h",
         "va_ssvf"
+      ],
+      "local_providers": [
+        {
+          "id": "orange_veterans_services",
+          "name": "Orange County Veterans Services",
+          "category": "veteran_benefits_service_routing",
+          "url": "https://www.orangecountyfl.net/CommunityFamilyServices/CitizenResourceOutreach/VeteransServices/VeteransResources.aspx",
+          "coverage": "Orange County",
+          "official": true,
+          "verified": true,
+          "last_verified": "2026-09-02",
+          "note": "Official county veterans-services office/resource routing. Services vary by program; this is not a promise of housing legal representation."
+        }
       ]
     },
     "duval": {
@@ -370,6 +396,19 @@
         "florida_legal_aid",
         "va_lsv_h",
         "va_ssvf"
+      ],
+      "local_providers": [
+        {
+          "id": "duval_mavd",
+          "name": "City of Jacksonville Military Affairs and Veterans Department",
+          "category": "veteran_benefits_housing_and_service_routing",
+          "url": "https://www.jacksonville.gov/departments/military-affairs-and-veterans-department/veterans-services",
+          "coverage": "Duval County primary service area",
+          "official": true,
+          "verified": true,
+          "last_verified": "2026-09-02",
+          "note": "City veteran-service officers and resource routing include benefits, employment/social services, housing/financial-assistance connections, and referrals. Program eligibility and legal representation are not guaranteed."
+        }
       ]
     }
   },
