@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T16:42:45Z",
-  "source_commit": "a0edf10447304cb4449d08b8d286ed5f11d8945d",
+  "generated_at": "2026-09-02T16:57:07Z",
+  "source_commit": "f5404b2ab221d2b215f3b6128722033f4c64422b",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 92,
-    "python_files": 14,
+    "tracked_files": 100,
+    "python_files": 16,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 11
+    "test_files": 12
   },
   "repository_tree": {
-    "total_files": 92,
+    "total_files": 100,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -148,7 +148,7 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 10
+        "file_count": 12
       },
       {
         "path": "data/states",
@@ -160,19 +160,19 @@
         "path": "docs",
         "name": "docs",
         "depth": 1,
-        "file_count": 3
+        "file_count": 7
       },
       {
         "path": "scripts",
         "name": "scripts",
         "depth": 1,
-        "file_count": 2
+        "file_count": 3
       },
       {
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 12
+        "file_count": 13
       }
     ],
     "files": [
@@ -397,8 +397,18 @@
         "extension": ".html"
       },
       {
+        "path": "data/_subject_layer_template.json",
+        "name": "_subject_layer_template.json",
+        "extension": ".json"
+      },
+      {
         "path": "data/california-foreclosure.json",
         "name": "california-foreclosure.json",
+        "extension": ".json"
+      },
+      {
+        "path": "data/datasets.json",
+        "name": "datasets.json",
         "extension": ".json"
       },
       {
@@ -462,8 +472,28 @@
         "extension": ".md"
       },
       {
+        "path": "docs/NEW_STATE_CHECKLIST.md",
+        "name": "NEW_STATE_CHECKLIST.md",
+        "extension": ".md"
+      },
+      {
+        "path": "docs/STATE_3_EVALUATION.md",
+        "name": "STATE_3_EVALUATION.md",
+        "extension": ".md"
+      },
+      {
+        "path": "docs/STATE_IMPLEMENTATION_CONTRACT.md",
+        "name": "STATE_IMPLEMENTATION_CONTRACT.md",
+        "extension": ".md"
+      },
+      {
         "path": "docs/STATE_LEGAL_DATA_MODEL.md",
         "name": "STATE_LEGAL_DATA_MODEL.md",
+        "extension": ".md"
+      },
+      {
+        "path": "docs/STATE_RELEASE_REVIEW.md",
+        "name": "STATE_RELEASE_REVIEW.md",
         "extension": ".md"
       },
       {
@@ -529,6 +559,11 @@
       {
         "path": "scripts/validate_california_foreclosure.py",
         "name": "validate_california_foreclosure.py",
+        "extension": ".py"
+      },
+      {
+        "path": "scripts/validate_dataset_registry.py",
+        "name": "validate_dataset_registry.py",
         "extension": ".py"
       },
       {
@@ -617,6 +652,11 @@
         "extension": ".py"
       },
       {
+        "path": "tests/test_state_replication_contract.py",
+        "name": "test_state_replication_contract.py",
+        "extension": ".py"
+      },
+      {
         "path": "tests/test_state_schema.py",
         "name": "test_state_schema.py",
         "extension": ".py"
@@ -649,74 +689,74 @@
   "agent_ops": {},
   "activity": [
     {
-      "id": "a0edf10447304cb4449d08b8d286ed5f11d8945d",
+      "id": "f5404b2ab221d2b215f3b6128722033f4c64422b",
       "type": "commit",
-      "title": "Merge pull request #20 from kaibuzz0/phase5-california-final-precision",
-      "timestamp": "2026-09-02T11:42:37-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/a0edf10447304cb4449d08b8d286ed5f11d8945d"
+      "title": "Merge pull request #22 from kaibuzz0/phase6-state-replication-contract",
+      "timestamp": "2026-09-02T11:56:58-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f5404b2ab221d2b215f3b6128722033f4c64422b"
     },
     {
-      "id": "2dafd77294c60830b722ab30038c178edda4240a",
+      "id": "b798ee1e67f018d98012056363624349de032b2e",
       "type": "commit",
-      "title": "Fix provider verification-date invariant",
-      "timestamp": "2026-09-02T11:42:07-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2dafd77294c60830b722ab30038c178edda4240a"
+      "title": "docs: evaluate state 3 architecture candidates",
+      "timestamp": "2026-09-02T11:55:15-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b798ee1e67f018d98012056363624349de032b2e"
     },
     {
-      "id": "662e5ecc2121d742cd2029fdf73fb35f815f3d65",
+      "id": "969903e0b6fa3726120cd36342874fa16ff8d706",
       "type": "commit",
-      "title": "Run final California release tests in legal QA",
-      "timestamp": "2026-09-02T11:41:13-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/662e5ecc2121d742cd2029fdf73fb35f815f3d65"
+      "title": "ci: enforce state replication contract",
+      "timestamp": "2026-09-02T11:54:38-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/969903e0b6fa3726120cd36342874fa16ff8d706"
     },
     {
-      "id": "c970787569fadb28c1b4a86649ef3d5dc8e411b6",
+      "id": "c06f63131fadfa5695ce0355c2bfffa3a0b958f0",
       "type": "commit",
-      "title": "Add final California cross-layer release tests",
-      "timestamp": "2026-09-02T11:40:57-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c970787569fadb28c1b4a86649ef3d5dc8e411b6"
+      "title": "tests: enforce state replication contract invariants",
+      "timestamp": "2026-09-02T11:54:26-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c06f63131fadfa5695ce0355c2bfffa3a0b958f0"
     },
     {
-      "id": "1e965a0c4a11cb65ab2be83aaa9628a5c0b1873e",
+      "id": "d335ca166ac832478d7b5f472ff73523278048a5",
       "type": "commit",
-      "title": "Verify former-owner post-foreclosure route",
-      "timestamp": "2026-09-02T16:40:18Z",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1e965a0c4a11cb65ab2be83aaa9628a5c0b1873e"
+      "title": "validation: harden dataset registration contract",
+      "timestamp": "2026-09-02T11:54:11-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d335ca166ac832478d7b5f472ff73523278048a5"
     },
     {
-      "id": "cce32214614d825321884a58186265f31778ebe2",
+      "id": "97f40c11be1470007c60cedf27caeddf706d48ee",
       "type": "commit",
-      "title": "Add former-owner post-foreclosure authority",
-      "timestamp": "2026-09-02T11:40:10-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/cce32214614d825321884a58186265f31778ebe2"
+      "title": "data: align dataset registry with production metadata",
+      "timestamp": "2026-09-02T11:53:36-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/97f40c11be1470007c60cedf27caeddf706d48ee"
     },
     {
-      "id": "47bb3cf4eafb185892060983bf5b5f76c5f8b077",
+      "id": "458e3b79bd8ec3d65a6f9ae808b82b9e6b78b5d5",
       "type": "commit",
-      "title": "Complete California statewide housing routing precision",
-      "timestamp": "2026-09-02T16:38:28Z",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/47bb3cf4eafb185892060983bf5b5f76c5f8b077"
+      "title": "validation: enforce legal dataset registry coverage",
+      "timestamp": "2026-09-02T11:52:59-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/458e3b79bd8ec3d65a6f9ae808b82b9e6b78b5d5"
     },
     {
-      "id": "782c23f188cf2d02cc0778dac7d6788347c39493",
+      "id": "2004320b9287621d9ad2301aefc70a00cd260581",
       "type": "commit",
-      "title": "Align foreclosure regressions with final California rules",
-      "timestamp": "2026-09-02T11:38:17-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/782c23f188cf2d02cc0778dac7d6788347c39493"
+      "title": "data: register production legal datasets",
+      "timestamp": "2026-09-02T11:50:07-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2004320b9287621d9ad2301aefc70a00cd260581"
     },
     {
-      "id": "77b48960b0fdd6581456e04c80ba7d68be49176b",
+      "id": "83ab3d2db693268468586cc0669c10cc93030d12",
       "type": "commit",
-      "title": "Update California housing regressions for final precision",
-      "timestamp": "2026-09-02T11:37:24-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/77b48960b0fdd6581456e04c80ba7d68be49176b"
+      "title": "data: add blank subject-layer template",
+      "timestamp": "2026-09-02T11:50:00-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/83ab3d2db693268468586cc0669c10cc93030d12"
     },
     {
-      "id": "ce4b877e747eb40055907db913fcb085b5ac7376",
+      "id": "b4c1a60829f4e7807378429b238c99b64a9f5707",
       "type": "commit",
-      "title": "Apply California provider and federal-overlay precision",
-      "timestamp": "2026-09-02T11:36:31-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ce4b877e747eb40055907db913fcb085b5ac7376"
+      "title": "docs: add adversarial state release review",
+      "timestamp": "2026-09-02T11:49:53-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b4c1a60829f4e7807378429b238c99b64a9f5707"
     }
   ],
   "links": [
