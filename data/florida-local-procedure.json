@@ -430,5 +430,61 @@
   "dataset_dependencies": [
     "florida-housing",
     "florida-foreclosure"
+  ],
+  "cross_layer_routes": [
+    {
+      "id": "former-owner-possession",
+      "foreclosure_route": "post_sale_former_owner",
+      "occupant_classification": "former_owner",
+      "housing_routes": [],
+      "federal_overlays": [],
+      "local_section": "writ_execution",
+      "provider_routing": true,
+      "warning": "Former owner is not automatically a PTFA tenant."
+    },
+    {
+      "id": "bona-fide-tenant-possession",
+      "foreclosure_route": "post_sale_bona_fide_tenant",
+      "occupant_classification": "bona_fide_tenant",
+      "housing_routes": [
+        "ptfa_tenant_after_foreclosure"
+      ],
+      "federal_overlays": [
+        "ptfa"
+      ],
+      "local_section": "writ_execution",
+      "provider_routing": true,
+      "warning": "PTFA applies only if the federal bona fide tenancy conditions are satisfied."
+    },
+    {
+      "id": "other-tenant-possession",
+      "foreclosure_route": "post_sale_other_tenant",
+      "occupant_classification": "other_tenant",
+      "housing_routes": [],
+      "federal_overlays": [],
+      "local_section": "writ_execution",
+      "provider_routing": true,
+      "warning": "Not PTFA-qualified does not mean no protection; identify lease, foreclosure-party status, judgment, and housing-program overlays."
+    },
+    {
+      "id": "unknown-occupant-identification",
+      "foreclosure_route": "post_sale_other_occupant",
+      "occupant_classification": "unknown",
+      "housing_routes": [],
+      "federal_overlays": [],
+      "local_section": "writ_execution",
+      "provider_routing": true,
+      "warning": "Unknown occupant status routes to fact identification first and does not assign tenant or former-owner rights."
+    },
+    {
+      "id": "foreclosure-writ-local-execution",
+      "foreclosure_route": "post_sale_writ_of_possession",
+      "occupant_classification": "must_be_identified",
+      "housing_routes": [],
+      "federal_overlays": [],
+      "local_section": "writ_execution",
+      "provider_routing": true,
+      "warning": "Local sheriff operations supplement Rule 1.580 but do not create a statewide foreclosure execution deadline."
+    }
   ]
 }
