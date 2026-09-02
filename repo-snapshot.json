@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T17:26:37Z",
-  "source_commit": "5c785ba8bc81dd7939820f1c62be9f5a6835c51f",
+  "generated_at": "2026-09-02T18:10:09Z",
+  "source_commit": "43a756d1da8c7df510d9074ed7f004488092422b",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -714,74 +714,74 @@
   "agent_ops": {},
   "activity": [
     {
-      "id": "5c785ba8bc81dd7939820f1c62be9f5a6835c51f",
+      "id": "43a756d1da8c7df510d9074ed7f004488092422b",
       "type": "commit",
-      "title": "Merge pull request #23 from kaibuzz0/phase7-florida-housing",
-      "timestamp": "2026-09-02T12:26:25-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5c785ba8bc81dd7939820f1c62be9f5a6835c51f"
+      "title": "Merge pull request #24 from kaibuzz0/phase7-florida-precision-hardening",
+      "timestamp": "2026-09-02T13:09:59-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/43a756d1da8c7df510d9074ed7f004488092422b"
     },
     {
-      "id": "2acbdd2055d21d5d182c39d3359b9dab64d4c680",
+      "id": "f56ee65c860f4b2e9f35b346378c5e872f6a8eb5",
       "type": "commit",
-      "title": "Run Florida legal data checks in CI",
-      "timestamp": "2026-09-02T12:07:48-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2acbdd2055d21d5d182c39d3359b9dab64d4c680"
+      "title": "tests: cover Florida mail extension and seven-day computation",
+      "timestamp": "2026-09-02T13:01:46-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f56ee65c860f4b2e9f35b346378c5e872f6a8eb5"
     },
     {
-      "id": "ab58aee5eea4ff67dbcf72a0b51db50dc1437e4a",
+      "id": "3215fd653247fe0694ceaf5c072f802b1baa8c81",
       "type": "commit",
-      "title": "Add Florida foreclosure regression tests",
-      "timestamp": "2026-09-02T12:07:26-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ab58aee5eea4ff67dbcf72a0b51db50dc1437e4a"
+      "title": "legal: normalize Florida summary-judgment time computation",
+      "timestamp": "2026-09-02T13:01:28-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/3215fd653247fe0694ceaf5c072f802b1baa8c81"
     },
     {
-      "id": "27bb24e4efe5d7bf7eccf80a7e5e71372f78b469",
+      "id": "3c05943da01e0e7c2c5540d419a3440841fabb69",
       "type": "commit",
-      "title": "Add Florida housing regression tests",
-      "timestamp": "2026-09-02T12:06:58-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/27bb24e4efe5d7bf7eccf80a7e5e71372f78b469"
+      "title": "legal: complete Florida notice and statutory time computation",
+      "timestamp": "2026-09-02T13:01:19-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/3c05943da01e0e7c2c5540d419a3440841fabb69"
     },
     {
-      "id": "6bfd2cc7fdf7d8697f4e3aa4e0e4cf369799cb67",
+      "id": "6fbd5e5c024ed27b5b6b210a375437b313607f41",
       "type": "commit",
-      "title": "Add Florida foreclosure semantic validator",
-      "timestamp": "2026-09-02T12:06:32-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bfd2cc7fdf7d8697f4e3aa4e0e4cf369799cb67"
+      "title": "tests: keep PTFA ninety-day rule federal",
+      "timestamp": "2026-09-02T12:56:21-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6fbd5e5c024ed27b5b6b210a375437b313607f41"
     },
     {
-      "id": "68d6ba24b770f3602aa98402eaa7b5f466f5305e",
+      "id": "d70b0b17a439e7d52c5b5ec600626e6edbb74b43",
       "type": "commit",
-      "title": "Register Florida production legal datasets",
-      "timestamp": "2026-09-02T12:06:16-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/68d6ba24b770f3602aa98402eaa7b5f466f5305e"
+      "title": "tests: enforce Florida PTFA effective-date contingency",
+      "timestamp": "2026-09-02T12:56:10-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d70b0b17a439e7d52c5b5ec600626e6edbb74b43"
     },
     {
-      "id": "2789db2d05925a063fab1154aabb35c3320eb2aa",
+      "id": "bb8e7cbef8eb8cad40bf5bba8526bd345139ec23",
       "type": "commit",
-      "title": "Add Florida judicial foreclosure subject layer",
-      "timestamp": "2026-09-02T12:06:09-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2789db2d05925a063fab1154aabb35c3320eb2aa"
+      "title": "legal: correct contingent Florida PTFA provision",
+      "timestamp": "2026-09-02T12:55:59-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/bb8e7cbef8eb8cad40bf5bba8526bd345139ec23"
     },
     {
-      "id": "31bd60b325203f6d90798859d47a0e47e430252a",
+      "id": "16e330011a00c359bce7df95b30f05f3b64e3b98",
       "type": "commit",
-      "title": "Add Florida housing procedural core",
-      "timestamp": "2026-09-02T12:05:53-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/31bd60b325203f6d90798859d47a0e47e430252a"
+      "title": "legal: use current 2026 Florida civil-rule sources",
+      "timestamp": "2026-09-02T12:54:45-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/16e330011a00c359bce7df95b30f05f3b64e3b98"
     },
     {
-      "id": "f5404b2ab221d2b215f3b6128722033f4c64422b",
+      "id": "6bb7290cf7ce871ccdddd2700db6ccde3c1e68e0",
       "type": "commit",
-      "title": "Merge pull request #22 from kaibuzz0/phase6-state-replication-contract",
-      "timestamp": "2026-09-02T11:56:58-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f5404b2ab221d2b215f3b6128722033f4c64422b"
+      "title": "legal: refresh Florida time-computation authority to July 2026",
+      "timestamp": "2026-09-02T12:54:37-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/6bb7290cf7ce871ccdddd2700db6ccde3c1e68e0"
     },
     {
-      "id": "b798ee1e67f018d98012056363624349de032b2e",
+      "id": "9133462a9ada2b7b90ce7eb19feff95c49685054",
       "type": "commit",
-      "title": "docs: evaluate state 3 architecture candidates",
-      "timestamp": "2026-09-02T11:55:15-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b798ee1e67f018d98012056363624349de032b2e"
+      "title": "tests: align summary-judgment hearing trigger assertion",
+      "timestamp": "2026-09-02T12:53:40-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9133462a9ada2b7b90ce7eb19feff95c49685054"
     }
   ],
   "links": [
