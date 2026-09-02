@@ -444,7 +444,7 @@
       "id": "certificate_of_title",
       "label": "A CERTIFICATE OF TITLE WAS FILED",
       "status": "verified",
-      "description": "Under §45.031, filing of the certificate of title confirms the judicial sale and passes title to the purchaser. Current Form 1.996(a) separately provides that the person named on the certificate of title is to be let into possession, subject to qualifying bona fide-tenant rights. Title passage is not itself physical sheriff execution.",
+      "description": "Under §45.031, when the certificate of title is filed the sale is confirmed and title passes to the purchaser. Current Form 1.996(a) separately provides that the person named on the certificate of title is to be let into possession, subject to qualifying bona fide-tenant rights. Title passage is not itself physical sheriff execution.",
       "authorities": [
         "fl-45-031",
         "fl-form-1-996a"
@@ -480,7 +480,7 @@
       "exceptions": [
         "Redemption is not the same as objecting to sale, reinstatement, modification, payoff negotiations, appeal, or vacating a judgment.",
         "Because the controlling cutoff can depend on the judgment/order, no fixed numeric clock is published.",
-        "Expiration of redemption rights does not itself equal a writ of possession or completed physical sheriff execution; redemption and possession are separate legal events."
+        "Expiration of redemption rights does not itself equal a possession deadline, a writ of possession, or completed physical possession by sheriff execution; redemption and possession are separate legal events."
       ],
       "legal_help": [
         "florida_bar_lrs",
@@ -508,6 +508,7 @@
       "immediate_clock": null,
       "other_clocks": [],
       "exceptions": [
+        "A former mortgagor/owner is not a bona fide tenant merely because the former owner remains in physical possession; PTFA is not automatically available to the former mortgagor.",
         "Former owner status is not bona fide tenant status; do not apply PTFA merely because the former borrower remains physically in the property.",
         "The actual final judgment/order must be reviewed to determine whether it delivers possession and what further court order, if any, is required.",
         "No statewide foreclosure-specific posting countdown is published here because Rule 1.580 and Form 1.915 do not establish one."
