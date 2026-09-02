@@ -1357,7 +1357,7 @@
     },
     {
       "id": "scra-50usc-3937",
-      "claim": "50 U.S.C. § 3937 limits qualifying pre-service obligations to 6% interest during military service; qualifying mortgage-type obligations remain capped for one year after service. A servicemember generally must provide written notice and qualifying military-service documentation no later than 180 days after termination or release from military service. Excess interest is forgiven, not deferred.",
+      "claim": "50 U.S.C. § 3937 limits qualifying pre-service obligations to 6% interest during military service; qualifying mortgage-type obligations remain capped for one year after service, while qualifying nonmortgage obligations use the military-service period. A servicemember generally must provide written notice and qualifying military-service documentation no later than 180 days after termination or release from military service. Excess interest is forgiven, not deferred.",
       "source_name": "U.S. House Office of the Law Revision Counsel",
       "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&path=%2Fprelim%40title50%2Fchapter50&req=granuleid%3AUSC-prelim-title50-section3937",
       "verified_date": "2026-09-02",
