@@ -20,7 +20,8 @@ def load_registry() -> dict:
 
 def production_legal_files() -> set[Path]:
     files = {p.resolve() for p in STATE_DIR.glob("*.json") if p.name not in EXCLUDED_STATE_FILES}
-    for pattern in SUBJECT_FILE_PATTERNS:\n        files.update(p.resolve() for p in (ROOT / "data").glob(pattern) if p.exists())
+    for pattern in SUBJECT_FILE_PATTERNS:
+        files.update(p.resolve() for p in (ROOT / "data").glob(pattern) if p.exists())
     return files
 
 
