@@ -239,6 +239,12 @@ class FloridaForeclosureTests(unittest.TestCase):
         self.assertIn("does not itself create a stay", route["description"].lower())
         self.assertIn("fl-r-app-p-9-310", route["authorities"])
 
+    def test_appellate_stay_rule_uses_current_september_2026_source(self):
+        authority = next(a for a in DATA["authorities"] if a["id"] == "fl-r-app-p-9-310")
+        self.assertIn("09-01-26.pdf", authority["source_url"])
+        self.assertNotIn("07-01-26.pdf", authority["source_url"])
+        self.assertIn("September 1, 2026", authority["supports"][0])
+
     def test_validator_rejects_section_83_62_as_foreclosure_bridge(self):
         sample = copy.deepcopy(DATA)
         sample["routes"]["post_sale_writ_of_possession"]["authorities"].append("fl-83-62")
