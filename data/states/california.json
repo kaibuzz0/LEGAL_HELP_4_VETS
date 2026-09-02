@@ -4,7 +4,7 @@
   "state_code": "CA",
   "slug": "california",
   "status": "partially_verified",
-  "last_verified": "2026-08-30",
+  "last_verified": "2026-09-02",
   "primary_authorities": [
     {
       "id": "ca-civ-1946-2",
@@ -13,8 +13,10 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2.",
-      "supports": ["Tenant Protection Act just-cause coverage, enumerated at-fault and no-fault causes, exemptions, local-law interaction, no-fault relocation, and curable-breach sequencing."],
-      "last_verified": "2026-08-30",
+      "supports": [
+        "Tenant Protection Act coverage depends on statutory occupancy thresholds and exemptions; the statute separately defines at-fault and no-fault just cause, owner/family move-in conditions, withdrawal/government-order/substantial-remodel grounds, relocation rules, exemption conditions, and interaction with qualifying more-protective local ordinances."
+      ],
+      "last_verified": "2026-09-02",
       "status": "verified"
     },
     {
@@ -24,7 +26,9 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.1.",
-      "supports": ["Statewide 60-day owner termination baseline and specified 30-day owner termination situations for periodic residential tenancies."],
+      "supports": [
+        "Statewide 60-day owner termination baseline and specified 30-day owner termination situations for periodic residential tenancies."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -35,8 +39,10 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1161.",
-      "supports": ["Three-day pay-rent-or-quit and perform-covenant-or-quit notice requirements, exclusion of Saturdays/Sundays/judicial holidays for curable three-day notices, and three-day quit grounds for specified noncurable conduct."],
-      "last_verified": "2026-08-30",
+      "supports": [
+        "CCP §1161(2) and (3) expressly exclude Saturdays, Sundays, and judicial holidays for curable pay-rent and covenant notices; §1161(4) separately authorizes three days notice to quit for specified assignment/subletting, waste, nuisance, and unlawful-use grounds without repeating those curable-notice exclusions."
+      ],
+      "last_verified": "2026-09-02",
       "status": "verified"
     },
     {
@@ -46,7 +52,9 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=1167.",
-      "supports": ["Unlawful-detainer response is due within 10 days excluding Saturdays, Sundays, and judicial holidays after service, with specified extra time for Safe at Home service."],
+      "supports": [
+        "Unlawful-detainer response is due within 10 days excluding Saturdays, Sundays, and judicial holidays after service, with specified extra time for Safe at Home service."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -57,7 +65,9 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=789.3.",
-      "supports": ["Residential landlords may not willfully interrupt utilities, change locks, remove doors/windows, or remove tenant property with intent to terminate occupancy outside lawful process; statute provides civil remedies."],
+      "supports": [
+        "Residential landlords may not willfully interrupt utilities, change locks, remove doors/windows, or remove tenant property with intent to terminate occupancy outside lawful process; statute provides civil remedies."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -68,7 +78,9 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12927.",
-      "supports": ["California housing discrimination includes cancellation or termination of a rental agreement and refusal to provide reasonable accommodation or modification when statutory conditions are met."],
+      "supports": [
+        "California housing discrimination includes cancellation or termination of a rental agreement and refusal to provide reasonable accommodation or modification when statutory conditions are met."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -79,7 +91,9 @@
       "authority_type": "statute",
       "jurisdiction": "California",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955.",
-      "supports": ["California prohibits specified housing discrimination, discriminatory eviction/retaliation, and source-of-income discrimination including covered housing vouchers and HUD-VASH."],
+      "supports": [
+        "California prohibits specified housing discrimination, discriminatory eviction/retaliation, and source-of-income discrimination including covered housing vouchers and HUD-VASH."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -89,7 +103,9 @@
       "authority_type": "agency_guidance",
       "jurisdiction": "California",
       "source_url": "https://selfhelp.courts.ca.gov/eviction-landlord/fill-out",
-      "supports": ["California Courts explains that curable three-day notice periods exclude weekends/court holidays while 30- and 60-day termination notices count calendar days."],
+      "supports": [
+        "California Courts explains that curable three-day notice periods exclude weekends/court holidays while 30- and 60-day termination notices count calendar days."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -99,7 +115,9 @@
       "authority_type": "agency_guidance",
       "jurisdiction": "California",
       "source_url": "https://selfhelp.courts.ca.gov/eviction-tenant/respond",
-      "supports": ["Current unlawful-detainer response instructions, including UD-105, personal-service 10 court-day response, substituted/posting service mixed computation, Safe at Home timing, and local-form warning."],
+      "supports": [
+        "Current unlawful-detainer response instructions, including UD-105, personal-service 10 court-day response, substituted/posting service mixed computation, Safe at Home timing, and local-form warning."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -109,7 +127,9 @@
       "authority_type": "agency_guidance",
       "jurisdiction": "California",
       "source_url": "https://www.selfhelp.courts.ca.gov/eviction-landlord/ask-for-default",
-      "supports": ["After the response deadline passes without a response, the landlord may seek default; an answer may still be filed before default is requested, and current default forms/process are identified."],
+      "supports": [
+        "After the response deadline passes without a response, the landlord may seek default; an answer may still be filed before default is requested, and current default forms/process are identified."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -119,7 +139,9 @@
       "authority_type": "agency_guidance",
       "jurisdiction": "California",
       "source_url": "https://selfhelp.courts.ca.gov/eviction-tenant/lose-case",
-      "supports": ["Post-judgment writ/sheriff process, five-day Notice to Vacate, stay-of-execution option, set-aside possibility, and warning that appeal alone does not stop sheriff eviction."],
+      "supports": [
+        "Post-judgment writ/sheriff process, five-day Notice to Vacate, stay-of-execution option, set-aside possibility, and warning that appeal alone does not stop sheriff eviction."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -129,7 +151,9 @@
       "authority_type": "government_form",
       "jurisdiction": "California",
       "source_url": "https://selfhelp.courts.ca.gov/find-forms?query=eviction",
-      "supports": ["Current statewide eviction forms include SUM-130, UD-100, UD-105, UD-110, UD-116, and UD-150, with current effective dates."],
+      "supports": [
+        "Current statewide eviction forms include SUM-130, UD-100, UD-105, UD-110, UD-116, and UD-150, with current effective dates."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -139,7 +163,9 @@
       "authority_type": "local_rule_locator",
       "jurisdiction": "California",
       "source_url": "https://courts.ca.gov/find-your-court",
-      "supports": ["California has county Superior Courts with local rules/forms; users must identify the actual court and check its current local requirements."],
+      "supports": [
+        "California has county Superior Courts with local rules/forms; users must identify the actual court and check its current local requirements."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     },
@@ -149,7 +175,9 @@
       "authority_type": "agency_guidance",
       "jurisdiction": "California",
       "source_url": "https://calcivilrights.ca.gov/housing/",
-      "supports": ["State fair-housing complaint forum, one-year administrative filing guidance, reasonable accommodation examples, and distinction between discrimination enforcement and ordinary landlord-tenant disputes."],
+      "supports": [
+        "State fair-housing complaint forum, one-year administrative filing guidance, reasonable accommodation examples, and distinction between discrimination enforcement and ordinary landlord-tenant disputes."
+      ],
       "last_verified": "2026-08-30",
       "status": "verified"
     }
@@ -164,7 +192,15 @@
     "local_authority": "ca-courts-local-rules",
     "last_checked": "2026-08-30"
   },
-  "federal_overlays": ["scra-eviction", "fha-disability-accommodation", "public-housing", "hcv", "hud-vash", "ssvf", "lsv-h"],
+  "federal_overlays": [
+    "scra-eviction",
+    "fha-disability-accommodation",
+    "public-housing",
+    "hcv",
+    "hud-vash",
+    "ssvf",
+    "lsv-h"
+  ],
   "document_routes": {
     "notice_pay_rent_or_quit": {
       "id": "notice_pay_rent_or_quit",
@@ -173,18 +209,49 @@
       "description": "For nonpayment of rent under CCP §1161(2), the statutory three-day cure period excludes Saturdays, Sundays, and other judicial holidays. The notice must satisfy statutory content and service requirements; do not generalize this route to every eviction notice.",
       "jurisdiction": "California",
       "court_or_forum": "Pre-suit; Superior Court if unlawful detainer is later filed",
-      "authorities": ["ca-ccp-1161"],
-      "federal_overlays": ["scra-eviction"],
+      "authorities": [
+        "ca-ccp-1161"
+      ],
+      "federal_overlays": [
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Save the notice, proof of service, lease, rent ledger, payment records, and communications.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Save the notice, proof of service, lease, rent ledger, payment records, and communications.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {"value": 3, "unit": "court_days_excluding_saturdays_sundays_and_judicial_holidays", "trigger": "service_of_pay_rent_or_quit_notice", "computation_authority": "ca-ccp-1161", "exceptions": ["Notice validity, rent amount/content, and service method are fact-specific."], "verified": true, "display": "For a qualifying pay-rent-or-quit notice under CCP §1161(2), the three-day period excludes Saturdays, Sundays, and judicial holidays."},
+      "immediate_clock": {
+        "value": 3,
+        "unit": "court_days_excluding_saturdays_sundays_and_judicial_holidays",
+        "trigger": "service_of_pay_rent_or_quit_notice",
+        "computation_authority": "ca-ccp-1161",
+        "exceptions": [
+          "Notice validity, rent amount/content, and service method are fact-specific."
+        ],
+        "verified": true,
+        "display": "For a qualifying pay-rent-or-quit notice under CCP §1161(2), the three-day period excludes Saturdays, Sundays, and judicial holidays."
+      },
       "other_clocks": [],
       "remedies": [],
-      "possession_consequences": ["If the notice expires without cure and the landlord otherwise complies with law, the landlord may file an unlawful-detainer case; the notice itself is not a court judgment."],
+      "possession_consequences": [
+        "If the notice expires without cure and the landlord otherwise complies with law, the landlord may file an unlawful-detainer case; the notice itself is not a court judgment."
+      ],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -195,18 +262,49 @@
       "description": "For a curable non-rent lease violation under CCP §1161(3), the three-day period excludes Saturdays, Sundays, and judicial holidays; the Tenant Protection Act can require an opportunity to cure before a later no-cure termination where its just-cause rules apply.",
       "jurisdiction": "California",
       "court_or_forum": "Pre-suit; Superior Court if unlawful detainer is later filed",
-      "authorities": ["ca-ccp-1161", "ca-civ-1946-2"],
-      "federal_overlays": ["fha-disability-accommodation", "scra-eviction"],
+      "authorities": [
+        "ca-ccp-1161",
+        "ca-civ-1946-2"
+      ],
+      "federal_overlays": [
+        "fha-disability-accommodation",
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Identify the exact lease term alleged to be violated and preserve proof of any cure or accommodation request.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Identify the exact lease term alleged to be violated and preserve proof of any cure or accommodation request.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {"value": 3, "unit": "court_days_excluding_saturdays_sundays_and_judicial_holidays", "trigger": "service_of_perform_covenant_or_quit_notice", "computation_authority": "ca-ccp-1161", "exceptions": ["Whether a breach is curable and whether additional just-cause protections apply depends on the tenancy and facts."], "verified": true, "display": "For a qualifying perform-covenant-or-quit notice under CCP §1161(3), the three-day cure period excludes Saturdays, Sundays, and judicial holidays."},
+      "immediate_clock": {
+        "value": 3,
+        "unit": "court_days_excluding_saturdays_sundays_and_judicial_holidays",
+        "trigger": "service_of_perform_covenant_or_quit_notice",
+        "computation_authority": "ca-ccp-1161",
+        "exceptions": [
+          "Whether a breach is curable and whether additional just-cause protections apply depends on the tenancy and facts."
+        ],
+        "verified": true,
+        "display": "For a qualifying perform-covenant-or-quit notice under CCP §1161(3), the three-day cure period excludes Saturdays, Sundays, and judicial holidays."
+      },
       "other_clocks": [],
       "remedies": [],
       "possession_consequences": [],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -214,23 +312,46 @@
       "id": "notice_quit_breach_nuisance",
       "label": "NOTICE TO QUIT — ALLEGED NONCURABLE BREACH / NUISANCE",
       "status": "partially_verified",
-      "description": "CCP §1161(4) authorizes a three-day notice to quit for specified grounds such as nuisance, waste, unlawful use, or certain assignment/subletting violations. Whether the alleged conduct fits a no-cure ground is fact-specific, and Tenant Protection Act/local just-cause rules may also matter.",
+      "description": "CCP §1161(4) authorizes three days notice to quit for specified assignment/subletting, waste, nuisance, and unlawful-use grounds. Unlike §1161(2) and (3), paragraph (4) does not itself repeat the Saturday/Sunday/judicial-holiday exclusion used for the curable notice categories. Because service and generally applicable computation rules still require separate verification, no actionable clock is published here.",
       "jurisdiction": "California",
       "court_or_forum": "Pre-suit; Superior Court if unlawful detainer is later filed",
-      "authorities": ["ca-ccp-1161", "ca-civ-1946-2"],
-      "federal_overlays": ["fha-disability-accommodation", "scra-eviction"],
+      "authorities": [
+        "ca-ccp-1161",
+        "ca-civ-1946-2"
+      ],
+      "federal_overlays": [
+        "fha-disability-accommodation",
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Save the notice and all evidence concerning the alleged conduct; get legal help quickly because whether the ground is legally noncurable can be contested.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Save the notice and all evidence concerning the alleged conduct; get legal help quickly because whether the ground is legally noncurable can be contested.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {"value": 3, "unit": "days_under_ccp_1161_notice_rule", "trigger": "service_of_three_day_notice_to_quit", "computation_authority": "ca-ccp-1161", "exceptions": ["This route does not decide whether the alleged facts legally qualify for a no-cure ground or what local just-cause law adds."], "verified": true, "display": "CCP §1161(4) uses a three-day notice to quit for specified noncurable grounds, but whether a particular allegation qualifies requires legal analysis."},
+      "immediate_clock": null,
       "other_clocks": [],
       "remedies": [],
       "possession_consequences": [],
-      "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "Whether alleged conduct legally qualifies under §1161(4), whether Tenant Protection Act or local just-cause requirements add protections, and the exact computation after service are fact- and authority-specific."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-09-02"
     },
     "termination_30_day": {
       "id": "termination_30_day",
@@ -239,18 +360,49 @@
       "description": "Civil Code §1946.1 provides specified situations in which an owner may use at least 30 days' notice for periodic tenancy termination, including generally where the tenant/resident has occupied the dwelling for less than one year and a separate sale-related rule. This does not override applicable just-cause protections.",
       "jurisdiction": "California",
       "court_or_forum": "Pre-suit",
-      "authorities": ["ca-civ-1946-1", "ca-courts-eviction-notice-counting"],
-      "federal_overlays": ["scra-eviction", "fha-disability-accommodation"],
+      "authorities": [
+        "ca-civ-1946-1",
+        "ca-courts-eviction-notice-counting"
+      ],
+      "federal_overlays": [
+        "scra-eviction",
+        "fha-disability-accommodation"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Check length of occupancy, lease type, Tenant Protection Act coverage, and any local just-cause ordinance before assuming a 30-day notice is valid.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Check length of occupancy, lease type, Tenant Protection Act coverage, and any local just-cause ordinance before assuming a 30-day notice is valid.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {"value": 30, "unit": "calendar_days_before_proposed_termination", "trigger": "service_of_qualifying_30_day_termination_notice", "computation_authority": "ca-courts-eviction-notice-counting", "exceptions": ["Civil Code §1946.1 contains applicability conditions and exceptions; just-cause law may independently restrict termination."], "verified": true, "display": "A qualifying 30-day termination notice under Civil Code §1946.1 is counted in calendar days; applicability depends on the tenancy and statutory conditions."},
+      "immediate_clock": {
+        "value": 30,
+        "unit": "calendar_days_before_proposed_termination",
+        "trigger": "service_of_qualifying_30_day_termination_notice",
+        "computation_authority": "ca-courts-eviction-notice-counting",
+        "exceptions": [
+          "Civil Code §1946.1 contains applicability conditions and exceptions; just-cause law may independently restrict termination."
+        ],
+        "verified": true,
+        "display": "A qualifying 30-day termination notice under Civil Code §1946.1 is counted in calendar days; applicability depends on the tenancy and statutory conditions."
+      },
       "other_clocks": [],
       "remedies": [],
       "possession_consequences": [],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -261,18 +413,49 @@
       "description": "Civil Code §1946.1 states a general owner baseline of at least 60 days before the proposed termination of a qualifying periodic residential tenancy, subject to statutory 30-day situations and separate just-cause/local-law restrictions.",
       "jurisdiction": "California",
       "court_or_forum": "Pre-suit",
-      "authorities": ["ca-civ-1946-1", "ca-courts-eviction-notice-counting"],
-      "federal_overlays": ["scra-eviction", "fha-disability-accommodation"],
+      "authorities": [
+        "ca-civ-1946-1",
+        "ca-courts-eviction-notice-counting"
+      ],
+      "federal_overlays": [
+        "scra-eviction",
+        "fha-disability-accommodation"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Check Tenant Protection Act coverage and local just-cause/rent-control law before treating a 60-day notice as sufficient by itself.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Check Tenant Protection Act coverage and local just-cause/rent-control law before treating a 60-day notice as sufficient by itself.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {"value": 60, "unit": "calendar_days_before_proposed_termination", "trigger": "service_of_qualifying_60_day_termination_notice", "computation_authority": "ca-courts-eviction-notice-counting", "exceptions": ["Section 1946.1 has 30-day exceptions and does not eliminate just-cause or more-protective local requirements."], "verified": true, "display": "For a qualifying periodic tenancy, Civil Code §1946.1 generally requires at least 60 days' owner notice; California Courts counts 30- and 60-day termination notices in calendar days."},
+      "immediate_clock": {
+        "value": 60,
+        "unit": "calendar_days_before_proposed_termination",
+        "trigger": "service_of_qualifying_60_day_termination_notice",
+        "computation_authority": "ca-courts-eviction-notice-counting",
+        "exceptions": [
+          "Section 1946.1 has 30-day exceptions and does not eliminate just-cause or more-protective local requirements."
+        ],
+        "verified": true,
+        "display": "For a qualifying periodic tenancy, Civil Code §1946.1 generally requires at least 60 days' owner notice; California Courts counts 30- and 60-day termination notices in calendar days."
+      },
       "other_clocks": [],
       "remedies": [],
       "possession_consequences": [],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "California statewide baseline; local substantive protections and court procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -280,23 +463,59 @@
       "id": "just_cause_termination",
       "label": "JUST-CAUSE / NO-FAULT JUST-CAUSE TERMINATION",
       "status": "verified",
-      "description": "Civil Code §1946.2 requires just cause only for covered tenancies after statutory occupancy thresholds. It enumerates at-fault and no-fault causes, contains important exemptions, requires specified notice content, and preserves qualifying more-protective local ordinances.",
+      "description": "Civil Code §1946.2 requires just cause only for covered tenancies after the statute’s occupancy thresholds. It separately defines at-fault and no-fault grounds, contains category-specific exemptions and notice conditions, and preserves qualifying more-protective local ordinances. A verified statute is not a universal entitlement: applicability must be checked for the actual tenancy.",
       "jurisdiction": "California",
       "court_or_forum": "Pre-suit / Superior Court if litigated",
-      "authorities": ["ca-civ-1946-2"],
-      "federal_overlays": ["fha-disability-accommodation", "scra-eviction"],
+      "authorities": [
+        "ca-civ-1946-2"
+      ],
+      "federal_overlays": [
+        "fha-disability-accommodation",
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Check occupancy duration, property type/ownership, exemption notice language, the stated cause, and local ordinance coverage before deciding whether §1946.2 applies.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Check occupancy duration, property type/ownership, exemption notice language, the stated cause, and local ordinance coverage before deciding whether §1946.2 applies.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
-      "other_clocks": [{"label": "No-fault relocation payment timing", "value": 15, "unit": "calendar_days_after_service_of_notice", "trigger": "service_of_covered_no_fault_just_cause_termination_notice_where_owner_elects_direct_payment", "computation_authority": "ca-civ-1946-2", "exceptions": ["Owner may instead elect a written final-month rent waiver as allowed by the statute; local law may provide different or greater relocation rights."], "verified": true, "display": "For a covered no-fault just-cause termination where the owner elects direct relocation payment, Civil Code §1946.2 requires payment within 15 calendar days of service of the notice."}],
+      "other_clocks": [
+        {
+          "label": "No-fault relocation payment timing",
+          "value": 15,
+          "unit": "calendar_days_after_service_of_notice",
+          "trigger": "service_of_covered_no_fault_just_cause_termination_notice_where_owner_elects_direct_payment",
+          "computation_authority": "ca-civ-1946-2",
+          "exceptions": [
+            "Owner may instead elect a written final-month rent waiver as allowed by the statute; local law may provide different or greater relocation rights."
+          ],
+          "verified": true,
+          "display": "For a covered no-fault just-cause termination where the owner elects direct relocation payment, Civil Code §1946.2 requires payment within 15 calendar days of service of the notice."
+        }
+      ],
       "remedies": [],
       "possession_consequences": [],
-      "exceptions": ["Not all California residential tenancies are covered by §1946.2; statutory exemptions and qualifying local ordinances matter."],
-      "local_variation": {"status": "verified", "statewide_rule": "California statewide baseline; qualifying more-protective local just-cause ordinances may control.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "Not all California residential tenancies are covered by §1946.2; occupancy thresholds, property/ownership categories, exemption notice conditions, mobilehome rules, and qualifying local ordinances matter.",
+        "Do not summarize the statute as one year equals just cause or all single-family homes are exempt."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "California statewide baseline; qualifying more-protective local just-cause ordinances may control.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-09-02"
     },
     "summons_unlawful_detainer": {
       "id": "summons_unlawful_detainer",
@@ -305,18 +524,77 @@
       "description": "A residential unlawful-detainer case is filed in California Superior Court. The response deadline depends on service method. Personal/direct service uses a 10 court-day clock; substituted service/posting can use a mixed service-completion calculation. Current statewide forms include SUM-130, UD-100, and UD-105.",
       "jurisdiction": "California",
       "court_or_forum": "California Superior Court in the county/courthouse handling the rental-property eviction",
-      "authorities": ["ca-ccp-1167", "ca-courts-ud-answer", "ca-courts-forms"],
-      "federal_overlays": ["scra-default", "scra-eviction", "fha-disability-accommodation"],
-      "required_actions": [{"type": "procedural_requirement", "text": "To contest the eviction through an Answer, file a timely response in the Superior Court case; current California Courts guidance identifies form UD-105 as the main Answer form.", "authority": "ca-courts-ud-answer"}],
-      "optional_actions": [{"type": "practical_action", "text": "Record exactly how and when the Summons and Complaint were served, because service method changes the response computation.", "authority": null}, {"type": "practical_action", "text": "Check the actual Superior Court for local forms or filing requirements.", "authority": null}],
+      "authorities": [
+        "ca-ccp-1167",
+        "ca-courts-ud-answer",
+        "ca-courts-forms"
+      ],
+      "federal_overlays": [
+        "scra-default",
+        "scra-eviction",
+        "fha-disability-accommodation"
+      ],
+      "required_actions": [
+        {
+          "type": "procedural_requirement",
+          "text": "To contest the eviction through an Answer, file a timely response in the Superior Court case; current California Courts guidance identifies form UD-105 as the main Answer form.",
+          "authority": "ca-courts-ud-answer"
+        }
+      ],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Record exactly how and when the Summons and Complaint were served, because service method changes the response computation.",
+          "authority": null
+        },
+        {
+          "type": "practical_action",
+          "text": "Check the actual Superior Court for local forms or filing requirements.",
+          "authority": null
+        }
+      ],
       "required_filing": "Answer—Unlawful Detainer (UD-105) is the main statewide answer form; other responsive pleadings can exist and may require legal help.",
       "optional_filing": null,
-      "immediate_clock": {"value": 10, "unit": "court_days_excluding_saturdays_sundays_and_judicial_holidays", "trigger": "personal_or_direct_service_of_unlawful_detainer_summons_and_complaint", "computation_authority": "ca-ccp-1167", "exceptions": ["Substituted service, posting plus mailing, and Safe at Home service use different completion/timing rules; do not apply this 10-day trigger blindly."], "verified": true, "display": "After personal/direct service of an unlawful-detainer Summons and Complaint, CCP §1167 requires a response within 10 days excluding Saturdays, Sundays, and other judicial holidays."},
-      "other_clocks": [{"label": "Substituted service or posting plus mailing", "value": 20, "unit": "mixed_service_computation_first_10_calendar_days_then_10_court_days", "trigger": "mailing_date_after_substituted_service_or_court_authorized_posting", "computation_authority": "ca-courts-ud-answer", "exceptions": ["Use the actual proof of service and current court instructions; this is not the same computation as personal service."], "verified": true, "display": "California Courts explains that substituted service or posting plus mailing generally produces a 20-day mixed computation: 10 calendar days to complete service, then 10 court days to respond."}],
+      "immediate_clock": {
+        "value": 10,
+        "unit": "court_days_excluding_saturdays_sundays_and_judicial_holidays",
+        "trigger": "personal_or_direct_service_of_unlawful_detainer_summons_and_complaint",
+        "computation_authority": "ca-ccp-1167",
+        "exceptions": [
+          "Substituted service, posting plus mailing, and Safe at Home service use different completion/timing rules; do not apply this 10-day trigger blindly."
+        ],
+        "verified": true,
+        "display": "After personal/direct service of an unlawful-detainer Summons and Complaint, CCP §1167 requires a response within 10 days excluding Saturdays, Sundays, and other judicial holidays."
+      },
+      "other_clocks": [
+        {
+          "label": "Substituted service or posting plus mailing",
+          "value": 20,
+          "unit": "mixed_service_computation_first_10_calendar_days_then_10_court_days",
+          "trigger": "mailing_date_after_substituted_service_or_court_authorized_posting",
+          "computation_authority": "ca-courts-ud-answer",
+          "exceptions": [
+            "Use the actual proof of service and current court instructions; this is not the same computation as personal service."
+          ],
+          "verified": true,
+          "display": "California Courts explains that substituted service or posting plus mailing generally produces a 20-day mixed computation: 10 calendar days to complete service, then 10 court days to respond."
+        }
+      ],
       "remedies": [],
-      "possession_consequences": ["If no timely response is filed and default is entered, the court can proceed without hearing the tenant's defenses unless relief from default is later obtained."],
+      "possession_consequences": [
+        "If no timely response is filed and default is entered, the court can proceed without hearing the tenant's defenses unless relief from default is later obtained."
+      ],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "Statewide forms and response law apply, but Superior Courts may require local forms or procedures.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Statewide forms and response law apply, but Superior Courts may require local forms or procedures.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -327,18 +605,41 @@
       "description": "After the response deadline passes without a response, the landlord may request default. California Courts states that a tenant may still file an Answer before the landlord asks for default; once default is entered, ordinary filing of an Answer is no longer the route and immediate legal help is appropriate.",
       "jurisdiction": "California",
       "court_or_forum": "California Superior Court",
-      "authorities": ["ca-courts-default", "ca-courts-forms"],
-      "federal_overlays": ["scra-default", "scra-eviction"],
+      "authorities": [
+        "ca-courts-default",
+        "ca-courts-forms"
+      ],
+      "federal_overlays": [
+        "scra-default",
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "referral", "text": "If default has already been entered, seek immediate court self-help or legal counsel about possible relief; this repository does not prescribe an individualized motion strategy.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "referral",
+          "text": "If default has already been entered, seek immediate court self-help or legal counsel about possible relief; this repository does not prescribe an individualized motion strategy.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
       "other_clocks": [],
       "remedies": [],
-      "possession_consequences": ["Default can lead to a possession judgment and sheriff enforcement without a contested trial."],
+      "possession_consequences": [
+        "Default can lead to a possession judgment and sheriff enforcement without a contested trial."
+      ],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "Statewide baseline; local filing procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Statewide baseline; local filing procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -349,18 +650,42 @@
       "description": "After an eviction judgment for the landlord, appeal, stay, set-aside relief, and sheriff enforcement are separate concepts. California Courts expressly warns that filing an appeal does not itself stop the sheriff from evicting the tenant.",
       "jurisdiction": "California",
       "court_or_forum": "California Superior Court / appellate court as applicable",
-      "authorities": ["ca-courts-postjudgment", "ca-courts-forms"],
-      "federal_overlays": ["scra-eviction"],
+      "authorities": [
+        "ca-courts-postjudgment",
+        "ca-courts-forms"
+      ],
+      "federal_overlays": [
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Get the signed judgment and any issued writ/Notice to Vacate, and identify whether a stay has actually been granted rather than assuming an appeal stops enforcement.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Get the signed judgment and any issued writ/Notice to Vacate, and identify whether a stay has actually been granted rather than assuming an appeal stops enforcement.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
       "other_clocks": [],
-      "remedies": ["Possible post-judgment routes can include appeal, stay of execution, or set-aside relief depending on facts and procedural posture."],
-      "possession_consequences": ["An appeal alone does not stop sheriff eviction according to current California Courts guidance."],
+      "remedies": [
+        "Possible post-judgment routes can include appeal, stay of execution, or set-aside relief depending on facts and procedural posture."
+      ],
+      "possession_consequences": [
+        "An appeal alone does not stop sheriff eviction according to current California Courts guidance."
+      ],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "Statewide baseline; local filing procedure may add requirements.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Statewide baseline; local filing procedure may add requirements.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -371,18 +696,51 @@
       "description": "After a possession judgment and issuance of the writ, the landlord delivers the writ to the sheriff. California Courts states that the sheriff gives a Notice to Vacate allowing five days to move; if the deadline passes without a stay or other effective relief, the sheriff may return and lock the occupants out.",
       "jurisdiction": "California",
       "court_or_forum": "California Superior Court / county sheriff executing writ",
-      "authorities": ["ca-courts-postjudgment"],
-      "federal_overlays": ["scra-eviction"],
+      "authorities": [
+        "ca-courts-postjudgment"
+      ],
+      "federal_overlays": [
+        "scra-eviction"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "emergency_action", "text": "Use the posted sheriff Notice to Vacate for the exact enforcement deadline and seek immediate legal/self-help assistance if a stay or other relief may be available.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "emergency_action",
+          "text": "Use the posted sheriff Notice to Vacate for the exact enforcement deadline and seek immediate legal/self-help assistance if a stay or other relief may be available.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
-      "immediate_clock": {"value": 5, "unit": "days_under_current_california_courts_sheriff_notice_guidance_use_posted_notice_for_exact_deadline", "trigger": "sheriff_service_or_posting_of_notice_to_vacate_after_writ", "computation_authority": "ca-courts-postjudgment", "exceptions": ["County operational steps can vary; the posted notice controls the actual move-out date/time. A court-ordered stay or other effective relief can change enforcement."], "verified": true, "display": "California Courts states that the sheriff's Notice to Vacate gives the tenant five days to move; use the posted notice for the exact lockout deadline."},
+      "immediate_clock": {
+        "value": 5,
+        "unit": "days_under_current_california_courts_sheriff_notice_guidance_use_posted_notice_for_exact_deadline",
+        "trigger": "sheriff_service_or_posting_of_notice_to_vacate_after_writ",
+        "computation_authority": "ca-courts-postjudgment",
+        "exceptions": [
+          "County operational steps can vary; the posted notice controls the actual move-out date/time. A court-ordered stay or other effective relief can change enforcement."
+        ],
+        "verified": true,
+        "display": "California Courts states that the sheriff's Notice to Vacate gives the tenant five days to move; use the posted notice for the exact lockout deadline."
+      },
       "other_clocks": [],
-      "remedies": ["A tenant may ask the court for a stay of execution; an appeal alone does not automatically stop the sheriff."],
-      "possession_consequences": ["After the notice period, absent effective relief, the sheriff may physically remove occupants and restore possession to the landlord."],
+      "remedies": [
+        "A tenant may ask the court for a stay of execution; an appeal alone does not automatically stop the sheriff."
+      ],
+      "possession_consequences": [
+        "After the notice period, absent effective relief, the sheriff may physically remove occupants and restore possession to the landlord."
+      ],
       "exceptions": [],
-      "local_variation": {"status": "verified", "statewide_rule": "The statewide writ/Notice to Vacate framework applies, while sheriff operational practice can vary by county.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "The statewide writ/Notice to Vacate framework applies, while sheriff operational practice can vary by county.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -393,18 +751,39 @@
       "description": "Civil Code §789.3 prohibits specified willful self-help measures intended to terminate residential occupancy, including changing locks, removing doors/windows, and removing tenant property outside lawful procedures. Lawful sheriff eviction is distinct.",
       "jurisdiction": "California",
       "court_or_forum": "Civil court / emergency legal-help pathway depending remedy",
-      "authorities": ["ca-civ-789-3"],
+      "authorities": [
+        "ca-civ-789-3"
+      ],
       "federal_overlays": [],
       "required_actions": [],
-      "optional_actions": [{"type": "emergency_action", "text": "Document the lock change/removal, preserve communications and photographs, and seek immediate legal help if access to the home is being denied.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "emergency_action",
+          "text": "Document the lock change/removal, preserve communications and photographs, and seek immediate legal help if access to the home is being denied.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
       "other_clocks": [],
-      "remedies": ["Section 789.3 provides a civil damages remedy and permits appropriate injunctive relief; other remedies may also exist."],
+      "remedies": [
+        "Section 789.3 provides a civil damages remedy and permits appropriate injunctive relief; other remedies may also exist."
+      ],
       "possession_consequences": [],
-      "exceptions": ["The statute does not prohibit lawful eviction carried out by appropriate legal authorities."],
-      "local_variation": {"status": "verified", "statewide_rule": "Statewide statutory protection; local emergency resources may vary.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "The statute does not prohibit lawful eviction carried out by appropriate legal authorities."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Statewide statutory protection; local emergency resources may vary.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -415,18 +794,39 @@
       "description": "Civil Code §789.3 prohibits a landlord from willfully causing interruption or termination of specified utilities with intent to terminate residential occupancy. This route concerns landlord self-help, not ordinary utility-company termination for account/service reasons.",
       "jurisdiction": "California",
       "court_or_forum": "Civil court / emergency legal-help pathway depending remedy",
-      "authorities": ["ca-civ-789-3"],
+      "authorities": [
+        "ca-civ-789-3"
+      ],
       "federal_overlays": [],
       "required_actions": [],
-      "optional_actions": [{"type": "emergency_action", "text": "Document which service stopped, when, who caused it, notices/account status, and landlord communications; seek emergency legal help where health or housing is at immediate risk.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "emergency_action",
+          "text": "Document which service stopped, when, who caused it, notices/account status, and landlord communications; seek emergency legal help where health or housing is at immediate risk.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
       "other_clocks": [],
-      "remedies": ["Section 789.3 provides civil damages and permits appropriate injunctive relief for covered landlord conduct."],
+      "remedies": [
+        "Section 789.3 provides civil damages and permits appropriate injunctive relief for covered landlord conduct."
+      ],
       "possession_consequences": [],
-      "exceptions": ["Do not treat every utility outage or utility-provider termination as a landlord violation."],
-      "local_variation": {"status": "verified", "statewide_rule": "Statewide statutory protection; local emergency resources may vary.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "Do not treat every utility outage or utility-provider termination as a landlord violation."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Statewide statutory protection; local emergency resources may vary.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -437,18 +837,54 @@
       "description": "California FEHA housing protections are a distinct state-law layer. Government Code §§12927 and 12955 address discrimination, cancellation/termination of rental agreements, retaliation, reasonable accommodation/modification, protected characteristics, and source-of-income protections including covered vouchers.",
       "jurisdiction": "California",
       "court_or_forum": "California Civil Rights Department and/or court depending claim",
-      "authorities": ["ca-gov-12927", "ca-gov-12955", "ca-crd-housing"],
-      "federal_overlays": ["fha-disability-accommodation"],
+      "authorities": [
+        "ca-gov-12927",
+        "ca-gov-12955",
+        "ca-crd-housing"
+      ],
+      "federal_overlays": [
+        "fha-disability-accommodation"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Preserve the accommodation request, disability-related nexus information actually needed, provider response, eviction papers, and proof of timing; do not assume accommodation automatically stops an eviction.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Preserve the accommodation request, disability-related nexus information actually needed, provider response, eviction papers, and proof of timing; do not assume accommodation automatically stops an eviction.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
-      "other_clocks": [{"label": "CRD housing-discrimination administrative complaint", "value": 1, "unit": "year_from_alleged_discriminatory_act_general_crd_guidance", "trigger": "alleged_housing_discrimination_act", "computation_authority": "ca-crd-housing", "exceptions": ["Judicial filing periods and tolling rules can differ; this clock is only the general CRD administrative-complaint guidance."], "verified": true, "display": "California CRD states that, in general, a housing-discrimination complaint must be filed within one year of the alleged discriminatory act."}],
+      "other_clocks": [
+        {
+          "label": "CRD housing-discrimination administrative complaint",
+          "value": 1,
+          "unit": "year_from_alleged_discriminatory_act_general_crd_guidance",
+          "trigger": "alleged_housing_discrimination_act",
+          "computation_authority": "ca-crd-housing",
+          "exceptions": [
+            "Judicial filing periods and tolling rules can differ; this clock is only the general CRD administrative-complaint guidance."
+          ],
+          "verified": true,
+          "display": "California CRD states that, in general, a housing-discrimination complaint must be filed within one year of the alleged discriminatory act."
+        }
+      ],
       "remedies": [],
       "possession_consequences": [],
-      "exceptions": ["State FEHA and the federal Fair Housing Act are separate provenance layers; neither makes every accommodation request an automatic eviction stay."],
-      "local_variation": {"status": "verified", "statewide_rule": "State FEHA is a statewide layer; local civil-rights or tenant ordinances can add separate protections.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "State FEHA and the federal Fair Housing Act are separate provenance layers; neither makes every accommodation request an automatic eviction stay."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "State FEHA is a statewide layer; local civil-rights or tenant ordinances can add separate protections.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -460,7 +896,9 @@
       "jurisdiction": "California",
       "court_or_forum": null,
       "authorities": [],
-      "federal_overlays": ["fha-disability-accommodation"],
+      "federal_overlays": [
+        "fha-disability-accommodation"
+      ],
       "required_actions": [],
       "optional_actions": [],
       "required_filing": null,
@@ -469,8 +907,19 @@
       "other_clocks": [],
       "remedies": [],
       "possession_consequences": [],
-      "exceptions": ["This route is an overlay reference, not California statutory authority and not an automatic defense to every eviction."],
-      "local_variation": {"status": "verified", "statewide_rule": "Federal overlay remains separate from California law.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "This route is an overlay reference, not California statutory authority and not an automatic defense to every eviction."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Federal overlay remains separate from California law.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     },
@@ -482,23 +931,62 @@
       "jurisdiction": "California",
       "court_or_forum": null,
       "authorities": [],
-      "federal_overlays": ["public-housing", "hcv", "hud-vash"],
+      "federal_overlays": [
+        "public-housing",
+        "hcv",
+        "hud-vash"
+      ],
       "required_actions": [],
-      "optional_actions": [{"type": "practical_action", "text": "Identify whether the paper came from the landlord, PHA, voucher administrator, or project-based housing provider; preserve both program notices and court papers.", "authority": null}],
+      "optional_actions": [
+        {
+          "type": "practical_action",
+          "text": "Identify whether the paper came from the landlord, PHA, voucher administrator, or project-based housing provider; preserve both program notices and court papers.",
+          "authority": null
+        }
+      ],
       "required_filing": null,
       "optional_filing": null,
       "immediate_clock": null,
       "other_clocks": [],
       "remedies": [],
       "possession_consequences": [],
-      "exceptions": ["Do not collapse loss of assistance and state-court eviction into one decision or one appeal."],
-      "local_variation": {"status": "verified", "statewide_rule": "Federal program procedure is separate from California eviction law; local PHA administration varies.", "local_rules_possible": true, "local_rule_locator": "https://courts.ca.gov/find-your-court", "county": null, "court": null, "local_authority": "ca-courts-local-rules", "last_checked": "2026-08-30"},
+      "exceptions": [
+        "Do not collapse loss of assistance and state-court eviction into one decision or one appeal."
+      ],
+      "local_variation": {
+        "status": "verified",
+        "statewide_rule": "Federal program procedure is separate from California eviction law; local PHA administration varies.",
+        "local_rules_possible": true,
+        "local_rule_locator": "https://courts.ca.gov/find-your-court",
+        "county": null,
+        "court": null,
+        "local_authority": "ca-courts-local-rules",
+        "last_checked": "2026-08-30"
+      },
       "legal_help": [],
       "last_verified": "2026-08-30"
     }
   },
   "resources": {
-    "california_courts_self_help": {"name": "California Courts Self-Help — Eviction", "type": "court_locator", "url": "https://selfhelp.courts.ca.gov/eviction", "coverage": "Statewide court self-help information and court locator", "service_area": "California", "eligibility_notes": "Information/self-help; not individual legal representation.", "verified": true, "last_verified": "2026-08-30"},
-    "california_civil_rights": {"name": "California Civil Rights Department — Housing", "type": "other", "url": "https://calcivilrights.ca.gov/housing/", "coverage": "Statewide housing-discrimination complaint information", "service_area": "California", "eligibility_notes": "Handles discrimination matters; does not represent tenants in ordinary unlawful-detainer cases.", "verified": true, "last_verified": "2026-08-30"}
+    "california_courts_self_help": {
+      "name": "California Courts Self-Help — Eviction",
+      "type": "court_locator",
+      "url": "https://selfhelp.courts.ca.gov/eviction",
+      "coverage": "Statewide court self-help information and court locator",
+      "service_area": "California",
+      "eligibility_notes": "Information/self-help; not individual legal representation.",
+      "verified": true,
+      "last_verified": "2026-08-30"
+    },
+    "california_civil_rights": {
+      "name": "California Civil Rights Department — Housing",
+      "type": "other",
+      "url": "https://calcivilrights.ca.gov/housing/",
+      "coverage": "Statewide housing-discrimination complaint information",
+      "service_area": "California",
+      "eligibility_notes": "Handles discrimination matters; does not represent tenants in ordinary unlawful-detainer cases.",
+      "verified": true,
+      "last_verified": "2026-08-30"
+    }
   }
 }
