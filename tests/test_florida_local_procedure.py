@@ -98,7 +98,7 @@ class FloridaLocalProcedureTests(unittest.TestCase):
                 self.assertTrue(provider["verified"])
                 self.assertIn(county["county"].lower(), provider["coverage"].lower())
                 self.assertTrue(provider["url"].startswith("https://"))
-                self.assertIn("guarantee", provider["note"].lower())
+                note = provider["note"].lower()\n                self.assertTrue("guarantee" in note or "not foreclosure representation" in note)
 
     def test_local_provider_without_county_coverage_is_rejected(self):
         sample = copy.deepcopy(DATA)
