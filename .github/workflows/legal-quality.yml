@@ -2,7 +2,7 @@ name: Legal Content Quality
 
 on:
   push:
-    branches: [main, legal-accuracy-foundation, veteran-emergency-medical-rights, phase2-legal-qa-hardening, phase3-procedural-depth, phase4-state-housing-depth, phase4-state-schema, phase5-california-housing, phase5-california-foreclosure]
+    branches: [main, legal-accuracy-foundation, veteran-emergency-medical-rights, phase2-legal-qa-hardening, phase3-procedural-depth, phase4-state-housing-depth, phase4-state-schema, phase5-california-housing, phase5-california-foreclosure, phase5-california-foreclosure-hardening]
   pull_request:
     branches: [main]
 
@@ -39,5 +39,7 @@ jobs:
         run: python -m unittest tests.test_california_foreclosure
       - name: State data semantic validator
         run: python scripts/validate_state_data.py
+      - name: California foreclosure semantic validator
+        run: python scripts/validate_california_foreclosure.py
       - name: Legal language review scan
         run: python tests/test_legal_language.py
