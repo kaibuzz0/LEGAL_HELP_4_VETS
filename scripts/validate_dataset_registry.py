@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data" / "datasets.json"
 STATE_DIR = ROOT / "data" / "states"
 EXCLUDED_STATE_FILES = {"schema.json", "_template.json"}
-KNOWN_SUBJECT_FILES = {ROOT / "data" / "california-foreclosure.json"}
+SUBJECT_FILE_PATTERNS = ("*-foreclosure.json", "*-local-procedure.json")
 LEGACY_STATE_DATASET_IDS = {"texas-housing"}
 
 
@@ -20,7 +20,7 @@ def load_registry() -> dict:
 
 def production_legal_files() -> set[Path]:
     files = {p.resolve() for p in STATE_DIR.glob("*.json") if p.name not in EXCLUDED_STATE_FILES}
-    files.update(p.resolve() for p in KNOWN_SUBJECT_FILES if p.exists())
+    for pattern in SUBJECT_FILE_PATTERNS:\n        files.update(p.resolve() for p in (ROOT / "data").glob(pattern) if p.exists())
     return files
 
 
