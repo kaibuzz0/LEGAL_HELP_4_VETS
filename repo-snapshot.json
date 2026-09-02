@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T03:45:16Z",
-  "source_commit": "55632f362a8e3ebde8ff67305713380fff1f33d4",
+  "generated_at": "2026-09-02T16:15:34Z",
+  "source_commit": "5d500fa701e8f9c37a606fd05b9aded459628b04",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 87,
-    "python_files": 11,
+    "tracked_files": 89,
+    "python_files": 12,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 9
+    "test_files": 10
   },
   "repository_tree": {
-    "total_files": 87,
+    "total_files": 89,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -148,7 +148,7 @@
         "path": "data",
         "name": "data",
         "depth": 1,
-        "file_count": 9
+        "file_count": 10
       },
       {
         "path": "data/states",
@@ -172,7 +172,7 @@
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 10
+        "file_count": 11
       }
     ],
     "files": [
@@ -397,6 +397,11 @@
         "extension": ".html"
       },
       {
+        "path": "data/california-foreclosure.json",
+        "name": "california-foreclosure.json",
+        "extension": ".json"
+      },
+      {
         "path": "data/housing-federal.json",
         "name": "housing-federal.json",
         "extension": ".json"
@@ -552,6 +557,11 @@
         "extension": ".py"
       },
       {
+        "path": "tests/test_california_foreclosure.py",
+        "name": "test_california_foreclosure.py",
+        "extension": ".py"
+      },
+      {
         "path": "tests/test_california_housing.py",
         "name": "test_california_housing.py",
         "extension": ".py"
@@ -624,6 +634,34 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "5d500fa701e8f9c37a606fd05b9aded459628b04",
+      "type": "commit",
+      "title": "Merge pull request #18 from kaibuzz0/phase5-california-foreclosure",
+      "timestamp": "2026-09-02T11:15:24-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5d500fa701e8f9c37a606fd05b9aded459628b04"
+    },
+    {
+      "id": "9bce72cf21fdac92b8e1921d6939168dacedf292",
+      "type": "commit",
+      "title": "Run California foreclosure tests in legal QA",
+      "timestamp": "2026-09-02T11:15:13-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9bce72cf21fdac92b8e1921d6939168dacedf292"
+    },
+    {
+      "id": "5e229f15143e257cfed3de2ddb1de73acd387d3a",
+      "type": "commit",
+      "title": "Add California foreclosure regression tests",
+      "timestamp": "2026-09-02T11:15:03-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5e229f15143e257cfed3de2ddb1de73acd387d3a"
+    },
+    {
+      "id": "530f489b70853919a8b220e636dff61e8a74a79d",
+      "type": "commit",
+      "title": "Add California foreclosure procedural layer",
+      "timestamp": "2026-09-02T11:14:54-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/530f489b70853919a8b220e636dff61e8a74a79d"
+    },
+    {
       "id": "55632f362a8e3ebde8ff67305713380fff1f33d4",
       "type": "commit",
       "title": "Merge pull request #17 from kaibuzz0/phase5-california-housing",
@@ -664,34 +702,6 @@
       "title": "Advance blank state template to schema 1.2",
       "timestamp": "2026-08-30T22:33:31-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/060dc06b3f7268c0f252179abda5a6e9622fa5ec"
-    },
-    {
-      "id": "e26b67d181e5d46eacf5b0baad5da2a75a7ba1e8",
-      "type": "commit",
-      "title": "Document schema versioning and hardened invariants",
-      "timestamp": "2026-08-30T22:33:24-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/e26b67d181e5d46eacf5b0baad5da2a75a7ba1e8"
-    },
-    {
-      "id": "b1c94b41083a3062b03c290b1aba645340221f25",
-      "type": "commit",
-      "title": "Add adversarial legal-data validator tests",
-      "timestamp": "2026-08-30T22:33:01-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b1c94b41083a3062b03c290b1aba645340221f25"
-    },
-    {
-      "id": "ddae66dafbab10cbad07dcc74faaf82b124d6c1d",
-      "type": "commit",
-      "title": "Extend state schema for legal provenance and overlays",
-      "timestamp": "2026-08-30T22:32:40-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ddae66dafbab10cbad07dcc74faaf82b124d6c1d"
-    },
-    {
-      "id": "5b75a01259192f3677bd38b23b84ee1bc4e177b2",
-      "type": "commit",
-      "title": "Harden state legal semantic validator",
-      "timestamp": "2026-08-30T22:32:20-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5b75a01259192f3677bd38b23b84ee1bc4e177b2"
     }
   ],
   "links": [
