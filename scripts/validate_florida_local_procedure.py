@@ -157,6 +157,36 @@ def validate(data: dict) -> list[str]:
     foreclosure = json.loads(FORECLOSURE.read_text(encoding="utf-8"))
     housing = json.loads(HOUSING.read_text(encoding="utf-8"))
     valid_resources = set(foreclosure.get("resources", {})) | set(housing.get("resources", {}))
+    foreclosure_route_ids = set(foreclosure.get("routes", {}))
+    housing_route_ids = set(housing.get("document_routes", {}))
+    federal_ids = {x.get("id") for x in json.loads((ROOT / "data" / "housing-federal.json").read_text(encoding="utf-8")).get("overlays", [])}
+
+    cross_ids = []
+    for link in data.get("cross_layer_routes", []):
+        lid = link.get("id", "<missing-link>")
+        cross_ids.append(lid)
+        route_id = link.get("foreclosure_route")
+        if route_id not in foreclosure_route_ids:
+            errors.append(f"{lid}: foreclosure route does not resolve: {route_id}")
+        for route_id in link.get("housing_routes", []):
+            if route_id not in housing_route_ids:
+                errors.append(f"{lid}: housing route does not resolve: {route_id}")
+        for overlay in link.get("federal_overlays", []):
+            if overlay not in federal_ids:
+                errors.append(f"{lid}: federal overlay does not resolve: {overlay}")
+        if link.get("local_section") not in {"eviction", "foreclosure", "writ_execution"}:
+            errors.append(f"{lid}: invalid local section")
+        if link.get("provider_routing") is not True:
+            errors.append(f"{lid}: post-sale cross-layer route must preserve provider routing")
+        classification = link.get("occupant_classification")
+        if classification == "former_owner" and "ptfa" in link.get("federal_overlays", []):
+            errors.append(f"{lid}: former owner cannot automatically receive PTFA")
+        if classification == "unknown" and link.get("housing_routes"):
+            errors.append(f"{lid}: unknown occupant cannot be assigned housing rights before classification")
+
+    if len(set(cross_ids)) != len(cross_ids) or any(not x for x in cross_ids):
+        errors.append("cross-layer route IDs must be present and unique")
+
     for key, county_data in counties.items():
         for rid in county_data.get("providers", []):
             if rid not in valid_resources:
