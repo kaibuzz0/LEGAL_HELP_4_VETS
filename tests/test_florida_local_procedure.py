@@ -90,6 +90,21 @@ class FloridaLocalProcedureTests(unittest.TestCase):
         for county in DATA["counties"].values():
             self.assertTrue(county["providers"])
 
+    def test_local_veteran_providers_have_explicit_county_coverage(self):
+        for county in DATA["counties"].values():
+            self.assertTrue(county["local_providers"])
+            for provider in county["local_providers"]:
+                self.assertTrue(provider["official"])
+                self.assertTrue(provider["verified"])
+                self.assertIn(county["county"].lower(), provider["coverage"].lower())
+                self.assertTrue(provider["url"].startswith("https://"))
+                self.assertIn("guarantee", provider["note"].lower())
+
+    def test_local_provider_without_county_coverage_is_rejected(self):
+        sample = copy.deepcopy(DATA)
+        sample["counties"]["duval"]["local_providers"][0]["coverage"] = "Florida"
+        self.assertTrue(any("coverage must explicitly name the county" in e for e in validate(sample)))
+
 
 if __name__ == "__main__":
     unittest.main()
