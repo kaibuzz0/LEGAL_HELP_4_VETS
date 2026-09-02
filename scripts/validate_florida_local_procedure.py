@@ -32,9 +32,9 @@ SOURCE_TYPES = {
 }
 LEGAL_LOCAL_TYPES = {"local_court_rule", "administrative_order", "local_form_requirement"}
 HOSTS = {
-    "Hillsborough": {"hillsclerk.com", "www.hillsclerk.com", "teamhcso.com", "www.teamhcso.com", "fljud13.org", "www.fljud13.org"},
-    "Orange": {"myorangeclerk.com", "www.myorangeclerk.com", "ocso.com", "www.ocso.com", "ninthcircuit.org", "www.ninthcircuit.org"},
-    "Duval": {"duvalclerk.com", "www.duvalclerk.com", "jaxsheriff.org", "www.jaxsheriff.org", "jud4.org", "www.jud4.org"},
+    "Hillsborough": {"hillsclerk.com", "www.hillsclerk.com", "teamhcso.com", "www.teamhcso.com", "fljud13.org", "www.fljud13.org", "hcfl.gov", "www.hcfl.gov"},
+    "Orange": {"myorangeclerk.com", "www.myorangeclerk.com", "ocso.com", "www.ocso.com", "ninthcircuit.org", "www.ninthcircuit.org", "orangecountyfl.net", "www.orangecountyfl.net"},
+    "Duval": {"duvalclerk.com", "www.duvalclerk.com", "jaxsheriff.org", "www.jaxsheriff.org", "jud4.org", "www.jud4.org", "jacksonville.gov", "www.jacksonville.gov"},
 }
 
 
@@ -161,6 +161,25 @@ def validate(data: dict) -> list[str]:
         for rid in county_data.get("providers", []):
             if rid not in valid_resources:
                 errors.append(f"{key}: unknown provider routing ID {rid}")
+
+        for provider in county_data.get("local_providers", []):
+            pid = provider.get("id", "<missing-provider>")
+            if provider.get("official") is not True or provider.get("verified") is not True:
+                errors.append(f"{key}:{pid}: local provider must be official and verified")
+            purl = provider.get("url")
+            if not https(purl):
+                errors.append(f"{key}:{pid}: local provider URL must be HTTPS")
+            elif urlparse(purl).netloc.lower() not in HOSTS[county]:
+                errors.append(f"{key}:{pid}: local provider must use an official county/city host")
+            if county.lower() not in (provider.get("coverage") or "").lower():
+                errors.append(f"{key}:{pid}: local provider coverage must explicitly name the county")
+            try:
+                datetime.strptime(provider.get("last_verified", ""), "%Y-%m-%d")
+            except ValueError:
+                errors.append(f"{key}:{pid}: malformed provider verification date")
+            note = (provider.get("note") or "").lower()
+            if "guarantee" not in note and "not foreclosure representation" not in note:
+                errors.append(f"{key}:{pid}: provider note must avoid implying guaranteed legal/housing assistance")
 
     return errors
 
