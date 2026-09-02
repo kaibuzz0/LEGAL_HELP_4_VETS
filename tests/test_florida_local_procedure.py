@@ -105,6 +105,32 @@ class FloridaLocalProcedureTests(unittest.TestCase):
         sample["counties"]["duval"]["local_providers"][0]["coverage"] = "Florida"
         self.assertTrue(any("coverage must explicitly name the county" in e for e in validate(sample)))
 
+    def test_cross_layer_routes_resolve_and_preserve_classification(self):
+        links = {x["id"]: x for x in DATA["cross_layer_routes"]}
+        self.assertIn("former-owner-possession", links)
+        self.assertIn("bona-fide-tenant-possession", links)
+        self.assertIn("unknown-occupant-identification", links)
+        self.assertEqual(links["former-owner-possession"]["federal_overlays"], [])
+        self.assertEqual(links["bona-fide-tenant-possession"]["federal_overlays"], ["ptfa"])
+        self.assertEqual(links["unknown-occupant-identification"]["housing_routes"], [])
+
+    def test_cross_layer_unknown_foreclosure_route_is_rejected(self):
+        sample = copy.deepcopy(DATA)
+        sample["cross_layer_routes"][0]["foreclosure_route"] = "not-a-real-route"
+        self.assertTrue(any("foreclosure route does not resolve" in e for e in validate(sample)))
+
+    def test_former_owner_cross_layer_cannot_receive_ptfa(self):
+        sample = copy.deepcopy(DATA)
+        link = next(x for x in sample["cross_layer_routes"] if x["occupant_classification"] == "former_owner")
+        link["federal_overlays"] = ["ptfa"]
+        self.assertTrue(any("former owner cannot automatically receive PTFA" in e for e in validate(sample)))
+
+    def test_unknown_occupant_cannot_receive_housing_route_early(self):
+        sample = copy.deepcopy(DATA)
+        link = next(x for x in sample["cross_layer_routes"] if x["occupant_classification"] == "unknown")
+        link["housing_routes"] = ["ptfa_tenant_after_foreclosure"]
+        self.assertTrue(any("unknown occupant cannot be assigned" in e for e in validate(sample)))
+
 
 if __name__ == "__main__":
     unittest.main()
