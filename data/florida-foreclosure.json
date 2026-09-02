@@ -1,29 +1,585 @@
 {
-  "dataset_id":"florida-foreclosure",
-  "schema_version":"1.0",
-  "state":"Florida",
-  "state_code":"FL",
-  "subject":"housing_foreclosure",
-  "status":"partially_verified",
-  "last_verified":"2026-09-02",
-  "authorities":[
-    {"id":"fl-702-01","citation":"Fla. Stat. § 702.01","title":"Equity","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.01.html","supports":["Florida mortgages are foreclosed in equity; mortgage foreclosure is a court proceeding rather than California-style nonjudicial trustee-sale procedure."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-702-015","citation":"Fla. Stat. § 702.015","title":"Elements of complaint; lost, destroyed, or stolen note affidavit","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.015.html","supports":["Covered residential foreclosure complaints must contain specified allegations concerning plaintiff status and note enforcement, with additional requirements when the note is lost, destroyed, or stolen."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-702-07","citation":"Fla. Stat. § 702.07","title":"Power to set aside foreclosure decrees before sale","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.07.html","supports":["Florida law recognizes judicial authority under the statute to set aside a foreclosure decree before the foreclosure sale; this is not an unconditional homeowner right to cancel a sale."],"last_verified":"2026-09-02","status":"verified"},
-    {"id":"fl-702-10","citation":"Fla. Stat. § 702.10","title":"Order to show cause; entry of final judgment of foreclosure; payment during foreclosure","authority_type":"statute","jurisdiction":"Florida","source_url":"https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.10.html","supports":["A lienholder may request an order to show cause; the statute creates a distinct expedited hearing procedure with its own service and hearing conditions, separate from ordinary complaint response procedure."],"last_verified":"2026-09-02","status":"verified"}
+  "dataset_id": "florida-foreclosure",
+  "schema_version": "1.0",
+  "state": "Florida",
+  "state_code": "FL",
+  "subject": "housing_foreclosure",
+  "status": "partially_verified",
+  "last_verified": "2026-09-02",
+  "authorities": [
+    {
+      "id": "fl-702-01",
+      "citation": "Fla. Stat. § 702.01",
+      "title": "Equity",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.01.html",
+      "supports": [
+        "Florida mortgages are foreclosed in equity; mortgage foreclosure is a court proceeding rather than California-style nonjudicial trustee-sale procedure."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-702-015",
+      "citation": "Fla. Stat. § 702.015",
+      "title": "Elements of complaint; lost, destroyed, or stolen note affidavit",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.015.html",
+      "supports": [
+        "Covered residential foreclosure complaints must contain specified allegations concerning plaintiff status and note enforcement, with additional requirements when the note is lost, destroyed, or stolen."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-702-07",
+      "citation": "Fla. Stat. § 702.07",
+      "title": "Power to set aside foreclosure decrees before sale",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.07.html",
+      "supports": [
+        "Florida law recognizes judicial authority under the statute to set aside a foreclosure decree before the foreclosure sale; this is not an unconditional homeowner right to cancel a sale."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-702-10",
+      "citation": "Fla. Stat. § 702.10",
+      "title": "Order to show cause; entry of final judgment of foreclosure; payment during foreclosure",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0702%2FSections%2F0702.10.html",
+      "supports": [
+        "Section 702.10 creates distinct show-cause procedures. For final-judgment show cause, the hearing timing depends on statutory service-related conditions rather than the ordinary complaint-answer clock; subsection (2) creates a separate payment/vacate show-cause track and excludes owner-occupied residential real estate from that subsection."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-r-civ-p-1-140",
+      "citation": "Fla. R. Civ. P. 1.140(a)(1)",
+      "title": "Defenses — time to serve answer",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/04/Civil-Procedure-Rules-04-01-26.pdf",
+      "supports": [
+        "Current Rule 1.140(a)(1), updated through April 1, 2026, requires a defendant to serve an answer within 20 days after service of original process and the initial pleading unless a Florida statute prescribes a different time."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-r-gen-prac-2-514",
+      "citation": "Fla. R. Gen. Prac. & Jud. Admin. 2.514",
+      "title": "Computing and Extending Time",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2025/12/2026_07-JAN-Florida-Rules-of-General-Practice-and-Judicial-Administration-1-1-2026-1.pdf",
+      "supports": [
+        "Rule 2.514 supplies the current statewide computation method for procedural, local-rule, court-order, or statutory periods that do not specify their own computation method."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-r-civ-p-1-510",
+      "citation": "Fla. R. Civ. P. 1.510",
+      "title": "Summary Judgment",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://acis.flcourts.gov/portal/court/68f021c4-6a44-4735-9a76-5360b2e8af13/case/6D267BEB-7836-4C42-8FA1-0C27E21C67C7",
+      "supports": [
+        "For motions governed by the current Rule 1.510 amendments effective January 1, 2025, a response is due no later than 40 days after service of the summary-judgment motion and a hearing must be set at least 10 days after the response deadline, subject to stipulation or court order and case-management deadlines."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-45-031",
+      "citation": "Fla. Stat. § 45.031",
+      "title": "Judicial sales procedure",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0045%2FSections%2F0045.031.html",
+      "supports": [
+        "When the court orders use of §45.031, judicial sale, certificate of sale, sale objections, certificate of title, confirmation, and title passage are distinct events; objections to sale are filed within 10 days after filing of the certificate of sale, and if no objections are filed the clerk files the certificate of title, upon which the sale is confirmed and title passes."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-45-0315",
+      "citation": "Fla. Stat. § 45.0315",
+      "title": "Right of redemption",
+      "authority_type": "statute",
+      "jurisdiction": "Florida",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm/ch0697/index.cfm?App_mode=Display_Statute&URL=0000-0099%2F0045%2FSections%2F0045.0315.html",
+      "supports": [
+        "The mortgagor or subordinate-interest holder may redeem before the later of filing of the certificate of sale or the time specified in the foreclosure judgment, order, or decree, subject to the statute's payment/tender requirements; this is an event-based cutoff rather than a generic fixed-days-after-sale rule."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    }
   ],
-  "routes":{
-    "mortgage_default_letter":{"id":"mortgage_default_letter","label":"I RECEIVED A MORTGAGE DEFAULT / ACCELERATION LETTER","status":"unverified","description":"Pre-suit mortgage default and acceleration requirements can depend on the loan documents, servicing law, and loan program. No generic Florida clock is inferred here.","authorities":[],"federal_overlays":["regulation-x-mortgage-servicing","va-home-loan"],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "foreclosure_complaint":{"id":"foreclosure_complaint","label":"I WAS SERVED WITH A FORECLOSURE COMPLAINT","status":"partially_verified","description":"Florida mortgage foreclosure is a judicial action. Complaint-content requirements are verified, but the ordinary response clock remains null until current civil-rule service and computation authority is fully traced.","authorities":["fl-702-01","fl-702-015"],"federal_overlays":["regulation-x-mortgage-servicing","scra-foreclosure","va-home-loan","bankruptcy-stay"],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "order_to_show_cause":{"id":"order_to_show_cause","label":"I RECEIVED AN ORDER TO SHOW CAUSE","status":"partially_verified","description":"Section 702.10 creates a distinct show-cause procedure. It is not treated as identical to ordinary complaint response or summary judgment.","authorities":["fl-702-10"],"federal_overlays":[],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "summary_judgment":{"id":"summary_judgment","label":"A MOTION FOR SUMMARY JUDGMENT WAS FILED","status":"unverified","description":"Summary judgment is a separate litigation stage. No deadline is published until current Florida civil-rule timing is verified against the actual event and service method.","authorities":[],"federal_overlays":[],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "final_judgment":{"id":"final_judgment","label":"A FINAL JUDGMENT OF FORECLOSURE WAS ENTERED","status":"partially_verified","description":"Final judgment is distinct from judicial sale, certificate of sale, certificate of title, appeal, stay, and physical possession.","authorities":["fl-702-01","fl-702-07"],"federal_overlays":[],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "judicial_sale":{"id":"judicial_sale","label":"A FORECLOSURE SALE IS SCHEDULED","status":"unverified","description":"Judicial sale procedure requires separate Chapter 45/Chapter 702/civil-rule review. No sale, objection, title, or redemption clock is guessed.","authorities":[],"federal_overlays":["regulation-x-mortgage-servicing","scra-foreclosure","bankruptcy-stay"],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "post_sale":{"id":"post_sale","label":"THE PROPERTY WAS SOLD / CERTIFICATE PROCEDURE IS PENDING","status":"unverified","description":"Sale, certificate of sale, objections, certificate of title, redemption cutoff, and possession remain separate events pending primary-authority review.","authorities":[],"federal_overlays":[],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"},
-    "post_sale_possession":{"id":"post_sale_possession","label":"I RECEIVED POSSESSION PAPERS AFTER FORECLOSURE","status":"unverified","description":"Former owner, tenant, bona fide tenant, and other occupant categories must be established before post-sale possession rules are rendered.","authorities":[],"federal_overlays":["ptfa"],"immediate_clock":null,"other_clocks":[],"exceptions":[],"last_verified":"2026-09-02"}
+  "routes": {
+    "mortgage_default_letter": {
+      "id": "mortgage_default_letter",
+      "label": "I RECEIVED A MORTGAGE DEFAULT / ACCELERATION LETTER",
+      "status": "partially_verified",
+      "description": "Pre-suit default and acceleration requirements may arise from the note/mortgage, servicer law, federal servicing rules, and loan program. No generic Florida pre-suit clock is inferred.",
+      "authorities": [],
+      "federal_overlays": [
+        "reg-x-early-intervention",
+        "reg-x-continuity",
+        "reg-x-loss-mitigation",
+        "scra-mortgage",
+        "va-home-loan",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "The loan documents and federal servicing coverage matter; VA assistance or Regulation X does not automatically stop a Florida court foreclosure."
+      ],
+      "legal_help": [
+        "hud_housing_counseling",
+        "va_home_loan",
+        "florida_bar_lrs"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "foreclosure_complaint": {
+      "id": "foreclosure_complaint",
+      "label": "I WAS SERVED WITH A FORECLOSURE COMPLAINT",
+      "status": "verified",
+      "description": "Florida mortgage foreclosure is a judicial action. For an ordinary foreclosure complaint, the current civil-rule answer clock is independent from Chapter 83's five-day eviction procedure.",
+      "authorities": [
+        "fl-702-01",
+        "fl-702-015",
+        "fl-r-civ-p-1-140",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [
+        "reg-x-early-intervention",
+        "reg-x-continuity",
+        "reg-x-loss-mitigation",
+        "scra-mortgage",
+        "va-home-loan",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": {
+        "label": "ordinary foreclosure answer period",
+        "value": 20,
+        "unit": "days_computed_under_fla_r_gen_prac_2_514",
+        "trigger": "service of original process and the initial foreclosure pleading on the defendant",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "Current Fla. R. Civ. P. 1.140(a)(1) generally requires an answer within 20 days after service of original process and the initial pleading unless a Florida statute prescribes a different time; compute the period under the governing Florida time rule and follow any controlling court order or case-specific paper."
+      },
+      "other_clocks": [],
+      "exceptions": [
+        "This is not the Chapter 83 eviction five-day response period.",
+        "A statute can prescribe a different time; actual summons, service, and court orders must be reviewed.",
+        "Complaint pleading requirements do not make every defect automatically case-dispositive."
+      ],
+      "legal_help": [
+        "florida_courts_self_help",
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h",
+        "va_home_loan"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "order_to_show_cause": {
+      "id": "order_to_show_cause",
+      "label": "I RECEIVED AN ORDER TO SHOW CAUSE",
+      "status": "verified",
+      "description": "Section 702.10 is an expedited, court-controlled procedure separate from the ordinary Rule 1.140 answer deadline and separate from summary judgment. The final-judgment show-cause hearing uses statutory later-of timing tied to service; subsection (2) contains a separate payment/vacate track.",
+      "authorities": [
+        "fl-702-10"
+      ],
+      "federal_overlays": [
+        "scra-mortgage",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "No single generic countdown is published because the court-set hearing depends on the applicable subsection and service events.",
+        "Under §702.10(2), the payment/vacate show-cause procedure does not apply to owner-occupied residential real estate.",
+        "Failure to appear or respond can have serious consequences, but final judgment still depends on the statutory and court findings."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "summary_judgment": {
+      "id": "summary_judgment",
+      "label": "A MOTION FOR SUMMARY JUDGMENT WAS FILED",
+      "status": "verified",
+      "description": "Current Florida Rule 1.510 creates a separate response/hearing schedule for summary judgment. It is not the foreclosure complaint answer clock.",
+      "authorities": [
+        "fl-r-civ-p-1-510",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [
+        "scra-mortgage",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": {
+        "label": "summary-judgment response period",
+        "value": 40,
+        "unit": "days_after_service_computed_under_governing_florida_time_rule",
+        "trigger": "service of the motion for summary judgment",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "Under current Rule 1.510, a response to a summary-judgment motion is due no later than 40 days after service of the motion, subject to court-ordered case-management deadlines and the governing computation rule."
+      },
+      "other_clocks": [
+        {
+          "label": "minimum hearing spacing after response deadline",
+          "value": 10,
+          "unit": "calendar_days_or_governing_rule_computation",
+          "trigger": "deadline for serving the summary-judgment response",
+          "computation_authority": "fl-r-civ-p-1-510",
+          "verified": true,
+          "display": "The summary-judgment hearing must be set at least 10 days after the response deadline, unless the parties stipulate or the court orders otherwise as permitted by the rule."
+        }
+      ],
+      "exceptions": [
+        "The actual case-management order and hearing notice must be reviewed.",
+        "This route explains procedure; it does not prescribe individualized litigation strategy."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "final_judgment": {
+      "id": "final_judgment",
+      "label": "A FINAL JUDGMENT OF FORECLOSURE WAS ENTERED",
+      "status": "verified",
+      "description": "A final judgment determines the foreclosure relief and may set sale terms, but judgment is not the sale, appeal is not an automatic stay, and redemption has its own statutory cutoff.",
+      "authorities": [
+        "fl-702-01",
+        "fl-702-07",
+        "fl-45-031",
+        "fl-45-0315"
+      ],
+      "federal_overlays": [
+        "scra-mortgage",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Read the judgment for the property, adjudged amount, sale date, court, and any time the judgment expressly fixes for redemption.",
+        "Do not treat an appeal as automatically staying enforcement; stay issues require separate authority and case review."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "hud_housing_counseling",
+        "va_home_loan"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "judicial_sale": {
+      "id": "judicial_sale",
+      "label": "A FORECLOSURE SALE IS SCHEDULED / WAS CONDUCTED",
+      "status": "verified",
+      "description": "When §45.031 is used, the judicial sale is one event in a court-controlled chain. The sale is followed by a certificate-of-sale event and does not itself equal passage of title or physical removal.",
+      "authorities": [
+        "fl-45-031"
+      ],
+      "federal_overlays": [
+        "reg-x-loss-mitigation",
+        "scra-mortgage",
+        "bankruptcy-stay",
+        "va-home-loan"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "The final judgment and sale notice control the scheduled sale event; this route does not publish a generalized sale-scheduling countdown.",
+        "Sale, certificate of sale, objections, certificate of title, redemption, and possession remain distinct."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "hud_housing_counseling",
+        "va_home_loan"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "certificate_of_sale": {
+      "id": "certificate_of_sale",
+      "label": "A CERTIFICATE OF SALE WAS FILED",
+      "status": "verified",
+      "description": "After the judicial sale, the clerk promptly files a certificate of sale. Its filing date is a distinct legal event that triggers the statutory sale-objection period and is also one branch of Florida's event-based redemption cutoff.",
+      "authorities": [
+        "fl-45-031",
+        "fl-45-0315"
+      ],
+      "federal_overlays": [],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Record the actual filing date from the docket; do not substitute the auction date if different."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "sale_objection": {
+      "id": "sale_objection",
+      "label": "I NEED TO UNDERSTAND THE SALE-OBJECTION PERIOD",
+      "status": "verified",
+      "description": "Section 45.031 ties objections to the filing of the certificate of sale—not simply to the auction time.",
+      "authorities": [
+        "fl-45-031",
+        "fl-r-gen-prac-2-514"
+      ],
+      "federal_overlays": [],
+      "immediate_clock": {
+        "label": "objection to judicial sale",
+        "value": 10,
+        "unit": "days_computed_under_fla_r_gen_prac_2_514",
+        "trigger": "filing of the certificate of sale by the clerk",
+        "computation_authority": "fl-r-gen-prac-2-514",
+        "verified": true,
+        "display": "If §45.031 governs, objections to the sale are filed within 10 days after the clerk files the certificate of sale; use the certificate filing date and the governing Florida time-computation rule."
+      },
+      "other_clocks": [],
+      "exceptions": [
+        "An objection to sale is not an appeal and is not the statutory right of redemption.",
+        "The exact grounds and procedural vehicle are legal issues; this route does not give individualized objection strategy."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "certificate_of_title": {
+      "id": "certificate_of_title",
+      "label": "A CERTIFICATE OF TITLE WAS FILED / IS PENDING",
+      "status": "verified",
+      "description": "Under §45.031, if no objections are filed within the statutory objection period, the clerk files the certificate of title; upon filing, the sale is confirmed and title passes to the purchaser.",
+      "authorities": [
+        "fl-45-031"
+      ],
+      "federal_overlays": [],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Certificate of sale and certificate of title are different documents and legal events.",
+        "Passage of title does not by itself authorize an extra-judicial physical lockout; possession procedure and occupant status remain separate."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "redemption": {
+      "id": "redemption",
+      "label": "I NEED TO UNDERSTAND THE RIGHT OF REDEMPTION",
+      "status": "verified",
+      "description": "Florida's right of redemption is event-based, not a generic number of days after sale. Under §45.0315 the cutoff is the later of filing of the certificate of sale or a different time specified in the foreclosure judgment, order, or decree, subject to the statutory payment/tender requirements.",
+      "authorities": [
+        "fl-45-0315"
+      ],
+      "federal_overlays": [],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Redemption is not the same as objecting to sale, reinstatement, modification, payoff negotiations, appeal, or vacating a judgment.",
+        "Because the controlling cutoff can depend on the judgment/order, no fixed numeric clock is published."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "hud_housing_counseling",
+        "va_home_loan"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_former_owner": {
+      "id": "post_sale_former_owner",
+      "label": "I WAS THE BORROWER/OWNER AND TITLE HAS PASSED",
+      "status": "partially_verified",
+      "description": "Former-owner possession after foreclosure is legally distinct from bona fide tenant protection. The certificate of title does not justify a private extra-judicial lockout merely by itself; the exact post-title possession process and any clock remain withheld pending separate authority review.",
+      "authorities": [
+        "fl-45-031"
+      ],
+      "federal_overlays": [
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Do not apply PTFA's bona fide tenant protections to the former mortgagor solely because the former owner remains in occupancy.",
+        "No generic possession clock is published."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_bona_fide_tenant": {
+      "id": "post_sale_bona_fide_tenant",
+      "label": "I AM A BONA FIDE TENANT AFTER FORECLOSURE",
+      "status": "partially_verified",
+      "description": "A qualifying bona fide tenant requires separate state/federal tenant-protection analysis after foreclosure. The foreclosure dataset routes to the Florida housing layer rather than converting the tenant protection into a mortgage-foreclosure rule.",
+      "authorities": [],
+      "federal_overlays": [
+        "ptfa"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Bona fide tenant status must be established; the former mortgagor is not automatically a qualifying tenant.",
+        "The Florida §83.5615 route and federal PTFA are separate provenance layers.",
+        "Exact possession procedure remains separate from the 90-day tenant notice protection."
+      ],
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_other_occupant": {
+      "id": "post_sale_other_occupant",
+      "label": "I AM ANOTHER / UNKNOWN OCCUPANT AFTER FORECLOSURE",
+      "status": "unverified",
+      "description": "Occupant status must be identified before a post-sale possession rule can be safely rendered. No deadline or tenant protection is inferred from occupancy alone.",
+      "authorities": [],
+      "federal_overlays": [],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Identify whether the occupant is a former owner, bona fide tenant, other tenant, family member, or another category before applying a possession rule."
+      ],
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs"
+      ],
+      "last_verified": "2026-09-02"
+    }
   },
-  "federal_overlays":["regulation-x-mortgage-servicing","scra-foreclosure","va-home-loan","bankruptcy-stay","ptfa"],
-  "resources":{},
-  "cross_dataset_refs":[{"dataset":"florida-housing","purpose":"Post-foreclosure tenant routing and Florida PTFA route."}],
-  "dataset_dependencies":["florida-housing"]
+  "federal_overlays": [
+    "reg-x-early-intervention",
+    "reg-x-continuity",
+    "reg-x-loss-mitigation",
+    "scra-mortgage",
+    "va-home-loan",
+    "bankruptcy-stay",
+    "ptfa"
+  ],
+  "resources": {
+    "florida_courts_self_help": {
+      "name": "Florida Courts Self-Help Information",
+      "type": "legal_information",
+      "url": "https://www.flcourts.gov/Self-Help-Information",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Statewide procedural/self-help routing; not representation."
+    },
+    "florida_bar_lrs": {
+      "name": "The Florida Bar Lawyer Referral Service",
+      "type": "referral",
+      "url": "https://www.floridabar.org/public/lrs/",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Referral service; representation and fees are not guaranteed.",
+      "phone": "800-342-8011"
+    },
+    "florida_legal_aid": {
+      "name": "Florida Courts Legal Aid Locator",
+      "type": "legal_aid",
+      "url": "https://www.flcourts.gov/resources-and-services/court-improvement/family-law-self-help-information/legal-aid.stml",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Statewide legal-aid locator; eligibility and representation vary."
+    },
+    "fdva": {
+      "name": "Florida Department of Veterans' Affairs",
+      "type": "veteran_service_routing",
+      "url": "https://www.floridavets.org/locations/",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Veteran benefits/service routing; does not override foreclosure procedure.",
+      "phone": "727-319-7440"
+    },
+    "fdva_county_vso": {
+      "name": "Florida County Veteran Service Officer Locator",
+      "type": "veteran_service_routing",
+      "url": "https://floridavets.org/locations/county-veterans-service-officers/county-veteran-service-officers/",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "County VSO routing; not foreclosure representation."
+    },
+    "hud_housing_counseling": {
+      "name": "HUD-Approved Housing Counselor Locator",
+      "type": "housing_counseling",
+      "url": "https://www.hud.gov/stat/sfh/housing-counseling",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Housing counseling; not court representation or an automatic stay.",
+      "phone": "800-569-4287"
+    },
+    "va_lsv_h": {
+      "name": "VA Legal Services for Veterans (LSV-H)",
+      "type": "legal_aid_referral",
+      "url": "https://department.va.gov/homeless/legal-services-for-veterans/",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Current grantee routing for eligible veterans experiencing or at risk of homelessness; representation and service availability are not guaranteed."
+    },
+    "va_ssvf": {
+      "name": "VA Supportive Services for Veteran Families (SSVF)",
+      "type": "emergency_housing_assistance",
+      "url": "https://department.va.gov/homeless/supportive-services-for-veteran-families/",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "Homelessness-prevention/rapid-rehousing provider routing; not a legal defense or entitlement."
+    },
+    "va_home_loan": {
+      "name": "VA Help to Avoid Foreclosure / Loan Technician Assistance",
+      "type": "foreclosure_assistance",
+      "url": "https://www.va.gov/housing-assistance/home-loans/trouble-making-payments/",
+      "verified": true,
+      "last_verified": "2026-09-02",
+      "note": "VA-backed loans are generally privately owned/serviced with a VA guaranty. VA assistance is not an automatic Florida foreclosure stay.",
+      "phone": "877-827-3702"
+    }
+  },
+  "cross_dataset_refs": [
+    {
+      "dataset": "florida-housing",
+      "routes": [
+        "ptfa_tenant_after_foreclosure"
+      ],
+      "purpose": "Qualifying bona fide tenant state-law/PTFA routing after foreclosure."
+    }
+  ],
+  "dataset_dependencies": [
+    "florida-housing"
+  ]
 }
