@@ -124,6 +124,13 @@ class FloridaHousingTests(unittest.TestCase):
         self.assertIn("effective upon repeal", joined)
         self.assertIn("federal ptfa overlay", joined)
 
+    def test_current_ptfa_ninety_day_rule_lives_in_federal_overlay(self):
+        federal = json.loads((ROOT / "data" / "housing-federal.json").read_text(encoding="utf-8"))
+        ptfa = next(x for x in federal["overlays"] if x["id"] == "ptfa")
+        self.assertEqual(ptfa["status"], "verified")
+        self.assertIn("90 days", ptfa["rule"])
+        self.assertIn("bona fide", ptfa["warning"].lower())
+
     def test_provider_routing_is_statewide_and_nonpromissory(self):
         required = {
             "florida_courts_self_help",
