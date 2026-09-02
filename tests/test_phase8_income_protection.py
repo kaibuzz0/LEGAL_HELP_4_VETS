@@ -12,6 +12,9 @@ SOURCES_HTML = (ROOT / "sources.html").read_text(encoding="utf-8")
 SOURCES = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))["sources"]
 SOURCE_BY_ID = {s["id"]: s for s in SOURCES}
 
+def plain_html(value: str) -> str:
+    return re.sub(r"<[^>]+>", "", value).lower()
+
 
 class Phase8IncomeProtectionTests(unittest.TestCase):
     def test_userra_has_distinct_return_timing_categories(self):
@@ -56,7 +59,7 @@ class Phase8IncomeProtectionTests(unittest.TestCase):
         self.assertIn("doj does not automatically take every complaint", text)
 
     def test_userra_enforcement_sol_and_reemployment_timing_are_separate(self):
-        text = USERRA.lower()
+        text = plain_html(USERRA)
         self.assertIn("no statute of limitations applies", text)
         self.assertIn("does not eliminate the separate §4312 report/application", text)
 
@@ -90,7 +93,7 @@ class Phase8IncomeProtectionTests(unittest.TestCase):
         self.assertIn("during military service", source)
 
     def test_fdcpa_does_not_treat_every_creditor_as_debt_collector(self):
-        text = MONEY.lower()
+        text = plain_html(MONEY)
         self.assertIn("does not automatically apply to every creditor", text)
         self.assertIn("original creditor", text)
         self.assertIn("covered debt collector", text)
