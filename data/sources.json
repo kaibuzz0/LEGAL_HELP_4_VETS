@@ -257,24 +257,24 @@
     },
     {
       "id": "va-form-21-8940",
-      "claim": "VA Form 21-8940 is used to apply for Individual Unemployability (TDIU).",
+      "claim": "VA Form 21-8940 is the current Veteran's Application for Increased Compensation Based on Unemployability.",
       "source_name": "U.S. Department of Veterans Affairs",
-      "source_url": "https://www.va.gov/find-forms/about-form-21-8940/",
-      "verified_date": "2026-08-10",
-      "status": "verified",
+      "source_url": "https://www.va.gov/forms/21-8940/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2027-02-06",
+      "next_review": "2026-12-01",
       "notes": ""
     },
     {
       "id": "va-form-21-4192",
-      "claim": "VA Form 21-4192 is a request for employment information used in TDIU claims.",
+      "claim": "VA Form 21-4192 is the current Request for Employment Information in Connection with Claim for Disability Benefits used with Individual Unemployability claims.",
       "source_name": "U.S. Department of Veterans Affairs",
-      "source_url": "https://www.va.gov/find-forms/about-form-21-4192/",
-      "verified_date": "2026-08-10",
-      "status": "verified",
+      "source_url": "https://www.va.gov/forms/21-4192/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2027-02-06",
+      "next_review": "2026-12-01",
       "notes": ""
     },
     {
@@ -466,14 +466,14 @@
     },
     {
       "id": "fdcpa-15usc",
-      "claim": "The Fair Debt Collection Practices Act, 15 U.S.C.  1692, gives consumers the right to dispute and validate debt and limits collector conduct.",
-      "source_name": "Consumer Financial Protection Bureau",
-      "source_url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
-      "verified_date": "2026-08-10",
-      "status": "VERIFIED",
+      "claim": "15 U.S.C. § 1692g requires specified validation information from covered debt collectors and gives a consumer a 30-day validation period; a timely written dispute or original-creditor request requires the debt collector to cease collection of the disputed debt until the statutory verification/original-creditor information is mailed.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A1692g%28b%29+edition%3Aprelim%29",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2027-02-06",
-      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "va-form-26-1880",
@@ -488,13 +488,13 @@
     },
     {
       "id": "va-form-21p-527ez",
-      "claim": "VA Form 21P-527EZ is used to apply for Veterans Pension or Survivors Pension.",
+      "claim": "VA Form 21P-527EZ is the current Application for Veterans Pension.",
       "source_name": "U.S. Department of Veterans Affairs",
-      "source_url": "https://www.va.gov/find-forms/about-form-21p-527ez/",
-      "verified_date": "2026-08-10",
-      "status": "verified",
+      "source_url": "https://www.va.gov/forms/21p-527ez/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2027-02-06",
+      "next_review": "2026-12-01",
       "notes": ""
     },
     {
@@ -532,13 +532,13 @@
     },
     {
       "id": "va-form-21-2680",
-      "claim": "VA Form 21-2680 (Examination for Housebound Status or Permanent Need for Regular Aid and Attendance) supports pension or increased disability claims.",
+      "claim": "VA Form 21-2680 is the current Examination for Housebound Status or Permanent Need for Regular Aid and Attendance.",
       "source_name": "U.S. Department of Veterans Affairs",
-      "source_url": "https://www.va.gov/find-forms/about-form-21-2680/",
-      "verified_date": "2026-08-10",
-      "status": "verified",
+      "source_url": "https://www.va.gov/forms/21-2680/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2027-02-06",
+      "next_review": "2026-12-01",
       "notes": ""
     },
     {
@@ -1016,14 +1016,14 @@
     },
     {
       "id": "cfpb-debt-collection",
-      "claim": "The Fair Debt Collection Practices Act gives consumers the right to dispute and validate debt within 30 days of first collection notice.",
+      "claim": "CFPB explains validation notices and the 30-day dispute period for covered debt collectors; a timely written dispute can require collection activity on the disputed amount to pause until verification is provided.",
       "source_name": "Consumer Financial Protection Bureau",
-      "source_url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
-      "verified_date": "2026-08-10",
-      "status": "VERIFIED",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-information-does-a-debt-collector-have-to-give-me-about-the-debt-en-331/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2027-02-06",
-      "notes": "Automated requests to this authoritative site receive HTTP 403; the site is known to be live and accessible to normal users. Status reflects verified authoritative source, not automated reachability."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "career-one-stop-unemployment",
@@ -1335,7 +1335,7 @@
     },
     {
       "id": "scra-50usc-3931",
-      "claim": "50 U.S.C. \u00a7 3931 protects servicemembers against default judgments in civil actions while in military service.",
+      "claim": "50 U.S.C. § 3931 protects servicemembers against default judgments in civil actions while in military service.",
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3931",
       "verified_date": "2026-08-11",
@@ -1346,7 +1346,7 @@
     },
     {
       "id": "scra-50usc-3932",
-      "claim": "50 U.S.C. \u00a7 3932 allows servicemembers to request a stay of civil proceedings when military duties materially affect their ability to appear.",
+      "claim": "50 U.S.C. § 3932 allows servicemembers to request a stay of civil proceedings when military duties materially affect their ability to appear.",
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3932",
       "verified_date": "2026-08-11",
@@ -1357,18 +1357,18 @@
     },
     {
       "id": "scra-50usc-3937",
-      "claim": "50 U.S.C. \u00a7 3937 limits interest rates on debts incurred before military service to 6% per year during active duty and for one year after for home mortgages (post-2021) or during service plus six months post-service for other obligations.",
-      "source_name": "Cornell Law School Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/50/3937",
-      "verified_date": "2026-08-11",
-      "status": "verified_primary",
+      "claim": "50 U.S.C. § 3937 limits qualifying pre-service obligations to 6% interest during military service; qualifying mortgage-type obligations remain capped for one year after service. A servicemember generally must provide written notice and qualifying military-service documentation no later than 180 days after termination or release from military service. Excess interest is forgiven, not deferred.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&path=%2Fprelim%40title50%2Fchapter50&req=granuleid%3AUSC-prelim-title50-section3937",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-09",
+      "next_review": "2026-12-01",
       "notes": ""
     },
     {
       "id": "scra-50usc-3951",
-      "claim": "50 U.S.C. \u00a7 3951 restricts eviction of servicemembers and their dependents from leased premises when monthly rent is below a statutory cap and a court order is obtained.",
+      "claim": "50 U.S.C. § 3951 restricts eviction of servicemembers and their dependents from leased premises when monthly rent is below a statutory cap and a court order is obtained.",
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3951",
       "verified_date": "2026-08-11",
@@ -1379,7 +1379,7 @@
     },
     {
       "id": "scra-50usc-3953",
-      "claim": "50 U.S.C. \u00a7 3953 restricts foreclosure and sale of real property owned by servicemembers before entering military service.",
+      "claim": "50 U.S.C. § 3953 restricts foreclosure and sale of real property owned by servicemembers before entering military service.",
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/50/3953",
       "verified_date": "2026-08-11",
@@ -1401,7 +1401,7 @@
     },
     {
       "id": "fair-housing-42usc-3604",
-      "claim": "42 U.S.C. \u00a7 3604 prohibits discrimination in the sale or rental of housing, including discrimination based on disability, and requires covered housing providers to grant reasonable accommodations when necessary and reasonable.",
+      "claim": "42 U.S.C. § 3604 prohibits discrimination in the sale or rental of housing, including discrimination based on disability, and requires covered housing providers to grant reasonable accommodations when necessary and reasonable.",
       "source_name": "Cornell Law School Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
       "verified_date": "2026-08-11",
@@ -1423,14 +1423,14 @@
     },
     {
       "id": "va-manage-debt",
-      "claim": "VA's Manage Your VA Debt tool allows veterans and service members to review benefit overpayments and copay bills online, make payments, and request help.",
+      "claim": "VA's current Manage VA Debt hub separates benefit overpayments and copay bills, explains dispute and financial-help options, and states that the ordinary waiver request window is one year from the first debt letter or copay bill.",
       "source_name": "U.S. Department of Veterans Affairs",
       "source_url": "https://www.va.gov/manage-va-debt/",
-      "verified_date": "2026-08-11",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "Primary VA hub for debt management. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "va-debtman-about",
@@ -1500,14 +1500,14 @@
     },
     {
       "id": "38-usc-5302",
-      "claim": "38 U.S.C. \u00a7 5302 authorizes the Secretary of Veterans Affairs to waive recovery of certain claims against the United States arising from VA benefit overpayments, subject to conditions such as fault, financial hardship, and equity.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/5302",
-      "verified_date": "2026-08-11",
+      "claim": "Current 38 U.S.C. § 5302 provides a one-year ordinary application period for waiver of recovery of covered VA benefit overpayments, subject to statutory extension where notice was not actually received within a reasonable period; waiver is barred by specified fraud, misrepresentation, or bad-faith conditions.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title38-section5302",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "Primary statutory authority for VA debt waiver. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "treasury-offset-program",
@@ -1544,7 +1544,7 @@
     },
     {
       "id": "38-usc-4301",
-      "claim": "38 U.S.C. \u00a7 4301 states the purposes and sense of Congress for USERRA, including the non-discrimination and prompt reemployment principles.",
+      "claim": "38 U.S.C. § 4301 states the purposes and sense of Congress for USERRA, including the non-discrimination and prompt reemployment principles.",
       "source_name": "U.S. Congress / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/4301",
       "verified_date": "2026-08-11",
@@ -1555,7 +1555,7 @@
     },
     {
       "id": "38-usc-4311",
-      "claim": "38 U.S.C. \u00a7 4311 prohibits discrimination, denial of employment, or adverse employment action against persons because of their membership, application for membership, performance of service, application for service, or obligation to serve in the uniformed services.",
+      "claim": "38 U.S.C. § 4311 prohibits discrimination, denial of employment, or adverse employment action against persons because of their membership, application for membership, performance of service, application for service, or obligation to serve in the uniformed services.",
       "source_name": "U.S. Congress / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/4311",
       "verified_date": "2026-08-11",
@@ -1566,51 +1566,51 @@
     },
     {
       "id": "38-usc-4312",
-      "claim": "38 U.S.C. \u00a7 4312 establishes reemployment rights of persons who leave civilian employment to perform service in the uniformed services, subject to cumulative service limits, notice, and timely return/application.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4312",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4312 establishes USERRA reemployment eligibility, advance-notice rules and exceptions, the cumulative service limit and statutory exceptions, and different report/application timing based on service length and circumstances.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA reemployment rights. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "38-usc-4313",
-      "claim": "38 U.S.C. \u00a7 4313 defines reemployment position and prompt reemployment requirements, including escalator position, seniority, and status principles.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4313",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4313 establishes the priority rules for the reemployment position, including the escalator position and qualification/requalification alternatives.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA reemployment positions. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "38-usc-4316",
-      "claim": "38 U.S.C. \u00a7 4316 establishes rights, benefits, and obligations of persons absent from employment for service in the uniformed services, including treatment with respect to seniority and other rights/benefits.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4316",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4316 addresses seniority and other rights/benefits during and after uniformed service and includes limited just-cause protection after qualifying reemployment.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title38-section4316",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA benefits/seniority. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "38-usc-4317",
-      "claim": "38 U.S.C. \u00a7 4317 provides certain rights with respect to employer health plans during and after military service, including continuation coverage requirements under specified conditions.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4317",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4317 provides health-plan continuation and reinstatement rules, including up to 24 months of continuation coverage subject to statutory conditions and cost rules.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A38+section%3A4317+edition%3Aprelim%29",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA health plans. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "38-usc-4321",
-      "claim": "38 U.S.C. \u00a7 4321 authorizes the Secretary of Labor to provide assistance to persons claiming rights under USERRA, including through DOL VETS.",
+      "claim": "38 U.S.C. § 4321 authorizes the Secretary of Labor to provide assistance to persons claiming rights under USERRA, including through DOL VETS.",
       "source_name": "U.S. Congress / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/4321",
       "verified_date": "2026-08-11",
@@ -1621,7 +1621,7 @@
     },
     {
       "id": "38-usc-4322",
-      "claim": "38 U.S.C. \u00a7 4322 governs enforcement of USERRA employment or reemployment rights through administrative and judicial remedies, including DOL VETS referral to the Department of Justice and private actions.",
+      "claim": "38 U.S.C. § 4322 governs enforcement of USERRA employment or reemployment rights through administrative and judicial remedies, including DOL VETS referral to the Department of Justice and private actions.",
       "source_name": "U.S. Congress / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/4322",
       "verified_date": "2026-08-11",
@@ -1632,14 +1632,14 @@
     },
     {
       "id": "38-usc-4323",
-      "claim": "38 U.S.C. \u00a7 4323 governs enforcement of USERRA rights with respect to State or private employers, including remedies and statutes of limitations.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4323",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4323 governs enforcement against State and private employers, including DOL referral to the Attorney General and private enforcement routes.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA private/state enforcement. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "userra-regulations-29-cfr-100",
@@ -1709,18 +1709,18 @@
     },
     {
       "id": "38-usc-4318",
-      "claim": "38 U.S.C. \u00a7 4318 governs treatment of servicemembers under employer pension benefit plans, including service crediting during military absences.",
-      "source_name": "U.S. Congress / Cornell Legal Information Institute",
-      "source_url": "https://www.law.cornell.edu/uscode/text/38/4318",
-      "verified_date": "2026-08-11",
+      "claim": "38 U.S.C. § 4318 governs pension treatment after qualifying reemployment, including continuous-service credit and employee contribution make-up timing.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title38-section4318",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA pension benefits. Verified 200."
+      "next_review": "2026-12-01",
+      "notes": ""
     },
     {
       "id": "38-usc-4312-five-year",
-      "claim": "38 U.S.C. \u00a7 4312 contains a cumulative five-year limit on the duration of service for which a person has reemployment rights with the same employer, subject to specified exceptions.",
+      "claim": "38 U.S.C. § 4312 contains a cumulative five-year limit on the duration of service for which a person has reemployment rights with the same employer, subject to specified exceptions.",
       "source_name": "U.S. Congress / Cornell Legal Information Institute",
       "source_url": "https://www.law.cornell.edu/uscode/text/38/4312",
       "verified_date": "2026-08-11",
@@ -1728,6 +1728,160 @@
       "authority_level": "PRIMARY_GOVERNMENT",
       "next_review": "2026-11-11",
       "notes": "USERRA cumulative service limit and exceptions. Verified 200."
+    },
+    {
+      "id": "38-cfr-1-963",
+      "claim": "38 C.F.R. § 1.963 implements waiver of covered non-loan-guaranty VA benefit overpayments, including the one-year application period and extension rule for delayed receipt beyond the debtor's control.",
+      "source_name": "Electronic Code of Federal Regulations",
+      "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-1/subpart-B/section-1.963",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "38-cfr-1-911",
+      "claim": "38 C.F.R. § 1.911 distinguishes informal dispute, waiver, waiver hearing, and appeal of the underlying VA decision; these rights may be exercised separately or simultaneously, and collection consequences depend on the applicable offset/collection rules.",
+      "source_name": "Electronic Code of Federal Regulations",
+      "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-1/subpart-B/section-1.911",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "va-options-debt-help",
+      "claim": "VA's current debt-help guidance separates overpayment dispute, waiver, repayment/compromise, and appeal of the benefit or waiver decision; VA states that disputing an overpayment within 30 days of the first debt letter can avoid collection actions while VA decides the dispute.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/resources/options-to-request-help-with-va-debt/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "va-form-5655",
+      "claim": "VA Form 5655 is the current Financial Status Report used for specified waiver, compromise, and longer repayment-plan requests.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/forms/5655/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "va-form-5655-guidance",
+      "claim": "VA explains when a Financial Status Report (VA Form 5655) is required, including waiver, compromise, and repayment plans longer than five years.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/resources/submitting-a-financial-status-report-va-form-5655/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "38-cfr-4-16",
+      "claim": "38 C.F.R. § 4.16 contains the schedular TDIU percentage framework, defines marginal employment concepts, and requires extraschedular consideration/referral for veterans unable to secure and follow substantially gainful employment because of service-connected disabilities who do not meet the percentage standards.",
+      "source_name": "Electronic Code of Federal Regulations",
+      "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-4/subpart-A/section-4.16",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "38-usc-1521",
+      "claim": "38 U.S.C. § 1521 contains statutory Veterans Pension service requirements, including multiple wartime-service pathways; current minimum-active-duty rules must also be considered for later entrants.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=2023&num=0&req=granuleid%3AUSC-2023-title38-section1521",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "va-pension-eligibility",
+      "claim": "VA's current pension eligibility page distinguishes service requirements for Veterans who entered active duty before September 8, 1980 from later minimum-active-duty rules and lists current age/disability, discharge, income, and net-worth conditions.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.va.gov/pension/eligibility/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "va-education-debt",
+      "claim": "VA's current GI Bill overpayment guidance separates school liability for tuition/fee/Yellow Ribbon overpayments from student debts such as housing/books/allowances and routes disputes through the applicable VA education/debt process.",
+      "source_name": "U.S. Department of Veterans Affairs",
+      "source_url": "https://www.benefits.va.gov/gibill/resources/education_resources/debt_info.asp",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "38-usc-4324",
+      "claim": "38 U.S.C. § 4324 governs USERRA enforcement with respect to Federal executive agencies through the Merit Systems Protection Board framework.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "38-usc-4327",
+      "claim": "38 U.S.C. § 4327 provides that no statute of limitations applies to USERRA complaints or claims filed under chapter 43, while separate reemployment report/application timing requirements remain.",
+      "source_name": "U.S. House Office of the Law Revision Counsel",
+      "source_url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title38%2Fpart3%2Fchapter43",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "osc-userra",
+      "claim": "OSC may consider representation before the MSPB for qualifying federal executive agency USERRA complaints after DOL-VETS investigation/referral; private, State, and local employer matters use different enforcement routes.",
+      "source_name": "U.S. Office of Special Counsel",
+      "source_url": "https://www.osc.gov/services/userra/enforcement/",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "doj-userra",
+      "claim": "DOJ may bring USERRA actions against private, State, and local government employers after the DOL-VETS referral process; DOJ is not the universal first-line forum for every USERRA claim.",
+      "source_name": "U.S. Department of Justice",
+      "source_url": "https://www.justice.gov/crt/laws-we-enforce",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
+    },
+    {
+      "id": "doj-scra-6pct",
+      "claim": "DOJ's current SCRA guidance explains the 6% pre-service debt cap, written/documentary notice no later than 180 days after military service ends, forgiveness of excess interest, and mortgage versus nonmortgage duration distinctions.",
+      "source_name": "U.S. Department of Justice",
+      "source_url": "https://www.justice.gov/servicemembers/your-rights-servicemember-6-interest-rate-cap-servicemembers-pre-service-debts",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
     }
   ]
 }
