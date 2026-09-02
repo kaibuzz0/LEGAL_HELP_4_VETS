@@ -33,6 +33,28 @@
       "status": "partially_verified",
       "last_verified": "2026-09-02",
       "cross_dataset_dependencies": ["california-housing"]
+    },
+    {
+      "id": "florida-housing",
+      "state": "FL",
+      "subject": "housing_eviction",
+      "schema_version": "1.2",
+      "path": "data/states/florida.json",
+      "validator": "scripts/validate_state_data.py",
+      "status": "partially_verified",
+      "last_verified": "2026-09-02",
+      "cross_dataset_dependencies": []
+    },
+    {
+      "id": "florida-foreclosure",
+      "state": "FL",
+      "subject": "housing_foreclosure",
+      "schema_version": "1.0",
+      "path": "data/florida-foreclosure.json",
+      "validator": "scripts/validate_florida_foreclosure.py",
+      "status": "partially_verified",
+      "last_verified": "2026-09-02",
+      "cross_dataset_dependencies": ["florida-housing"]
     }
   ]
 }
