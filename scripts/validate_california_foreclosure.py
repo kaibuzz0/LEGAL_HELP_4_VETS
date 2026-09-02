@@ -25,11 +25,15 @@ def validate(data: dict) -> list[str]:
     errors = []
     if data.get("state") != "California" or data.get("layer") != "foreclosure":
         errors.append("dataset must identify California foreclosure layer")
+    if data.get("status") not in ALLOWED_STATUS:
+        errors.append("dataset has invalid status")
+
     authorities = data.get("authorities", [])
     ids = [a.get("id") for a in authorities]
     if len([x for x in ids if x]) != len(set(x for x in ids if x)):
         errors.append("duplicate authority IDs")
     by_id = {a["id"]: a for a in authorities if a.get("id")}
+
     for a in authorities:
         aid = a.get("id", "<missing>")
         if a.get("status") not in ALLOWED_STATUS:
@@ -57,10 +61,20 @@ def validate(data: dict) -> list[str]:
                 errors.append(f"{rid}: unknown authority {ref}")
         if status == "verified" and not refs:
             errors.append(f"{rid}: verified route lacks authority")
-        if status == "verified":
-            for ref in refs:
-                if by_id.get(ref, {}).get("status") != "verified":
-                    errors.append(f"{rid}: verified route uses nonverified authority {ref}")
+        if status == "verified_federal_overlay_only" and not refs:
+            errors.append(f"{rid}: federal-overlay route lacks authority")
+
+        for ref in refs:
+            authority = by_id.get(ref)
+            if not authority:
+                continue
+            if status == "verified" and authority.get("status") != "verified":
+                errors.append(f"{rid}: verified route uses nonverified authority {ref}")
+            if status == "verified" and authority.get("jurisdiction") != "California":
+                errors.append(f"{rid}: California verified route cannot rely on federal authority {ref}")
+            if status == "verified_federal_overlay_only" and authority.get("jurisdiction") not in {"Federal", "United States"}:
+                errors.append(f"{rid}: federal-overlay route uses nonfederal authority {ref}")
+
         clocks = []
         if route.get("clock") is not None:
             clocks.append(route.get("clock"))
@@ -79,14 +93,19 @@ def validate(data: dict) -> list[str]:
             cref = clock.get("computation_authority")
             if cref not in by_id:
                 errors.append(f"{rid}: clock authority does not resolve: {cref}")
-            elif by_id[cref].get("status") != "verified":
-                errors.append(f"{rid}: verified clock uses nonverified authority {cref}")
+            else:
+                comp = by_id[cref]
+                if comp.get("status") != "verified":
+                    errors.append(f"{rid}: verified clock uses nonverified authority {cref}")
+                if status == "verified" and comp.get("jurisdiction") != "California":
+                    errors.append(f"{rid}: California verified clock uses non-California authority {cref}")
+
         if route.get("clock") is None:
             joined = " ".join(route.get("warnings", [])).lower()
             if "no deadline" in joined and "not no deadline" not in joined:
                 errors.append(f"{rid}: null clock must not be interpreted as no deadline")
 
-    # Architectural invariants.
+    # Architectural invariants: these routes may be published only after independent verification.
     if data["routes"].get("hoa_foreclosure", {}).get("clock") is not None:
         errors.append("HOA foreclosure must remain null until independently verified")
     if data["routes"].get("tax_foreclosure", {}).get("clock") is not None:
