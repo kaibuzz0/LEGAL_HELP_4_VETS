@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T16:22:16Z",
-  "source_commit": "b80b6ee3aa41f7a607d94ba071c5bfe00daeeeb0",
+  "generated_at": "2026-09-02T16:42:45Z",
+  "source_commit": "a0edf10447304cb4449d08b8d286ed5f11d8945d",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 90,
-    "python_files": 13,
+    "tracked_files": 92,
+    "python_files": 14,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
-    "test_files": 10
+    "test_files": 11
   },
   "repository_tree": {
-    "total_files": 90,
+    "total_files": 92,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -160,7 +160,7 @@
         "path": "docs",
         "name": "docs",
         "depth": 1,
-        "file_count": 2
+        "file_count": 3
       },
       {
         "path": "scripts",
@@ -172,7 +172,7 @@
         "path": "tests",
         "name": "tests",
         "depth": 1,
-        "file_count": 11
+        "file_count": 12
       }
     ],
     "files": [
@@ -452,6 +452,11 @@
         "extension": ".html"
       },
       {
+        "path": "docs/CALIFORNIA_FINAL_PRECISION_AUDIT.md",
+        "name": "CALIFORNIA_FINAL_PRECISION_AUDIT.md",
+        "extension": ".md"
+      },
+      {
         "path": "docs/LEGAL_ACCURACY_AUDIT.md",
         "name": "LEGAL_ACCURACY_AUDIT.md",
         "extension": ".md"
@@ -562,6 +567,11 @@
         "extension": ".py"
       },
       {
+        "path": "tests/test_california_final_precision.py",
+        "name": "test_california_final_precision.py",
+        "extension": ".py"
+      },
+      {
         "path": "tests/test_california_foreclosure.py",
         "name": "test_california_foreclosure.py",
         "extension": ".py"
@@ -639,74 +649,74 @@
   "agent_ops": {},
   "activity": [
     {
-      "id": "b80b6ee3aa41f7a607d94ba071c5bfe00daeeeb0",
+      "id": "a0edf10447304cb4449d08b8d286ed5f11d8945d",
       "type": "commit",
-      "title": "Merge pull request #19 from kaibuzz0/phase5-california-foreclosure-hardening",
-      "timestamp": "2026-09-02T11:22:04-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/b80b6ee3aa41f7a607d94ba071c5bfe00daeeeb0"
+      "title": "Merge pull request #20 from kaibuzz0/phase5-california-final-precision",
+      "timestamp": "2026-09-02T11:42:37-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/a0edf10447304cb4449d08b8d286ed5f11d8945d"
     },
     {
-      "id": "27be25249b35a09681e52e2c5d1655f15b313492",
+      "id": "2dafd77294c60830b722ab30038c178edda4240a",
       "type": "commit",
-      "title": "Run foreclosure semantic validation in legal QA",
-      "timestamp": "2026-09-02T11:21:22-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/27be25249b35a09681e52e2c5d1655f15b313492"
+      "title": "Fix provider verification-date invariant",
+      "timestamp": "2026-09-02T11:42:07-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/2dafd77294c60830b722ab30038c178edda4240a"
     },
     {
-      "id": "4305774eee25b2810dec2edd9b304d427b905936",
+      "id": "662e5ecc2121d742cd2029fdf73fb35f815f3d65",
       "type": "commit",
-      "title": "Expand California foreclosure legal regression tests",
-      "timestamp": "2026-09-02T11:21:12-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/4305774eee25b2810dec2edd9b304d427b905936"
+      "title": "Run final California release tests in legal QA",
+      "timestamp": "2026-09-02T11:41:13-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/662e5ecc2121d742cd2029fdf73fb35f815f3d65"
     },
     {
-      "id": "5ae2564808d6765b9bb9df6fda3965b99888d9bc",
+      "id": "c970787569fadb28c1b4a86649ef3d5dc8e411b6",
       "type": "commit",
-      "title": "Add semantic validator for California foreclosure layer",
-      "timestamp": "2026-09-02T11:21:01-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5ae2564808d6765b9bb9df6fda3965b99888d9bc"
+      "title": "Add final California cross-layer release tests",
+      "timestamp": "2026-09-02T11:40:57-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/c970787569fadb28c1b4a86649ef3d5dc8e411b6"
     },
     {
-      "id": "13cc2a9da7e4618ea3027e6d9f3ca6298bb3e1c5",
+      "id": "1e965a0c4a11cb65ab2be83aaa9628a5c0b1873e",
       "type": "commit",
-      "title": "Harden California foreclosure authority and deadline data",
-      "timestamp": "2026-09-02T11:20:49-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/13cc2a9da7e4618ea3027e6d9f3ca6298bb3e1c5"
+      "title": "Verify former-owner post-foreclosure route",
+      "timestamp": "2026-09-02T16:40:18Z",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1e965a0c4a11cb65ab2be83aaa9628a5c0b1873e"
     },
     {
-      "id": "5d500fa701e8f9c37a606fd05b9aded459628b04",
+      "id": "cce32214614d825321884a58186265f31778ebe2",
       "type": "commit",
-      "title": "Merge pull request #18 from kaibuzz0/phase5-california-foreclosure",
-      "timestamp": "2026-09-02T11:15:24-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5d500fa701e8f9c37a606fd05b9aded459628b04"
+      "title": "Add former-owner post-foreclosure authority",
+      "timestamp": "2026-09-02T11:40:10-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/cce32214614d825321884a58186265f31778ebe2"
     },
     {
-      "id": "9bce72cf21fdac92b8e1921d6939168dacedf292",
+      "id": "47bb3cf4eafb185892060983bf5b5f76c5f8b077",
       "type": "commit",
-      "title": "Run California foreclosure tests in legal QA",
-      "timestamp": "2026-09-02T11:15:13-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9bce72cf21fdac92b8e1921d6939168dacedf292"
+      "title": "Complete California statewide housing routing precision",
+      "timestamp": "2026-09-02T16:38:28Z",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/47bb3cf4eafb185892060983bf5b5f76c5f8b077"
     },
     {
-      "id": "5e229f15143e257cfed3de2ddb1de73acd387d3a",
+      "id": "782c23f188cf2d02cc0778dac7d6788347c39493",
       "type": "commit",
-      "title": "Add California foreclosure regression tests",
-      "timestamp": "2026-09-02T11:15:03-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/5e229f15143e257cfed3de2ddb1de73acd387d3a"
+      "title": "Align foreclosure regressions with final California rules",
+      "timestamp": "2026-09-02T11:38:17-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/782c23f188cf2d02cc0778dac7d6788347c39493"
     },
     {
-      "id": "530f489b70853919a8b220e636dff61e8a74a79d",
+      "id": "77b48960b0fdd6581456e04c80ba7d68be49176b",
       "type": "commit",
-      "title": "Add California foreclosure procedural layer",
-      "timestamp": "2026-09-02T11:14:54-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/530f489b70853919a8b220e636dff61e8a74a79d"
+      "title": "Update California housing regressions for final precision",
+      "timestamp": "2026-09-02T11:37:24-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/77b48960b0fdd6581456e04c80ba7d68be49176b"
     },
     {
-      "id": "55632f362a8e3ebde8ff67305713380fff1f33d4",
+      "id": "ce4b877e747eb40055907db913fcb085b5ac7376",
       "type": "commit",
-      "title": "Merge pull request #17 from kaibuzz0/phase5-california-housing",
-      "timestamp": "2026-08-30T22:45:05-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/55632f362a8e3ebde8ff67305713380fff1f33d4"
+      "title": "Apply California provider and federal-overlay precision",
+      "timestamp": "2026-09-02T11:36:31-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/ce4b877e747eb40055907db913fcb085b5ac7376"
     }
   ],
   "links": [
