@@ -1,0 +1,35 @@
+{
+  "registry_version": "1.0",
+  "datasets": [
+    {
+      "id": "texas-housing",
+      "state": "TX",
+      "subject": "housing_eviction_foreclosure",
+      "schema_version": "1.1",
+      "path": "data/states/texas.json",
+      "validator": "scripts/validate_state_data.py",
+      "status": "pilot_partially_verified",
+      "cross_dataset_dependencies": []
+    },
+    {
+      "id": "california-housing",
+      "state": "CA",
+      "subject": "housing_eviction",
+      "schema_version": "1.2",
+      "path": "data/states/california.json",
+      "validator": "scripts/validate_state_data.py",
+      "status": "partially_verified",
+      "cross_dataset_dependencies": []
+    },
+    {
+      "id": "california-foreclosure",
+      "state": "CA",
+      "subject": "housing_foreclosure",
+      "schema_version": "1.0",
+      "path": "data/california-foreclosure.json",
+      "validator": "scripts/validate_california_foreclosure.py",
+      "status": "partially_verified",
+      "cross_dataset_dependencies": ["california-housing"]
+    }
+  ]
+}
