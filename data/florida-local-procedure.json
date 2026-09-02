@@ -1,0 +1,377 @@
+{
+  "dataset_id": "florida-local-procedure",
+  "schema_version": "1.0",
+  "state": "Florida",
+  "state_code": "FL",
+  "subject": "housing_local_procedure",
+  "status": "partially_verified",
+  "last_verified": "2026-09-02",
+  "purpose": "Pilot local-procedure overlays for Florida housing and foreclosure. These records describe county/circuit clerk, court, and sheriff procedure; they do not replace statewide substantive law or create statewide deadlines.",
+  "default_county": null,
+  "allowed_counties": [
+    "Hillsborough",
+    "Orange",
+    "Duval"
+  ],
+  "source_types": [
+    "local_court_rule",
+    "administrative_order",
+    "clerk_filing_procedure",
+    "sheriff_execution_practice",
+    "local_form_requirement",
+    "informational_guidance"
+  ],
+  "sources": [
+    {
+      "id": "hills-clerk-foreclosure-sales",
+      "county": "Hillsborough",
+      "agency": "Hillsborough County Clerk of Circuit Court & Comptroller",
+      "source_type": "clerk_filing_procedure",
+      "title": "Foreclosure Sales",
+      "url": "https://hillsclerk.com/sv/court-services/foreclosure-sales",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Foreclosure sales are conducted through the Hillsborough Clerk's online sale process; proposed foreclosure judgments/orders and clerk-generated sale/title documents follow the local clerk/court workflow.",
+        "This is local operational procedure and does not alter statewide Chapter 45 deadlines."
+      ]
+    },
+    {
+      "id": "hills-clerk-efiling",
+      "county": "Hillsborough",
+      "agency": "Hillsborough County Clerk of Circuit Court & Comptroller",
+      "source_type": "clerk_filing_procedure",
+      "title": "E-Filing",
+      "url": "https://hillsclerk.com/court-services/efiling",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Hillsborough filing workflows use the Florida Courts E-Filing Portal; issuance and forwarding of writ documents remain separate clerk/sheriff operational steps."
+      ]
+    },
+    {
+      "id": "hills-sheriff-civil-process",
+      "county": "Hillsborough",
+      "agency": "Hillsborough County Sheriff's Office",
+      "source_type": "sheriff_execution_practice",
+      "title": "Civil Process — Evictions / Writs of Possession",
+      "url": "https://www.teamhcso.com/Section/88adfe5c-b5c0-461b-a731-476e8a46d186/Civil-Process",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "HCSO expressly describes its eviction/writ workflow by reference to Chapter 83 and §83.62 and schedules execution after receiving the writ.",
+        "This source does not establish that Chapter 83's eviction-specific 24-hour mechanism governs general foreclosure possession."
+      ]
+    },
+    {
+      "id": "hills-circuit-civil",
+      "county": "Hillsborough",
+      "agency": "Thirteenth Judicial Circuit / Hillsborough Clerk",
+      "source_type": "informational_guidance",
+      "title": "Circuit Civil",
+      "url": "https://hillsclerk.com/court-services/circuit-civil",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Mortgage foreclosure is handled in Circuit Civil and local case records/dockets are available through the clerk's official systems."
+      ]
+    },
+    {
+      "id": "orange-clerk-foreclosure",
+      "county": "Orange",
+      "agency": "Orange County Clerk of Courts",
+      "source_type": "informational_guidance",
+      "title": "Foreclosure Education",
+      "url": "https://www.myorangeclerk.com/Divisions/Civil/Foreclosures",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Orange Clerk provides foreclosure resources, self-represented e-filing information, and links to online foreclosure sales; these are local information and filing resources."
+      ]
+    },
+    {
+      "id": "orange-ninth-foreclosure",
+      "county": "Orange",
+      "agency": "Ninth Judicial Circuit Court of Florida",
+      "source_type": "local_court_rule",
+      "title": "Foreclosures",
+      "url": "https://ninthcircuit.org/programs-services/foreclosures",
+      "official": true,
+      "legal_authority": true,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Orange County foreclosure cases are handled by the judge assigned to the case and the Ninth Circuit publishes local procedures for foreclosure hearings, continuances, and service-list requirements.",
+        "These requirements are local circuit procedure, not statewide substantive foreclosure law."
+      ]
+    },
+    {
+      "id": "orange-ninth-case-management",
+      "county": "Orange",
+      "agency": "Ninth Judicial Circuit Court of Florida",
+      "source_type": "administrative_order",
+      "title": "Civil Case Management",
+      "url": "https://ninthcircuit.org/civil-case-management",
+      "official": true,
+      "legal_authority": true,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "The Ninth Circuit classifies foreclosure as streamlined civil case management and applies its local case-management order/procedures to qualifying cases.",
+        "The local case-management framework does not replace statewide response, sale, or possession law."
+      ]
+    },
+    {
+      "id": "orange-sheriff-court-services",
+      "county": "Orange",
+      "agency": "Orange County Sheriff's Office",
+      "source_type": "sheriff_execution_practice",
+      "title": "Court Services — Eviction Information",
+      "url": "https://www.ocso.com/court-services/",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "OCSO publishes operational guidance for Chapter 83-style evictions, including a locally described 24-hour writ workflow and sheriff scheduling.",
+        "The page's eviction-specific timing must not be generalized to foreclosure possession merely because both use the phrase writ of possession."
+      ]
+    },
+    {
+      "id": "duval-clerk-foreclosure",
+      "county": "Duval",
+      "agency": "Duval County Clerk of Courts",
+      "source_type": "informational_guidance",
+      "title": "Foreclosure",
+      "url": "https://www.duvalclerk.com/departments/civil-court-services/foreclosure",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Duval Clerk states that an occupied foreclosed property requires a writ of possession rather than purchaser self-help after title, and describes a local 24-hour possession-writ practice.",
+        "The local 24-hour statement is clerk informational/operational guidance and is not encoded as a statewide Florida foreclosure deadline."
+      ]
+    },
+    {
+      "id": "duval-clerk-circuit-civil",
+      "county": "Duval",
+      "agency": "Duval County Clerk of Courts",
+      "source_type": "clerk_filing_procedure",
+      "title": "Circuit Civil — Writ of Possession",
+      "url": "https://www.duvalclerk.com/departments/civil-court-services/circuit-civil",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "Duval Clerk states that it issues a writ of possession only when an order or judgment specifically authorizes issuance; clerk issuance is a separate step from sheriff execution."
+      ]
+    },
+    {
+      "id": "duval-sheriff-civil-process",
+      "county": "Duval",
+      "agency": "Jacksonville Sheriff's Office",
+      "source_type": "sheriff_execution_practice",
+      "title": "Civil Process — Writ of Possession Procedures",
+      "url": "https://www.jaxsheriff.org/Resources/civil-process.aspx",
+      "official": true,
+      "legal_authority": false,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "JSO requires a clerk-issued writ and local processing materials, assigns the writ to an officer, and schedules execution operationally based on workload and statutory limits.",
+        "JSO says posting may occur the following day or shortly thereafter and expressly describes the page as guidance; the operational schedule is not a fixed statewide legal clock."
+      ]
+    },
+    {
+      "id": "duval-fourth-foreclosure",
+      "county": "Duval",
+      "agency": "Fourth Judicial Circuit of Florida",
+      "source_type": "local_court_rule",
+      "title": "Residential Foreclosure Division Procedures",
+      "url": "https://www.jud4.org/foreclosure-division",
+      "official": true,
+      "legal_authority": true,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "The Fourth Circuit's Duval residential-foreclosure procedures, revised June 1, 2026, govern local division designations, communications, hearings, case-management conferences, and proposed-order submission.",
+        "These are Duval/Fourth Circuit procedural requirements and not statewide substantive rights or deadlines."
+      ]
+    }
+  ],
+  "counties": {
+    "hillsborough": {
+      "county": "Hillsborough",
+      "circuit": "Thirteenth Judicial Circuit",
+      "clerk": "Hillsborough County Clerk of Circuit Court & Comptroller",
+      "sheriff": "Hillsborough County Sheriff's Office",
+      "status": "partially_verified",
+      "eviction": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "hills-sheriff-civil-process"
+        ],
+        "summary": "HCSO's published eviction/writ workflow expressly points to Chapter 83 and §83.62. Keep its residential-eviction mechanics confined to landlord-tenant eviction unless independent foreclosure authority supplies a bridge.",
+        "statewide_deadline_override": false
+      },
+      "foreclosure": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "hills-clerk-foreclosure-sales",
+          "hills-circuit-civil"
+        ],
+        "summary": "Hillsborough uses Circuit Civil and the Clerk's online judicial-sale workflow. Local filing/sale operations supplement but do not alter Florida's statewide foreclosure event chain.",
+        "statewide_deadline_override": false
+      },
+      "writ_execution": {
+        "status": "partially_verified",
+        "source_ids": [
+          "hills-sheriff-civil-process"
+        ],
+        "summary": "Sheriff execution is locally scheduled after intake. The available HCSO page is framed around Chapter 83 eviction writs, so it is not used as authority for a general foreclosure-possession countdown.",
+        "operational_timing": null,
+        "legal_deadline": false
+      },
+      "providers": [
+        "fdva_county_vso",
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h",
+        "va_ssvf"
+      ]
+    },
+    "orange": {
+      "county": "Orange",
+      "circuit": "Ninth Judicial Circuit",
+      "clerk": "Orange County Clerk of Courts",
+      "sheriff": "Orange County Sheriff's Office",
+      "status": "partially_verified",
+      "eviction": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "orange-sheriff-court-services"
+        ],
+        "summary": "OCSO publishes an eviction-specific 24-hour writ workflow. It remains an eviction overlay and is not imported into foreclosure possession.",
+        "statewide_deadline_override": false
+      },
+      "foreclosure": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "orange-clerk-foreclosure",
+          "orange-ninth-foreclosure",
+          "orange-ninth-case-management"
+        ],
+        "summary": "Orange foreclosure cases are routed through the assigned judge and Ninth Circuit case-management/local foreclosure procedures; the Clerk supplies foreclosure education and online-sale routing.",
+        "statewide_deadline_override": false
+      },
+      "writ_execution": {
+        "status": "partially_verified",
+        "source_ids": [
+          "orange-sheriff-court-services"
+        ],
+        "summary": "OCSO accepts writs of possession, but its published 24-hour discussion is embedded in eviction guidance. No Orange foreclosure-specific legal countdown is inferred.",
+        "operational_timing": null,
+        "legal_deadline": false
+      },
+      "providers": [
+        "fdva_county_vso",
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h",
+        "va_ssvf"
+      ]
+    },
+    "duval": {
+      "county": "Duval",
+      "circuit": "Fourth Judicial Circuit",
+      "clerk": "Duval County Clerk of Courts",
+      "sheriff": "Jacksonville Sheriff's Office",
+      "status": "partially_verified",
+      "eviction": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "duval-sheriff-civil-process"
+        ],
+        "summary": "JSO publishes writ-of-possession processing as local operational guidance. State Chapter 83 eviction law remains separately sourced in the statewide housing dataset.",
+        "statewide_deadline_override": false
+      },
+      "foreclosure": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "duval-clerk-foreclosure",
+          "duval-clerk-circuit-civil",
+          "duval-fourth-foreclosure"
+        ],
+        "summary": "Duval uses Fourth Circuit residential-foreclosure divisions/procedures and local Clerk sale/title/writ processing. The Clerk states an occupied foreclosed property requires a writ rather than immediate purchaser self-help.",
+        "statewide_deadline_override": false
+      },
+      "writ_execution": {
+        "status": "verified_local_guidance",
+        "source_ids": [
+          "duval-clerk-foreclosure",
+          "duval-sheriff-civil-process"
+        ],
+        "summary": "Duval Clerk describes a local 24-hour possession-writ practice after foreclosure, while JSO says actual posting/execution scheduling depends on processing and workload. The 24-hour statement is therefore retained only as local operational guidance, not a statewide legal deadline.",
+        "operational_timing": {
+          "value": 24,
+          "unit": "hours",
+          "scope": "Duval Clerk foreclosure informational guidance only",
+          "source_id": "duval-clerk-foreclosure",
+          "legal_deadline": false,
+          "display": "Duval Clerk currently describes a 24-hour local writ-of-possession practice after foreclosure. Treat this as Duval operational guidance; the actual writ, court order, and sheriff process control, and this number is not a statewide Florida foreclosure deadline."
+        },
+        "legal_deadline": false
+      },
+      "providers": [
+        "fdva_county_vso",
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h",
+        "va_ssvf"
+      ]
+    }
+  },
+  "router": {
+    "county": null,
+    "court": null,
+    "sheriff": null,
+    "required_facts": [
+      "county",
+      "document type",
+      "case number or docket if available",
+      "certificate-of-title filing date if applicable",
+      "writ issued?",
+      "occupant classification",
+      "sheriff notice/document received?"
+    ],
+    "warning": "Never default an unknown county to a pilot county. Local procedures appear only after the user identifies the county or the case papers establish it."
+  },
+  "dataset_dependencies": [
+    "florida-housing",
+    "florida-foreclosure"
+  ]
+}
