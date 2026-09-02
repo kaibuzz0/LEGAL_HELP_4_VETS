@@ -132,12 +132,12 @@ def validate(data: dict) -> list[str]:
                     if sid not in by_id or by_id.get(sid, {}).get("county") != county:
                         errors.append(f"{key}:{section}: operational timing source must resolve within county")
 
-        combined = json.dumps(county_data).lower()
+        combined = json.dumps(county_data, ensure_ascii=False).lower()
         if "fl-83-62" in combined or "§83.62" in combined:
             # Local eviction source descriptions may discuss §83.62, but the foreclosure/writ sections
             # may never use it as a foreclosure bridge.
-            foreclosure_text = json.dumps(county_data.get("foreclosure", {})).lower()
-            writ_text = json.dumps(county_data.get("writ_execution", {})).lower()
+            foreclosure_text = json.dumps(county_data.get("foreclosure", {}), ensure_ascii=False).lower()
+            writ_text = json.dumps(county_data.get("writ_execution", {}), ensure_ascii=False).lower()
             if "fl-83-62" in foreclosure_text or "§83.62" in foreclosure_text:
                 errors.append(f"{key}: foreclosure local overlay improperly imports §83.62")
             if "fl-83-62" in writ_text or "§83.62" in writ_text:
@@ -188,6 +188,7 @@ def validate(data: dict) -> list[str]:
         errors.append("cross-layer route IDs must be present and unique")
 
     for key, county_data in counties.items():
+        county = county_data.get("county")
         for rid in county_data.get("providers", []):
             if rid not in valid_resources:
                 errors.append(f"{key}: unknown provider routing ID {rid}")
