@@ -1882,6 +1882,17 @@
       "authority_level": "PRIMARY_GOVERNMENT",
       "next_review": "2026-12-01",
       "notes": ""
+    },
+    {
+      "id": "38-cfr-1-965",
+      "claim": "38 C.F.R. § 1.965 defines the equity-and-good-conscience standard and factors used in VA waiver decisions after the threshold waiver requirements are met.",
+      "source_name": "Electronic Code of Federal Regulations",
+      "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-1/subpart-B/section-1.965",
+      "verified_date": "2026-09-02",
+      "status": "VERIFIED_PRIMARY",
+      "authority_level": "PRIMARY_GOVERNMENT",
+      "next_review": "2026-12-01",
+      "notes": ""
     }
   ]
 }
