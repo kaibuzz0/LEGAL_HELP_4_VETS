@@ -108,11 +108,11 @@
       "id": "orange-ninth-foreclosure",
       "county": "Orange",
       "agency": "Ninth Judicial Circuit Court of Florida",
-      "source_type": "local_court_rule",
+      "source_type": "informational_guidance",
       "title": "Foreclosures",
       "url": "https://ninthcircuit.org/programs-services/foreclosures",
       "official": true,
-      "legal_authority": true,
+      "legal_authority": false,
       "statewide": false,
       "status": "verified",
       "last_verified": "2026-09-02",
@@ -125,11 +125,11 @@
       "id": "orange-ninth-case-management",
       "county": "Orange",
       "agency": "Ninth Judicial Circuit Court of Florida",
-      "source_type": "administrative_order",
+      "source_type": "informational_guidance",
       "title": "Civil Case Management",
       "url": "https://ninthcircuit.org/civil-case-management",
       "official": true,
-      "legal_authority": true,
+      "legal_authority": false,
       "statewide": false,
       "status": "verified",
       "last_verified": "2026-09-02",
@@ -209,17 +209,34 @@
       "id": "duval-fourth-foreclosure",
       "county": "Duval",
       "agency": "Fourth Judicial Circuit of Florida",
-      "source_type": "local_court_rule",
+      "source_type": "informational_guidance",
       "title": "Residential Foreclosure Division Procedures",
       "url": "https://www.jud4.org/foreclosure-division",
       "official": true,
-      "legal_authority": true,
+      "legal_authority": false,
       "statewide": false,
       "status": "verified",
       "last_verified": "2026-09-02",
       "supports": [
         "The Fourth Circuit's Duval residential-foreclosure procedures, revised June 1, 2026, govern local division designations, communications, hearings, case-management conferences, and proposed-order submission.",
         "These are Duval/Fourth Circuit procedural requirements and not statewide substantive rights or deadlines."
+      ]
+    },
+    {
+      "id": "hills-thirteenth-foreclosure-forms",
+      "county": "Hillsborough",
+      "agency": "Thirteenth Judicial Circuit of Florida",
+      "source_type": "local_form_requirement",
+      "title": "Thirteenth Circuit Mortgage Foreclosure Forms",
+      "url": "https://www.fljud13.org/Resources/Forms",
+      "official": true,
+      "legal_authority": true,
+      "statewide": false,
+      "status": "verified",
+      "last_verified": "2026-09-02",
+      "supports": [
+        "The Thirteenth Circuit currently publishes foreclosure-specific forms including a Uniform Motion for Writ of Possession in Foreclosure Case, confirming a local court-motion/order workflow for post-foreclosure possession.",
+        "Because some linked form text predates the current federal PTFA framework, the form index is used only to establish the existence of the local foreclosure-writ motion workflow, not to publish obsolete tenant deadlines."
       ]
     }
   ],
@@ -242,9 +259,10 @@
         "status": "verified_local_guidance",
         "source_ids": [
           "hills-clerk-foreclosure-sales",
-          "hills-circuit-civil"
+          "hills-circuit-civil",
+          "hills-thirteenth-foreclosure-forms"
         ],
-        "summary": "Hillsborough uses Circuit Civil and the Clerk's online judicial-sale workflow. Local filing/sale operations supplement but do not alter Florida's statewide foreclosure event chain.",
+        "summary": "Hillsborough uses Circuit Civil and the Clerk's online judicial-sale workflow. Local filing/sale operations supplement but do not alter Florida's statewide foreclosure event chain. The Thirteenth Circuit also publishes a foreclosure-specific motion-for-writ form; its older tenant-language is not reused as current substantive law.",
         "statewide_deadline_override": false
       },
       "writ_execution": {
