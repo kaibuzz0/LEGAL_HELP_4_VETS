@@ -123,6 +123,73 @@
       ],
       "last_verified": "2026-09-02",
       "status": "verified"
+    },
+    {
+      "id": "fl-r-civ-p-1-570",
+      "citation": "Fla. R. Civ. P. 1.570(b)",
+      "title": "Enforcement of Final Judgments — Property Recovery",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/04/Civil-Procedure-Rules-04-01-26.pdf",
+      "supports": [
+        "For a judgment recovering real property, final process is by writ of possession; this is distinct from a money execution and from the underlying foreclosure sale/title events."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-r-civ-p-1-580",
+      "citation": "Fla. R. Civ. P. 1.580",
+      "title": "Writ of Possession",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/04/Civil-Procedure-Rules-04-01-26.pdf",
+      "supports": [
+        "When a judgment or order is for delivery of possession of real property, the judgment or order directs the clerk to issue a writ of possession; the clerk issues the writ forthwith and delivers it to the sheriff for execution.",
+        "If a person other than the party against whom the writ issued is in possession, Rule 1.580(b) permits that person to file an affidavit with the sheriff claiming entitlement to possession; the sheriff then desists until the court determines whether execution should continue or be stayed."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-form-1-915",
+      "citation": "Fla. R. Civ. P. Form 1.915",
+      "title": "Writ of Possession",
+      "authority_type": "government_form",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/04/Civil-Procedure-Rules-04-01-26.pdf",
+      "supports": [
+        "The current statewide writ form commands the county sheriff to remove persons from the described real property and put the named person in possession; the form itself does not publish a statewide foreclosure-specific posting countdown."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-form-1-996a",
+      "citation": "Fla. R. Civ. P. Form 1.996(a)",
+      "title": "Final Judgment of Foreclosure",
+      "authority_type": "government_form",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/04/Civil-Procedure-Rules-04-01-26.pdf",
+      "supports": [
+        "The current standard foreclosure-judgment form treats filing of the certificate of title as the point at which the person named on that certificate is to be let into possession, subject to qualifying bona fide tenant rights under the federal PTFA and the form's referenced state provision.",
+        "The standard form preserves title/possession as distinct from certificate of sale and redemption events; the actual signed judgment controls in a specific case."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
+    },
+    {
+      "id": "fl-r-app-p-9-310",
+      "citation": "Fla. R. App. P. 9.310",
+      "title": "Stay Pending Review",
+      "authority_type": "court_rule",
+      "jurisdiction": "Florida",
+      "source_url": "https://www-media.floridabar.org/uploads/2026/06/Appellate-Court-Rules-07-01-26.pdf",
+      "supports": [
+        "Except for specified exceptions, filing a notice of appeal does not itself stay enforcement; a party seeking a stay pending review generally first applies in the lower tribunal, which may grant, modify, deny, or condition a stay."
+      ],
+      "last_verified": "2026-09-02",
+      "status": "verified"
     }
   ],
   "routes": {
@@ -375,22 +442,27 @@
     },
     "certificate_of_title": {
       "id": "certificate_of_title",
-      "label": "A CERTIFICATE OF TITLE WAS FILED / IS PENDING",
+      "label": "A CERTIFICATE OF TITLE WAS FILED",
       "status": "verified",
-      "description": "Under §45.031, if no objections are filed within the statutory objection period, the clerk files the certificate of title; upon filing, the sale is confirmed and title passes to the purchaser.",
+      "description": "Under §45.031, filing of the certificate of title confirms the judicial sale and passes title to the purchaser. Current Form 1.996(a) separately provides that the person named on the certificate of title is to be let into possession, subject to qualifying bona fide-tenant rights. Title passage is not itself physical sheriff execution.",
       "authorities": [
-        "fl-45-031"
+        "fl-45-031",
+        "fl-form-1-996a"
       ],
-      "federal_overlays": [],
+      "federal_overlays": [
+        "ptfa"
+      ],
       "immediate_clock": null,
       "other_clocks": [],
       "exceptions": [
-        "Certificate of sale and certificate of title are different documents and legal events.",
-        "Passage of title does not by itself authorize an extra-judicial physical lockout; possession procedure and occupant status remain separate."
+        "The actual signed foreclosure judgment controls; Form 1.996(a) is the current statewide standard form, not a substitute for reading the judgment in the case.",
+        "A bona fide tenant can have federal PTFA rights that qualify the purchaser's right to possession.",
+        "Certificate of title, writ of possession, sheriff execution, and physical removal are separate events."
       ],
       "legal_help": [
         "florida_bar_lrs",
-        "florida_legal_aid"
+        "florida_legal_aid",
+        "va_lsv_h"
       ],
       "last_verified": "2026-09-02"
     },
@@ -419,11 +491,15 @@
     },
     "post_sale_former_owner": {
       "id": "post_sale_former_owner",
-      "label": "I WAS THE BORROWER/OWNER AND TITLE HAS PASSED",
-      "status": "partially_verified",
-      "description": "Former-owner possession after foreclosure is legally distinct from bona fide tenant protection. The certificate of title does not justify a private extra-judicial lockout merely by itself; the exact post-title possession process and any clock remain withheld pending separate authority review.",
+      "label": "I WAS THE BORROWER / OWNER AND THE CERTIFICATE OF TITLE WAS FILED",
+      "status": "verified",
+      "description": "For a former mortgagor/owner, the post-title possession path is controlled by the foreclosure judgment/order and Florida's general real-property judgment-enforcement rules. When the judgment/order delivers possession, Rule 1.580 directs issuance of a writ of possession to the sheriff. The certificate of title is not itself a self-help lockout.",
       "authorities": [
-        "fl-45-031"
+        "fl-45-031",
+        "fl-form-1-996a",
+        "fl-r-civ-p-1-570",
+        "fl-r-civ-p-1-580",
+        "fl-form-1-915"
       ],
       "federal_overlays": [
         "bankruptcy-stay"
@@ -431,8 +507,9 @@
       "immediate_clock": null,
       "other_clocks": [],
       "exceptions": [
-        "Do not apply PTFA's bona fide tenant protections to the former mortgagor solely because the former owner remains in occupancy.",
-        "No generic possession clock is published."
+        "Former owner status is not bona fide tenant status; do not apply PTFA merely because the former borrower remains physically in the property.",
+        "The actual final judgment/order must be reviewed to determine whether it delivers possession and what further court order, if any, is required.",
+        "No statewide foreclosure-specific posting countdown is published here because Rule 1.580 and Form 1.915 do not establish one."
       ],
       "legal_help": [
         "florida_bar_lrs",
@@ -443,19 +520,23 @@
     },
     "post_sale_bona_fide_tenant": {
       "id": "post_sale_bona_fide_tenant",
-      "label": "I AM A BONA FIDE TENANT AFTER FORECLOSURE",
+      "label": "I AM A BONA FIDE TENANT IN THE FORECLOSED PROPERTY",
       "status": "partially_verified",
-      "description": "A qualifying bona fide tenant requires separate state/federal tenant-protection analysis after foreclosure. The foreclosure dataset routes to the Florida housing layer rather than converting the tenant protection into a mortgage-foreclosure rule.",
-      "authorities": [],
+      "description": "A qualifying bona fide tenant after foreclosure requires federal PTFA analysis before possession. Current Form 1.996(a) expressly makes the certificate-of-title holder's possession subject to bona fide tenant rights. If a tenant is a person other than the party against whom a writ issued, Rule 1.580(b) can also provide a state procedural mechanism to assert a possession claim to the sheriff pending court review.",
+      "authorities": [
+        "fl-form-1-996a",
+        "fl-r-civ-p-1-580"
+      ],
       "federal_overlays": [
         "ptfa"
       ],
       "immediate_clock": null,
       "other_clocks": [],
       "exceptions": [
-        "Bona fide tenant status must be established; the former mortgagor is not automatically a qualifying tenant.",
-        "The Florida §83.5615 route and federal PTFA are separate provenance layers.",
-        "Exact possession procedure remains separate from the 90-day tenant notice protection."
+        "PTFA bona fide tenancy requires the federal statutory conditions; relationship to the former mortgagor, lease timing, and rent terms matter.",
+        "Do not apply the PTFA route to the former mortgagor merely because that person remains in possession.",
+        "Rule 1.580(b) applies only when the occupant is a person other than the party against whom the writ issued; actual party/writ status must be checked.",
+        "The federal PTFA 90-day protection and fixed-term lease rules remain in the federal overlay rather than being converted into a Florida foreclosure clock."
       ],
       "legal_help": [
         "florida_legal_aid",
@@ -466,19 +547,162 @@
     },
     "post_sale_other_occupant": {
       "id": "post_sale_other_occupant",
-      "label": "I AM ANOTHER / UNKNOWN OCCUPANT AFTER FORECLOSURE",
-      "status": "unverified",
-      "description": "Occupant status must be identified before a post-sale possession rule can be safely rendered. No deadline or tenant protection is inferred from occupancy alone.",
-      "authorities": [],
+      "label": "I DO NOT KNOW MY OCCUPANT STATUS AFTER FORECLOSURE",
+      "status": "partially_verified",
+      "description": "Unknown occupant status must be identified before a possession rule is applied. The first task is document and relationship classification, not assigning tenant or former-owner rights.",
+      "authorities": [
+        "fl-r-civ-p-1-580"
+      ],
       "federal_overlays": [],
       "immediate_clock": null,
       "other_clocks": [],
       "exceptions": [
-        "Identify whether the occupant is a former owner, bona fide tenant, other tenant, family member, or another category before applying a possession rule."
+        "Identify whether the occupant is named on a lease, the former owner/borrower, related to the former owner, paying rent, occupying under a written or oral agreement, or another category.",
+        "Record the lease date, rent amount, purchaser identity, certificate-of-title filing date, writ details, and whether the occupant was a party to the foreclosure.",
+        "Unknown status must remain unknown; do not default to tenant, bona fide tenant, or former-owner treatment."
       ],
       "legal_help": [
         "florida_legal_aid",
-        "florida_bar_lrs"
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_writ_of_possession": {
+      "id": "post_sale_writ_of_possession",
+      "label": "I RECEIVED / FOUND A WRIT OF POSSESSION AFTER FORECLOSURE",
+      "status": "verified",
+      "description": "A foreclosure possession writ is a post-judgment enforcement document. Under Rules 1.570 and 1.580, a judgment/order delivering real-property possession is enforced by a writ of possession that the clerk issues and delivers to the sheriff for execution. This route does not import Chapter 83's residential-eviction 24-hour clock.",
+      "authorities": [
+        "fl-r-civ-p-1-570",
+        "fl-r-civ-p-1-580",
+        "fl-form-1-915",
+        "fl-form-1-996a"
+      ],
+      "federal_overlays": [
+        "ptfa",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "The actual judgment/order and writ control; verify who the writ is issued against and who is physically occupying the property.",
+        "If a person other than the party against whom the writ issued is in possession and claims a right to possession, Rule 1.580(b) provides an affidavit-to-the-sheriff process that can halt execution while the court determines possession.",
+        "No statewide foreclosure-specific 24-hour posting rule is established by Rule 1.580 or Form 1.915."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_sheriff_execution": {
+      "id": "post_sale_sheriff_execution",
+      "label": "THE SHERIFF IS EXECUTING A FORECLOSURE WRIT OF POSSESSION",
+      "status": "partially_verified",
+      "description": "Physical removal occurs through sheriff execution of the writ, not merely because a foreclosure sale or certificate of title occurred. Statewide Rule 1.580 identifies the sheriff as the executing officer but does not publish a universal foreclosure-specific posting or waiting period; county operational practice must remain local.",
+      "authorities": [
+        "fl-r-civ-p-1-580",
+        "fl-form-1-915"
+      ],
+      "federal_overlays": [
+        "ptfa",
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Do not reuse §83.62's landlord-tenant 24-hour writ rule unless controlling authority independently makes that statute applicable to the particular foreclosure-possession track.",
+        "County sheriff scheduling, intake, and operational timing are local guidance and are not statewide legal deadlines.",
+        "A qualifying third-party occupant may fall within Rule 1.580(b)'s affidavit procedure."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_other_tenant": {
+      "id": "post_sale_other_tenant",
+      "label": "I AM A TENANT BUT I MAY NOT QUALIFY AS A PTFA BONA FIDE TENANT",
+      "status": "partially_verified",
+      "description": "Failure to satisfy the federal PTFA definition does not by itself establish that an occupant has no rights. The lease, party status in the foreclosure, priority or survival of the tenancy, judgment language, and any other housing-program overlay must be identified before a possession conclusion is rendered.",
+      "authorities": [
+        "fl-form-1-996a",
+        "fl-r-civ-p-1-580"
+      ],
+      "federal_overlays": [
+        "public-housing",
+        "hcv",
+        "hud-vash",
+        "project-based-section8"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Not PTFA-qualified is not equivalent to no protection.",
+        "Do not automatically reuse ordinary landlord-tenant termination rules without first identifying whether the tenancy survived or was foreclosed and what the judgment provides.",
+        "If the occupant is not the party against whom the writ issued, Rule 1.580(b) may be relevant; actual party status matters."
+      ],
+      "legal_help": [
+        "florida_legal_aid",
+        "florida_bar_lrs",
+        "va_lsv_h"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "appeal_stay_postsale": {
+      "id": "appeal_stay_postsale",
+      "label": "I FILED / AM CONSIDERING AN APPEAL AND POSSESSION IS MOVING FORWARD",
+      "status": "verified",
+      "description": "For a foreclosure judgment or post-sale possession order, filing an appeal generally does not itself create a stay. Current Rule 9.310 provides the stay-pending-review framework and generally requires a stay request in the lower tribunal unless an exception applies.",
+      "authorities": [
+        "fl-r-app-p-9-310"
+      ],
+      "federal_overlays": [
+        "bankruptcy-stay"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "Appeal and stay are separate procedural events.",
+        "Whether a stay exists depends on an entered stay, applicable exception, bond/conditions, and the actual order; this route does not provide individualized appellate strategy.",
+        "Document-first review should ask whether a notice of appeal was filed, whether a stay order exists, whether the sale already occurred, whether title issued, and whether a writ issued."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid"
+      ],
+      "last_verified": "2026-09-02"
+    },
+    "post_sale_document_router": {
+      "id": "post_sale_document_router",
+      "label": "FORECLOSURE SALE / TITLE / POSSESSION PAPERS — IDENTIFY MY DOCUMENT",
+      "status": "verified",
+      "description": "Post-sale routing is document-driven. Sale, certificate of sale, certificate of title, writ of possession, sheriff execution, and occupant-status questions are distinct legal events and must route separately.",
+      "authorities": [
+        "fl-45-031",
+        "fl-form-1-996a",
+        "fl-r-civ-p-1-580"
+      ],
+      "federal_overlays": [
+        "ptfa"
+      ],
+      "immediate_clock": null,
+      "other_clocks": [],
+      "exceptions": [
+        "A foreclosure sale is not a certificate of sale.",
+        "A certificate of sale is not a certificate of title.",
+        "A certificate of title is not a writ of possession.",
+        "A writ of possession is not completed physical sheriff execution.",
+        "Redemption expiration and sale-objection expiration are not possession deadlines."
+      ],
+      "legal_help": [
+        "florida_bar_lrs",
+        "florida_legal_aid",
+        "va_lsv_h"
       ],
       "last_verified": "2026-09-02"
     }
@@ -576,7 +800,7 @@
       "routes": [
         "ptfa_tenant_after_foreclosure"
       ],
-      "purpose": "Qualifying bona fide tenant state-law/PTFA routing after foreclosure."
+      "purpose": "Current federal-PTFA/state-housing routing for qualifying tenants after foreclosure."
     }
   ],
   "dataset_dependencies": [
