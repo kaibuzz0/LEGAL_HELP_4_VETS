@@ -1643,14 +1643,14 @@
     },
     {
       "id": "userra-regulations-29-cfr-100",
-      "claim": "29 C.F.R. Part 100 contains the implementing regulations for USERRA, including definitions, rights, obligations, and enforcement procedures.",
-      "source_name": "U.S. Department of Labor / eCFR",
-      "source_url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-100",
-      "verified_date": "2026-08-11",
+      "claim": "20 C.F.R. Part 1002 contains the Department of Labor's USERRA implementing regulations for private, State, and local employment, including eligibility, notice, service limits, reemployment position, benefits, and enforcement assistance.",
+      "source_name": "Electronic Code of Federal Regulations",
+      "source_url": "https://www.ecfr.gov/current/title-20/chapter-IX/part-1002",
+      "verified_date": "2026-09-02",
       "status": "VERIFIED_PRIMARY",
       "authority_level": "PRIMARY_GOVERNMENT",
-      "next_review": "2026-11-11",
-      "notes": "USERRA implementing regulations. eCFR may require interactive access; verified structure available."
+      "next_review": "2026-12-01",
+      "notes": "Legacy source ID retained to avoid broken anchors; the prior registry incorrectly identified the USERRA regulations as 29 C.F.R. Part 100."
     },
     {
       "id": "dol-elaws-userra",
