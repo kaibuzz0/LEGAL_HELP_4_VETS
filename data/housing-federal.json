@@ -136,6 +136,15 @@
       "url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title12-section5220",
       "rule": "After covered foreclosure, an immediate successor in interest must provide a qualifying bona fide tenant at least 90 days' notice before the effective date of a notice to vacate and must respect qualifying lease-term protections subject to the owner-occupancy purchaser rule and statutory conditions.",
       "warning": "Bona fide tenancy has specific conditions. Do not apply PTFA merely because a former mortgagor or other occupant remains in possession, and do not merge this federal protection with state foreclosure or eviction procedure."
+    },
+    {
+      "id": "bankruptcy-stay",
+      "title": "Bankruptcy Automatic Stay — Potential Foreclosure Overlay",
+      "status": "verified",
+      "authority": "11 U.S.C. § 362",
+      "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A11+section%3A362%28k%29+edition%3Aprelim%29",
+      "rule": "A qualifying bankruptcy petition generally operates as an automatic stay of specified actions against the debtor or estate, including specified continuation/enforcement and lien-enforcement activity, subject to statutory exceptions, duration rules, repeat-filing limitations, and possible relief from stay.",
+      "warning": "Bankruptcy can materially affect a foreclosure but is not a guaranteed permanent stop. Coverage, prior cases, property status, exceptions, and relief-from-stay orders matter. Route urgent questions to qualified bankruptcy counsel rather than giving individualized filing strategy."
     }
   ],
   "reasonable_accommodation_workflow": {
