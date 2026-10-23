@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T20:46:57Z",
-  "source_commit": "5c32b69605bf566b0c5f160f9deacd4d614d5885",
+  "generated_at": "2026-10-23T20:47:54Z",
+  "source_commit": "f588c4169bf5f1d790402341aa16a08c72347ca9",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -734,6 +734,13 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "f588c4169bf5f1d790402341aa16a08c72347ca9",
+      "type": "commit",
+      "title": "Update README.md",
+      "timestamp": "2026-10-23T15:47:46-05:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/f588c4169bf5f1d790402341aa16a08c72347ca9"
+    },
+    {
       "id": "5c32b69605bf566b0c5f160f9deacd4d614d5885",
       "type": "commit",
       "title": "Update README.md",
@@ -795,13 +802,6 @@
       "title": "legal: preserve certificate-of-sale title separation",
       "timestamp": "2026-09-02T13:34:39-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1e71f5357e89e3bb81712f24aae8e51320180ec4"
-    },
-    {
-      "id": "281217d7d79394de674360979b93161b7188bb4a",
-      "type": "commit",
-      "title": "tests: enforce Florida cross-layer post-sale routing",
-      "timestamp": "2026-09-02T13:33:58-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/281217d7d79394de674360979b93161b7188bb4a"
     }
   ],
   "links": [
