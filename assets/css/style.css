@@ -456,3 +456,34 @@ p { margin: 0 0 1rem; }
   h1 { font-size: 18pt; }
   h2 { font-size: 14pt; }
 }
+
+/* === HOMEPAGE QR SHARING === */
+.home-share {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 640px;
+  margin: 0 auto 1.5rem;
+}
+.home-share-qr {
+  display: block;
+  flex: 0 0 176px;
+  width: 176px;
+  padding: .3rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.home-share-qr img { display: block; width: 100%; height: auto; }
+.home-share-qr:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.home-share-copy { min-width: 0; }
+.home-share-copy h2 { margin: 0 0 .35rem; font-size: 1.15rem; }
+.home-share-copy p { margin: 0 0 .5rem; }
+.home-share-url { overflow-wrap: anywhere; font-weight: 700; }
+@media (max-width: 520px) {
+  .home-share { justify-content: center; flex-wrap: wrap; text-align: center; }
+  .home-share-copy { width: 100%; }
+}
+@media print {
+  .home-share { break-inside: avoid; }
+}
