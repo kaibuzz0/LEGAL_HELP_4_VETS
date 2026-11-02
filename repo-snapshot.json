@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T20:47:54Z",
-  "source_commit": "f588c4169bf5f1d790402341aa16a08c72347ca9",
+  "generated_at": "2026-11-02T15:30:56Z",
+  "source_commit": "9bd561d048cd15c96006ec8c52098355d53f8079",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 109,
+    "tracked_files": 110,
     "python_files": 21,
     "javascript_typescript_files": 3,
     "workflow_files": 2,
     "test_files": 15
   },
   "repository_tree": {
-    "total_files": 109,
+    "total_files": 110,
     "total_directories": 19,
     "files_truncated": false,
     "directories_truncated": false,
@@ -76,7 +76,7 @@
         "path": "assets",
         "name": "assets",
         "depth": 1,
-        "file_count": 7
+        "file_count": 8
       },
       {
         "path": "assets/css",
@@ -88,7 +88,7 @@
         "path": "assets/images",
         "name": "images",
         "depth": 2,
-        "file_count": 1
+        "file_count": 2
       },
       {
         "path": "assets/js",
@@ -235,6 +235,11 @@
         "path": "assets/images/favicon.ico",
         "name": "favicon.ico",
         "extension": ".ico"
+      },
+      {
+        "path": "assets/images/legal-help-4-vets-qr.svg",
+        "name": "legal-help-4-vets-qr.svg",
+        "extension": ".svg"
       },
       {
         "path": "assets/js/app.js",
@@ -734,6 +739,13 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "9bd561d048cd15c96006ec8c52098355d53f8079",
+      "type": "commit",
+      "title": "[C] Add offline QR code asset for veteran guide homepage",
+      "timestamp": "2026-11-02T09:30:47-06:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/9bd561d048cd15c96006ec8c52098355d53f8079"
+    },
+    {
       "id": "f588c4169bf5f1d790402341aa16a08c72347ca9",
       "type": "commit",
       "title": "Update README.md",
@@ -795,13 +807,6 @@
       "title": "fix: repair local provider test newline",
       "timestamp": "2026-09-02T13:35:25-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/d4f7a97be6ef165f2a1302cfaf00d0d9452f7b32"
-    },
-    {
-      "id": "1e71f5357e89e3bb81712f24aae8e51320180ec4",
-      "type": "commit",
-      "title": "legal: preserve certificate-of-sale title separation",
-      "timestamp": "2026-09-02T13:34:39-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/1e71f5357e89e3bb81712f24aae8e51320180ec4"
     }
   ],
   "links": [
