@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T15:31:25Z",
-  "source_commit": "efaa3629e14b9f80035ad69630a13829faac412b",
+  "generated_at": "2026-11-02T15:31:39Z",
+  "source_commit": "8421b795a050f3a018fe69a20b1521b086e70ee8",
   "repo": {
     "id": "legal_help_4_vets",
     "full_name": "kaibuzz0/LEGAL_HELP_4_VETS",
@@ -739,6 +739,13 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "8421b795a050f3a018fe69a20b1521b086e70ee8",
+      "type": "commit",
+      "title": "[C] Style printable responsive homepage QR share block",
+      "timestamp": "2026-11-02T09:31:31-06:00",
+      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/8421b795a050f3a018fe69a20b1521b086e70ee8"
+    },
+    {
       "id": "efaa3629e14b9f80035ad69630a13829faac412b",
       "type": "commit",
       "title": "[C] Add accessible scan-to-share QR block on homepage",
@@ -800,13 +807,6 @@
       "title": "tests: enforce registration of Florida local procedure data",
       "timestamp": "2026-09-02T13:37:47-05:00",
       "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/519e153d0c7c9cee28a795f55bacfca14ae62620"
-    },
-    {
-      "id": "bacaf5e8f99d2c8797e9bd07baaa442aca899443",
-      "type": "commit",
-      "title": "fix: bind local provider county and preserve section symbols",
-      "timestamp": "2026-09-02T13:36:07-05:00",
-      "url": "https://github.com/kaibuzz0/LEGAL_HELP_4_VETS/commit/bacaf5e8f99d2c8797e9bd07baaa442aca899443"
     }
   ],
   "links": [
